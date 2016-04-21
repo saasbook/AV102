@@ -1,3 +1,5 @@
+[SLIDES](https://docs.google.com/presentation/d/1axb0HsNho-8AxVXQunhJV06XyTaIH_YKwk7Ppg2wPlI/edit#slide=id.p16)
+
 Hi so I want to talk about the teaching assistant or T.A. prerequisites, their role and the importance the TA's. 
 
 So the pre-requisites are that you've recently completed the 169 courses on edx.org

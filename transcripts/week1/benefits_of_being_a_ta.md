@@ -1,3 +1,5 @@
+[SLIDES](https://docs.google.com/presentation/d/14A6PKeVMB8jiTEFjN91AVerWTJ7XlEvwGueSmDrtZq0/edit#slide=id.g1d28a4bf2_024)
+
 So what are the benefits of being a TA? 
 
 There's certainly a lot of work that can be put into being a TA, but what are the benefits? 

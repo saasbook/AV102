@@ -1,3 +1,5 @@
+[SLIDES](https://docs.google.com/presentation/d/1zQNeZ3ZjjvEBRcvnT9_G59oCPn32LWXYQgnTc71Btq8/edit#slide=id.g1d56fdd76_128)
+
 So what are the TA's responsibilities?
 
 We've developed a TA's Creed, which you should know if you're going to be a TA.
