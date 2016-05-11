@@ -25,3 +25,17 @@ Criterion
 3. Communication - Did the pair continue to communicate effectively through the pairing process?  Specifically, did the driver explain what they were doing as, or around, the process of them typing.  Did the navigator ask questions or make suggestions or look up relevant documentation to the task at hand?  
     * No - There was little or no communication between driver and navigator.  
     * Yes - There was regular communication between the driver and the navigator.  Although there might be occasional silences it is clear from the communication that driver and navigator are focused on solving the same task together  
+
+
+Example Videos
+--------------
+
+* Scrum with voting: http://youtu.be/knuXbl5ScQA
+* Scrum with debugging: https://youtu.be/9PRfsVpbClQ
+* Scrum (OSRA): https://youtu.be/oawc57HxCBs
+* Scrum (MetPlus): https://youtu.be/1G0w4XKilyI
+* Scrum (MetPlus): https://youtu.be/EvDNl0Y4lIc
+* Pairing (Sam and Michael - WST): https://youtu.be/EghB4pPWgF8
+* Pairing (Piotr and Zmago - LocalSupport): https://youtu.be/lJpADtCBaKI
+* Pairing (Thomas and Kai - ProjectUnify): https://youtu.be/UyBFqD6Uf-w
+* Pairing (Sam and Michael - WSO): https://youtu.be/VEQnVXSLULg
