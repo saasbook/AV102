@@ -39,3 +39,4 @@ Example Videos
 * Pairing (Piotr and Zmago - LocalSupport): https://youtu.be/lJpADtCBaKI
 * Pairing (Thomas and Kai - ProjectUnify): https://youtu.be/UyBFqD6Uf-w
 * Pairing (Sam and Michael - WSO): https://youtu.be/VEQnVXSLULg
+* Pairing (Sam and Thomas, HW0): https://youtu.be/6idsE3C_cXw
