@@ -28,13 +28,13 @@ They're the person who might spend the most time actually giving direct human in
 
 And the role of the TA, as well as being the personal connection, is to be the mentor to assist students with problems that they're having with the coursework, with comprehending some of the difficult concepts in the course and so on 
 
-Other things that we love for the TAs to do is report courseware issues 
+Another thing that's really valuable for TAs to do is report courseware issues 
 
-We've had some great bug reporting from TA's that have allowed us to fix a lot of issues with the course and you can get even more involved if you want to.
+We've had some great bug reporting from TA's that have allowed us to fix a lot of issues  with the course, and it's not just reporting, you could even get involved with helping fix things.
 
 For example with the development of the courseware, and also for the autograders. 
 
-There are big open source programming projects behind the auto graders that some TA's have  got really deeply involved in and that's all there if you're if you're interested in it.
+There are big open source programming projects behind the auto graders that some TA's have  got really deeply involved in and that's all there if you're interested in it.
 
 However these are the key roles of TA's in the first instance.
 
@@ -58,4 +58,4 @@ The students themselves are also then an even larger distributed group and they'
 
 We're particularly looking towards a day in the not too distant future when TA's will be project managing those sort of teams.
 
-Thus we think it's very important for you as TAs to learn all about distributed teams being part of the big distributed TA team and also potentially in the future connecting up with teams to students.
+Thus we think it's very important for you as TAs to learn all about distributed teams and teamwork, to help with being part of the big distributed TA team and also in the future for working with teams of students.
