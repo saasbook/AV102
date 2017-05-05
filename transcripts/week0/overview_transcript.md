@@ -78,11 +78,11 @@ We particularly believe in Open Source for non-profit projects but there's Open 
 
 There are many existing Open Source projects, however the collaboration in many of those projects will be text based and asynchronous. 
 
-Given the great stellar consolation of different Open Source projects that are out there you might ask yourself which one do I get involved in, who do I talk to what's going on?
+Given the great stellar consolation of different Open Source projects that are out there you might ask yourself which one do I get involved in, who do I talk to about what's going on?
 
 [SECTION ON WHAT AGILE VENTURES IS FOR]
 
-This is exactly what we're set up Agile Ventures to help with. 
+This is exactly what we've set up Agile Ventures to help with. 
 
 It's an Open Source project incubator which helps people get together to work on Open Source projects both asynchronously and synchronously through Remote pair programming and online scrums through systems like Google hangouts.  
 
