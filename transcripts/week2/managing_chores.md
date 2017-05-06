@@ -18,7 +18,7 @@ what to automate. I mean ... you know of course with the term chores makes it so
 like they might be basic menial
 jobs but actually they can be very complex and
 you know require as much skill and expertise as implementing
-you know a complex complex feature ... so
+you know a complex - complex feature ... so
 you will be at least partially familiar with Pivotal tracker as a result of having
 done the 169 Engineering Software as a Service Course ... we'll be talking more about
 you know that the bigger picture of Pivotal Tracker ...
@@ -53,7 +53,7 @@ they're things that have got to be done and you might be tempted,
 and people very often are, to say well
 you know this is gonna take you know what? one or two
 points ... to sort of you want to estimate
-how long they going to take ... but
+how long they're going to take ... but
 Pivotal and others strongly recommend against doing that
 it's sort of, they just sort of, that's part of the cost of being in business
 and so you know the time that it takes to get those chores done along with the
