@@ -1,6 +1,6 @@
 Welcome to this week on "Distributed Software Development".
 
-Distributed Software Development means the process of software development, which we all know and love; but involving individuals who are distributed in diffirent physical locations, potentially all around the world.
+Distributed Software Development means the process of software development, which we all know and love; but involving individuals who are distributed in different physical locations, potentially all around the world.
 
 This week we're going to review several software tools that I think many of you will already  be familiar with from the 169 course.
 
@@ -8,7 +8,7 @@ Thus this week is a bit of a refresher in some ways. Next week we'll connect up 
 
 Although I will do my best as we go through to mention the connections each tool or concept  has to distributed team management.
 
-Anyhow, many of these things we're going to talk about this week are just as valuable  for the opposite of "Distributed Software Development",  that is: "Centralised Software Development".
+Anyhow, many of these things we're going to talk about this week are just as valuable  for the opposite of "Distributed Software Development",  that is: "Centralized Software Development".
 
 By Centralized Software Development we mean what goes on in your startup or your company  where you have a room, or a floor, full of people. 
 
@@ -18,11 +18,11 @@ Also, they can bump into each other over the water cooler and so on.
 
 So anyhow the software development techniques we're looking at this week are incredibly  valuable in whatever way your team is set up.
 
-Several of them are key concepts from the Engineering Software as a Service course that  I want to pull out, partly because it's good to have a refresher on them;  partly becauase they are the kind of things that many MOOC students get stuck on, but also because they are critical compoents of working effectively in distributed teams.
+Several of them are key concepts from the Engineering Software as a Service course that  I want to pull out, partly because it's good to have a refresher on them;  partly because they are the kind of things that many MOOC students get stuck on, but also because they are critical componets of working effectively in distributed teams.
 
 So I believe that having all of these concepts clear in your mind will be extremely helpful.
 
-And while some of them valuable are very valuable in centralised software development settings,  I think they're *particularly* valuable in distributed settings.
+And while some of them valuable are very valuable in centralized software development settings,  I think they're *particularly* valuable in distributed settings.
 
 So let's just give you a quick overview of what's coming up, we've got these videos,  and first of all we're gonna talk about user stories:
 
@@ -80,7 +80,7 @@ Even the user stories themselves should be going in version control.
 
 Anyhow, a really good understanding of version control how to use distributed version  control systems like GitHub; that's systems that allow every team member to have access to the codebase, is absolutely essential these days.
 
-Futhermore, many of us will also be deploying to the cloud, through git or other version  control systems.
+Furthermore, many of us will also be deploying to the cloud, through git or other version  control systems.
 
 So once you've got "version one" of your system you'll want to get that up in the cloud. 
 
@@ -102,13 +102,13 @@ So that's the overview for this week.
 
 I hope you find all this of some interest and that they're nice refreshers. 
 
-Apoligies in advance that I haven't been able to re-record all of this week's videos.
+Apologies in advance that I haven't been able to re-record all of this week's videos.
 
 I have managed to add full transcripts for all of them, which I hope will help make them  more comprehensible.
 
 As you'll be able to tell, the upcoming videos were recorded somewhat off the cuff and a  year or two ago.
 
-There are other things I'd like to update, such as to the latest RSpec 3 syntax in the acceptance-test/unit-test video,  but I think the concepts are still sufficiently clear and so at the moment I am prioritising completing subtitles for all the videos in the upcoming weeks.
+There are other things I'd like to update, such as to the latest RSpec 3 syntax in the acceptance-test/unit-test video,  but I think the concepts are still sufficiently clear and so at the moment I am prioritizing completing subtitles for all the videos in the upcoming weeks.
 
 Also in some of these videos, I do go into some live code examples, so those videos do  run a bit longer.
 
