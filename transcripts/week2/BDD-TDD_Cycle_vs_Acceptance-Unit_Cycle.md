@@ -5,13 +5,6 @@ Hey, so I want to talk to you about the BDD TDD cycle  versus, or is it the same
 Two key concepts that are related in strange curious ways  let's talk first about BDD and TDD.
 
 Now as you probably know BDD stands for Behaviour  Driven Development and TDD stands the Test Driven Development.
-<a href=https://edge.edx.org/assets/courseware/v1/bc58799de258a9c219207dde169cb9b2/asset-v1:AgileVentures+AV102+Spring_2017+type@asset+block/2.3-_BDD-TDD.pdf>Lecture Slides</a>
-
-Hey, so I want to talk to you about the BDD TDD cycle  versus, or is it the same as the acceptance/unit test cycle.
-
-Two key concepts that are related in strange curious ways  let's talk first about BDD and TDD.
-
-Now as you probably know BDD stands for Behaviour  Driven Development and TDD stands the Test Driven Development.
 
 I think there's often confusion about what these are and the difference between them
 I see them - I personally see them - as pretty much the same thing
