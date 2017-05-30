@@ -13,7 +13,7 @@ they're kind of just stuff that kinda has to be done
 ... though ultimately you know one wants as many chores as possible to be
 automated
 but that's the kind of ongoing thing of identifying you know where to put the
-effort in about what
+effort in about what to -
 what to automate. I mean ... you know of course with the term chores makes it sound
 like they might be basic menial
 jobs but actually they can be very complex and
