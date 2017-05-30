@@ -70,7 +70,7 @@ So by giving back to the community you could help in the process of making this 
 
 Also you get really big satisfaction from helping other people.
 
-Some people say that so it's becoming a star.
+Some people say that it's about becoming a star.
 
 We're all stars you know, we're all radiating the light of human compassion.
 
