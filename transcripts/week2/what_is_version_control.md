@@ -57,10 +57,10 @@ or what have you ... the idea with most version control systems is that you've g
 ... and so you've got everything that's going on rather than sharing individual -
 individual - individual files anyhow there are many types available
 ... Armando and Dave did talk about several of them in the ...
-the 169 course ... we focus on git here because ...
-although I guess git ... the interesting thing about 169 Engineering Software as a Service course
+the 169 course ... we focus on Git here because ...
+although I guess Git ... the interesting thing about 169 Engineering Software as a Service course
 is that you don't critically need that much understanding
-of git you don't have to use it for the majority of the
+of Git you don't have to use it for the majority of the
 the assignments you kind of, you're encouraged to do so
 it has to be - you know - it has to be used ...
 for - you know - to deploy to Heroku as we'll talk about in the next section
@@ -68,12 +68,12 @@ for - you know - to deploy to Heroku as we'll talk about in the next section
 with remarkably few ... commands but actually once you start
 working with a - with a team on any significant project then having
 really really good ... version control skills is
-absolutely essential and we'll focus on git
+absolutely essential and we'll focus on Git
 partly because you know it's what we use on AgileVentures it's what
 I think now just almost everybody's using it's a
 it is just so so good for ...
-you know people working independently of each other know. Now why is it called git
-... git; I am British and I can confirm that it does mean
+you know people working independently of each other know. Now why is it called Git
+... Git; I am British and I can confirm that it does mean
 that you're stupid, if you're being called a git. Thats
 Linus Torvalds who is not British but ... I guess - you know -
 grabbing our slang ... and absolutely - welcome to it welcome to it
@@ -83,12 +83,12 @@ runs on that
 ... what should I say ... much of the things that are running on the internet computers that
 are running Linux
 ... internet and web: do you know the difference? can you? answers on a postcard please
-er no. Anyway ... git. I am, I mean I have to say
+er no. Anyway ... Git. I am, I mean I have to say
 I was already impressed you know with Linux or Linux
 oh I don't know how to pronounce his name! My Torvalds is really
 knocking my socks off ... apparently it can also be called global information tracker
-... it's just the interesting thing I think about git, and we've got
-... more about it I think in Appendix five
+... it's just the interesting thing I think about Git, and we've got
+... more about it I think in appendix five
 of the ... of the book there so you know if you need some background reading
 that's a great start ... but that
 I think Linus was, Mr Torvalds
@@ -96,19 +96,19 @@ ah sorry I'm confused about pronouncing your name you doing this
 huge ... you know this distributed development of Linux ...
 of Linux, around the world you know developed
 a version control system that met those needs and
-... git ended up; It's somewhat complicated ...
+... Git ended up; It's somewhat complicated ...
 perhaps more than it needs to be in some places ... but
 it's just so powerful, it's just so good for ... decentralized ...
 teams and distributed teams you just - you just have to know about it really ...
 also GitHub; we're great fans of GitHub ... that seems to be now it's like
-it's almost difficult to talk about git without talking about GitHub it's - it's
+it's almost difficult to talk about Git without talking about GitHub it's - it's
 become
-the most famous place to store git repositories online
-I think some people it's ... it's - git by itself is ...
-you know, git is the protocol ... I guess for
+the most famous place to store Git repositories online
+I think some people it's ... it's - Git by itself is ...
+you know, Git is the protocol ... I guess for
 ahh it's a protocol, it's also a piece of software ... for doing the version control and GitHub is then a cloud
 hosting
-service ... to host your git repo - so
+service ... to host your Git repo - so
 ... the thing about about GitHub and indeed other ... I mean there are other ... BitBucket
 and other people using
 ... git as well ... but basically if you're working as a -
@@ -151,9 +151,9 @@ carefully at what is being presented for integration into the main ...
 codebase is really really useful - and and free wikis that everyone can edit and
 that's just
 really handy too - but so, before we wax too lyrical about GitHub
-let's talk a bit more about about git ... and you've probably done some things like
+let's talk a bit more about about Git ... and you've probably done some things like
 this
-getting set up with your ... with git at different points
+getting set up with your ... with Git at different points
 ... you know you can set up your default name and email I think if we go and have a look
 down here I've probably got
 let's got and see git config minus L I can list my config
@@ -184,7 +184,7 @@ git init
 in a lower lower level directory and that can get
 very confusing because really what you never want to see is you never want to
 see ...
-dot git in a lower level directory and then also into a higher level directory
+dot git in a lower-level directory and then also into a higher-level directory
 ... high-low so on and so forth ... I guess maybe there might be some justification for doing it
 sometimes but that's ... that can often be - be a problem
 but so here we are in this git test directory ; I've done git init
@@ -196,7 +196,7 @@ touch ... README dot md is the sort of standard thing that we might have there
 you know I have an untracked file and I can start
 so this is the interesting, this is actually a two-stage process as many of you I am sure are
 familiar
-... with for how git tracks and then
+... with for how Git tracks and then
 and creates a tr ... you know telling it first, you know if we do git add
 dot would be all files. Let's do it for that particular one that README there, if we
 do git add README now we've gone from a situation where
@@ -221,13 +221,13 @@ in that you can make ... you can think you fixed something by making changes and
 then you want to push them to
 ... Heroku or to somewhere else and because you haven't
 ... added them or you haven't committed them or some issue and
-you know ... I've been using git you know all day every day for the last
+you know ... I've been using Git you know all day every day for the last
 I think its three years now and ... but still occasionally I will
 have forgotten to do that but so particularly for people coming to
-git ... particularly if it's the first version repository system, ... version control
+Git ... particularly if it's the first version repository system, ... version control
 repository system that they've, or the first version control system that they've used that can be ...
 very challenging and so good to be aware of you know
-developers coming in to your team who are not necessarily so familiar with git or version control ...
+developers coming in to your team who are not necessarily so familiar with Git or version control ...
 students ... other learners ...
 but so ... if we want to make - what the -
 we've got two create new projects - I think we got two slides
@@ -282,13 +282,13 @@ if you're just you know working individually on a single machine and you're just
 you know you can carry on ... going through making changes
 ... you know ... adding things
 rolling back the ... we'll have a video soon
-associated with the git immersion assignment which will show a lot more
-of - detail about that. Do do the ... git immersion tutorial is going to be part of this week's
+associated with the Git Immersion assignment which will show a lot more
+of - detail about that. Do do the ... Git Immersion tutorial is going to be part of this week's
 assignments ... but more on all of the details on that
 ... later on ... kind of the
 key things though is that like that's all very well just
 on your local machine but ... the
-you know git has this - this set up to cope with
+you know Git has this - this set up to cope with
 multiple ... reposit ... you can connect it to multiple repositories
 so you've got this command "git push" which in its basic form will take two
 arguments it will say git push
@@ -358,7 +358,7 @@ so for example if I do git remote add upstream
 this is now adding another remote
 ... in the list of remotes there ... you see even that the fetch and the push can be two different directions
 if we go and look at that that's gonna have this URL. There's this
-that is you can even get away but this t- hey've got this special clone URL down here
+that is you can even get away but this they've got this special clone URL down here
 with the dot git you can get away with
 just using the one on the address bar it's sometimes a bit faster and easier to find
 but so if we now add that as an upstream and I do "git remote -v" there
@@ -398,7 +398,7 @@ critically required ... for the 169
 Engineering Software as a Service course but you know really really really handy
 and I think we go through the branching and checking out and sort of creating new branches
 and so on in a fair amount of detail in the
-the git immersion tutorial review that will come up in the homework section
+the Git Immersion tutorial review that will come up in the homework section
 ... so you know I think more on that
 there ... for the ... I guess what I will - I will say for this process
 of ... branching and checking out and so on
@@ -485,7 +485,7 @@ you know everybody - you know - people have been doing this - you know -
 much longer than I've - I've been thinking about it but it is - is fantastically powerful
 and you know not particularly required -
 for the 169 Engineering Software as a Service course but
-y'know it's kind of once you've got the git skills and Heroku skills and so on you're -
+y'know it's kind of once you've got the Git skills and Heroku skills and so on you're -
 you're
 set up really to do things as we've been doing them at AgileVentures which is to
 have
@@ -497,23 +497,23 @@ like we do which is
 getting together in team scrums to discuss the features and the pull requests
 ... it is extraordinarily powerful so ...
 yeah I guess just to touch on you know we can also use
-you know GitHub ... git using push and pull you can GitHub pong which we'll talk
+you know GitHub ... Git using push and pull you can GitHub pong which we'll talk
 more about next week
 and which I'm a big fan, though there are many different mechanisms to support
 ... remote pair programming which I mean pair programming is just my thing
 and I think remote pair programming incredibly convenient and my favourite is GitHub Pong, but
 more about that
-next week and there's there's a lot more. git is an extraordinary power tool
+next week and there's there's a lot more. Git is an extraordinary power tool
 and ... you know we can hardly do it justice here there is a lot more reading;
 I mentioned already appendix 5 ... of the textbook that's definitely,
 do check that out ... there's a great
 this is a great ... what do you ... It's a PDF document by John
 Wiegley
-about git from the bottom-up which goes through .. it's not it's not that long
+about Git from the Bottom Up which goes through .. it's not it's not that long
 I really really ... we ask you to read this before
-attempting the git immersion ... homework
+attempting the Git Immersion ... homework
 this this this week ... more of that later
-there's also this entire book on git. I personally haven't found myself
+there's also this entire book on Git. I personally haven't found myself
 with the free time to go to read all of this I tend to dip in and out of it ...
 but that is a fantastic resource. And I think we've also got another thing which you should definitely check out 
 is this visual guide to version control in general so lots of fantastic resources out
@@ -528,5 +528,5 @@ get ... the context of it. We haven't touched on branches ...
 there there there are some kind of issues like ... the way that
 branches are managed. I ... took me a long time moving from
 other version control systems to kind of really fully understand
-those ... we'll talk more about it in the git immersion
+those ... we'll talk more about it in the Git Immersion
 tutorial support. But there we go - that's it for version control for the moment.
