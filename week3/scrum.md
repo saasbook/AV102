@@ -1,12 +1,12 @@
 https://edge.edx.org/assets/courseware/v1/634784b773c042c229d868ac038c23af/asset-v1:AgileVentures+AV102+Spring_2017+type@asset+block/3.2-_Scrums.pdf
 
 
-Right so let's talk about scrum and about managing your team, being in a team
+Right so let's talk about Scrum and about managing your team, being in a team
 being in a Scrum team and this material is
 I think generic across whether you are in a co-located/centralized team or a distributed
 team
 and it's probably a refresher for many of you. We've all heard
-bits and pieces about scrum ... it's also material
+bits and pieces about Scrum ... it's also material
 that crops up in various places in the 169 course. You can't really hear about
 about modern software engineering without hearing about Scrum and Agile.
 Scrum focused on -
@@ -17,10 +17,10 @@ components. Scrum can be applied more broadly than that
 complex problems and effectively deliver quality products
 whatever they are
 at the end. I think I haven't yet
-found anybody who argues that scrum is
+found anybody who argues that Scrum is
 complex to understand. I think what can be difficult is actually applying it
 and getting it to work.
-We've got three main principles of scrum:
+We've got three main principles of Scrum:
 One is the transparency; everybody in the team
 ... not that they are constantly bombarded with everything that's available but that they
 can at least in principle
@@ -36,7 +36,7 @@ actually with AgileVentures we go for global transparency ... because we're doin
 nonprofit projects
 and so on, we basically ... we hold ... we live stream
 all of our meetings, all documentation, all the code, all the pair programming, everything
-is completely live streamed and recorded and we can see it anytime
+is completely live streamed and recorded and we can see it anytime.
 So yeah I think there's nothing like total transparency
 to achieve total transparency ... to other things
 principles of Scrum: Inspection ... you want to be keeping on
@@ -55,15 +55,15 @@ inspecting the outcome. Is it working? Are things working as they
 should?
 Are we making progress? So you know keep on making changes in order to achieve those
 goals,
-so in line with those suggestions when you - when you're doing a scrum
+so in line with those suggestions when you - when you're doing a Scrum
 you've got these particular ... I guess the roles in particular
 so we've got Product Owner and Scrum Master along with the rest of the
 development team whoever else is involved. So the product owner is
 is going to be the champion for the
 customer as it were and try and sort of take their side, try and
 focus on their needs and the Scrum Master is gonna try and focus
-on who's ... the actual logistics of running a scrum and these different sorts of meetings
-in the scrum
+on who's ... the actual logistics of running a Scrum and these different sorts of meetings
+in the Scrum
 cycle and so on ... and then there's everyone else who's involved
 and these ... the role that you're in whether you are just one of the team members, whether you are the Scrum
 Master, Product Owner
@@ -81,7 +81,7 @@ your output.
 It could be that, oh I don't know, that you're writing a textbook, it could be
 that you're
 designing an advertising campaign ... we're focused on software here but
-the scrum is generic over all different types of
+the Scrum is generic over all different types of
 activities that you might be doing but so you get you know
 ideally in the beginning sort of brainstorming; right we've got all these things
 that it would be great to have
@@ -92,8 +92,8 @@ features for the Sprint,
 for a single Sprint that would maybe produce our MVP or minimum viable
 product for us and you've got this sort of longer
 cycle which is the bigger Sprint cycle and then you've got a daily
-scrum cycle within there and we'll go through that in some
-more detail in the next slides. So ideally the sprints
+Scrum cycle within there and we'll go through that in some
+more detail in the next slides. So ideally the sprint
 is between 1 and 4 weeks and depending upon your project constraints and this that and the other
 it's gonna be ... that's going to vary
 different times are going to make sense.
@@ -108,8 +108,8 @@ anytime.
 But so the Sprint will consist of
 planning the sprint; we think it should be one week, 4 week, what
 have you
-... then daily scrums; crucial I think this is the bit ... this is my favorite
-I think this is my favorite bit really of scrum ... it's almost where the name comes from
+... then daily Scrums; crucial I think this is the bit ... this is my favorite
+I think this is my favorite bit really of Scrum ... it's almost where the name comes from
 is the idea that you have these short meetings daily and you just kind of
 work out quickly
 what's going on and where you ... coordinate people and
@@ -134,7 +134,7 @@ and just sort of allow ourselves to
 fail or succeed fast and keep learning and iterating ...
 so yeah and I think I've a
 little slide malfunction there. So the key thing about the
-Sprint planning event is that it should generates a sprint goal
+Sprint planning event is that it should - generates a sprint goal
 and a backlog of tasks so
 example goals would be things ... a description probably a bit more detailed than this; I just got
 sort of short ones
@@ -165,11 +165,11 @@ tasks,
 users stories, these chores that we talked about last week ... that's gonna be
 ... help you achieve whatever is your releasable
 element at the end of your week or two or three or four
-week sprint. So then the key things we talked about before is the daily scrum
+week sprint. So then the key things we talked about before is the daily Scrum
 ... so this is what you know happens the most
 ... it is only you know part of that process.
 I think often - and what we find in AgileVentures is - it can,
-things can sort of collapse to end up just being about the scrum; because that's the regular thing
+things can sort of collapse to end up just being about the Scrum; because that's the regular thing
 that's where
 everybody talks. It can be, depending on your organisation, difficult to organize the planning
 events, the review events
@@ -189,10 +189,10 @@ and this ...
 done face-to-face ... there's this idea of a stand-up meeting to try and
 particularly to keep it short and stop people getting relaxed
 everybody stands up and you know they go around the room
-and you do that, of course then depending on the number
+and you do that, and - of course then depending on the number of -
 people, does it end up taking more than fifteen minutes? And there's lots of like breakout
 discussions that
-might happen. In the distributed scrum
+might happen. In the distributed Scrum
 ... as we do in AgileVentures ... that's all being done
 over Google Hangouts or Skype or what have you
 ... we've found there's an interesting
@@ -215,7 +215,7 @@ of those, would be
 what's ... happened on your project? What's
 ... the next step and you know is there anything
 blocking you? ... and then it moves towards this
-idea of scrum of scrums, which I think as we're increasing in size at
+idea of Scrum of Scrums, which I think as we're increasing in size at
 AgileVentures we're kind of moving towards that but we're still at kind of this
 intermediate stage where we're jumping backwards and forwards between people-focused Scrums
 and project-focused Scrums.
@@ -224,11 +224,11 @@ to be there and everybody has to attend the meeting at the beginning of the day
 and you can decide on which ... the number ...
 there is a much more executive control of this sort of thing
 you know it's gonna be I think likely to be more people focused unless it's ...
-you've got this sort of scrum of scrums where you've got daily scrums are
+you've got this sort of Scrum of Scrums where you've got daily Scrums are
 happening for the individual developers on their own
 projects and then one person like the - who would be the Scrum Master - would
 be reporting back
-in this sort of scrum of scrums format on the larger-scale
+in this sort of Scrum of Scrums format on the larger-scale
 ... so the challenge generally is keeping it to fifteen minutes ...
 it does, I mention in the previous section, you want to kind of allow
 well you know ... I wanted to say you want to allow about a tiny bit - a smattering(?) of
@@ -242,13 +242,13 @@ you fail to
 work out ...resolve some little issue about the person having a
 block.
 I mean the key thing really is that ... for the - 
-for the scrum with the five, six, seven or eight people or
+for the Scrum with the five, six, seven or eight people or
 what have you is that in principle if they're paying attention
 everybody should at least hear approximately what everybody else
 is kind of on at the moment and
 you know if people have got any blocks. This is the key thing really is about asking
 about if there any blocks?
-because you know if one person's stuck on using a particular kind of tool
+Because you know if one person's stuck on using a particular kind of tool
 and someone else can say: "oh yes, no no, I used that yesterday and I saw that sorted it out and
 I can help you".
 What you wanna particularly avoid is
@@ -257,7 +257,7 @@ solve that problem in that meeting"
 No! it's like: "okay, yes, John and Bert you'll be talking after the meeting and
 you know take that off separately". So that's this - you know you want
 the high-level; you want to get into enough detail so people understand
-what each others blocks are
+what each others' blocks are
 but if it's going too far then that's the particular job of the Scrum Master
 to make it happen; say like "look alright
 yes that's fantastic we have connected you two. Lets take this offline and
@@ -312,7 +312,7 @@ you know ... the Review event is sort of you're presenting to the
 customer
 the Retrospective event is more where you're saying right okay the methodology
 that we use -
-you know our scrums seem to be going you know bleeding over to like 20 minutes 30
+you know our Scrums seem to be going you know bleeding over to like 20 minutes 30
 minutes on a regular basis
 ... you know I couldn't access the
 backlog frequently enough, the management tool for
@@ -322,25 +322,25 @@ that to try and ... you don't want to be you know
 given that you've worked out some process to go through the Sprint you don't
 want to be blindly repeating that Sprint
 and hitting the same issues and issues again and again. of course
-those things can come up in the daily scrum. You've got like
+those things can come up in the daily Scrum. You've got like
 an individual block here might be related not just to the technology
 that you're working with or some particular product;
 they're to do with blocks "I keep on spending all my time in meetings and I can't bear it" or
 what-have-you so there's an extent to which
-some of these issues might be highlighted in the daily scrums and might even be resolved
+some of these issues might be highlighted in the daily Scrums and might even be resolved
 in follow up meetings after those. It's
 yeah a sensible thing to sit down
 and review the methodology. And this is something that we have
 had trouble regularly doing our respective events in
 AgileVentures where it's a volunteer staff and we've got everybody
 involved being volunteers, having their time constrained and so
-its you know they can attend the daily scrums and - you know - and
+its you know they can attend the daily Scrums and - you know - and
 an interested subset will be involved in the Sprint Review event but the
 ...
 the Sprint Retrospective event is much harder to
 ... make time for, although very important ... we have with AgileVentures kind of a
 weekly meeting which is longer
-in one of the usual scrum times which kinda serves as a sort of
+in one of the usual Scrum times which kinda serves as a sort of
 planning slash retrospective event;
 but yeah, so another thing that's important is a Backlog Refinement event
 and that's not necessarily a separate event but
@@ -365,31 +365,31 @@ course,
 there's lots of materials online ... there's a fan(tastic) ... Distributed Scrum
 there's a fantastic book from IBM with all proceeds going to charity;
 a practical guide to Distributed Scrum. I mean this just goes to show that
-scrum ... it's not just
+Scrum ... it's not just
 crazy start-up hotheads who are trying Distributed Scrum;
 this is IBM with thousands of employees and
-locations all over the world ... distributed scrum really it's taking the
-whole scrum and just doing it online!
+locations all over the world ... distributed Scrum really it's taking the
+whole Scrum and just doing it online!
 It's as simple as that! I mean there are sorts - all sorts of issues that come up
 ... to do with particularly ... time zones. I think time zones is one of the
 most challenging things
 but as I mentioned I think in previous sections and I'll keep mentioning it again because
 I ... to be honest I am starting to find being in a Hangout where everybody can
 share their screen instantly
-is actually ... I would almost rather have my scrums
+is actually ... I would almost rather have my Scrums
 online ... as long as everybody's got a good internet connection
 ... and you can see all of the Scrum activity that we're doing
 online at AgileVentures ... all the time. If I just go ... I mean I've got a little
 clip from the website ... basically we have
-this series ... we have scrums and then pair hookups going on
+this series ... we have Scrums and then pair hookups going on
 just constantly really its every 4 or 5 hours
 around ... twenty-four/seven at different times
-and you can jump in and see a scrum taking place and
-this sort of pseudo scrum of scrums as we review, as we
+and you can jump in and see a Scrum taking place and
+this sort of pseudo Scrum of Scrums as we review, as we
 work through
 using Pivotal Tracker to manage all of our activities. So in fact one of your assignments
 this week
-will be to come and join in the scrum and join in if
+will be to come and join in the Scrum and join in if
 you can with voting on some features for one of the
 AgileVentures projects to see: "Scrum in Action!!"
 ... yes indeed and personally I think
@@ -408,7 +408,7 @@ IBM book there. There's also a technical paper from a few years back showing how
 distributed Scrum could be extremely cost-effective and lots of other
 resources
 out there on the net ... so
-what can I say, I think, scrum seems to work very well for us we're enjoying
+what can I say, I think, Scrum seems to work very well for us we're enjoying
 developing lots and lots of features for our customers
 very fast through AgileVentures and I know many other bigger organisations than we
 are doing so ... come and jump in
