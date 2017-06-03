@@ -99,10 +99,10 @@ and indeed maybe new developers on your distributed team
 may not have ... I guess
 one: the necessary experience with backtraces to kind of use them to figure out
 where things went wrong or what went wrong
-... and they may often be sort of telling you " Oh, I just had this problem" and
+... and they may often be sort of telling you "Oh, I just had this problem" and
 they won't show you the backtrace and well anyway
 more of that soon. Sometimes there's no backtrace
-and that's when it's in a really good ideas to check the log files
+and that's when it's - a really good idea to check the log files
 ... a common issue from the MOOC was
 people get an error in Heroku and you need to type 'heroku logs' to see the
 logs files ... and I ...
@@ -131,10 +131,10 @@ calling operation and so on ...
 probably ... since you've reached this
 point in the course you've ... and you've passed the previous courses
 you've encountered these sort of things before; but so it's
-.. but for a novice and for a junior developer
-this can be like a horrible sticking point and you might say well
+... but for a novice and for a junior developer
+this can be like a horrible sticking point and you might say, "Well
 just search for it ...
-on Google and the temptation might be to take the entire thing and just say "I just don't know what's going
+on Google" and the temptation might be to take the entire thing and just say "I just don't know what's going
 on and there's this thing and it's like no no right, I .. it doesn't help and
 look there's been an error on Google and just oh ..." I mean
 this is the point at which we all need support; you've got -
@@ -151,7 +151,7 @@ instinct; okay that looks like the load-bearing
 part of the error ... in this case the stack trace
 NOT so helpful for telling me where things are going wrong, I know it's sort of -
 its related to the database here. If I then go and search for that
-in Google aha! Aha! There are Stack Overflow I always love StackOverflow
+in Google aha! Aha! There are Stack Overflow - I always love StackOverflow
 ... posts because ...
 our great friends at StackExchange make sure that people are able to
 vote the correctly
@@ -173,13 +173,13 @@ lectures ... let's get rid of that for the moment. Yes
 yes - so I mean there's ... we're also
 delivering this course doing our best to try and make sure that these
 issues are not encountered and that the ... to a certain extent the students can be
-focusing on
-the I guess you might say that the key software engineering
+focusing on - you know -
+the I guess you might say they're the "key" software engineering
 issues such as the red green and refactor and the behaviour driven development and so on.
 We don't want people to be stuck
 staring at this and saying I have to submit this homework or I have to get this
-site out for my client and I just don't know how it works and the I'm
-stuck
+site out for my client and I just don't know how it works and the - I'm
+stuck!
 ... to the extent possible we don't want people encountering these things
 but as ... we're using a real professional developer's stack here as time
 moves on
@@ -306,8 +306,8 @@ used to be that Eclipse was the thing that I loved for automatically indenting
 the code
 I think I now, oh yeah, there's reformat
 auto-indent lines, yes that's the
-is it actually the control alt L?
-control alt auto-ident yeah... I end up not
+is it actually the control-alt-L?
+control-alt auto-ident yeah... I end up not
 oh goodness me I've accidentally
 I think I've accidentally turned on inklet there by mistake ... I tend to rely on that less
 ... the key thing for me whether it's automatic indenting or not
@@ -321,15 +321,15 @@ and also you can get in simple editors like Vi; well Vi's not that simple, but
 ASCII based editors like Vi and Emacs and so on
 just makes it hugely hugely
 easier to avoid these bugs. Writing the tests before you write the code
-that's one of critical things I think
-trying to ... asserting what it is that you want the code to do
+that's one of the critical things I think -
+you know, trying to ... asserting what it is that you want the code to do
 ... getting your assumptions out there ... doing it really properly test driven
 ... keeping it as absolutely simple as possible. Only ever writing
 application code ... the smallest possible amount of adaptation code
 in order to make your test pass is a great way of avoiding really nasty
 complicated bugs. This ... I'm still surprised at how many people ...
 given a homework instruction, an assignment or a project ...
-in a distributed team, people just will say: "rights yes let's build the entire thing
+in a distributed team, people just will say: "Right! Yes - let's build the entire thing
 let's let's let's
 do coding coding coding coding ... reams of code
 thousands of lines of code ...
@@ -378,7 +378,7 @@ see partly why I ...
 I put these here, you can just ask straight away in Skype chat.
 In the case where you've got some error like this, rather than saying okay
 you know taking that entire backtrace and then going over to Skype and
-saying: "hey I got this back trace
+saying: "Hey I got this back trace
 and what's ... I got this error, analyse this for me"
 is kind of a little bit you're sort of dumping a lot of stuff on people. If you can
 take the time to read the error message
@@ -428,13 +428,13 @@ working on something and you've encountered a relatively gnarly ...
 stack trace and there's lots of little different bits and pieces
 and you're not sure ... it would be really good ... I guess it's sort of
 ... good manners ... maybe before ... it's a judgement call ... maybe before going on IM chat and just saying:
-"I have this thing, or can help you with it?"
+"I have this thing", or kinda "Help me with it-"
 ... doing the post to StackOverflow,
 to a topic specific forum ... or in our case the class forum or what have you
 and then pasting the link into the Skype chat so that's ...
 you've kind of ... you've sort of showing people, doing people the courtesy of saying
-rather just asking you to solve my problem; I'm showing you that I've kinda done
-a fair (amount) of the work to understand what the problem is and provide a context and
+"Rather than just asking you to solve my problem - I'm showing you that I've kinda done
+a fair (amount) of the work to understand what the problem is and provide a context" and
 so on
 and put that out there and then post the ... and then that's out there
 and then you post the link into the Skype chat and then maybe nobody's around
@@ -448,13 +448,13 @@ a reasonable strategy ...
 good manners
 to read your error message,
 have done some searching around ... this thing here it's yeah ... if you've got
-someone there or you are in a pair programming session and you can asked them immediately then definitely do that.
+someone there or you are in a pair programming session and you can ask them immediately then definitely do that.
 You may be very isolated in which case ... fair enough you move to posting
 a bit earlier
 ... yes StackOverflow's very good, read their guidelines
 ... I mean the critical thing and ... again in the textbook
 there's great coverage of this but ...
-so ... just saying "oh ... the sinatra gem doesn't work on
+so ... just saying "Oh ... the Sinatra gem doesn't work on
 my system"
 there's not enough information for anyone here to help you ... "The Sinatra
 gem doesn't work on my system", attaches the 85 line error message
