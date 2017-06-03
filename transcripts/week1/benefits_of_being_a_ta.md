@@ -30,7 +30,7 @@ And of course all the things from the course such as Software Engineering, Agile
 
 Particularly to the extent that you get involved in projects with students and the Agile Ventures  projects that we have going on in the background.
 
-There's also the conflict resolution skills you're developing when students are getting at each others throats, or even other TA's getting at each others throats :-)
+There's also the conflict resolution skills you'll develop - are developing - when students are getting at each others throats, or even other TA's getting at each others throats :-)
 
 Helping to resolve those conflicts is something you can put on your resume.
 
