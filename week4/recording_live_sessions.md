@@ -104,7 +104,7 @@ format
 to another. From my point of view, anything that instantly gets it onto YouTube and I don't
 have to think about the conversion
 has got to be good ... there are a number of open source clients
-for windows, I think there are a number of paid clients as well. I may have used
+for Windows, I think there are a number of paid clients as well. I may have used
 CamStudio in the past ... generally I have had
 a fair amount of problem ...
 with Windows ... particularly for a game programming course where I was
@@ -113,7 +113,7 @@ and me talking about the games as I played them and gave feedback for my
 students
 on the games that they'd designed. I think that might of actually been the reason that I switched to
 Screencast-O-Matic because Screenflow was specific to
-the Mac and I'm needed to get it working on Windows
+the Mac and I needed to get it working on Windows
 for the ... many of the games were Windows only ...
 yeah ... that said I have had trouble
 in the past, this is another thing, on Mac with recording this
@@ -147,7 +147,7 @@ with these do let me know ... well I've had some
 bad experiences in the past although of course
 ... it's very impressive how so many companies
 up their game over time and the software improves over time
-so ... yeah I just ... 'well finish up there with saying
+so ... yeah I just ... we'll finish up there with saying
 record your live sessions ... I think it's really valuable
 ... and there's lots of different ways to do it and
 and give it a try, okay, bye for now!
