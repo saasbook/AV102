@@ -34,11 +34,15 @@ Update the text as appropriate for the current course, in particular, ensure tha
 
 and grab the relevant hyperlinks from there, e.g. 
 
-```https://courses.edx.org/courses/course-v1:BerkeleyX+CS169.1x+1T2017SP/courseware/7ae5048e43664f2991f69feb03fda55d/13953c675b0d4d29b3cf1adfa3d03d29/?activate_block_id=block-v1%3ABerkeleyX%2BCS169.1x%2B1T2017SP%2Btype%40sequential%2Bblock%4013953c675b0d4d29b3cf1adfa3d03d29```
+```
+https://courses.edx.org/courses/course-v1:BerkeleyX+CS169.1x+1T2017SP/courseware/7ae5048e43664f2991f69feb03fda55d/13953c675b0d4d29b3cf1adfa3d03d29/?activate_block_id=block-v1%3ABerkeleyX%2BCS169.1x%2B1T2017SP%2Btype%40sequential%2Bblock%4013953c675b0d4d29b3cf1adfa3d03d29
+```
 
 where you'll probably need to remove the "activate" portion like so:
 
-```https://courses.edx.org/courses/course-v1:BerkeleyX+CS169.1x+1T2017SP/courseware/7ae5048e43664f2991f69feb03fda55d/13953c675b0d4d29b3cf1adfa3d03d29/```
+```
+https://courses.edx.org/courses/course-v1:BerkeleyX+CS169.1x+1T2017SP/courseware/7ae5048e43664f2991f69feb03fda55d/13953c675b0d4d29b3cf1adfa3d03d29/
+```
 
 and then you can create the new update with the correct links like so:
 
@@ -56,13 +60,15 @@ and then you can create the new update with the correct links like so:
 
 Also, don't forget to update the any links to the forum and chat:
 
-```https://courses.edx.org/courses/course-v1:BerkeleyX+CS169.1x+1T2017SP/discussion/forum/```
+```
+https://courses.edx.org/courses/course-v1:BerkeleyX+CS169.1x+1T2017SP/discussion/forum/
+```
 
 ```
-https://courses.edx.org/courses/course-v1:BerkeleyX+CS169.1x+1T2017SP/58ea5c0e789a4b1cb3df5371e25615cd/```
+https://courses.edx.org/courses/course-v1:BerkeleyX+CS169.1x+1T2017SP/58ea5c0e789a4b1cb3df5371e25615cd/
+```
 
 Then you'll need to navigate to the updates section in the current course, e.g. 
-
 
 https://studio.edx.org/course_info/course-v1:BerkeleyX+CS169.1x+1T2017SP
 
