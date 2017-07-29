@@ -29,3 +29,11 @@ https://edge.edx.org/courses/course-v1:AgileVentures+AV102+Spring_2017/coursewar
 6. Adjust the campagign name appropriately
 
 ![](https://www.dropbox.com/s/ihkgq1isazuzvgq/Screenshot%202017-07-12%2018.19.55.png?dl=1)
+
+7. Adjust the text of the campaign appropriately
+
+![](https://www.dropbox.com/s/7y9mqd2qpd6c4o4/Screenshot%202017-07-29%2012.01.46.png?dl=1)
+
+including updating the link to the relevant part of the AV102 course.
+
+8. Then send it out - although usually we should send a test email first to check the links are working etc ...
