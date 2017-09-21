@@ -7,11 +7,11 @@ https://studio.edx.org/course_info/course-v1:BerkeleyX+CS169.1x+3T2015SP
 
 Click the edit button
 
-![](https://www.dropbox.com/s/qox70kw8xou7pxy/Screenshot%202017-07-01%2011.25.10.png?dl=1)
+![](https://dl.dropboxusercontent.com/s/qox70kw8xou7pxy/Screenshot%202017-07-01%2011.25.10.png?dl=1)
 
 to access the raw HTML:
 
-![](https://www.dropbox.com/s/1n5ewgwpclmfqld/Screenshot%202017-07-01%2011.25.40.png?dl=1)
+![](https://dl.dropboxusercontent.com/s/1n5ewgwpclmfqld/Screenshot%202017-07-01%2011.25.40.png?dl=1)
 
 copy and paste that to a text editor so you can update the text and links
 
@@ -74,35 +74,35 @@ https://studio.edx.org/course_info/course-v1:BerkeleyX+CS169.1x+1T2017SP
 
 and click the "new update" button:
 
-![](https://www.dropbox.com/s/gcnrtlrvf7lby9m/Screenshot%202017-07-01%2011.31.59.png?dl=1)
+![](https://dl.dropboxusercontent.com/s/gcnrtlrvf7lby9m/Screenshot%202017-07-01%2011.31.59.png?dl=1)
 
 and paste the new update text in:
 
-![](https://www.dropbox.com/s/4swtnw5zsumc7qv/Screenshot%202017-07-01%2011.32.17.png?dl=1)
+![](https://dl.dropboxusercontent.com/s/4swtnw5zsumc7qv/Screenshot%202017-07-01%2011.32.17.png?dl=1)
 
 That update will now immediately become live in the main site:
 
-![](https://www.dropbox.com/s/jfjlvl5tu3zzwz7/Screenshot%202017-07-01%2011.32.47.png?dl=1)
+![](https://dl.dropboxusercontent.com/s/jfjlvl5tu3zzwz7/Screenshot%202017-07-01%2011.32.47.png?dl=1)
 
 Do check that it displays correctly in the main site, and that every link operates as expected etc.  You'll be able to see it on the "Home" page:
 
 https://courses.edx.org/courses/course-v1:BerkeleyX+CS169.1x+1T2017SP/info
 
-![](https://www.dropbox.com/s/g1j0kkeawwnu132/Screenshot%202017-07-01%2011.34.03.png?dl=1)
+![](https://dl.dropboxusercontent.com/s/g1j0kkeawwnu132/Screenshot%202017-07-01%2011.34.03.png?dl=1)
 
 Assuming that's all good, and in a really rigorous run of things we would get the update out a day in advance of the mailing and leave it there for any uncaught issues to be flagged up before we distributed the mailing to thousands of people.  
 
 Either way, to send an email, you want to navigate to the instructor portion of the course, which has an email sub-heading:
 
-![](https://www.dropbox.com/s/i8pa6l1ngoq22i4/Screenshot%202017-07-01%2011.35.43.png?dl=1)
+![](https://dl.dropboxusercontent.com/s/i8pa6l1ngoq22i4/Screenshot%202017-07-01%2011.35.43.png?dl=1)
 
 Start by sending a test email to yourself with an appropriate subject:
 
-![](https://www.dropbox.com/s/jufuqw8jwy0jygq/Screenshot%202017-07-01%2011.36.25.png?dl=1)
+![](https://dl.dropboxusercontent.com/s/jufuqw8jwy0jygq/Screenshot%202017-07-01%2011.36.25.png?dl=1)
 
 Probably the easiest thing to do is to press the "HTML" button to edit the message:
 
-![](https://www.dropbox.com/s/cq1cak8uphrzv6f/Screenshot%202017-07-01%2011.37.19.png?dl=1)
+![](https://dl.dropboxusercontent.com/s/cq1cak8uphrzv6f/Screenshot%202017-07-01%2011.37.19.png?dl=1)
 
 In order to copy and paste in the update you'll need to avoid using Ctrl-A and use the mouse cursor to select the ```<p></p>``` default, and then you can paste in the same update HTML code that you put in the update section.  Note however that while video embeds will appear to display correctly here, they do not work in emails, so the text will need to be edited to show links to videos rather than embeds:
 
@@ -122,17 +122,17 @@ In order to copy and paste in the update you'll need to avoid using Ctrl-A and u
 
 You'll then see the email displayed like so:
 
-![](https://www.dropbox.com/s/9abnd877n48xqac/Screenshot%202017-07-01%2011.40.48.png?dl=1)
+![](https://dl.dropboxusercontent.com/s/9abnd877n48xqac/Screenshot%202017-07-01%2011.40.48.png?dl=1)
 
 Check that it is as intended, and then send the test email to yourself.  Make sure you receive the email and that all the links work as expected.  Note in the one above I've got the link to the youtube video wrong, it's going straight to download.  It  should be `https://www.youtube.com/watch?v=eMdYbvl2mNQ` so I fix that:
 
-![](https://www.dropbox.com/s/uocbd9d4j979pdo/Screenshot%202017-07-01%2011.44.10.png?dl=1)
+![](https://dl.dropboxusercontent.com/s/uocbd9d4j979pdo/Screenshot%202017-07-01%2011.44.10.png?dl=1)
 
 and re-test.  With the above link update the youtube video worked, but the link to the forum had an extra quote that broke it, so I had to make one more test email send to get all the links working.  I also find it helpful to read the text again in the email arriving in my inbox and can sometimes find text mistakes there that I don't otherwise see.
 
 If there's something new in the email about a new partner or sponsor (Mooqita, Mentive etc.) then it can be good to do another round of testing with the test email sent to all staff and admins and wait for their input:
 
-![](https://www.dropbox.com/s/0t9vqiywjg42vz4/Screenshot%202017-07-01%2011.47.49.png?dl=1)
+![](https://dl.dropboxusercontent.com/s/0t9vqiywjg42vz4/Screenshot%202017-07-01%2011.47.49.png?dl=1)
 
 but if nothing much has changed or been added and you're happy with the result you can go straight to distributing to all learners.  If you're doing this for the first time, please do send one to "staff & admins" and get sign off from at least one other admin.
 
