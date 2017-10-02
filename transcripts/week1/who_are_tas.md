@@ -14,7 +14,7 @@ Although I guess if you're a Rails ninja and you know everything there is to kno
 
 What we're also angling for is you to have to completed this ESaaS managing distributed teams course which is this course that you are taking now and that's available on edX edge, which is another edX course provider.
 
-We're also looking for you to have a certain amount of time available to commit to working with students; preferably a few hours a week but you know as much or as little as you can as you can spare.
+We're also looking for you to have a certain amount of time available to commit to working with students; preferably a few hours a day but as much or as little as you can as you can spare.
 
 Really we'd love more but if you're only going to be available for less than, say, three minutes a week then you know we probably can't work together so easily.
 
