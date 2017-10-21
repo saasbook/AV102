@@ -2,7 +2,7 @@
 
 Hi.
 
-So I want to talk to you about prequisites for being a teaching assistant, or T.A.
+So I want to talk to you about prerequisites for being a teaching assistant, or T.A.
 
 I also want to tell you about their role and the importance of the TA's. 
 
