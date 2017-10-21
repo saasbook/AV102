@@ -19,19 +19,19 @@ And again being a TA is all about collaboration and so your collaboration skills
 
 There's using all the online tools.
 
-We might take these for granted to an extent but practice with different kinds of online chat and asynchronous forum's and all the hangout stuff from Google; screen share etc. will improve your online tech skills.
+We might take these for granted to an extent but practice with different kinds of online chat and asynchronous forums and all the hangout stuff from Google; screen share etc. will improve your online tech skills.
 
 As you know you're working with a team of TA's and students which can help develop your team skills.
 
-And of course all the things from the course such as Software Engineering, Agile development and so on. 
+And of course all the things from the course such as Software Engineering, Agile development  and so on. 
 
-Particularly to the extent that you get involved in projects with students and the Agile Ventures projects that we have going on in the background 
+Particularly to the extent that you get involved in projects with students and the Agile Ventures  projects that we have going on in the background.
 
-There's also the conflict resolution skills you'll developing when students are getting at each others throats, or event other TA's getting at each others throats :-)
+There's also the conflict resolution skills you'll develop - are developing - when students are getting at each others throats, or even other TA's getting at each others throats :-)
 
 Helping to resolve those conflicts is something you can put on your resume.
 
-There's the experience of working with remote developers from all around the world.  We're overwhelmed by all the different nationalities and spoken languages that we have represented in our community.
+There's the experience of working with remote developers from all around the world.  We're  overwhelmed by all the different nationalities and spoken languages that we have represented in our community.
 
 It really is a fantastic environment in which to show how you can collaborate with an international distributed team.
 
@@ -55,7 +55,7 @@ There's also the Agile Ventures projects that you work on as part of this which 
 
 The big thing really is about giving back to the community.
 
-It's been fantastic the last few years as many leading universities have made lots of their learning materials and courses available for free.
+It's been fantastic the last few years as many leading universities have made lots of  their learning materials and courses available for free.
 
 I think pretty much everyone agrees this has made the world a better place.
 
@@ -67,6 +67,6 @@ Some people say that it's about becoming a star.
 
 We're all stars you know, we're all radiating the light of human compassion.
 
-It's that connection with people and helping other people that's makes things worth while really. 
+It's that connection with people and helping other people that's makes things worthwhile  really. 
 
 So I'm looking forward to seeing you in the rest of the course and hopefully as TAs in the MOOC or participants in Agile Ventures. 
