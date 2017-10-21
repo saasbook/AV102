@@ -10,29 +10,31 @@ First, you need to be responsible.
 
 If there's a problem you need to pass it up through the chain of command so that it can be addressed rather than forgotten.
 
-Also you need to be respectful to the students who are struggling away with the sometimes difficult and challenging material.
+Also you need to be respectful to the students who are struggling away with the sometimes
+difficult and challenging material.
 
-A student might be struggling with something you find easy, but its unhelpful to imply that things "should be easy" or that a student "should know" something.
+A student might be struggling with something you find easy, but its unhelpful to imply
+that things "should be easy" or that a student "should know" something.
 
 You need to have empathy for the different learning journey that every student is on.
 
-Further, you'll need to be relevant, informative and resourceful.  
+Further, you'll need to be relevant, informative and resourceful.
 
 This means staying "on topic".
 
-Students will get stuck in this real-world software; and they'll get stuck down all different sorts of alleyways to do with version issues and libraries and so on.
+Students will get stuck in this real-world software; they'll get stuck down all different sorts of alleyways to do with version issues and libraries and so on.
 
-You'll need to be resourceful think on your feet, and get the right sorts of information to the right people at the right time.
+You'll need to be resourceful, think on your feet, and get the right sorts of information to the right people at the right time.
 
 One of the key things really is to be actively engaged with the courseware.
 
-Particularly if you took the 169 course some time ago then you may not have the assignments and the aspects of it in the forefront of your mind
+Particularly if you took the 169 course some time ago then you may not have the assignments  and the aspects of it in the forefront of your mind.
 
-Ideally you need to be working through the courseware with the students so that you've looked at the assignment and just completed it, i.e. the one they've been working on that week.
+Ideally you need to be working through the courseware with the students so that you've  looked at the assignment and just completed it, i.e. the one they've been working on that  week.
 
 You also need to be a facilitator.
 
-Which means that rather than just solving problems; you need to help other people solve their own problems and we'll talk more about that as we go on in this next section.
+Which means rather than just solving problems, you need to help other people solve their own problems - and we'll talk more about this as we go on in this next section.
 
 [NEXT SLIDE]
 
@@ -42,7 +44,7 @@ We want the students to become independent learners.
 
 As much as possible we would like to help them discover the answers by themselves.
 
-Rather than just saying: "this is how you do it, and then you do this, and then you do this", we need to provide a scaffolding.
+Rather than just saying: "this is how you do it, and then you do this, and then you  do this", we need to provide a scaffolding.
 
 A scaffolding that is about helping them learn to discover the answers by themselves.
 
@@ -52,17 +54,17 @@ Another key thing is helping them get past needless roadblocks to learning.
 
 For example say the student is stuck because of a version issue.
 
-There is a judgement call hear about whether we just give the answer to that particular fix that so that we can focus on a higher level software engineering issue ...
+There is a judgement call here about whether we just give the answer to that particular problem so that we can focus on a higher-level software engineering issue ...
 
 Or is it actually that this versioning or library issue is something that they could solve by themselves through a process of exploration?
 
 And making the right decision is tricky, and requires intuition that you will need to develop over time.
 
-It's good to be aware that there are two sides to every problem.  Some maybe just to be fixed if the learner is too stressed, and if the problem is not related to the current learning objective.
+It's good to be aware that there are two sides to every problem.  Some may just need to be fixed if the learner is too stressed, and the problem is not related to the current learning objective.
 
 However other problems can be used as a springboard for learning, and helping a student become an independent learner. 
 
-Naturally providing correct, relevant, and clear information is absolutely essential
+Naturally providing correct, relevant, and clear information is absolutely essential.
 
 Furthermore we also want to maintain a culture of collaboration, because a positive process of collaboration is fun and helps people learn.
 
@@ -74,11 +76,11 @@ We definitely want to get as much of that as we possibly can.
 
 So there's a number of different forums where students will be communicating with each other.
 
-We've got an asynchronous bulletin board in the form the edX forum.
+We've got an asynchronous bulletin board in the form of the edX forum.
 
-We've also got live realtime chat, that is embedded into the HTML of the site - that's using Gitter: a GitHub based chat client. 
+We've also got live realtime chat, that is embedded into the HTML of the site - that's using Gitter: a GitHub-based chat client. 
 
-The key thing in any of these forums is to maintain civility, we're all professionals, we're all adults.
+The key thing in any of these forums is to maintain civility, we're all professionals,  we're all adults.
 
 There's no reason not be polite to each other.
 
@@ -88,9 +90,9 @@ So let's be civil.
 
 We also suggest cutting off unproductive discussions.
 
-That's again a judgement call about what is a productive or an unproductive discussion.
+That's again a judgement call about what is a productive or unproductive discussion.
 
-I think a light touch is generally the way to go but if things really are descending into less than civil tones or getting widely off topic them that's a good time to try to wrap that discussion up.
+I think a light touch is generally the way to go but if things really are descending  into less than civil tones or getting widely off topic them that's a good time to try to  wrap that discussion up.
 
 A warning sign is when two parties are just repeatedley saying the same thing over and over, or the debate is going far beyond the sensible "agree to disagree" end point.
 
@@ -120,9 +122,9 @@ There's evidence to show that if you can then correctly recall the answer, that 
 
 So that intervention is a "scaffold".
 
-You're not telling the learner the complete answer or walking them step-by-step through the task.
+You're not telling the learner the complete answer or walking them step-by-step through  the task.
 
-You're helping them figure out how do the task on their own.
+You're helping them figure out how to do the task on their own.
 
 It's about rather than just "give an answer" to what the students ask for; it's about helping them think for themselves by asking questions.
 
@@ -142,7 +144,7 @@ I want to give a quick example with Ruby.
 
 [PULL IN CONSOLE]
 
-Over here I've got the command line and this is sort of a trivial example here but let's say that we've defined some method in Ruby like so
+Over here I've got the command line and this is sort of a trivial example here but let's  say that we've defined some method in Ruby like so
 
 [TYPE OUT RUBY METHOD DEF IN IRB]
 
@@ -152,33 +154,33 @@ And a student has unwittingly made a call to that method like this
 
 and they're saying "hey look, I'm getting an error, I don't know what's going on"
 
-Now if you know Ruby reasonably well this will seem pretty simple and you might be tempted to say: "oh yes I know exactly what the problem is"
+Now if you know Ruby reasonably well this will seem pretty simple and you might be tempted  to say: "oh yes I know exactly what the problem is"
 
-And you might be tempted just tell the student the fix.  You could just say "oh right you need to redefine the method with some arguments" and you could just give them the solution.
+And you might be tempted to just tell the student the fix.  You could just say "oh right you  need to redefine the method with some arguments" and you could just give them the solution.
 
 A more scaffold based approach would be to start asking some questions like: "okay so ... what are you actually trying to achieve here, what's the high-level goal?" which might seem odd in this simple example, but becomes more important as things get complex.
 
 And then you say "so does any part of the error message make sense to you?"
 
-And depending on what they say you direct them to the part of the error message that says "ArgumentError: wrong number of arguments" and ask "does that mean anything to you?"
+And depending on what they say you direct them to the part of the error message that  says "ArgumentError: wrong number of arguments" and ask "does that mean anything to you?"
 
-So rather than saying explicitly "you need to add arguments to your method definition", you can be asking if the student knows what an argument is? 
+So rather than saying explicitly "you need to add arguments to your method definition", you can be asking if the student knows what an argument is.
 
 Or better yet, waiting for them to ask you what an argument is.
 
 Maybe the student has already carefully read the error message and they've just no idea what arguments are.
 
-So then you can say "well arguments are things that you pass to a method" and maybe show some examples and then say "there's the wrong number of them in this case".
+So then you can say "well arguments are things that you pass to a method" and maybe show  some examples and then say "there's the wrong number of them in this case".
 
-As before this is a judgment call about at what point to intervene with what question or information.
+As before this is a judgment call about at what point to intervene with what question  or information.
 
 How much scaffolding should we give?
 
 I mean it can be frustrating for the student if it seems like you're asking too many questions.
 
-Its something that you have to to build up an intuition for over time.
+It is something that you have to build up an intuition for over time.
 
-Note that this is also the same sort of support that a senior developer might give to a junior developer in order to help them grow as a developer.
+Note that this is also the same sort of support that a senior developer might give to a junior  developer in order to help them grow as a developer.
 
 Although in a project with a paying client you've got to balance what's best for learning against what's best for delivering the product on time. 
 
@@ -186,22 +188,21 @@ Anyhow, you can also read lots of materials online.
 
 We'll post some links for other reading on this topic on instructional scaffolding.
 
-In summary, rather than just providing answers you want to help pose questions to the learner that allows them to discover the solution in their own way.
+In summary, rather than just providing answers you want to help pose questions to the learner  that allows them to discover the solution in their own way.
 
 Error messages in a new language can seem very intimidating and we want to help students gain confidence in navigating them.
 
 So that next time they have a better chance of solving a similar, or even a more difficult, problem without any support.
 
-
 [NEXT SLIDE]
 
-Also you need to know how to connect with the team and there's certain critical things to do.
+Also you'll need to know how to connect with the team and there's certain critical things to do.
 
 Such as checking into and out-of the AV102 Slack chat.
 
-We have a chat room in Slack so as you come online and you should post and let us know "I'm going to be checking the forums" or "I'm going to be hanging out in the Gitter chat"
+We have a chat room in Slack so as you come online (and you should post and let us know "I'm going to be checking the forums" or "I'm going to be hanging out in the Gitter chat")
 
-So you check in and when you've finished answering student questions or what have you, then you check out in the Slack chat; saying "I'm finishing up for now"
+-So that you check in and when you've finished answering student questions or what have you, then you check out in the Slack chat saying "I'm finishing up for now"
 
 This is really all about announcing that you're on-duty because we'll have 200 TAs and if all them are on duty in the same two hour period then that's not very effective way of serving the many thousands of students.
 
@@ -211,13 +212,13 @@ And if they are you can say to yourself "Oh I'll come back in a couple hours ins
 
 You'll also want to mention in the AV102 Slack chat when you're addressing a students' question, by posting a link to that question. 
 
-That will help avoid many TAs trying to answer the same question at the same time independently; and draw them together in slack to collaborate on an answer if necessary.
+That will help avoid many TAs trying to answer the same question at the same time independently;  and draw them together in slack to collaborate on an answer if necessary.
 
 [NEXT SLIDE]
 
-Another thing that we're keen for you to do is to encourage the students to pair program with each other. 
+Another thing that we're keen for you to do is to encourage the students to pair program  with each other. 
 
-As in previous versions of the course we have a framework for students to do pair programming together. 
+As in previous versions of the course we have a framework for students to do pair programming  together. 
 
 One of the key bits of feedback that we've received is that it's sometimes difficult for students to get themselves started.
 
@@ -253,6 +254,7 @@ Note that this is also an important part of working in a distributed team which 
 
 This is essential to ensure that everybody working on a given problem has access to all the relevant information, and that we don't waste time or overwhelm people by giving the same information over and over :-)
 
+This is essential to ensure that everybody working on a given problem has access to all  the relevant information, and that we don't waste time or overwhelm people by giving the  same information over and over :-)
 
 TODO
 
