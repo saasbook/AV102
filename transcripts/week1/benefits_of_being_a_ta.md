@@ -39,7 +39,7 @@ So there's all that benefit in potentially boosting your skills.
 
 And not only that, we've got certificates too!
 
-These are the official Engineering Software as a Service text books certificates, which are also backed by AgileVentures.
+These are the official Engineering Software-as-a-Service textbook certificates, which are also backed by AgileVentures.
 
 We've got an example of the level 1 certificates there so you'll get one of these for completing this course.
 
