@@ -18,7 +18,7 @@ In week 1 we'll focus on understanding the TA's role and we'll talk about how th
 
 We'll go on to distributed software development, version control, cloud deployment, chores; all these things, all this stuff that overlaps between being a TA for the 169 course; working with industry software generally and also doing open source development. 
 
-Going into week 3, we'll cover soft skills, the team management, online scrums, meeting preparation, these sort of the things, the communication technologies to use.
+Going into week 3, we'll cover soft skills, the team management, online scrums, meeting preparation, these sorts of things, the communication technologies to use.
 
 And then finally week 4 it's all about bugs and problems and how to handle the world when things go wrong which is of course really what it's all about.
 
@@ -96,7 +96,7 @@ Before then we've got a very simple "start-off" homework which is just to regist
 
 So the course is sort of initially rather TA focused however taking this course doesn't mean that you have to be a TA.  
 
-Of course we'd love everyone to contribute by being TA's in the 169 course which starts in about five weeks from now but we'd just as equally like you to derive great value from the topics were talking about in terms of managing distributed teams and then use that in your own work or help out in Agile Ventures rather than being a TA. 
+Of course we'd love everyone to contribute by being TA's in the 169 course which starts in about five weeks from now but we'd just as equally like you to derive great value from the topics we're talking about in terms of managing distributed teams and then use that in your own work or help out in Agile Ventures rather than being a TA. 
 
 [PULL IN AGILE VENTURES SITE]
 
