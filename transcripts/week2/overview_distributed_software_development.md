@@ -54,17 +54,17 @@ You've got to work out what the customer really needs, even when they aren't sur
 
 Then there's user stories versus chores. 
 
-Chores are bits of infrastructure work that have got to be done; and you need to track and coordinate them.
+Chores are bits of infrastructure work that have got to be done; and you need to track  and coordinate them.
 
 So that's the start of this week: user stories and chores. 
 
 What we're trying to do here is represent a bit of the flow that you might follow working through a real project, which is for example, on inception, you will be starting with user stories.
 
-Then having developed those user stories with the customers and other stakeholders you'd be also realizing "aha these various chores have got to be done too". 
+Then having developed those user stories with the customers and other stakeholders you'd  be also realizing "aha these various chores have got to be done too". 
 
 And then you'll say right okay well we'll put off some of these chores. 
 
-Here let's just start working on the first two user stories we think that are key for our MVP or Minimum Viable Product.
+Here let's just start working on the first two user stories we think that are key for  our MVP or Minimum Viable Product.
 
 And then you can start work and you might actually start coding with, let's say, Cucumber or RSpec doing an acceptance test and then even getting down to the unit test level.
 
@@ -76,9 +76,9 @@ There's also the process of communicating with the team through the codebase its
 
 I believe, along with Armando and many others, that the documentation is not necessarily worth the paper it's written on.  
 
-What we want is *live* documentation, which is your acceptance tests and your unit tests that explain what's happening in the system.
+What we want is *live* documentation, which is your acceptance tests and your unit tests  that explain what's happening in the system.
 
-That's just absolutely essentially and creates documentation that can be verified by running it against the code.
+That's just absolutely essential and creates documentation that can be verified by running  it against the code.
 
 So that's important for quality control and communication with the rest of the team.
 
@@ -102,7 +102,7 @@ Furthermore, many of us will also be deploying to the cloud, through git or othe
 
 So once you've got "version one" of your system you'll want to get that up in the cloud. 
 
-Thus we'll review the Heroku "Platform as a Service" and then finally this other concept which we think is critically important, which is this idea of "spiking".
+Thus we'll review the Heroku "Platform-as-a-Service" and then finally this other concept which we think is critically important, which is this idea of "spiking".
 
 "Spiking" refers to quickly developing a prototype that you're then going to throw away afterwards.
 
@@ -146,7 +146,7 @@ but what is required if you want to get the certificate is this week's assignmen
 
 just to make sure you're on the tip top of those skills.
 
-These are things which I think are very very important; both for working with distributed teams and of course for the ESaaS MOOC.
+These are things which I think are very very important; both for working with distributed  teams and of course for the ESaaS MOOC.
 
 Okay, so, I hope you enjoy this week and I look forward to continue making your acquaintance in the slack chat; it really is great to be meeting so many of you there. 
 
