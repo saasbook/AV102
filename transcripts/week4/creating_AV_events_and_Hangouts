@@ -1,0 +1,105 @@
+https://edge.edx.org/assets/courseware/v1/5ed5d58fd69d5c3a21d85f2d98dc5985/asset-v1:AgileVentures+AV102+Spring_2017+type@asset+block/4.3_Creating_Events_in_the_Google__Community.pdf
+
+Hey so I want to tell you about creating Hangouts and events on the AgileVentures site and I'm
+recording all this with the QuickTime Player so that I can show you how the Hangouts work.
+So I think you're all familiar with Hangouts, Google Hangouts. Although Google is now re-branding
+them to be called YouTube Live, and they're starting something called Meet, but anyway
+... many of you will have been in Hangouts this week ... but you might ask:
+"Why? If I'm doing some programming why do I want to be in a Hangout?"
+I think an interactive video is sometimes worth a billion words ... it's just ... in
+a picture sometimes it illuminates things, sometimes that process of just being able
+to say to somebody:
+"Look just this thing here or just well, it's this bit there!"
+and have that coordinated discussion around something can really sort things out.
+So I think it's great for problem solving and I really love Hangouts for pair programming.
+I know some people say:
+"Oh well you know if you don't have control of each others computers like with
+Screen Hero or something it's not real pair programming!"
+but actually I think if you're using GitHub Pong, which is actually my preferred mode
+for pair programming remotely using a Hangout, then you get to practice your Git skills and
+you get a Git record of what you've done.
+I've now done hundreds of hours of pair programming with people all round the world through hangouts
+and just ... I love it. Hangouts lets you see switch back and forth quickly between multiple
+people's screens, which is really great for collaboration.
+Also since it's just screen share you can use all kinds of other tools in combination
+with the Hangout like C9, GitHub Pong and so on in order to share the code back and
+forth.
+The key thing I would say is that you really don't need a webcam. If you do and want to
+share a video of your face that's great, but its the screenshare functionality of the Hangout
+that's really really valuable and so you can both be working on C9, or you could be working
+in your own editor and doing GitHub Pong backwards and forwards and have a group of you.
+I've done five-way GitHub Pong in different sessions before in Hangouts. The point is
+that the hangouts themselves are so flexible and they allow you to stream and record video
+of the sessions to YouTube and it's just, I don't know it's great! Thank you Google
+:-)
+So there are various options to use Hangouts, but I'm just going to show you about
+how we can create Google Hangouts through the AgileVentures site.
+We have an events feed and this is what we're going to be using to coordinate the pair programming
+for the MOOC.
+So we've got AgileVentures there and we've got events there.
+So you can see upcoming events and there's a button for create new event there that you
+can use if you want to create a pair programming event,
+you can do that [BUTTON CLICK] - and pop it in there [BUTTON CLICK] - and that will create an event like these many events that
+we have in the system and then these events have the ability to start a Hangout on Air
+and you may ask what's a Hangout on Air?
+That means it's recordable and it's also streamable so all of the Hangouts that we do for our
+AgileVenture Scrums or stand-ups and so on, they are all run through the AgileVentures
+site.
+What I would do here for example is there's the next Scrum coming up in a couple of hours.
+The way I was creating all of those Hangouts for the stand-ups and so on was by
+using this button here "Start a Hangout on Air"
+and by using these AgileVentures events and Hangout integration we can work out when to
+meet and notify people of the Scrum hangout link in Slack.
+If we create an event as a pair programming session as I was just doing here then it appears
+in the events list but it doesn't appear with the timer and the counter on our home page
+and in the popup.
+Those are specifically for scrums or stand-ups.
+So the big change we've had is that Google has retired the Hangout API, which means that
+our events no longer ping Slack or Gitter automatically, so if you want that to happen
+so that others can enter your Hangout, you'll have to take the Hangout URL from the address
+bar and update the event manually.
+It's a real pain and I'm sure lots of people will forget or find it hard, but at the moment
+we don't have a replacement for Google Hangout plugins. Hopefully soon, but if we create
+a pair programming event that starts in a minute or two and start the hangout like so:
+So if we start that we'll see the URL.
+Of course we have to click through the disclaimer about being recorded which some people get
+kind of freaked out about.
+Personally I've been recording my life and posting it online
+for much of the last three or four years and I don't seem to have had any problems yet,
+but it's not for everybody.
+And then grab the URL from the address bar and go back into the event
+and open "Event Actions" like so and click "Edit Hangout link" and paste the URL in like
+so, and then "Save" it, then we should see the event go live on the site, and now other
+people can click here to access the Hangout and we should see a notification in Slack
+where we've got a pairing notifications channel so you can see here that we've got pair programming
+going on different projects and so on and so on.
+So in principle you can just get access to the Hangouts there, but, and this is the other
+reason I absolutely love Google Hangouts is that you start to hang out and you get the
+link and then you can paste it in into an email or into another chat room and you have
+a simple mechanism for getting people into the same room that doesn't involve inviting
+them and waiting for other automated systems to kick in.
+I'm also a huge fan of Hangouts on Air.
+I really insisted on that in the AgileVentures site, that all of the Hangouts created should
+be recordable.
+Not automatically recorded! Just that they are at least recordable, as I think it's so
+useful to be able to keep a record of what you did in the Hangout.
+You have to press the record button to actually record.
+Note that one of the things we have here is that the event host, which in principle can
+be anybody with a YouTube linked account can start this hangout on air ...
+so if you're doing a stand-up or a Scrum, it's sensible that the event host would do it but
+in principle for pairing sessions ...
+maybe one person who gets there first - or it's a group of you or what have you whoever gets there
+first - can make the room - or Hangout - and then you all kind of get in there.
+Now over here you can see we've got the green start broadcast button at the bottom and that
+that will actually start recording and also start live streaming ...
+if you look at the links thing down here you get a YouTube page and so if you do click
+the start broadcast button which of course is entirely up to you. I pretty much record
+and broadcast everything I do ...
+like to be there for the future alien archeologists but also just to be available generally for
+others to review ...
+then this YouTube page which is initially the stream then becomes the recording of the
+session which I think is very very useful.
+I totally love that feature.
+So there you go, I hope that will help you all start and run your own Hangouts for pair
+programming.
+Bye for now :-)
