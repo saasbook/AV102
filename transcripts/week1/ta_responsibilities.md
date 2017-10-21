@@ -94,7 +94,7 @@ That's again a judgement call about what is a productive or unproductive discuss
 
 I think a light touch is generally the way to go but if things really are descending  into less than civil tones or getting widely off topic them that's a good time to try to  wrap that discussion up.
 
-A warning sign is when two parties are just repeatedley saying the same thing over and over, or the debate is going far beyond the sensible "agree to disagree" end point.
+A warning sign is when two parties are just repeatedly saying the same thing over and over, or the debate is going far beyond the sensible "agree to disagree" end point.
 
 Also important is being helpful without just giving the complete solution.
 
@@ -122,7 +122,7 @@ There's evidence to show that if you can then correctly recall the answer, that 
 
 So that intervention is a "scaffold".
 
-You're not telling the learner the complete answer or walking them step-by-step through  the task.
+You're not telling the learner the complete answer or walking them step-by-step through the task.
 
 You're helping them figure out how to do the task on their own.
 
@@ -136,7 +136,7 @@ You don't necessarily have to be involved personally in removing that support.
 
 Your ongoing involvement with an individual learner will depend on the extent to which you re-interact with different students as the course goes on and in a course as large as this maybe you won't interact with the same student again, but then again ...
 
-However, the idea of the scaffolding is at least it's there for support at the beginning and then ultimately by the time the students graduate the course they don't need that scaffolding anymore and they can get by on themselves.
+However, the idea of the scaffolding is at least it's there for support at the beginning and then ultimately by the time the students graduate the course they don't need that scaffolding anymore and they can get on by themselves.
 
 [GET READY TO PULL IN RUBY CONSOLE]
 
@@ -158,7 +158,7 @@ Now if you know Ruby reasonably well this will seem pretty simple and you might 
 
 And you might be tempted to just tell the student the fix.  You could just say "oh right you  need to redefine the method with some arguments" and you could just give them the solution.
 
-A more scaffold based approach would be to start asking some questions like: "okay so ... what are you actually trying to achieve here, what's the high-level goal?" which might seem odd in this simple example, but becomes more important as things get complex.
+A more scaffold-based approach would be to start asking some questions like: "okay so ... what are you actually trying to achieve here, what's the high-level goal?" which might seem odd in this simple example, but becomes more important as things get complex.
 
 And then you say "so does any part of the error message make sense to you?"
 
