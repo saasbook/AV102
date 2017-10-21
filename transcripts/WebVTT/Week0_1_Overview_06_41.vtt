@@ -1,0 +1,381 @@
+WEBVTT
+
+0
+00:00:00.450 --> 00:00:06.079
+Hello and welcome to week 0, here we are, this is "AV102 ESaaS: Managing Distributed
+
+1
+00:00:06.079 --> 00:00:06.479
+Teams".
+
+2
+00:00:06.479 --> 00:00:10.230
+We're run this course several times now so "welcome back" if you've joined us before
+
+3
+00:00:10.230 --> 00:00:13.330
+and "hello" if this is the first time.
+
+4
+00:00:13.330 --> 00:00:16.049
+So I've got access to the site here.
+
+5
+00:00:16.049 --> 00:00:19.250
+I can see more than you'll be able to see in the first week at the moment.
+
+6
+00:00:19.250 --> 00:00:22.660
+I've got a special staff view that shows me everything that's coming up. You'll be able
+
+7
+00:00:22.660 --> 00:00:25.050
+to see just this introduction.
+
+8
+00:00:25.050 --> 00:00:31.170
+I've got here like a little curriculum overview in my notes that I'll just go through.
+
+9
+00:00:31.170 --> 00:00:35.090
+In week 1 we'll focus on understanding the TA's role and we'll talk about how the TA
+
+10
+00:00:35.090 --> 00:00:38.400
+thing fits into managing distributed teams.
+
+11
+00:00:38.400 --> 00:00:44.329
+We'll go on to distributed software development, version control, cloud deployment, chores;
+
+12
+00:00:44.329 --> 00:00:49.660
+all these things, all this stuff that overlaps between being a TA for the 169 course; working
+
+13
+00:00:49.660 --> 00:00:55.030
+with industry software generally and also doing open source development.
+
+14
+00:00:55.030 --> 00:00:59.950
+Going into week 3, we'll cover soft skills, the team management, online scrums, meeting
+
+15
+00:00:59.950 --> 00:01:03.770
+preparation, these sorts of things, the communication technologies to use.
+
+16
+00:01:03.770 --> 00:01:08.090
+And then finally week 4 it's all about bugs and problems and how to handle the world when
+
+17
+00:01:08.090 --> 00:01:10.999
+things go wrong which is of course really what it's all about.
+
+18
+00:01:10.999 --> 00:01:15.060
+So I've got some administrivia here to go through.
+
+19
+00:01:15.060 --> 00:01:19.009
+Our team is all now thoroughly addicted to Slack chat which you may have heard of.
+
+20
+00:01:19.009 --> 00:01:23.530
+Slack has really surged in popularity over the last couple of years, outdistancing competitors
+
+21
+00:01:23.530 --> 00:01:27.149
+like HipChat, and I think a lot of that is down to their careful attention to user needs
+
+22
+00:01:27.149 --> 00:01:30.689
+and focus on making the interface friendly and easy to use.
+
+23
+00:01:30.689 --> 00:01:35.789
+In some ways this is just all an enterprise version of IRC, but the ease of use makes
+
+24
+00:01:35.789 --> 00:01:38.679
+quite a big difference.
+
+25
+00:01:38.679 --> 00:01:39.779
+Let's show you the interface
+
+26
+00:01:39.779 --> 00:01:46.139
+Here's the Agile Ventures Slack chat; we've got a number of different channels ... when
+
+27
+00:01:46.139 --> 00:01:52.229
+you join you'll be automatically added to a few channels.
+
+28
+00:01:52.229 --> 00:01:58.599
+General for general announcements, random just for random chat and tech talk for any
+
+29
+00:01:58.599 --> 00:02:01.380
+technical questions.
+
+30
+00:02:01.380 --> 00:02:09.409
+Then also we've got this ESaaS 169 MOOC channel, we've got an AV102 distributed team's channel
+
+31
+00:02:09.409 --> 00:02:10.670
+which you'll want to join.
+
+32
+00:02:10.670 --> 00:02:16.730
+One of the really nice things about Slack is that you'll get little alerts like this
+
+33
+00:02:16.730 --> 00:02:19.420
+when you get mentioned in a channel.
+
+34
+00:02:19.420 --> 00:02:22.439
+So I hope you're going to enjoy using Slack with us.
+
+35
+00:02:22.439 --> 00:02:28.799
+This course is a work in progress developed entirely by volunteers like you.
+
+36
+00:02:28.799 --> 00:02:33.370
+I just want to apologise upfront for any problems you encounter with our course.
+
+37
+00:02:33.370 --> 00:02:39.349
+If you do find issues with the course do get involved and help us fix them.
+
+38
+00:02:39.349 --> 00:02:43.489
+We can give you access to the materials and you can join all the other great volunteers
+
+39
+00:02:43.489 --> 00:02:46.480
+who are all alumni of the 169 course.
+
+40
+00:02:46.480 --> 00:02:49.909
+Please do jump in and help us out and please bear with us as we try to work around the
+
+41
+00:02:49.909 --> 00:02:53.709
+open source technology behind edX edge and the associated course management software
+
+42
+00:02:53.709 --> 00:02:55.010
+etc.
+
+43
+00:02:55.010 --> 00:02:59.379
+Speaking of things not working: my flaws; I'm Sam Joseph and I have many flaws, one
+
+44
+00:02:59.379 --> 00:03:01.469
+of them is that I just speak too fast.
+
+45
+00:03:01.469 --> 00:03:04.180
+I'm working on trying to improve that.
+
+46
+00:03:04.180 --> 00:03:10.030
+If I'm going too fast one thing you can do is slow down the videos.
+
+47
+00:03:10.030 --> 00:03:18.030
+In case you hadn't seen it there is a youtube feature to adjust the playback speed.
+
+48
+00:03:18.030 --> 00:03:21.739
+For example here's a little video from me with me talking very fast as usual and if
+
+49
+00:03:21.739 --> 00:03:25.519
+you find that I'm talking too fast then you can go and switch me down to .5 and listen
+
+50
+00:03:25.519 --> 00:03:27.900
+to me much more slowly.
+
+51
+00:03:27.900 --> 00:03:31.879
+We are also working on transcripts for our videos to make it easier to follow what I'm
+
+52
+00:03:31.879 --> 00:03:36.510
+saying, and again if you'd like to help us with those we'd be very grateful indeed.
+
+53
+00:03:36.510 --> 00:03:40.260
+YouTube and edX now have pretty good support for managing the transcripts, but there's
+
+54
+00:03:40.260 --> 00:03:47.959
+still quite a lot of work involved, so your support is very much appreciated.
+
+55
+00:03:47.959 --> 00:03:55.239
+So other things that I need to mention.
+
+56
+00:03:55.239 --> 00:03:59.680
+Next up there's going to be a video here with me talking more about what the course is about
+
+57
+00:03:59.680 --> 00:04:05.290
+then next week, we're going on to understanding the TAs role and we'll talk about who are
+
+58
+00:04:05.290 --> 00:04:09.109
+TA's and why do we need you for the 169 course.
+
+59
+00:04:09.109 --> 00:04:19.670
+We've got little quizzes here based on those videos talking about the TA responsibilities.
+
+60
+00:04:19.670 --> 00:04:25.640
+Before then we've got a very simple "start-off" homework which is just to register for the
+
+61
+00:04:25.640 --> 00:04:29.630
+upcoming 169 course and connect on the Agile Ventures Slack chat and make sure that you've
+
+62
+00:04:29.630 --> 00:04:32.670
+said hello there and you are all connected up and then we'll be able to start chatting
+
+63
+00:04:32.670 --> 00:04:37.000
+with you in the AV102 distributed teams Slack chat ...
+
+64
+00:04:37.000 --> 00:04:42.840
+So the course is sort of initially rather TA focused however taking this course doesn't
+
+65
+00:04:42.840 --> 00:04:45.140
+mean that you have to be a TA.
+
+66
+00:04:45.140 --> 00:04:48.940
+Of course we'd love everyone to contribute by being TA's in the 169 course which starts
+
+67
+00:04:48.940 --> 00:04:52.600
+in about five weeks from now but we'd just as equally like you to derive great value
+
+68
+00:04:52.600 --> 00:04:56.120
+from the topics we're talking about in terms of managing distributed teams and then use
+
+69
+00:04:56.120 --> 00:05:01.970
+that in your own work or help out in Agile Ventures rather than being a TA.
+
+70
+00:05:01.970 --> 00:05:05.040
+What is Agile Ventures I hear you ask?
+
+71
+00:05:05.040 --> 00:05:10.370
+It's a big project incubator that we have created; lots of more great work by 169 alumni
+
+72
+00:05:10.370 --> 00:05:15.250
+and we've got lots of active projects in there and people doing pair programming online together
+
+73
+00:05:15.250 --> 00:05:17.610
+and improving their coding and team skills.
+
+74
+00:05:17.610 --> 00:05:22.000
+We've got our big flagship project, here's the Harrow Community Network where we can
+
+75
+00:05:22.000 --> 00:05:28.300
+see a big list of all the contributors from around the world who've submitted code.
+
+76
+00:05:28.300 --> 00:05:36.630
+You can see a big lists of projects here; it's all about: "learn to code", "hang out
+
+77
+00:05:36.630 --> 00:05:40.720
+with cool people", and "save the world" by contributing to charity projects.
+
+78
+00:05:40.720 --> 00:05:44.380
+We've been having a lot of fun over the last several years doing Agile Ventures; anyway
+
+79
+00:05:44.380 --> 00:05:46.910
+more of that as we go into the course.
+
+80
+00:05:46.910 --> 00:05:53.510
+The course itself runs independently for four weeks and then runs in parallel with the both
+
+81
+00:05:53.510 --> 00:05:54.740
+parts of the 169 MOOC.
+
+82
+00:05:54.740 --> 00:05:58.810
+As we've done for the last few runs you can get certificates for completing the standalone
+
+83
+00:05:58.810 --> 00:06:03.340
+part of the course, and higher level certificates for supporting students as a TA in the MOOCs
+
+84
+00:06:03.340 --> 00:06:07.130
+and also for contributing to the open source charity projects within Agile Ventures.
+
+85
+00:06:07.130 --> 00:06:11.240
+The basic part of the course shouldn't be more than 3 or 4 hours a week.
+
+86
+00:06:11.240 --> 00:06:16.410
+Also there's Mentive who provide more comprehensive support to the MOOC students, and potentially
+
+87
+00:06:16.410 --> 00:06:20.070
+you can get paid as a Mentive Mentor, which is a great opportunity that I can supply more
+
+88
+00:06:20.070 --> 00:06:22.270
+information about if you are interested.
+
+89
+00:06:22.270 --> 00:06:26.920
+So I think there thats about it in terms of the summary; there are probably things I've
+
+90
+00:06:26.920 --> 00:06:27.120
+forgotten
+
+91
+00:06:27.120 --> 00:06:29.370
+but I'm sure I can pass those on to you before too long
+
+92
+00:06:29.370 --> 00:06:35.380
+anyhow if you want to know what this course is "really" all about then go ahead and watch
+
+93
+00:06:35.380 --> 00:06:37.080
+this next video from me,
+
+94
+00:06:37.080 --> 00:06:38.430
+all right, bye for now
