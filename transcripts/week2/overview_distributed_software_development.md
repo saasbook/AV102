@@ -6,7 +6,7 @@ This week we're going to review several software tools that I think many of you 
 
 Thus this week is a bit of a refresher in some ways.  Next week we'll connect up more strongly to team practices.
 
-Although as we go through I will do my best to mention the connections each tool or concepet has to distributed team management
+Although as we go through I will do my best to mention the connections each tool or concept has to distributed team management
 
 [NEXT SLIDE]
 
@@ -50,7 +50,7 @@ However, more often than not, people will want custom solutions and so then you'
 
 Still, the key thing is that you have to get the user stories sorted out up front; sorting out the wheat from the chaff so to speak.  
 
-You've got to work out what the customer really needs, even when they aren't sure themself and that's what the process of developing user stories is about.
+You've got to work out what the customer really needs, even when they aren't sure themselves and that's what the process of developing user stories is about.
 
 Then there's user stories versus chores. 
 
