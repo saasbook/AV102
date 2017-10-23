@@ -1,0 +1,773 @@
+WEBVTT
+
+0
+00:00:00.420 --> 00:00:03.040
+Hey so I want to talk to you about spiking or
+
+1
+00:00:03.040 --> 00:00:08.590
+doing a spike; which is an important part I think particularly of working with - well
+
+2
+00:00:08.590 --> 00:00:12.769
+any team. Like so many of these different … software development practices
+
+3
+00:00:12.769 --> 00:00:16.430
+... they can be very important - both in the distributed team and
+
+4
+00:00:16.430 --> 00:00:20.850
+you know - in a centralized Team shall we say working in a single office
+
+5
+00:00:20.850 --> 00:00:24.410
+I want to give you as many examples as I can for how
+
+6
+00:00:24.410 --> 00:00:27.519
+spiking you know can be used in distributed teams.
+
+7
+00:00:27.519 --> 00:00:30.880
+So spiking, or a spike is a special type
+
+8
+00:00:30.880 --> 00:00:34.790
+of Agile ... story or chore you can see it ...
+
+9
+00:00:34.790 --> 00:00:38.489
+as a bit of either. It doesn't usually have any points associated with it so
+
+10
+00:00:38.489 --> 00:00:42.040
+perhaps more on the side of a chore ... and
+
+11
+00:00:42.040 --> 00:00:45.270
+the key thing that the spike is for is to try and drive out risk and
+
+12
+00:00:45.270 --> 00:00:46.030
+uncertainty
+
+13
+00:00:46.030 --> 00:00:49.329
+... it may be that you know, some of the situations where you're trying to vote
+
+14
+00:00:49.329 --> 00:00:53.230
+on stories in your team; members coming together and saying well, you know, that how
+
+15
+00:00:53.230 --> 00:00:56.480
+trying to work out how hard something's gonna be to do that you just don't have
+
+16
+00:00:56.989 --> 00:01:00.480
+the technical background; it's a new technology, it's a new library
+
+17
+00:01:00.480 --> 00:01:04.210
+what have you ... so you need to do some sort of technical investigation
+
+18
+00:01:04.210 --> 00:01:09.119
+and just kinda get something working ... perhaps without tests ... this is one of the
+
+19
+00:01:09.619 --> 00:01:13.590
+... areas where you can sort of put down the BDD/
+
+20
+00:01:13.590 --> 00:01:17.040
+TDD mantra and say right you know okay
+
+21
+00:01:17.040 --> 00:01:21.610
+we're gonna to just sort of investigate doing some code; see if we can get something working
+
+22
+00:01:21.610 --> 00:01:25.790
+to give us the information to estimate how long it will take to properly
+
+23
+00:01:25.790 --> 00:01:29.380
+BDD a particular - particular story and so
+
+24
+00:01:29.380 --> 00:01:32.540
+the idea is that this would fit in a single sprint with a few iterations sizes of
+
+25
+00:01:32.540 --> 00:01:32.900
+you know
+
+26
+00:01:32.900 --> 00:01:37.189
+a week or two weeks or five weeks or what it happens to be. What you really don't want to be
+
+27
+00:01:37.189 --> 00:01:40.689
+... is in a situation where you are you do sort of a spike
+
+28
+00:01:40.689 --> 00:01:44.450
+it's like oh yes, this is working and then you sort of end up working on it for weeks and weeks and you
+
+29
+00:01:44.450 --> 00:01:45.579
+ship it and then your
+
+30
+00:01:45.579 --> 00:01:48.579
+you know ... the customers is like is using and depends on that.
+
+31
+00:01:48.579 --> 00:01:52.420
+I mean this is basically kinda the ... the bad old days was one long
+
+32
+00:01:52.420 --> 00:01:53.009
+spike.
+
+33
+00:01:53.009 --> 00:01:56.520
+There were no tests ... it just you know sort of made it work
+
+34
+00:01:56.520 --> 00:02:00.450
+and occasionally there were bugs in it, like right because we've just got to keep bashing at it until we can fix it
+
+35
+00:02:00.450 --> 00:02:01.250
+...
+
+36
+00:02:01.250 --> 00:02:04.380
+but so you know that behaviour if you've ever
+
+37
+00:02:05.020 --> 00:02:08.629
+gone on that is called spiking and it has a special role
+
+38
+00:02:08.629 --> 00:02:11.770
+in the whole Agile process; that as I've been talking about
+
+39
+00:02:11.770 --> 00:02:15.440
+the motivation is really to familiarize ... your team
+
+40
+00:02:15.440 --> 00:02:19.090
+... some of the individuals with a new technology domain you know
+
+41
+00:02:19.090 --> 00:02:23.150
+... you want to kind of work out ...
+
+42
+00:02:23.150 --> 00:02:26.900
+you know what the behaviour is going to be so that ... you know ultimately you can
+
+43
+00:02:26.900 --> 00:02:27.530
+estimate
+
+44
+00:02:27.530 --> 00:02:30.709
+the story effectively.  I mean any estimation process is always gonna be
+
+45
+00:02:30.709 --> 00:02:34.940
+riven by uncertainties but sometimes if you just don't have the information
+
+46
+00:02:34.940 --> 00:02:38.610
+you're estimate is going to be really poor. So we can sort of
+
+47
+00:02:38.610 --> 00:02:43.170
+split these things into you know sometimes it's going to be more a
+
+48
+00:02:43.170 --> 00:02:46.840
+technical spike where you're just okay this is this
+
+49
+00:02:46.840 --> 00:02:50.780
+... library that may be automates some portion of
+
+50
+00:02:50.780 --> 00:02:54.129
+the system that we're you know currently delivering and
+
+51
+00:02:54.129 --> 00:02:57.180
+and you want to you know get that get that sorted out
+
+52
+00:02:57.180 --> 00:03:00.650
+... or it might be more of a functional one where
+
+53
+00:03:00.650 --> 00:03:04.069
+... you're trying to understand the user interaction and sometimes
+
+54
+00:03:04.069 --> 00:03:07.349
+it's gonna be a combination of the two ... I've got a couple of
+
+55
+00:03:07.349 --> 00:03:08.280
+slides here on,
+
+56
+00:03:08.280 --> 00:03:11.430
+first on technical spikes - yeah you know you're -
+
+57
+00:03:11.430 --> 00:03:14.430
+you know you might have ... multiple libraries that -
+
+58
+00:03:14.430 --> 00:03:17.680
+you know - you would be using in order to
+
+59
+00:03:17.680 --> 00:03:21.590
+solve some sort of problem so you might wanna do a spike where you
+
+60
+00:03:21.590 --> 00:03:25.510
+try each of those libraries in turn ... to evaluate the performance
+
+61
+00:03:25.510 --> 00:03:29.690
+... see how they work under load and so on and you know you wouldn't
+
+62
+00:03:29.690 --> 00:03:30.739
+necessarily have to drive
+
+63
+00:03:30.739 --> 00:03:34.480
+all of that through tests. Although you know you still could use tests as
+
+64
+00:03:34.480 --> 00:03:35.920
+part of a spike.
+
+65
+00:03:35.920 --> 00:03:39.989
+Yeah and really you know you just wanna understand
+
+66
+00:03:39.989 --> 00:03:43.760
+as much as you can about the particular approach before you can't commit
+
+67
+00:03:43.760 --> 00:03:47.379
+to any functionality and we've done technical spikes
+
+68
+00:03:47.379 --> 00:03:50.879
+on for example the AgileVentures EduChat projects where
+
+69
+00:03:50.879 --> 00:03:54.310
+different people involved in that would evaluate you know ...
+
+70
+00:03:54.310 --> 00:03:58.250
+an XMPP solution or an IRC solution ... and kind of go away ...
+
+71
+00:03:58.250 --> 00:04:01.640
+this is a distributed team. I guess again, it doesn't really matter
+
+72
+00:04:02.200 --> 00:04:06.400
+from the ... general perspective
+
+73
+00:04:06.400 --> 00:04:10.030
+whether your team is you know spread out over the world
+
+74
+00:04:10.030 --> 00:04:14.310
+or whether they're sitting in the office given that you've got multiple people on your team
+
+75
+00:04:14.310 --> 00:04:17.919
+you can, you know, split up - you know - looking at different technologies
+
+76
+00:04:17.919 --> 00:04:21.030
+across those team members.
+
+77
+00:04:21.030 --> 00:04:24.320
+Yeah so I think this is one of those things that ...
+
+78
+00:04:24.320 --> 00:04:27.550
+you know - it's not peculiar at all to ...
+
+79
+00:04:27.550 --> 00:04:31.090
+distributed software development but it is fantastically useful
+
+80
+00:04:31.090 --> 00:04:34.530
+and it's the kind of thing that's you know if you get involved
+
+81
+00:04:34.530 --> 00:04:38.900
+in development involves the Agile process or you know
+
+82
+00:04:38.900 --> 00:04:42.389
+large numbers of people understanding this terminology you know very very
+
+83
+00:04:42.389 --> 00:04:43.400
+important. We find it
+
+84
+00:04:43.400 --> 00:04:46.790
+to be particularly useful in our discussions as part of Agile Ventures.
+
+85
+00:04:46.790 --> 00:04:50.210
+We can also refer to to a functional spike
+
+86
+00:04:50.210 --> 00:04:53.669
+where you're unsure about how the user's going to interact with the system.
+
+87
+00:04:53.669 --> 00:04:56.979
+We also sort of refer to this as maybe as Lo-Fi prototyping.
+
+88
+00:04:56.979 --> 00:05:00.750
+You kinda wanna get user input on what a
+
+89
+00:05:00.750 --> 00:05:04.199
+you know how they would interact with the system before ...
+
+90
+00:05:04.199 --> 00:05:07.229
+before you've actually had to build it and this is often delivered
+
+91
+00:05:07.229 --> 00:05:10.580
+as a user interface mockup ... wireframes
+
+92
+00:05:10.580 --> 00:05:14.660
+page flows and so on. There's also Wizard of OZing.
+
+93
+00:05:14.660 --> 00:05:17.940
+You can sort of pretend you're the computer putting up pieces of paper
+
+94
+00:05:17.940 --> 00:05:21.240
+and having you know a user click, as it were, click
+
+95
+00:05:21.240 --> 00:05:24.539
+on them at different locations to simulate them interacting
+
+96
+00:05:24.539 --> 00:05:28.090
+with the interface ... we've actually we've just
+
+97
+00:05:28.090 --> 00:05:31.150
+at this very moment in AgileVentures and in the LocalSupport
+
+98
+00:05:31.150 --> 00:05:34.360
+project ... we're working on ... we've had a spike
+
+99
+00:05:34.360 --> 00:05:37.560
+being developed by one developer ... just for reference
+
+100
+00:05:37.560 --> 00:05:41.240
+this is the existing ... sites for LocalSupport
+
+101
+00:05:41.240 --> 00:05:44.539
+it's a directory of nonprofit organizations
+
+102
+00:05:45.199 --> 00:05:48.490
+in North West London. We've got this embedded map
+
+103
+00:05:48.490 --> 00:05:52.560
+in there. The details of the project not so important in this example but one of the things we've been talking about
+
+104
+00:05:52.560 --> 00:05:53.620
+with the client
+
+105
+00:05:53.620 --> 00:05:57.520
+is breaking the map out of this box and making it kind of
+
+106
+00:05:57.520 --> 00:06:01.120
+go full width screen in much the same way as recently Google Maps
+
+107
+00:06:01.120 --> 00:06:04.520
+has done and so one developer has
+
+108
+00:06:04.520 --> 00:06:07.759
+spiked that. They've done here a mock-up of
+
+109
+00:06:07.759 --> 00:06:11.100
+what this would look like and we showed this to the
+
+110
+00:06:11.100 --> 00:06:11.690
+client
+
+111
+00:06:11.690 --> 00:06:16.300
+today and the clients was pleased and was able to play around
+
+112
+00:06:16.300 --> 00:06:19.600
+with this. Here we're not using - you know - we were not using (mockups)
+
+113
+00:06:19.600 --> 00:06:22.910
+we've actually built the thing partly because
+
+114
+00:06:22.910 --> 00:06:26.020
+Google Maps had already - you know - in this case
+
+115
+00:06:26.020 --> 00:06:29.039
+we didn't really need to have a mock-up
+
+116
+00:06:29.569 --> 00:06:33.210
+done on paper and so on because Google maps had already blazed a
+
+117
+00:06:33.210 --> 00:06:33.889
+trail
+
+118
+00:06:33.889 --> 00:06:37.430
+there to show what it would look like in there and the client already knew that they
+
+119
+00:06:37.430 --> 00:06:40.720
+were interested in something like that and so
+
+120
+00:06:40.720 --> 00:06:44.120
+you know rather than trying to just create stories about
+
+121
+00:06:44.120 --> 00:06:47.319
+and vote on that since we haven't done a full width map before
+
+122
+00:06:47.319 --> 00:06:51.060
+it made sense to spike something just see if we could get it working
+
+123
+00:06:51.590 --> 00:06:54.910
+particularly as it involves interface elements, CSS and all this
+
+124
+00:06:54.910 --> 00:06:56.039
+different stuff
+
+125
+00:06:56.039 --> 00:06:59.229
+... it makes a lot of sense to see if you can just get it to work and
+
+126
+00:06:59.229 --> 00:07:03.590
+it does approximately work. There's - you know not every piece of functionality in the site
+
+127
+00:07:03.590 --> 00:07:07.099
+works but we've demonstrated that it's possible in principle
+
+128
+00:07:07.099 --> 00:07:10.690
+and this one is the functionality of getting it all to display
+
+129
+00:07:10.690 --> 00:07:14.090
+correctly getting certain things like we've got sort of pop-ups appearing
+
+130
+00:07:14.090 --> 00:07:17.440
+and this that and the other; make sure that that all works
+
+131
+00:07:17.440 --> 00:07:21.250
+and also that the client is happy with that.
+
+132
+00:07:21.789 --> 00:07:25.389
+Sort of the key thing (we go back to the slides there you know)
+
+133
+00:07:25.389 --> 00:07:28.750
+having created the spike like that it's not that that
+
+134
+00:07:28.750 --> 00:07:32.910
+now gets shipped. It's all about can we use that as a
+
+135
+00:07:32.910 --> 00:07:36.990
+... estimation framework ... and so what we've done now if we go to the
+
+136
+00:07:36.990 --> 00:07:37.310
+Pivotal
+
+137
+00:07:37.310 --> 00:07:42.180
+Tracker for LocalSupport there is we've now got a full width map epic
+
+138
+00:07:42.180 --> 00:07:45.319
+and we've begun the process of breaking out all the different components
+
+139
+00:07:46.090 --> 00:07:49.800
+that make up this whole map transition
+
+140
+00:07:49.800 --> 00:07:53.090
+into individual stories that we'll then be considering
+
+141
+00:07:53.090 --> 00:07:57.379
+independently in voting on them and then driving with tests as a way to ultimately
+
+142
+00:07:57.379 --> 00:07:58.229
+deliver
+
+143
+00:07:58.229 --> 00:08:01.229
+this full width map view to the customer.
+
+144
+00:08:01.840 --> 00:08:05.240
+So really the spike it's gotta be providing you
+
+145
+00:08:05.240 --> 00:08:09.020
+information that helps you estimate the stories that are ultimately going to go in there.
+
+146
+00:08:09.020 --> 00:08:12.330
+It's gotta have ... it's gotta actually
+
+147
+00:08:12.330 --> 00:08:15.830
+work ... that's the key thing. I mean what you may find of course in a spike
+
+148
+00:08:15.830 --> 00:08:19.190
+is you demonstrates that it's just not gonna or it's going to be extraordinarily
+
+149
+00:08:19.190 --> 00:08:20.169
+hard
+
+150
+00:08:20.169 --> 00:08:23.379
+to get what you want from a particular piece of technology, so that's very
+
+151
+00:08:23.889 --> 00:08:27.349
+important and it needs to be something that
+
+152
+00:08:27.349 --> 00:08:30.960
+can be ... particularly it makes sense in the user interface thing
+
+153
+00:08:30.960 --> 00:08:34.380
+you know that the client can accept or reject based upon
+
+154
+00:08:34.380 --> 00:08:37.719
+you know what they're seeing is going on ...
+
+155
+00:08:37.719 --> 00:08:41.450
+if there's not a user front end then you've got things like
+
+156
+00:08:41.450 --> 00:08:44.920
+performance and so on but you've got to have something measurable that
+
+157
+00:08:44.920 --> 00:08:48.950
+can be, you know, accepted right - that this response times acceptable or not -
+
+158
+00:08:48.950 --> 00:08:52.410
+... the key thing really is that the spike should be an exception
+
+159
+00:08:52.410 --> 00:08:55.649
+and not the rule. Every story there's always going to be some level
+
+160
+00:08:55.649 --> 00:08:59.910
+of uncertainty; but you really don't wanna spend all of your time spiking
+
+161
+00:08:59.910 --> 00:09:03.070
+and you know adding tests as an afterthought. Really
+
+162
+00:09:03.070 --> 00:09:06.089
+the spike, I mean in the
+
+163
+00:09:06.089 --> 00:09:09.709
+classic approach that you would do the spike and you would then throw away
+
+164
+00:09:09.709 --> 00:09:10.459
+that code
+
+165
+00:09:10.459 --> 00:09:13.630
+and you would then re-drive development via
+
+166
+00:09:13.630 --> 00:09:17.130
+tests using the knowledge that you had learned by doing the spike
+
+167
+00:09:17.130 --> 00:09:20.300
+... yes ... so this is - you need to
+
+168
+00:09:20.300 --> 00:09:23.620
+accept a certain level of uncertainty that's what the ...
+
+169
+00:09:23.620 --> 00:09:26.890
+the process of voting on stories is all about - and yes spiking
+
+170
+00:09:26.890 --> 00:09:30.510
+should be your ... it is one additional thing in your toolbox which should be
+
+171
+00:09:30.510 --> 00:09:34.709
+reserved for - you know - where you really, particularly as a team
+
+172
+00:09:34.709 --> 00:09:38.070
+don't know ... what's going on ... so in conclusion
+
+173
+00:09:38.769 --> 00:09:42.640
+you know - spiking is a good method to gain a better understanding of the
+
+174
+00:09:42.640 --> 00:09:43.600
+stories and
+
+175
+00:09:43.600 --> 00:09:47.200
+to lower uncertainties and - you know - that side of things
+
+176
+00:09:47.200 --> 00:09:50.200
+needs to be organized as a team. So that - you know - you're sort of
+
+177
+00:09:51.209 --> 00:09:54.630
+working out as a group. That you're talking about developing a particular kind of
+
+178
+00:09:54.630 --> 00:09:58.450
+feature and asking about "Have any of you tried this before?"
+
+179
+00:09:59.010 --> 00:10:02.200
+and you know again, whether you are in a centralized location
+
+180
+00:10:02.810 --> 00:10:06.529
+... or you're distributed around the world; I mean the key thing is communication
+
+181
+00:10:06.529 --> 00:10:10.070
+and so you need to be having ... regular scrums or standups or
+
+182
+00:10:10.070 --> 00:10:13.209
+what have you in order to be talking to the team members and saying "You know
+
+183
+00:10:13.209 --> 00:10:16.500
+we're thinking about this feature for the client ...
+
+184
+00:10:16.500 --> 00:10:18.750
+you know has anybody had any experience with anything about using
+
+185
+00:10:18.750 --> 00:10:21.010
+this library, this piece of technology?"
+
+186
+00:10:21.010 --> 00:10:25.709
+... that communication process is absolutely critical
+
+187
+00:10:25.709 --> 00:10:29.660
+and the key difference really for distributed teams versus centralized teams
+
+188
+00:10:29.660 --> 00:10:32.890
+is making sure that that communication flows whether it's
+
+189
+00:10:32.890 --> 00:10:36.279
+whether it's with ... you know instant messaging or ...
+
+190
+00:10:36.279 --> 00:10:40.060
+the emails or you know the face to face hangouts and so on
+
+191
+00:10:40.060 --> 00:10:43.670
+you know all critical communication technologies that we'll be talking about
+
+192
+00:10:43.670 --> 00:10:44.480
+more next week
