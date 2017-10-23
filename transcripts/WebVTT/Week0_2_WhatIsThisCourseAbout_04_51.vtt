@@ -1,0 +1,333 @@
+WEBVTT
+
+0
+00:00:00.240 --> 00:00:04.700
+Hi there and welcome to ESaaS Managing Distributed teams and the question on everyone's lips,
+
+1
+00:00:04.700 --> 00:00:09.530
+or at least on the lips of this slide, if it has lips, is what is this course about?
+
+2
+00:00:09.530 --> 00:00:12.839
+So this course is about a number of things.
+
+3
+00:00:12.839 --> 00:00:16.490
+Perhaps first and foremost it's about learning how to manage distributed teams;
+
+4
+00:00:16.490 --> 00:00:20.580
+that's teams of people working, where team members are in a number of different locations.
+
+5
+00:00:20.580 --> 00:00:25.640
+We're thinking particularly about teams working online in different places around the world.
+
+6
+00:00:25.640 --> 00:00:29.509
+However we have some other agenda items in terms of delivering this course.
+
+7
+00:00:29.509 --> 00:00:33.400
+The skills of managing distributed teams are going be very useful for anybody who wants
+
+8
+00:00:33.400 --> 00:00:38.130
+to be a teaching assistant (or TA) in the BerkeleyX computer science 169 course which
+
+9
+00:00:38.130 --> 00:00:41.940
+is a very popular online course for software engineering and Agile development using Ruby
+
+10
+00:00:41.940 --> 00:00:42.980
+on Rails.
+
+11
+00:00:42.980 --> 00:00:46.840
+Already many thousands of students around the world have completed this course and we're
+
+12
+00:00:46.840 --> 00:00:50.330
+looking for people to be teaching assistants, which as well as solidifying your software
+
+13
+00:00:50.330 --> 00:00:54.380
+engineering skills is a great way to practice your distributed team management skills.
+
+14
+00:00:54.380 --> 00:00:58.810
+We're also hoping to prepare you to collaborate on Open Source projects.
+
+15
+00:00:58.810 --> 00:01:02.440
+Particularly those with AgileVentures and more on each of these three things as we move
+
+16
+00:01:02.440 --> 00:01:03.270
+forward
+
+17
+00:01:03.270 --> 00:01:07.250
+Lets go to the next slide which is all about distributed teams;
+
+18
+00:01:07.250 --> 00:01:12.219
+so the traditional office environment you have people in a room or a couple of rooms
+
+19
+00:01:12.219 --> 00:01:14.799
+or maybe on a few different floors of an office;
+
+20
+00:01:14.799 --> 00:01:17.340
+and that's how people have worked for quite a long time.
+
+21
+00:01:17.340 --> 00:01:20.810
+Of course there's phones and more recently instant messaging systems which have invaded
+
+22
+00:01:20.810 --> 00:01:21.460
+the office,
+
+23
+00:01:21.460 --> 00:01:25.570
+but the big difference now is the presence of high quality video networking tools that
+
+24
+00:01:25.570 --> 00:01:29.939
+are freely available such as Skype, Zoom and Google hangouts.
+
+25
+00:01:29.939 --> 00:01:33.950
+These tools make it possible for people in multiple locations around the world to operate
+
+26
+00:01:33.950 --> 00:01:36.979
+almost as if they are in the same physical location.
+
+27
+00:01:36.979 --> 00:01:40.030
+We're getting more and more new tools and technologies to help with communication and
+
+28
+00:01:40.030 --> 00:01:43.840
+collaboration around the world and in this course we'll give you an overview of the different
+
+29
+00:01:43.840 --> 00:01:45.950
+tools and technologies that are being used;
+
+30
+00:01:45.950 --> 00:01:49.939
+as well as how you can get the best use of them in order to support your own distributed
+
+31
+00:01:49.939 --> 00:01:51.039
+teams;
+
+32
+00:01:51.039 --> 00:01:52.990
+to work with teams of students online;
+
+33
+00:01:52.990 --> 00:01:57.289
+to work on open source projects and so on.
+
+34
+00:01:57.289 --> 00:02:01.350
+The thing the we want to emphasize is for any of these tools, and also for technologies
+
+35
+00:02:01.350 --> 00:02:04.909
+like the individual programming languages and so on, that these things will come and
+
+36
+00:02:04.909 --> 00:02:05.670
+go.
+
+37
+00:02:05.670 --> 00:02:09.610
+The specific tools and technologies are critical to focus on because without them we can't
+
+38
+00:02:09.610 --> 00:02:11.790
+get specific about how we do things now.
+
+39
+00:02:11.790 --> 00:02:16.390
+However, underlying everything else are these key aspects of communication and collaboration
+
+40
+00:02:16.390 --> 00:02:20.080
+... in 5-10 years time maybe there's going to be a different set of tools, a different
+
+41
+00:02:20.080 --> 00:02:23.670
+set of programming languages and frameworks around, but the interpersonal skills that
+
+42
+00:02:23.670 --> 00:02:25.750
+you need to manage and work with people;
+
+43
+00:02:25.750 --> 00:02:29.100
+those are eternal and those are ultimately the critical things to take away from from
+
+44
+00:02:29.100 --> 00:02:31.260
+this course.
+
+45
+00:02:31.260 --> 00:02:35.060
+So that said we do have this upcoming worldwide course and many thousands of students will
+
+46
+00:02:35.060 --> 00:02:38.690
+be coming online and taking BerkeleyX's very successful software engineering course, now
+
+47
+00:02:38.690 --> 00:02:41.990
+called "Agile Development using Ruby on Rails" .
+
+48
+00:02:41.990 --> 00:02:44.900
+Already 10s of thousands of students have taken this course in order to be introduced
+
+49
+00:02:44.900 --> 00:02:50.180
+to tools like Pivotal Tracker, Heroku, Github and to get to grips with Ruby on Rails and
+
+50
+00:02:50.180 --> 00:02:51.010
+Agile development.
+
+51
+00:02:51.010 --> 00:02:54.710
+This is a very very popular course that goes through all these modern software engineering
+
+52
+00:02:54.710 --> 00:02:58.430
+techniques and tools and it's particularly focused on Ruby on Rails and in order to help
+
+53
+00:02:58.430 --> 00:03:01.320
+those many thousands of students we need teaching assistants;
+
+54
+00:03:01.320 --> 00:03:05.070
+people who are available to be online and help those students as they master all this
+
+55
+00:03:05.070 --> 00:03:06.680
+new material.
+
+56
+00:03:06.680 --> 00:03:11.820
+We'll talk more soon about just how valuable and rewarding it is to be a Teaching Assistant.
+
+57
+00:03:11.820 --> 00:03:16.340
+To finish up this section let's talk about Open Source projects.
+
+58
+00:03:16.340 --> 00:03:19.940
+So our other motive here is we believe strongly in Open Source, where you can see all the
+
+59
+00:03:19.940 --> 00:03:21.900
+code in a software system.
+
+60
+00:03:21.900 --> 00:03:26.840
+This is a great thing for collaboration because anyone can get involved in fixing things or
+
+61
+00:03:26.840 --> 00:03:28.290
+adding features.
+
+62
+00:03:28.290 --> 00:03:31.840
+We particularly believe in Open Source for non-profit projects but there's Open Source
+
+63
+00:03:31.840 --> 00:03:36.900
+used by for-profit ventures around the world and of course you don't need to talk to us
+
+64
+00:03:36.900 --> 00:03:39.620
+in order to know how to get involved in Open Source.
+
+65
+00:03:39.620 --> 00:03:43.860
+There are many existing Open Source projects, however the collaboration in many of those
+
+66
+00:03:43.860 --> 00:03:47.100
+projects will be text based and asynchronous.
+
+67
+00:03:47.100 --> 00:03:50.250
+Given the great stellar consolation of different Open Source projects that are out there you
+
+68
+00:03:50.250 --> 00:03:55.120
+might ask yourself which one do I get involved in, who do I talk to about what's going on?
+
+69
+00:03:55.120 --> 00:03:57.960
+This is exactly what we've set up Agile Ventures to help with.
+
+70
+00:03:57.960 --> 00:04:01.680
+It's an Open Source project incubator which helps people get together to work on Open
+
+71
+00:04:01.680 --> 00:04:06.620
+Source projects both asynchronously and synchronously through Remote pair programming and online
+
+72
+00:04:06.620 --> 00:04:09.370
+scrums through systems like Google hangouts.
+
+73
+00:04:09.370 --> 00:04:13.400
+It's all free and open and the greatest benefit is that you can see the Agile development
+
+74
+00:04:13.400 --> 00:04:14.910
+process for real.
+
+75
+00:04:14.910 --> 00:04:18.449
+Participating in an Agile Ventures project is a great way to see how the Agile development
+
+76
+00:04:18.449 --> 00:04:20.959
+process works in the distributed environment.
+
+77
+00:04:20.959 --> 00:04:25.900
+To summarize in this course you'll learn a lot about the process of managing distributed
+
+78
+00:04:25.900 --> 00:04:30.400
+teams benefiting from our experience of the last several years of working with the students
+
+79
+00:04:30.400 --> 00:04:35.340
+and TA's in the online CS169 course and the various ongoing AgileVentures projects.
+
+80
+00:04:35.340 --> 00:04:39.749
+Those Open Source projects have been and continue to be a huge lot of fun and I very much hope
+
+81
+00:04:39.749 --> 00:04:43.270
+you'll enjoy the rest this course, as we learn about distributed teams in the context of
+
+82
+00:04:43.270 --> 00:04:46.860
+managing online classes and open source projects. Alright, bye for now.
