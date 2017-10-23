@@ -1,0 +1,513 @@
+WEBVTT
+
+0
+00:00:00.459 --> 00:00:04.330
+Welcome to this week on "Distributed Software Development".
+
+1
+00:00:04.330 --> 00:00:07.490
+Distributed Software Development means the process of software development, which we
+
+2
+00:00:07.490 --> 00:00:11.059
+all know and love; but involving individuals who are distributed in different physical
+
+3
+00:00:11.059 --> 00:00:15.400
+locations, potentially all around the world.
+
+4
+00:00:15.400 --> 00:00:18.599
+This week we're going to review several software tools that I think many of you will already
+
+5
+00:00:18.599 --> 00:00:20.739
+be familiar with from the 169 course.
+
+6
+00:00:20.739 --> 00:00:25.390
+Thus this week is a bit of a refresher in some ways. Next week we'll connect up more
+
+7
+00:00:25.390 --> 00:00:27.859
+strongly to team practices.
+
+8
+00:00:27.859 --> 00:00:32.040
+Although as we go through I will do my best to mention the connections each tool or concept
+
+9
+00:00:32.040 --> 00:00:33.980
+has to distributed team management.
+
+10
+00:00:33.980 --> 00:00:41.329
+Anyhow, many of these things we're going to talk about this week are just as valuable
+
+11
+00:00:41.329 --> 00:00:44.289
+for the opposite of "Distributed Software Development",
+
+12
+00:00:44.289 --> 00:00:46.929
+that is: "Centralised Software Development"
+
+13
+00:00:46.929 --> 00:00:50.859
+By Centralized Software Development we mean what goes on in your startup or your company
+
+14
+00:00:50.859 --> 00:00:53.809
+where you have a room, or a floor, full of people.
+
+15
+00:00:53.809 --> 00:00:57.649
+All the team are there together and they can quickly jump into a meeting room and discuss
+
+16
+00:00:57.649 --> 00:00:59.319
+what they're doing.
+
+17
+00:00:59.319 --> 00:01:03.039
+Also, they can bump into each other over the water cooler and so on.
+
+18
+00:01:03.039 --> 00:01:06.979
+So anyhow the software development techniques we're looking at this week are incredibly
+
+19
+00:01:06.979 --> 00:01:10.000
+valuable in whatever way your team is set up.
+
+20
+00:01:10.000 --> 00:01:13.850
+Several of them are key concepts from the Engineering Software as a Service course that
+
+21
+00:01:13.850 --> 00:01:17.369
+I want to pull out, partly because it's good to have a refresher on them;
+
+22
+00:01:17.369 --> 00:01:21.030
+partly because they are the kind of things that many MOOC students get stuck on,
+
+23
+00:01:21.030 --> 00:01:25.320
+but also because they are critical components of working effectively in distributed teams.
+
+24
+00:01:25.320 --> 00:01:30.119
+So I believe that having all of these concepts clear in your mind will be extremely helpful.
+
+25
+00:01:30.119 --> 00:01:34.110
+And while some of them are very valuable in centralised software development settings,
+
+26
+00:01:34.110 --> 00:01:38.710
+I think they're *particularly* valuable in distributed settings.
+
+27
+00:01:38.710 --> 00:01:45.380
+So let's just give you a quick overview of what's coming up, we've got a series of videos,
+
+28
+00:01:45.380 --> 00:01:49.100
+and first of all we're going to talk about user stories:
+
+29
+00:01:49.100 --> 00:01:52.729
+That's the process of ensuring that the work you do actually meets customer needs, rather
+
+30
+00:01:52.729 --> 00:01:54.969
+than just being what you think is cool.
+
+31
+00:01:54.969 --> 00:01:59.159
+This might seem like a sort of wishy washy thing, but I think the really clever person,
+
+32
+00:01:59.159 --> 00:02:04.049
+the really really clever person, works out not how they can use a set of technical tools
+
+33
+00:02:04.049 --> 00:02:08.510
+in order to solve a problem; they work out what the problem really is.
+
+34
+00:02:08.510 --> 00:02:13.640
+In particular they work out what's the minimum intervention that would satisfy the customer.
+
+35
+00:02:13.640 --> 00:02:17.030
+Sometimes the best solution is one where we say "actually we've worked out there isn't
+
+36
+00:02:17.030 --> 00:02:18.760
+a problem here and thank you very much",
+
+37
+00:02:18.760 --> 00:02:21.530
+and you get paid a large consulting fee for having worked out a way of solving things
+
+38
+00:02:21.530 --> 00:02:25.440
+with slight modifications to existing systems and processes.
+
+39
+00:02:25.440 --> 00:02:30.170
+However, more often than not, people will want custom solutions and so then you'll be
+
+40
+00:02:30.170 --> 00:02:34.030
+collaborating with others while using your toolkit of different coding skills and knowledge
+
+41
+00:02:34.030 --> 00:02:35.620
+of different frameworks.
+
+42
+00:02:35.620 --> 00:02:40.290
+Still, the key thing is that you have to get the user stories sorted out up front; sorting
+
+43
+00:02:40.290 --> 00:02:42.830
+out the wheat from the chaff so to speak.
+
+44
+00:02:42.830 --> 00:02:47.130
+You've got to work out what the customer really needs, even when they aren't sure themselves
+
+45
+00:02:47.130 --> 00:02:50.530
+and that's what the process of developing user stories is all about.
+
+46
+00:02:50.530 --> 00:02:52.180
+Then there's user stories versus chores.
+
+47
+00:02:52.180 --> 00:02:57.000
+Chores are bits of infrastructure work that have got to be done; and you need to track
+
+48
+00:02:57.000 --> 00:02:58.830
+and coordinate them.
+
+49
+00:02:58.830 --> 00:03:01.940
+So that's the start of this week: user stories and chores.
+
+50
+00:03:01.940 --> 00:03:05.790
+What we're trying to do here is represent a bit of the flow that you might follow working
+
+51
+00:03:05.790 --> 00:03:10.050
+through a real project, which is for example, on inception, you will be starting with user
+
+52
+00:03:10.050 --> 00:03:11.150
+stories.
+
+53
+00:03:11.150 --> 00:03:14.830
+Then having developed those user stories with the customers and other stakeholders you'd
+
+54
+00:03:14.830 --> 00:03:19.120
+be also realizing "aha these various chores have got to be done too".
+
+55
+00:03:19.120 --> 00:03:23.160
+And then you'll say right okay well we'll put off some of these chores.
+
+56
+00:03:23.160 --> 00:03:27.420
+Here let's just start working on the first two user stories we think that are key for
+
+57
+00:03:27.420 --> 00:03:31.770
+our MVP or Minimum Viable Product.
+
+58
+00:03:31.770 --> 00:03:35.710
+And then you can start work and you might actually start coding with, let's say, Cucumber
+
+59
+00:03:35.710 --> 00:03:40.640
+or RSpec doing an acceptance test and then even getting down to the unit test level.
+
+60
+00:03:40.640 --> 00:03:45.790
+This acceptance-test/unit-test cycle is also very important; this process of getting red
+
+61
+00:03:45.790 --> 00:03:50.560
+acceptance tests, red unit tests and then going green is absolutely key and we'll go
+
+62
+00:03:50.560 --> 00:03:52.930
+through that in more detail this week.
+
+63
+00:03:52.930 --> 00:03:56.610
+It's absolutely essential for quality control.
+
+64
+00:03:56.610 --> 00:03:59.800
+There's also the process of communicating with the team through the codebase itself.
+
+65
+00:03:59.800 --> 00:04:04.540
+I believe, along with Armando and many others, that the documentation is not necessarily
+
+66
+00:04:04.540 --> 00:04:06.700
+worth the paper it's written on.
+
+67
+00:04:06.700 --> 00:04:10.320
+What we want is *live* documentation, which is your acceptance tests and your unit tests
+
+68
+00:04:10.320 --> 00:04:12.740
+that explain what's happening in the system.
+
+69
+00:04:12.740 --> 00:04:17.620
+That's just absolutely essentially and creates documentation that can be verified by running
+
+70
+00:04:17.620 --> 00:04:19.590
+it against the code.
+
+71
+00:04:19.590 --> 00:04:24.150
+So that's important for quality control and communication with the rest of the team.
+
+72
+00:04:24.150 --> 00:04:27.900
+Again whether you're distributed or centralized it doesn't make too much difference,
+
+73
+00:04:27.900 --> 00:04:31.389
+but again I hope you can sense the arrangement of this week's materials reflects the flow
+
+74
+00:04:31.389 --> 00:04:33.500
+you might have in a serious project.
+
+75
+00:04:33.500 --> 00:04:37.509
+Version control then comes in, given that you want to be able to undo people's mistakes
+
+76
+00:04:37.509 --> 00:04:39.490
+(especially your own).
+
+77
+00:04:39.490 --> 00:04:43.699
+Then you further develop the user stories, the acceptance and unit tests etc.
+
+78
+00:04:43.699 --> 00:04:46.500
+Even the user stories themselves should be going into version control.
+
+79
+00:04:46.500 --> 00:04:51.270
+Anyhow, a really good understanding of version control, and how to use distributed version
+
+80
+00:04:51.270 --> 00:04:52.490
+control systems like GitHub
+
+81
+00:04:52.490 --> 00:04:55.500
+(that's systems that allow every team member to have access to the codebase)
+
+82
+00:04:55.500 --> 00:04:58.750
+is absolutely absolutely essential these days.
+
+83
+00:04:58.750 --> 00:05:02.650
+Furthermore, many of us will also be deploying to the cloud, through Git or other version
+
+84
+00:05:02.650 --> 00:05:03.960
+control systems.
+
+85
+00:05:03.960 --> 00:05:08.210
+So once you've got "version one" of your system you'll want to get that up in the cloud.
+
+86
+00:05:08.210 --> 00:05:12.009
+Thus we'll review the Heroku "Platform as a Service" and then finally this other concept
+
+87
+00:05:12.009 --> 00:05:15.759
+which we think is critically important, which is this idea of "spiking".
+
+88
+00:05:15.759 --> 00:05:20.830
+"Spiking" refers to quickly developing a prototype that you're then going to throw away afterwards.
+
+89
+00:05:20.830 --> 00:05:25.199
+I think back in the day as, I say in the actual video itself, that was what everybody did
+
+90
+00:05:25.199 --> 00:05:26.749
+all the time.
+
+91
+00:05:26.749 --> 00:05:30.180
+There were almost no tests and all code was one big spike.
+
+92
+00:05:30.180 --> 00:05:34.539
+You might say shouldn't we avoid that at all costs, but I think it's good to have a name
+
+93
+00:05:34.539 --> 00:05:35.849
+for it.
+
+94
+00:05:35.849 --> 00:05:39.120
+Then when you're talking to members of your team; or as we're talking with students in
+
+95
+00:05:39.120 --> 00:05:42.759
+169 we can talk about "oh right what you were doing there was a bit of a spike".
+
+96
+00:05:42.759 --> 00:05:47.129
+"Now let's stop that and go back and do a really rigorous acceptance-test/unit-test
+
+97
+00:05:47.129 --> 00:05:49.749
+cycle as we move forward"
+
+98
+00:05:49.749 --> 00:05:51.379
+So that's the overview for this week.
+
+99
+00:05:51.379 --> 00:05:55.439
+I hope you find all this of some interest and that they're nice refreshers.
+
+100
+00:05:55.439 --> 00:05:59.229
+Apologies in advance that I haven't been able to re-record all of this week's videos.
+
+101
+00:05:59.229 --> 00:06:02.479
+I have managed to add full transcripts for all of them, which I hope will help make them
+
+102
+00:06:02.479 --> 00:06:04.120
+more comprehensible.
+
+103
+00:06:04.120 --> 00:06:07.879
+As you'll be able to tell, the upcoming videos were recorded somewhat off the cuff and a
+
+104
+00:06:07.879 --> 00:06:08.719
+year or two ago.
+
+105
+00:06:08.719 --> 00:06:13.340
+There are other things I'd like to update, such as to the latest RSpec 3 syntax in the
+
+106
+00:06:13.340 --> 00:06:15.360
+acceptance-test/unit-test video,
+
+107
+00:06:15.360 --> 00:06:19.080
+but I think the concepts are still sufficiently clear and so at the moment I am prioritizing
+
+108
+00:06:19.080 --> 00:06:22.919
+completing subtitles for all the videos in the upcoming weeks.
+
+109
+00:06:22.919 --> 00:06:27.360
+Also in some of these videos, I do go into some live code examples, so those videos do
+
+110
+00:06:27.360 --> 00:06:28.770
+run a bit longer.
+
+111
+00:06:28.770 --> 00:06:32.620
+I think those are valuable in that you can see me making mistakes and recovering from
+
+112
+00:06:32.620 --> 00:06:34.969
+them, which is kind of the core skill.
+
+113
+00:06:34.969 --> 00:06:38.210
+It's really important for learning that we understand making mistakes is natural and
+
+114
+00:06:38.210 --> 00:06:40.960
+human and we all do it, and it is how we learn.
+
+115
+00:06:40.960 --> 00:06:45.629
+Anyhow, please do feel free to watch as much as or as little as you prefer.
+
+116
+00:06:45.629 --> 00:06:49.310
+If you took the course recently and you're working with all these tools and techniques
+
+117
+00:06:49.310 --> 00:06:53.099
+regularly you may say "right, I kind of know this stuff already".
+
+118
+00:06:53.099 --> 00:06:56.499
+Obviously it's entirely up to you whether you watch the videos and do the little quizzes
+
+119
+00:06:56.499 --> 00:06:57.409
+at the end,
+
+120
+00:06:57.409 --> 00:07:01.509
+but what is required if you want to get the certificate is this week's assignment on Github
+
+121
+00:07:01.509 --> 00:07:03.650
+and Heroku and working with Git;
+
+122
+00:07:03.650 --> 00:07:06.409
+just to make sure you're on the tip top of those skills.
+
+123
+00:07:06.409 --> 00:07:11.249
+These are things which I think are very very important; both for working with distributed
+
+124
+00:07:11.249 --> 00:07:13.490
+teams and of course for the ESaaS MOOC.
+
+125
+00:07:13.490 --> 00:07:17.379
+Okay, so, I hope you enjoy this week and I look forward to continue making your acquaintance
+
+126
+00:07:17.379 --> 00:07:20.610
+in the slack chat; it really is great to be meeting so many of you there.
+
+127
+00:07:20.610 --> 00:07:21.710
+Alright bye for now.

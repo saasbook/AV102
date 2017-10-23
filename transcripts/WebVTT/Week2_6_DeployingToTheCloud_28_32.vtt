@@ -1,0 +1,2121 @@
+WEBVTT
+
+0
+00:00:00.329 --> 00:00:03.780
+Hey so let's talk about deploying to the cloud. The cloud!
+
+1
+00:00:03.780 --> 00:00:08.320
+... I'm not sure if I like the term "cloud" ... it's used a lot these days
+
+2
+00:00:08.320 --> 00:00:11.660
+we mean stuff out there, in the internets, in the interwebs ...
+
+3
+00:00:11.660 --> 00:00:15.349
+there are also these two mnemonics I-a-a-S
+
+4
+00:00:15.349 --> 00:00:18.820
+and P-a-a-S or Infrastructure-as-a-Service and Platform-as-a-Service
+
+5
+00:00:18.820 --> 00:00:21.869
+that are really, they are changing the game
+
+6
+00:00:21.869 --> 00:00:25.550
+and they're changing not just the way that people get their software
+
+7
+00:00:25.550 --> 00:00:28.720
+out there and get them to their customers but also how teams
+
+8
+00:00:28.720 --> 00:00:31.939
+collaborate ... what's happening is that it's
+
+9
+00:00:31.939 --> 00:00:35.130
+you know becoming less and less … common to have your own
+
+10
+00:00:35.670 --> 00:00:39.820
+you know - server boxes in your office - actual computers running in your office that
+
+11
+00:00:39.820 --> 00:00:43.600
+host your code. I can remember back in the day when that was
+
+12
+00:00:43.600 --> 00:00:46.329
+you know that was often how it was you know the servers might be a in data center but you'd
+
+13
+00:00:46.329 --> 00:00:46.890
+sort of
+
+14
+00:00:46.890 --> 00:00:49.969
+... you'd have physical access to them
+
+15
+00:00:49.969 --> 00:00:53.710
+and that was sort of the norm when you wanted to get some sort of service
+
+16
+00:00:53.710 --> 00:00:57.039
+make it available to people you know on the web ...
+
+17
+00:00:57.039 --> 00:01:00.760
+or on the internet. You know there are now various companies that offer
+
+18
+00:01:00.760 --> 00:01:03.820
+hosting at different levels of granularity ...
+
+19
+00:01:03.820 --> 00:01:07.689
+you've probably heard these terms as a result of taking the 169 course before
+
+20
+00:01:07.689 --> 00:01:10.770
+... Dave and Armando have talked about that ... Infrastructure-as-a-Service ...
+
+21
+00:01:10.770 --> 00:01:14.170
+a good example of that would be Amazon Web Services which you may well have you may
+
+22
+00:01:14.170 --> 00:01:14.790
+well have done
+
+23
+00:01:14.790 --> 00:01:18.030
+of the assignments for the 169 course
+
+24
+00:01:18.030 --> 00:01:21.640
+on an EC2 instance .. with Amazon ...
+
+25
+00:01:22.220 --> 00:01:26.350
+... and then very likely you will have deployed ...
+
+26
+00:01:26.350 --> 00:01:31.100
+applications to a Platform-as-a-Service such as such as ... Heroku
+
+27
+00:01:31.100 --> 00:01:34.229
+but yeah, let's talk a little bit more about the differences between
+
+28
+00:01:34.810 --> 00:01:38.079
+these two or how they fit into the bigger picture. There are all these
+
+29
+00:01:38.079 --> 00:01:39.810
+different kinds of cloud service models
+
+30
+00:01:39.810 --> 00:01:43.350
+great diagram here that's available on Wikipedia also a great article there
+
+31
+00:01:43.350 --> 00:01:47.090
+that you can read about the differences between these different things
+
+32
+00:01:47.090 --> 00:01:50.090
+we're going to concern ourselves today with Platform-as-a-Service
+
+33
+00:01:50.090 --> 00:01:53.530
+and Infrastructure-as-a-Service. In fact particularly focusing on platform as a
+
+34
+00:01:53.530 --> 00:01:54.000
+service
+
+35
+00:01:54.000 --> 00:01:57.350
+and Heroku which is one example of that in particular
+
+36
+00:01:57.350 --> 00:02:01.119
+which of course many of you will be familiar with already but it's you know great to have a
+
+37
+00:02:01.119 --> 00:02:02.659
+refresher on these things ...
+
+38
+00:02:02.659 --> 00:02:06.280
+one: because it's so useful for distributed teams and also because ... I
+
+39
+00:02:06.280 --> 00:02:07.540
+think it's a key sticking point
+
+40
+00:02:07.540 --> 00:02:11.830
+for students ... in the 169 Engineering Software as a Service course
+
+41
+00:02:11.830 --> 00:02:15.180
+... you can also see we've got, have I got the Kindle edition
+
+42
+00:02:15.180 --> 00:02:19.170
+here ... it's chapter 12 in the the latest in the new
+
+43
+00:02:19.170 --> 00:02:22.170
+1.0 edition has got ...
+
+44
+00:02:22.739 --> 00:02:25.739
+you know  - an overview of this Platform-as-a-Service, Infrastructure-as-a-Service
+
+45
+00:02:25.739 --> 00:02:29.360
+and various other good stuff. So do ... y'know have a read you know
+
+46
+00:02:29.360 --> 00:02:32.800
+reading the chapter ... certainly the beginning of that chapter will go well with -
+
+47
+00:02:33.349 --> 00:02:37.650
+this week's - this week's work … but it's really about
+
+48
+00:02:37.650 --> 00:02:41.040
+... I guess the kind of how low level access
+
+49
+00:02:41.040 --> 00:02:45.540
+you're you're getting.  Infrastructure-as-a-Service gives you more access to the
+
+50
+00:02:45.540 --> 00:02:49.040
+underlying system and then gradually you get less and less as we go up this
+
+51
+00:02:49.040 --> 00:02:52.569
+stack but let's let's talk more about that Infrastructure-as-a-Service
+
+52
+00:02:52.569 --> 00:02:56.450
+or IaaS ... so as admittedly the key
+
+53
+00:02:56.450 --> 00:03:00.099
+difference now is that you don't have access to the hardware, you can't
+
+54
+00:03:00.099 --> 00:03:03.159
+phone up Amazon and say I would like to go and see my server. I mean maybe you can but they will say
+
+55
+00:03:03.159 --> 00:03:04.909
+"No, that's not really part of the deal"
+
+56
+00:03:04.909 --> 00:03:08.489
+what they're offering is you know ... some virtual machine
+
+57
+00:03:08.489 --> 00:03:11.879
+on to which you can deploy things .. not just deploy
+
+58
+00:03:11.879 --> 00:03:14.920
+code but you can actually - you know - choose as as many of you I am sure know
+
+59
+00:03:14.920 --> 00:03:18.650
+you can choose which operating system you want to put - to put in there and
+
+60
+00:03:19.190 --> 00:03:23.190
+you know that's up to you ... to get what you want on it to do what it wants
+
+61
+00:03:23.190 --> 00:03:26.480
+but you know keeping it running keeping it you know fed with power and keeping it at the right
+
+62
+00:03:26.480 --> 00:03:27.040
+temperature
+
+63
+00:03:27.040 --> 00:03:30.459
+you know all the sort of physical things that's now the service that something
+
+64
+00:03:30.459 --> 00:03:31.140
+like Amazon
+
+65
+00:03:31.140 --> 00:03:35.049
+is - is providing and then often you know these Infrastructure-as-a-Service
+
+66
+00:03:35.049 --> 00:03:38.000
+will provides lot of things that you would otherwise have to be bothered with
+
+67
+00:03:38.000 --> 00:03:40.170
+which is sort of like back up of the system
+
+68
+00:03:40.170 --> 00:03:44.230
+... securities, firewalls, load balancing - all … different stuff. You know getting the
+
+69
+00:03:44.230 --> 00:03:47.379
+actually the rights to the software - and so on and so forth and
+
+70
+00:03:47.379 --> 00:03:50.599
+so forth ... and so this is - you know - very convenient
+
+71
+00:03:50.599 --> 00:03:55.040
+... Dave has got you know wonderful examples talking talking about
+
+72
+00:03:55.040 --> 00:03:58.150
+... I forget is it with the FarmVille folks
+
+73
+00:03:58.150 --> 00:04:02.010
+... you know scaling their ... you know scaling through their enormous growth
+
+74
+00:04:02.010 --> 00:04:05.500
+at the beginning using just a credit card account with ... with Amazon
+
+75
+00:04:05.500 --> 00:04:08.989
+so that's - you know - Infrastructure-as-a-Service ...
+
+76
+00:04:08.989 --> 00:04:13.220
+not critical I guess to - to understand
+
+77
+00:04:13.220 --> 00:04:16.459
+Infrastructure as a Service in order to ...
+
+78
+00:04:16.459 --> 00:04:20.620
+you know make it through the 169 a Engineering Software as a Service course
+
+79
+00:04:20.620 --> 00:04:25.160
+... you know if you are using an EC2 instance to - to - to run your version of the
+
+80
+00:04:25.160 --> 00:04:25.740
+virtual machine
+
+81
+00:04:25.740 --> 00:04:29.280
+then yes - that's that's very important but actually you can kind of
+
+82
+00:04:29.280 --> 00:04:33.020
+not worry about it too much. From a distributed team point of view it's very important to
+
+83
+00:04:33.020 --> 00:04:33.650
+understand
+
+84
+00:04:33.650 --> 00:04:37.460
+the difference between ... using something like EC2 or something like Heroku
+
+85
+00:04:37.460 --> 00:04:42.370
+and how - there - you know which ... you know how you should be making a choice between
+
+86
+00:04:42.370 --> 00:04:46.460
+those … those two alternatives ... but the key thing really is the Infrastructure-as-a-Service
+
+87
+00:04:46.460 --> 00:04:47.110
+you've got
+
+88
+00:04:47.110 --> 00:04:50.699
+low-level access you can kind of choose your OS and you can you pretty much y'know
+
+89
+00:04:50.699 --> 00:04:54.070
+build anything you want on there. So there's a lot of flexibility ...
+
+90
+00:04:54.070 --> 00:04:57.419
+but that does mean you know a fair more bit of work.
+
+91
+00:04:57.419 --> 00:05:01.320
+Another alternative is going up another level of abstraction shall we say
+
+92
+00:05:01.320 --> 00:05:05.650
+is to go to Platform-as-a-Service ... like like Heroku or Ninefold or someone
+
+93
+00:05:05.650 --> 00:05:06.270
+like that
+
+94
+00:05:06.270 --> 00:05:11.130
+AppFog I think is another one and so this one it's its the Platform-as-a-Service is kind of built on
+
+95
+00:05:11.850 --> 00:05:15.820
+the Infrastructure-as-a-Service ... but what it critically has it now they've
+
+96
+00:05:15.820 --> 00:05:17.000
+made a decision
+
+97
+00:05:17.000 --> 00:05:20.190
+for you ... about what the operating system is gonna be
+
+98
+00:05:20.190 --> 00:05:23.449
+likely what the database is going to be ... you may have some control over the Runtime
+
+99
+00:05:23.449 --> 00:05:24.039
+Environment
+
+100
+00:05:24.039 --> 00:05:27.740
+... you - you know - and framework but there may be restrictions on which frameworks
+
+101
+00:05:27.740 --> 00:05:32.070
+are available; whether you can use ... Sinatra or Django or Rails or all these
+
+102
+00:05:32.070 --> 00:05:32.500
+different -
+
+103
+00:05:32.500 --> 00:05:35.810
+you know - different - different things but so as
+
+104
+00:05:35.810 --> 00:05:39.930
+many of you will be familiar with from Heroku or other Platform-as-a-Service
+
+105
+00:05:39.930 --> 00:05:44.080
+... you are not at ... you know when you're going into it you are not saying - right - I want to
+
+106
+00:05:44.080 --> 00:05:45.940
+choose to have a Ubuntu or I want to choose to have
+
+107
+00:05:45.940 --> 00:05:49.630
+... you know windows or what have you. You're saying - right -
+
+108
+00:05:49.630 --> 00:05:52.900
+... I've got an app that I've made you know in Rails
+
+109
+00:05:52.900 --> 00:05:56.479
+... is of course the classic one that we did in Engineering Software as a Service
+
+110
+00:05:56.479 --> 00:06:01.590
+and then - all - you know - as well as - as we had in IaaS - as well as you not having to worry
+
+111
+00:06:01.590 --> 00:06:02.710
+so much about
+
+112
+00:06:02.710 --> 00:06:05.930
+the hardware, load balancing, firewalls, security. Although - you know - still -
+
+113
+00:06:05.930 --> 00:06:08.940
+you need to be aware of - you can still, you know, encounter problems at
+
+114
+00:06:09.740 --> 00:06:13.180
+... the higher-level but at a lower-level you don't have to worry about those and
+
+115
+00:06:13.180 --> 00:06:16.319
+now in principle with Platform-as-a-Service you don't have to worry about
+
+116
+00:06:16.319 --> 00:06:19.729
+you know - uh - what was the operating system what was the database. I mean -
+
+117
+00:06:19.729 --> 00:06:22.850
+you know it's sort of set up for you you don't have to set up your own Postgres
+
+118
+00:06:22.850 --> 00:06:26.199
+database ... Heroku will do it for you.
+
+119
+00:06:26.199 --> 00:06:29.490
+We've got a nice diagram here from Franky Boucher
+
+120
+00:06:29.490 --> 00:06:32.800
+... which we've replicated
+
+121
+00:06:32.800 --> 00:06:36.840
+I think it shows you kinda on one side on the left side here
+
+122
+00:06:36.840 --> 00:06:41.110
+we're got Infrastructure-as-a-Service where you need to decide on these things on the top of
+
+123
+00:06:41.110 --> 00:06:43.069
+the stack the middleware, the runtime, the database
+
+124
+00:06:43.069 --> 00:06:46.380
+... but the lower level thing here the operating system, virtualization,
+
+125
+00:06:46.380 --> 00:06:49.449
+... servers, storage and networking is kind of managed by the
+
+126
+00:06:49.449 --> 00:06:52.900
+provider. You may have, be able to choose which operating system you want but they're
+
+127
+00:06:52.900 --> 00:06:55.479
+you know saying what's gonna be available for you and you can see here 'cause of
+
+128
+00:06:55.479 --> 00:06:56.770
+quite clearly because if we look on the
+
+129
+00:06:56.770 --> 00:07:00.150
+right-hand side; is it left right? I always get confused my left and right, but anyway ... yeah blue side
+
+130
+00:07:00.150 --> 00:07:03.319
+left side, Infrastructure-as-a-Service. On the right side got Platform-as-a-
+
+131
+00:07:03.319 --> 00:07:03.919
+Service.
+
+132
+00:07:03.919 --> 00:07:07.620
+So now decisions about the database and the runtime and the middleware
+
+133
+00:07:07.620 --> 00:07:11.120
+are now managed by the provider and you
+
+134
+00:07:11.120 --> 00:07:14.389
+really deal with the data and the applications. So
+
+135
+00:07:14.389 --> 00:07:18.470
+... the advantages of this are that you can focus
+
+136
+00:07:18.470 --> 00:07:21.800
+uh - 100%; maybe should we ... maybe we should say - like - mainly
+
+137
+00:07:22.729 --> 00:07:25.729
+on your application code; because you do have to start being aware of
+
+138
+00:07:26.229 --> 00:07:29.560
+you know issues that affect ... you can focus more
+
+139
+00:07:29.560 --> 00:07:33.360
+let's say that we could focus more on your application code ... rather than on the on
+
+140
+00:07:33.360 --> 00:07:34.300
+the lower-level
+
+141
+00:07:34.300 --> 00:07:38.039
+issues - but what is fantastic is that you can
+
+142
+00:07:38.039 --> 00:07:41.289
+scale up and down the amount of resources that are available to that - to the extent that you've
+
+143
+00:07:41.289 --> 00:07:41.849
+got ...
+
+144
+00:07:41.849 --> 00:07:45.430
+that you can afford to pay for it - and there are other lots of ...
+
+145
+00:07:45.970 --> 00:07:49.039
+infrastructure components that you can add in. This is I think one of the really nice
+
+146
+00:07:49.039 --> 00:07:49.699
+things about
+
+147
+00:07:49.699 --> 00:07:53.840
+about Heroku for your apps is you can add support for additional backups for ...
+
+148
+00:07:53.840 --> 00:07:54.620
+email
+
+149
+00:07:54.620 --> 00:07:58.479
+connections for all sorts of things ... you know for extra logging and this that and
+
+150
+00:07:58.479 --> 00:07:58.979
+the other
+
+151
+00:07:58.979 --> 00:08:02.430
+and there's sort of a plug-and-play you know you need to get set up with let's say New
+
+152
+00:08:02.430 --> 00:08:03.330
+Relic logging
+
+153
+00:08:03.330 --> 00:08:06.550
+... sorry ... New Relic monitoring you know you can do that
+
+154
+00:08:06.550 --> 00:08:09.770
+relatively easily because it's it's already provided
+
+155
+00:08:09.770 --> 00:08:12.900
+in the framework if you want to switch it on. So let's get a bit more
+
+156
+00:08:12.900 --> 00:08:17.610
+into Heroku.  Many of you will already be familiar with Heroku I think they're
+
+157
+00:08:17.610 --> 00:08:20.819
+one of the most venerable Platform-as-a-Service
+
+158
+00:08:20.819 --> 00:08:23.949
+... groups. Advantages ...
+
+159
+00:08:23.949 --> 00:08:26.990
+of them are you know all the advantages that you'd expect
+
+160
+00:08:26.990 --> 00:08:30.830
+from using Platform-as-a-Service I think one of the things that I particularly like is
+
+161
+00:08:30.830 --> 00:08:32.070
+... the ability to
+
+162
+00:08:32.070 --> 00:08:35.070
+deploy those apps using Git ...
+
+163
+00:08:35.700 --> 00:08:40.110
+and that just, you know, makes a lot of sense - you know you've got your
+
+164
+00:08:40.110 --> 00:08:43.719
+versioning system which is saying - right, this is exactly, this is the code
+
+165
+00:08:43.719 --> 00:08:47.149
+that's working! This it the working code! Right let's have that code, let's have the working
+
+166
+00:08:47.149 --> 00:08:47.570
+code
+
+167
+00:08:47.570 --> 00:08:51.080
+on the server running in production for the for the clients ...
+
+168
+00:08:51.080 --> 00:08:55.450
+but it does have, so and you know you can do Git from the command line. You can also do quite - there's a lot of
+
+169
+00:08:55.450 --> 00:08:56.350
+stuff you can do
+
+170
+00:08:56.350 --> 00:08:59.410
+through the the user interface for Heroku
+
+171
+00:08:59.410 --> 00:09:03.640
+and you know and then many things are also accessible both through the
+
+172
+00:09:03.640 --> 00:09:04.589
+command-line interface
+
+173
+00:09:04.589 --> 00:09:08.010
+and the the graphical user interface and we'll see some
+
+174
+00:09:08.010 --> 00:09:11.470
+examples of that shortly but first let's talk about some of the constraints
+
+175
+00:09:11.470 --> 00:09:14.529
+... although ... it the deployment is dead
+
+176
+00:09:14.529 --> 00:09:18.640
+dead simple ... I mean although arguably there are even some services that are even simpler than
+
+177
+00:09:18.640 --> 00:09:21.880
+Heroku ... and the - you know -
+
+178
+00:09:21.880 --> 00:09:25.950
+there's easy scaling. The constraints really is the sort of section is that
+
+179
+00:09:25.950 --> 00:09:29.160
+there's a certain amount of things that you get for free
+
+180
+00:09:29.160 --> 00:09:32.570
+and, you know, what - as long as you're staying within that free tier
+
+181
+00:09:32.570 --> 00:09:36.390
+... you know that's that's a great playground for working out what you want
+
+182
+00:09:36.390 --> 00:09:37.080
+to do
+
+183
+00:09:37.080 --> 00:09:40.810
+... seeing if you're kind of prototypical system that you've built is
+
+184
+00:09:40.810 --> 00:09:44.790
+is working for the customer base for the user base that you imagine
+
+185
+00:09:44.790 --> 00:09:48.899
+... but so once you start to move out of that and you want -
+
+186
+00:09:48.899 --> 00:09:52.730
+you know - logging that goes back further; you want ... you know more bandwidth, you
+
+187
+00:09:52.730 --> 00:09:54.140
+need a bigger database and so on
+
+188
+00:09:54.140 --> 00:09:58.089
+then you are you are going to need ... to start paying some money but ...
+
+189
+00:09:58.089 --> 00:10:01.420
+it's a usually, you know, getting started is gonna be a while
+
+190
+00:10:01.420 --> 00:10:04.790
+before you - hit those limits and you can have established …
+
+191
+00:10:04.790 --> 00:10:08.220
+you know - if your ... if anybody is actually interested in what your - what you're offering
+
+192
+00:10:08.220 --> 00:10:12.519
+before you - before you hit them ... so they, I mean, they have this web-based tool, let's just
+
+193
+00:10:12.519 --> 00:10:13.300
+show you
+
+194
+00:10:13.300 --> 00:10:17.480
+actually my, you know this - this is my Heroku dashboard ... I as a result of
+
+195
+00:10:17.480 --> 00:10:20.750
+y'know doing lots of example deploys for lots of people I have you know all of these
+
+196
+00:10:20.750 --> 00:10:21.200
+different
+
+197
+00:10:21.200 --> 00:10:25.250
+example apps here ... what were we going to talk about here we're gonna
+
+198
+00:10:25.250 --> 00:10:28.670
+... I mean there's you know you can - it's - it's - it's a nice interface to manage
+
+199
+00:10:28.670 --> 00:10:29.200
+things through
+
+200
+00:10:29.200 --> 00:10:32.600
+you can create new apps from there.  I'm more often do that from the command-line
+
+201
+00:10:32.600 --> 00:10:36.649
+... and ... yeah ... have
+
+202
+00:10:36.649 --> 00:10:39.790
+I got … I guess if we go into - let's see -
+
+203
+00:10:39.790 --> 00:10:43.760
+the AgileVentures ... organizations there. We've got some of our develop
+
+204
+00:10:43.760 --> 00:10:47.110
+... websites - I don't know how much we've got but we can have a look at the app
+
+205
+00:10:47.110 --> 00:10:50.160
+… but you can see here for example - I mean you get
+
+206
+00:10:50.160 --> 00:10:54.149
+the Postgres ... you know out of the box so to speak but
+
+207
+00:10:54.149 --> 00:10:57.230
+we've added here the paper trail, so that's a logging app and you can see
+
+208
+00:10:57.899 --> 00:11:00.940
+you know all of the Add-Ons for Heroku
+
+209
+00:11:00.940 --> 00:11:04.130
+you know you get they have free tiers and then they have you know, if you wanna
+
+210
+00:11:04.130 --> 00:11:05.470
+get more and more functionality
+
+211
+00:11:05.470 --> 00:11:09.390
+you can you know pay. So if we click on here and say get Add-Ons
+
+212
+00:11:09.390 --> 00:11:13.779
+we can look for ... you know there's a huge huge load of different Add-Ons
+
+213
+00:11:14.320 --> 00:11:17.610
+that you can used to do just about just about anything really
+
+214
+00:11:17.610 --> 00:11:20.620
+and and this you know the the ability to sort of plug-and-play
+
+215
+00:11:20.620 --> 00:11:24.339
+with all the different bits and pieces the things that you that you need - from
+
+216
+00:11:24.339 --> 00:11:25.089
+backups
+
+217
+00:11:25.089 --> 00:11:28.089
+... you know through extra kind of search thing ...
+
+218
+00:11:28.690 --> 00:11:32.120
+we've got ... I haven't even really scraped
+
+219
+00:11:32.120 --> 00:11:36.709
+the surface.  There's about ... five or ten Add-Ons that we regularly use
+
+220
+00:11:36.709 --> 00:11:39.920
+... in AgileVentures, but ... being able to
+
+221
+00:11:39.920 --> 00:11:43.079
+y'know access that in this fashion is - is very very very powerful
+
+222
+00:11:43.750 --> 00:11:47.200
+... yeah and and so I guess particularly as regards
+
+223
+00:11:47.200 --> 00:11:50.610
+... teams; I mean whether you're a centralized team or a distributed team
+
+224
+00:11:50.610 --> 00:11:54.410
+then the ability to manage your organization through through Heroku
+
+225
+00:11:54.410 --> 00:11:55.810
+so we have our AgileVentures one
+
+226
+00:11:55.810 --> 00:11:58.870
+here ... very very handy you can have - you know
+
+227
+00:11:58.870 --> 00:12:02.889
+give the the team of people access to it but I think particularly
+
+228
+00:12:02.889 --> 00:12:05.709
+... while this is this is very useful for the centralized team it's
+
+229
+00:12:05.709 --> 00:12:07.360
+extraordinarily useful
+
+230
+00:12:07.360 --> 00:12:11.180
+for the distributed team ... who are not in the the same office. I mean
+
+231
+00:12:11.180 --> 00:12:14.310
+back in the day - you know a distributed - if the
+
+232
+00:12:14.310 --> 00:12:17.540
+you know - if you were relying upon physical access to
+
+233
+00:12:17.540 --> 00:12:20.680
+the server which was in one place that was very difficult you would have to
+
+234
+00:12:20.680 --> 00:12:22.010
+have some person there
+
+235
+00:12:22.010 --> 00:12:25.089
+now because we've got a Platform-as-a-Service like Heroku
+
+236
+00:12:25.089 --> 00:12:28.139
+a distributed team like AgileVentures can -
+
+237
+00:12:28.139 --> 00:12:31.410
+you know we can give everybody you know necessarily who needs it
+
+238
+00:12:31.410 --> 00:12:35.769
+access to this team thing. They can be all-round anywhere in the world as long as they've got an internet connection
+
+239
+00:12:35.769 --> 00:12:39.010
+and they can get in here and be saying oh right we need - we want to try out this
+
+240
+00:12:39.010 --> 00:12:40.060
+additional add-on
+
+241
+00:12:40.060 --> 00:12:43.399
+we wanna do this we wanna do that ... it really suddenly
+
+242
+00:12:43.399 --> 00:12:46.410
+makes the distributed team ... much more powerful
+
+243
+00:12:46.410 --> 00:12:50.529
+... and then I mean the flip side of that is you know by, rather than
+
+244
+00:12:50.529 --> 00:12:53.740
+relying upon being in the same office to look over at your colleague's computer and he
+
+245
+00:12:53.740 --> 00:12:55.019
+shows you all this is
+
+246
+00:12:55.019 --> 00:12:58.120
+is working here the process of actually deploying
+
+247
+00:12:58.120 --> 00:13:01.260
+to the to the cloud means that you know you have a endpoint
+
+248
+00:13:01.260 --> 00:13:05.550
+URL that all of your team can look at and they can look at it everywhere in the world. So that's an
+
+249
+00:13:05.550 --> 00:13:09.690
+actually all of your customers, your potential customers and user testing, it's well, I'm getting ahead of myself as
+
+250
+00:13:09.690 --> 00:13:10.540
+I often
+
+251
+00:13:10.540 --> 00:13:13.589
+do ... but yes ... it's the kind of thing
+
+252
+00:13:13.589 --> 00:13:17.779
+all of you will I think be familiar with Heroku to a degree because there were
+
+253
+00:13:17.779 --> 00:13:20.800
+... you know ... there were assignments in the
+
+254
+00:13:20.800 --> 00:13:24.060
+169 course that involved deployment to Heroku but you may have only
+
+255
+00:13:24.060 --> 00:13:25.490
+done it through the command line, you
+
+256
+00:13:25.490 --> 00:13:29.029
+you may not have spent much time exploring the dashboard and the support for
+
+257
+00:13:29.029 --> 00:13:32.170
+organizations and this that and the other - but there's really is a lot there
+
+258
+00:13:32.170 --> 00:13:35.180
+... and very powerful and of course not just with Heroku
+
+259
+00:13:35.180 --> 00:13:38.450
+but there's many other ...
+
+260
+00:13:38.450 --> 00:13:41.740
+good organizations providing a similar Platform-as-a-
+
+261
+00:13:42.850 --> 00:13:45.850
+... service ...
+
+262
+00:13:46.440 --> 00:13:49.720
+offerings and you know they're all busy competing with each other to
+
+263
+00:13:49.720 --> 00:13:52.560
+make the best offering but so the other thing that we can do is we can use
+
+264
+00:13:52.560 --> 00:13:53.519
+the command-line
+
+265
+00:13:53.519 --> 00:13:56.660
+interface to you know create applications we can see
+
+266
+00:13:57.269 --> 00:14:01.750
+that I've busily had lotsa fun creating I mean I need to go through and clear these out
+
+267
+00:14:02.380 --> 00:14:05.730
+but very very ... it's so easy and perhaps too easy
+
+268
+00:14:05.730 --> 00:14:09.320
+to create and rename your apps
+
+269
+00:14:09.320 --> 00:14:12.480
+you can take backups, you can configure the add-ons from the ...
+
+270
+00:14:12.480 --> 00:14:13.139
+database
+
+271
+00:14:13.139 --> 00:14:16.199
+... and you can also get an interactive shell
+
+272
+00:14:16.199 --> 00:14:19.339
+into your application as I think you may have seen in the ...
+
+273
+00:14:20.589 --> 00:14:24.310
+169 course but so you know if you if you haven't signed up for
+
+274
+00:14:24.310 --> 00:14:27.959
+Heroku, it's free, you know ... that's a great way to get started
+
+275
+00:14:27.959 --> 00:14:31.310
+I guess what I'm gonna do is just run through ...
+
+276
+00:14:31.310 --> 00:14:34.730
+kinda I guess outside the context of 169 I mean - you know - this - you may already be
+
+277
+00:14:34.730 --> 00:14:35.699
+familiar with this
+
+278
+00:14:35.699 --> 00:14:39.470
+... let's let's just see how relatively straightforward it all is
+
+279
+00:14:39.470 --> 00:14:42.610
+to get a little quick Ruby on Rails app ... up
+
+280
+00:14:42.610 --> 00:14:46.010
+onto ... onto Heroku ... and then also
+
+281
+00:14:46.010 --> 00:14:49.560
+talk about some of the common issues that can come up, the blockages, I think particularly that
+
+282
+00:14:49.560 --> 00:14:50.199
+effect
+
+283
+00:14:50.199 --> 00:14:54.160
+... students and so on but I've got what've I got going here, I've got
+
+284
+00:14:54.160 --> 00:14:57.160
+... I've got a little, I'm in my little directory here
+
+285
+00:14:57.699 --> 00:15:02.070
+so let's have "rails new" and shall we call it let's call this
+
+286
+00:15:02.070 --> 00:15:05.199
+... this ... managing distributed teams
+
+287
+00:15:05.199 --> 00:15:08.630
+MDT; managing distributed teams app so there
+
+288
+00:15:08.630 --> 00:15:13.860
+and we're going to get our little rails app created. You can you can do this I mean
+
+289
+00:15:13.860 --> 00:15:18.199
+in some ways arguably doing this with ... Sinatra is a more straightforward and then we'll go and do
+
+290
+00:15:18.769 --> 00:15:22.709
+the bundle install in the background. Hopefully my network connection is fast enough
+
+291
+00:15:22.709 --> 00:15:26.019
+to make that ... not too ...
+
+292
+00:15:26.019 --> 00:15:29.279
+cumbersome. So let's just sort of talk about the other things that we're going to be doing. What I would do next
+
+293
+00:15:29.279 --> 00:15:32.730
+is I would ... jump into my app directory make sure that the
+
+294
+00:15:32.730 --> 00:15:35.730
+Heroku Gem is installed and then - this is the kind of key thing
+
+295
+00:15:36.259 --> 00:15:40.130
+is about - we would use git to deploy into the - into the cloud
+
+296
+00:15:40.130 --> 00:15:43.519
+and ... probably through doing the 169 course you've sort of become -
+
+297
+00:15:43.519 --> 00:15:46.759
+sort of approximately familiar with this - but I think this is one of the most
+
+298
+00:15:46.759 --> 00:15:48.560
+fascinating things.  Actually the the best
+
+299
+00:15:48.560 --> 00:15:52.370
+I shall just go and grab the diagram; this is the the Coursera Startup Engineering
+
+300
+00:15:52.370 --> 00:15:55.279
+... course had a fantastic diagram which I think is yet to be matched in the
+
+301
+00:15:55.279 --> 00:15:56.550
+diagrams that I've seen
+
+302
+00:15:56.550 --> 00:15:59.660
+that show the relationship - actually here between this is
+
+303
+00:15:59.660 --> 00:16:03.980
+Infrastructure-as-a-Service, Platform-as-a-Service and and Git and so on.
+
+304
+00:16:04.500 --> 00:16:07.610
+And so ... specifically in the
+
+305
+00:16:07.610 --> 00:16:10.639
+Startup Engineering course on Coursera which I highly recommend by the way
+
+306
+00:16:10.639 --> 00:16:13.769
+... they were sort of specifying - you know -
+
+307
+00:16:13.769 --> 00:16:16.920
+everyone should use the EC2. They didn't distribute a virtual machine
+
+308
+00:16:16.920 --> 00:16:20.829
+in quite the same way ... but so this model would be if you were working
+
+309
+00:16:20.829 --> 00:16:25.070
+on EC2 for the 169 course this will be the same sort of set up. So you have
+
+310
+00:16:25.070 --> 00:16:25.829
+your
+
+311
+00:16:25.829 --> 00:16:29.019
+personal laptop your SSH-ing into
+
+312
+00:16:29.019 --> 00:16:32.350
+the box that you have in the cloud from Amazon
+
+313
+00:16:32.350 --> 00:16:35.810
+and you know so you're interacting with that remotely
+
+314
+00:16:35.810 --> 00:16:39.759
+and then you're, you know, developing some code you're pushing it to GitHub and
+
+315
+00:16:39.759 --> 00:16:41.850
+storing it and or pulling it back as necessary
+
+316
+00:16:41.850 --> 00:16:45.190
+... once you've got it working you know on your
+
+317
+00:16:45.190 --> 00:16:48.959
+Infrastructure-as-a-Service, Amazon EC2 box you could then push it to Heroku
+
+318
+00:16:48.959 --> 00:16:53.110
+... using git again and it ends up you know at some end point that you're
+
+319
+00:16:53.110 --> 00:16:56.610
+user can - can browse to ... the
+
+320
+00:16:56.610 --> 00:16:59.880
+situation if you actually doing things on the machine as I'm gonna do them directly
+
+321
+00:17:00.420 --> 00:17:03.529
+now myself then you know the Amazon Infrastructure-as-a-Service
+
+322
+00:17:03.529 --> 00:17:07.929
+component is not there and this diagram becomes a little
+
+323
+00:17:07.929 --> 00:17:11.510
+simpler. I still think this is one of the best diagrams that I've seen so far and
+
+324
+00:17:11.510 --> 00:17:14.589
+maybe one day we'll work out how to make great diagrams like that; but
+
+325
+00:17:15.110 --> 00:17:18.510
+let's go and see what's happening over here so we've got all of our ...
+
+326
+00:17:18.510 --> 00:17:21.890
+all of our libraries have been installed with bundle now
+
+327
+00:17:21.890 --> 00:17:25.740
+if we're gonna go into managing distributed teams. We've got our new managing distributed teams
+
+328
+00:17:25.740 --> 00:17:29.059
+app ... lets do gem install
+
+329
+00:17:29.059 --> 00:17:32.510
+heroku. I don't know that that's actually a critical
+
+330
+00:17:32.510 --> 00:17:36.440
+thing here that we need to have it; but we certainly do need to do …
+
+331
+00:17:36.440 --> 00:17:39.860
+I'll put that into the background there for the moment ...
+
+332
+00:17:39.860 --> 00:17:42.220
+- did that, did you not like being put in the background?
+
+333
+00:17:42.220 --> 00:17:43.049
+background
+
+334
+00:17:43.049 --> 00:17:47.130
+mmm - we'll see what happens there. Let's
+
+335
+00:17:47.130 --> 00:17:50.130
+do 'git init' there ... and
+
+336
+00:17:50.130 --> 00:17:53.620
+yeah, we'll just add there you go, you see it's got the gem installed there
+
+337
+00:17:53.620 --> 00:17:56.690
+... I think I had it already weee!
+
+338
+00:17:56.690 --> 00:17:59.690
+things are happening in the background wohoo okay all right
+
+339
+00:18:00.210 --> 00:18:03.360
+so 'git' and then I'm going to do add 'dot' that's - that's
+
+340
+00:18:03.360 --> 00:18:06.480
+you can see the command there - so we're going to git add stuff; let's look at
+
+341
+00:18:06.480 --> 00:18:07.620
+'git status'
+
+342
+00:18:07.620 --> 00:18:11.970
+and see what's going on again, and is there lots of things going on?
+
+343
+00:18:11.970 --> 00:18:15.559
+all rights so we've got you know all the files because we want to be somewhat
+
+344
+00:18:15.559 --> 00:18:16.309
+selective
+
+345
+00:18:16.309 --> 00:18:19.650
+about which files we were putting in for a Rails app but just in the interest of
+
+346
+00:18:19.650 --> 00:18:23.120
+speed lets ... just get this
+
+347
+00:18:23.120 --> 00:18:26.410
+going as 'git commit
+
+348
+00:18:26.410 --> 00:18:29.490
+minus m ... initial commit'
+
+349
+00:18:30.390 --> 00:18:33.650
+so I've just created a little Rails app there ...
+
+350
+00:18:33.650 --> 00:18:36.840
+now we could go ahead and I guess the idea
+
+351
+00:18:36.840 --> 00:18:40.360
+is to generate a little scaffold we've got here from the Rails command line you can
+
+352
+00:18:40.870 --> 00:18:43.870
+generate things.  Let's imagine, oh I don't know
+
+353
+00:18:44.760 --> 00:18:49.539
+the ... let's imagine that we ... you know we just sort of create a very simple
+
+354
+00:18:49.539 --> 00:18:54.059
+a simple app so this ... scaffolding will create the views and the
+
+355
+00:18:54.059 --> 00:18:55.660
+templates and this that and the other for us
+
+356
+00:18:55.660 --> 00:18:59.470
+... I guess shall I just use the example of the high score? I'm kind of struggling with ooh I should
+
+357
+00:18:59.470 --> 00:19:02.720
+make something up, something relevant to managing distributed teams, but imagine that it's a
+
+358
+00:19:02.720 --> 00:19:04.250
+high score for
+
+359
+00:19:04.250 --> 00:19:07.630
+you know let's call it for the team; it's a the high score; there you go, let's
+
+360
+00:19:07.630 --> 00:19:08.610
+have team there
+
+361
+00:19:08.610 --> 00:19:11.820
+So by generating the scaffold ... we're gonna put
+
+362
+00:19:12.400 --> 00:19:15.400
+you know a lot of little bits and pieces that we need in place
+
+363
+00:19:15.400 --> 00:19:18.549
+we can ... just locally if I do rake
+
+364
+00:19:18.549 --> 00:19:21.580
+db:migrate
+
+365
+00:19:21.580 --> 00:19:25.570
+let's see if it will just sort that out for me? Yep so we've got a little something in there, and
+
+366
+00:19:25.570 --> 00:19:28.870
+if I do "rails s" then, and this is gonna be very familiar
+
+367
+00:19:28.870 --> 00:19:32.580
+... well at least you may not have seen the scaffold but if we now just go to
+
+368
+00:19:32.580 --> 00:19:36.880
+localhost three thousand and what did we do, did we call it?
+
+369
+00:19:37.450 --> 00:19:40.580
+team? Are we now going to have a teams thing there? There we go oops
+
+370
+00:19:40.580 --> 00:19:43.679
+we haven't got oh what are they called? ah, they are called high scores okay ...
+
+371
+00:19:43.679 --> 00:19:46.679
+high scores like so
+
+372
+00:19:46.679 --> 00:19:50.150
+and there we go so you have a new high score or team and they are called
+
+373
+00:19:50.150 --> 00:19:53.150
+the west coast team and they have a score of 100 and
+
+374
+00:19:53.650 --> 00:19:56.730
+create high score and now we have some
+
+375
+00:19:56.730 --> 00:20:01.169
+scores. So you know the scaffold's rather boring but it's got you know basic
+
+376
+00:20:01.169 --> 00:20:04.539
+functionality in there for a Rails app I think it's always ... I mean some people don't like
+
+377
+00:20:04.539 --> 00:20:05.860
+the scaffolding. Is it too much magic
+
+378
+00:20:05.860 --> 00:20:09.289
+I always think that was an exciting part of Rails - that you could do that
+
+379
+00:20:09.289 --> 00:20:13.120
+but so now ... what we can do here is we can ...
+
+380
+00:20:13.120 --> 00:20:16.270
+'heroku create' and I will add to my
+
+381
+00:20:16.270 --> 00:20:19.600
+ever-increasing list of random Heroku
+
+382
+00:20:19.600 --> 00:20:23.059
+things. So we've created this one "gentle-beach-2829" like so
+
+383
+00:20:23.059 --> 00:20:27.900
+... and then if we follow on ... I could have given it a special name but I didn't
+
+384
+00:20:27.900 --> 00:20:31.309
+... let's try 'git push heroku master' ...
+
+385
+00:20:31.309 --> 00:20:35.049
+although of course - and I guess I should mention here; so there's
+
+386
+00:20:35.049 --> 00:20:39.850
+often a place where people get tripped up is one: is getting the SSH keys set up
+
+387
+00:20:39.850 --> 00:20:43.230
+to communicate with Heroku. I've got them already set up here on my OSX environment
+
+388
+00:20:43.230 --> 00:20:48.250
+... that's just … you know … it's an area where you may well find in the 169 course
+
+389
+00:20:48.250 --> 00:20:49.460
+that a lot of the students get
+
+390
+00:20:49.460 --> 00:20:53.090
+get stuck ... understanding what's going on there ... we've got ...
+
+391
+00:20:53.090 --> 00:20:56.490
+you know an assignment this week
+
+392
+00:20:56.490 --> 00:20:59.539
+to help you - you know work through that's that's just - you know -
+
+393
+00:20:59.539 --> 00:21:02.990
+... when this is set up correctly it can be incredibly smooth.
+
+394
+00:21:02.990 --> 00:21:05.990
+If it's not set up correctly and you don't have the SSH keys installed and so on
+
+395
+00:21:06.530 --> 00:21:09.630
+it can be a real pain. It could be a real pain ... but so
+
+396
+00:21:09.630 --> 00:21:13.340
+... another thing that ... I think is sort of fundamentally confusing here
+
+397
+00:21:13.340 --> 00:21:16.960
+is so for example here I've created this app; I might be tempted now to do 'git push
+
+398
+00:21:16.960 --> 00:21:21.980
+heroku master' like so but ... if we look if we quickly do a 'git status'
+
+399
+00:21:21.980 --> 00:21:25.049
+we'll see that actually all these parts of the scaffold ...
+
+400
+00:21:25.049 --> 00:21:28.970
+won't have been ...  to be ... are not in my
+
+401
+00:21:28.970 --> 00:21:32.320
+local Git repository and so this is kind of absolutely key here
+
+402
+00:21:32.320 --> 00:21:35.400
+we need to do ... you know get this
+
+403
+00:21:35.400 --> 00:21:38.720
+... scaffold in there. So if I do "git commit -m" and
+
+404
+00:21:38.720 --> 00:21:42.110
+added scaffold like so ... put that in there
+
+405
+00:21:42.789 --> 00:21:46.350
+... you know now this is going to be ... I'm going to actually deploy
+
+406
+00:21:46.350 --> 00:21:50.169
+code that I have working on my system into the cloud ... so if we now
+
+407
+00:21:50.169 --> 00:21:52.330
+try "git remote -v" we can see it's
+
+408
+00:21:52.330 --> 00:21:55.570
+connected up the key ... the "heroku" to
+
+409
+00:21:55.570 --> 00:21:58.770
+... 'gentle beach' there and if I do 'git push
+
+410
+00:21:58.770 --> 00:22:02.049
+heroku master'.  Notice that I'm not using GitHub here at all.  I'm just using my local Git
+
+411
+00:22:02.049 --> 00:22:02.789
+repository
+
+412
+00:22:02.789 --> 00:22:05.840
+and ... using it to communicate with Heroku there ...
+
+413
+00:22:05.840 --> 00:22:09.510
+you could be also pushing it to GitHub but that's a that's another
+
+414
+00:22:09.510 --> 00:22:10.860
+thing. If we just go back to this
+
+415
+00:22:10.860 --> 00:22:14.500
+... diagram here. So in the simplest sense -
+
+416
+00:22:15.360 --> 00:22:19.980
+you know - this side of the diagram over here - can I do it? I can't really select this in the way that I want.
+
+417
+00:22:19.980 --> 00:22:23.679
+But ... the actually you can see in the background there that it is pushing up that little
+
+418
+00:22:23.679 --> 00:22:27.980
+Rails app for me ... in in the simplest version
+
+419
+00:22:27.980 --> 00:22:32.490
+I'm just going from the laptop here and I'm pushing my code to Heroku and I
+
+420
+00:22:32.490 --> 00:22:34.419
+haven't even bothered with GitHub
+
+421
+00:22:34.419 --> 00:22:37.690
+... and then that is gonna you know create an end point
+
+422
+00:22:37.690 --> 00:22:42.850
+of an app that people can get to ... and so oh we didn't, oh no no
+
+423
+00:22:42.850 --> 00:22:46.280
+... we've failed. Okay ...
+
+424
+00:22:48.650 --> 00:22:52.360
+actually it's one of the reasons why ... going with a
+
+425
+00:22:52.360 --> 00:22:55.360
+Sinatra app is easier than going with the Rails app ...
+
+426
+00:22:55.900 --> 00:22:59.370
+I've forgotten to do a couple of simple things which are
+
+427
+00:22:59.370 --> 00:23:03.000
+... all mentioned in the appendix in in the textbook
+
+428
+00:23:03.000 --> 00:23:06.049
+but ... you need to make ... well because Heroku
+
+429
+00:23:06.049 --> 00:23:09.220
+is using a Postgres database instead of SQLite we need to
+
+430
+00:23:09.220 --> 00:23:13.130
+adjust our gem file so that SQLite is
+
+431
+00:23:13.130 --> 00:23:16.940
+in the test and development groups and we've got our Postgres gem
+
+432
+00:23:16.940 --> 00:23:20.450
+installed and then there's also ... we need to you know
+
+433
+00:23:20.450 --> 00:23:24.210
+for the recent stuff on Rails on Heroku
+
+434
+00:23:24.210 --> 00:23:27.320
+we need to sets initialize_on_precompile equal to false
+
+435
+00:23:27.320 --> 00:23:31.770
+and so but these are the kinds of things that can can really ...
+
+436
+00:23:31.770 --> 00:23:35.419
+trip people up its you know and
+
+437
+00:23:35.419 --> 00:23:38.770
+for me I do most of my com ... I'm more often
+
+438
+00:23:39.270 --> 00:23:43.270
+pushing to Heroku with an existing project that all these things are set in rather than doing it with
+
+439
+00:23:43.270 --> 00:23:43.590
+a
+
+440
+00:23:43.590 --> 00:23:47.830
+completely new one ... but so having set those things and of course
+
+441
+00:23:47.830 --> 00:23:51.080
+again ... having adjusted the app so that
+
+442
+00:23:51.080 --> 00:23:54.570
+... I have checked all those changes into my local Git repository
+
+443
+00:23:54.570 --> 00:23:57.960
+I can then successfully push to Heroku - which I've -
+
+444
+00:23:57.960 --> 00:24:01.980
+which I've done ... but then even having done so and if I ...
+
+445
+00:24:01.980 --> 00:24:06.020
+go and grab in the URL that we've got that
+
+446
+00:24:06.020 --> 00:24:10.450
+on we can still run into problems ... like here you'll often see this
+
+447
+00:24:10.450 --> 00:24:10.880
+"we're sorry
+
+448
+00:24:10.880 --> 00:24:14.250
+but something went wrong" but that's to illustrate - you know - then
+
+449
+00:24:14.250 --> 00:24:18.190
+we can run our ... the commands from the command line to do the things that we need, for
+
+450
+00:24:18.190 --> 00:24:18.890
+example
+
+451
+00:24:18.890 --> 00:24:23.059
+like if we were to do there 'heroku run rake db: migrate'
+
+452
+00:24:23.059 --> 00:24:26.730
+... I guess I should have showed you that Heroku logs their
+
+453
+00:24:26.730 --> 00:24:29.940
+... showing - you know ...
+
+454
+00:24:29.940 --> 00:24:33.080
+and this is one of the key things that's challenging for
+
+455
+00:24:33.080 --> 00:24:37.429
+people maybe not necessarily familiar with ... Platform-as-a-Service and so on
+
+456
+00:24:37.429 --> 00:24:40.429
+is the difference between running the integrations on their local machine
+
+457
+00:24:40.940 --> 00:24:44.270
+and running migrations in the cloud ... anyway
+
+458
+00:24:44.270 --> 00:24:48.169
+hopefully this is a refresher for many of you there
+
+459
+00:24:48.169 --> 00:24:51.370
+but so now if we go over to here to our remote
+
+460
+00:24:51.370 --> 00:24:54.370
+system now we have high scores here and we could say
+
+461
+00:24:54.370 --> 00:24:57.640
+team, I don't know, let's say 'East Coast' and give you a score of '100'
+
+462
+00:24:57.640 --> 00:25:01.620
+as well and there we go we now have our Rails app
+
+463
+00:25:01.620 --> 00:25:05.200
+running in the cloud. So you know it like with everything
+
+464
+00:25:05.200 --> 00:25:08.429
+you know just so it can be as easy as that! Often you know
+
+465
+00:25:08.429 --> 00:25:12.250
+even for a relatively experienced Heroku user you can run
+
+466
+00:25:12.250 --> 00:25:15.870
+run into issues with a new app
+
+467
+00:25:15.870 --> 00:25:19.309
+but particularly for people coming in and you know
+
+468
+00:25:19.309 --> 00:25:22.760
+encountering this stuff for the first time I think
+
+469
+00:25:22.760 --> 00:25:25.880
+you know a good conceptual understanding of the difference between
+
+470
+00:25:26.390 --> 00:25:29.820
+you know your software running on the cloud and the software running on your local computer
+
+471
+00:25:29.820 --> 00:25:33.210
+absolutely essential; and we'll have some
+
+472
+00:25:33.210 --> 00:25:36.370
+assignments that hopefully will help with that
+
+473
+00:25:36.370 --> 00:25:39.720
+... and then there's other things so you know the
+
+474
+00:25:39.720 --> 00:25:42.740
+something that can trip people up as a security issue is that you might
+
+475
+00:25:42.740 --> 00:25:46.669
+you want to be using API keys for a service and so on and other secure things.
+
+476
+00:25:46.669 --> 00:25:50.090
+The temptation is, initially right, so we're deploying everything via Git, we need to sort of put that into
+
+477
+00:25:50.090 --> 00:25:52.360
+GitHub and so on ooh I don't know what's going on there
+
+478
+00:25:52.360 --> 00:25:56.840
+... there's an extensive config framework to allow you to set
+
+479
+00:25:56.840 --> 00:26:01.320
+just those ... keys that are necessary in production and so on and so forth
+
+480
+00:26:01.320 --> 00:26:04.659
+but that's just sort of scratching the surface there. It really is the tip of the
+
+481
+00:26:04.659 --> 00:26:05.270
+iceberg
+
+482
+00:26:05.270 --> 00:26:09.520
+... Heroku and Ninefold and other systems like them are very powerful platforms
+
+483
+00:26:09.520 --> 00:26:13.710
+and you know it's sort of through the 169 course you may have
+
+484
+00:26:13.710 --> 00:26:17.700
+only pushed to Heroku once or twice and you know it's not something you necessarily got
+
+485
+00:26:17.700 --> 00:26:18.549
+very familiar with
+
+486
+00:26:18.549 --> 00:26:22.610
+but ... you know ... as a TA for the 169
+
+487
+00:26:22.610 --> 00:26:26.169
+Engineering Software as a Service absolutely
+
+488
+00:26:26.169 --> 00:26:29.330
+you know to getting like that really solid like what's going on with Heroku; you
+
+489
+00:26:29.330 --> 00:26:29.620
+know
+
+490
+00:26:29.620 --> 00:26:33.880
+the ... all the differences you know really helpful because it's kind of something that I
+
+491
+00:26:33.880 --> 00:26:34.630
+think many of the
+
+492
+00:26:34.630 --> 00:26:38.720
+students get can get stuck on. As a developer it's extraordinarily useful
+
+493
+00:26:38.720 --> 00:26:42.710
+you know, particularly in a distributed team where you can't just sort of show the person
+
+494
+00:26:42.710 --> 00:26:45.169
+sitting next to you oh look I've made this new interface.
+
+495
+00:26:45.169 --> 00:26:48.169
+By deploying it to Heroku you can you then get a URL
+
+496
+00:26:48.679 --> 00:26:51.850
+you can immediately ... share that
+
+497
+00:26:51.850 --> 00:26:55.270
+with whoever you know ... and that's just
+
+498
+00:26:55.270 --> 00:26:59.330
+getting feedback on the thing that you've developed is absolutely key. So
+
+499
+00:26:59.330 --> 00:27:02.610
+... you know ... and it's not so much that you
+
+500
+00:27:02.610 --> 00:27:07.470
+are leaving ... I mean ... well I'll say in our AgileVentures projects you know often the
+
+501
+00:27:07.470 --> 00:27:08.690
+person deploying to
+
+502
+00:27:08.690 --> 00:27:12.890
+Heroku will be kind of the team leader ... so you know absolutely essential that the team
+
+503
+00:27:12.890 --> 00:27:13.610
+leader's got
+
+504
+00:27:13.610 --> 00:27:17.600
+good skills there. They're being the person who's the
+
+505
+00:27:17.600 --> 00:27:20.789
+... as it were the guardian to see right all of the different
+
+506
+00:27:20.789 --> 00:27:24.190
+developer submissions they're going through and they're going to go into production right now
+
+507
+00:27:24.190 --> 00:27:27.210
+y'know make sure that they actually get up there on to Heroku ...
+
+508
+00:27:27.210 --> 00:27:30.140
+but the individual developers you know if they want to ... even if they are not
+
+509
+00:27:30.140 --> 00:27:30.960
+necessarily involved
+
+510
+00:27:30.960 --> 00:27:34.370
+in day-to-day with that process they can be putting
+
+511
+00:27:34.370 --> 00:27:38.710
+the - you know spikes - that they do ... we'll talk about those next ... you know features that
+
+512
+00:27:38.710 --> 00:27:40.140
+they worked on, user stories
+
+513
+00:27:40.140 --> 00:27:43.440
+put those up onto their own Heroku instances and share that with the rest the
+
+514
+00:27:43.440 --> 00:27:43.860
+team
+
+515
+00:27:43.860 --> 00:27:46.809
+and - you know wherever they are world they can go and look at them and get
+
+516
+00:27:46.809 --> 00:27:47.470
+feedback on
+
+517
+00:27:47.470 --> 00:27:50.580
+and so on and so forth. So ... yeah I hope this ...
+
+518
+00:27:51.080 --> 00:27:54.110
+you know ... encourages you to try out Platform-as-a-Service
+
+519
+00:27:54.110 --> 00:27:57.549
+... like Heroku if you haven't. If you aren't using it all day everyday anyway, and in
+
+520
+00:27:57.549 --> 00:27:58.370
+which case you know
+
+521
+00:27:58.370 --> 00:28:01.370
+... thank you for taking the time to listen
+
+522
+00:28:01.899 --> 00:28:05.299
+... but do think I even if you are using it all day every day
+
+523
+00:28:05.299 --> 00:28:09.610
+I think that the you know the supporting other team members who are not using
+
+524
+00:28:09.610 --> 00:28:12.330
+so frequently or supporting students who are trying to learn about it
+
+525
+00:28:12.330 --> 00:28:16.950
+kind of ... this ... the conceptual toolkit ... and thinking about where people get stuck
+
+526
+00:28:16.950 --> 00:28:20.360
+with - you know - getting the SSH keys set up
+
+527
+00:28:20.360 --> 00:28:24.480
+and understanding the relationship between Git, Heroku and GitHub and all the little pieces
+
+528
+00:28:24.480 --> 00:28:27.860
+that's you know a clear understanding of that will help you help others
+
+529
+00:28:27.860 --> 00:28:28.039
+Alright

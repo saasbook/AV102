@@ -1,0 +1,545 @@
+WEBVTT
+
+0
+00:00:00.000 --> 00:00:02.000
+So let's talk about managing chores.
+
+1
+00:00:02.000 --> 00:00:05.000
+Now what are chores? … Now, you may - given that you've - um
+
+2
+00:00:05.000 --> 00:00:07.000
+you've seen Pivotal Tracker and you're a
+
+3
+00:00:07.000 --> 00:00:09.000
+bit familiar with Agile development …
+
+4
+00:00:09.000 --> 00:00:11.000
+you've got some idea about about chores …
+
+5
+00:00:11.000 --> 00:00:14.000
+um - the important thing really is to distinguish chores from user stories
+
+6
+00:00:14.000 --> 00:00:16.000
+they're things that …
+
+7
+00:00:16.000 --> 00:00:17.000
+uh-
+
+8
+00:00:17.000 --> 00:00:21.000
+need to be done but they don't provide any direct obvious value to the customer.
+
+9
+00:00:21.000 --> 00:00:22.000
+So typically that's
+
+10
+00:00:22.000 --> 00:00:24.000
+um… you know - essential
+
+11
+00:00:24.000 --> 00:00:27.000
+jobs establishing frameworks or putting support in
+
+12
+00:00:27.000 --> 00:00:30.000
+that - you know - ultimately will support
+
+13
+00:00:30.000 --> 00:00:32.000
+… other - other stories
+
+14
+00:00:32.000 --> 00:00:35.000
+they're kind of just stuff that kind of has to be done
+
+15
+00:00:35.000 --> 00:00:39.000
+... though ultimately you know one wants as many chores as possible to be -
+
+16
+00:00:39.000 --> 00:00:40.000
+to be automated -
+
+17
+00:00:40.000 --> 00:00:43.000
+but that's the kind of ongoing thing of identifying you know where to put the
+
+18
+00:00:43.000 --> 00:00:44.000
+effort in about what to -
+
+19
+00:00:44.000 --> 00:00:45.000
+what to automate.
+
+20
+00:00:45.000 --> 00:00:44.000
+I mean …
+
+21
+00:00:44.000 --> 00:00:47.000
+you know, of course -
+
+22
+00:00:47.000 --> 00:00:48.000
+with the term chores
+
+23
+00:00:48.000 --> 00:00:49.000
+makes it sound like they might be
+
+24
+00:00:49.000 --> 00:00:52.000
+basic or menial jobs but actually they can be
+
+25
+00:00:52.000 --> 00:00:55.000
+very complex and - you know - require as
+
+26
+00:00:55.000 --> 00:00:57.000
+much skill and expertise as implementing
+
+27
+00:00:57.000 --> 00:01:01.000
+you know - a complex … complex feature so
+
+28
+00:01:01.000 --> 00:01:03.000
+you know - you will be at least partially
+
+29
+00:01:03.000 --> 00:01:04.000
+familiar with Pivotal Tracker as a
+
+30
+00:01:04.000 --> 00:01:06.000
+as a result of having done the
+
+31
+00:01:06.000 --> 00:01:08.000
+169 Engineering Software-as-a-Service course …
+
+32
+00:01:08.000 --> 00:01:10.000
+we'll be talking more about - you know -
+
+33
+00:01:10.000 --> 00:01:13.000
+the bigger picture with Pivotal Tracker
+
+34
+00:01:13.000 --> 00:01:16.000
+next week but … let's have a quick look
+
+35
+00:01:16.000 --> 00:01:20.000
+… at some of the … um … autumn projects here from Agile Ventures
+
+36
+00:01:20.000 --> 00:01:22.000
+these are all open and public
+
+37
+00:01:22.000 --> 00:01:24.000
+and you can go to them and see
+
+38
+00:01:24.000 --> 00:01:26.000
+you know - a real - a real project working there
+
+39
+00:01:26.000 --> 00:01:29.000
+but so we can see how for example here in the current thing we've got
+
+40
+00:01:29.000 --> 00:01:31.000
+um … you know -
+
+41
+00:01:31.000 --> 00:01:33.000
+there was a chore there to fix some broken domain name stuff
+
+42
+00:01:33.000 --> 00:01:34.000
+there was a domain name issue
+
+43
+00:01:34.000 --> 00:01:35.000
+uh-
+
+44
+00:01:35.000 --> 00:01:37.000
+that - that was previously working - it broke.
+
+45
+00:01:37.000 --> 00:01:40.000
+I mean it's - you know - arguably the customer
+
+46
+00:01:41.000 --> 00:01:44.000
+must have the … their - their site working in the
+
+47
+00:01:44.000 --> 00:01:47.000
+right location but - you know -
+
+48
+00:01:47.000 --> 00:01:50.000
+see, you could - sort of - all these things … - sort of
+
+49
+00:01:50.000 --> 00:01:53.000
+as long as you're a team is using a
+
+50
+00:01:53.000 --> 00:01:55.000
+consistent … metric for establishing that
+
+51
+00:01:55.000 --> 00:01:56.000
+this is what's going to be a chore and what's going to be a bug
+
+52
+00:01:56.000 --> 00:01:59.000
+we could have called that a bug rather than a chore
+
+53
+00:02:00.000 --> 00:02:03.000
+but often - if we have a look at some of the other bits & pieces -
+
+54
+00:02:03.000 --> 00:02:04.000
+- and now will that not go away?
+
+55
+00:02:04.000 --> 00:02:05.000
+go on …
+
+56
+00:02:05.000 --> 00:02:10.000
+uh- if we go back here
+
+57
+00:02:10.000 --> 00:02:12.000
+we can see that, for example,
+
+58
+00:02:12.000 --> 00:02:14.000
+adding code climate integration
+
+59
+00:02:14.000 --> 00:02:16.000
+into into the system - you know - in order
+
+60
+00:02:16.000 --> 00:02:18.000
+to check, because of code metrics,
+
+61
+00:02:18.000 --> 00:02:20.000
+automatically against pull requests …
+
+62
+00:02:20.000 --> 00:02:22.000
+that's something that the - you know -
+
+63
+00:02:22.000 --> 00:02:24.000
+the customer is not going to ask for - but it's going to be kinda
+
+64
+00:02:24.000 --> 00:02:26.000
+useful for the development team
+
+65
+00:02:26.000 --> 00:02:28.000
+and we'd like to have … going on …
+
+66
+00:02:28.000 --> 00:02:32.000
+So that's - that's a good example of a - of a chore.
+
+67
+00:02:32.000 --> 00:02:34.000
+The interesting thing is the impact of chores …
+
+68
+00:02:34.000 --> 00:02:36.000
+… they kind of have a
+
+69
+00:02:36.000 --> 00:02:39.000
+negative effect on the business -
+
+70
+00:02:38.000 --> 00:02:39.000
+business value output
+
+71
+00:02:39.000 --> 00:02:43.000
+and they're reducing velocity … they're not usually assigned points -
+
+72
+00:02:43.000 --> 00:02:45.000
+they're things that have got to be
+
+73
+00:02:45.000 --> 00:02:47.000
+done. You might be tempted,
+
+74
+00:02:47.000 --> 00:02:49.000
+and people often are, to say
+
+75
+00:02:49.000 --> 00:02:52.000
+"Well you know this is going to take - you know - what?
+
+76
+00:02:52.000 --> 00:02:56.000
+One or two points?" to sort of … you want to estimate
+
+77
+00:02:57.000 --> 00:03:00.000
+how long they're going to take - but
+
+78
+00:03:00.000 --> 00:03:04.000
+Pivotal and others strongly recommend against doing that.
+
+79
+00:03:04.000 --> 00:03:06.000
+It's sort of - they just sort of - it's part of the cost of -
+
+80
+00:03:06.000 --> 00:03:08.000
+of being in business … and so -
+
+81
+00:03:08.000 --> 00:03:09.000
+you know -
+
+82
+00:03:09.000 --> 00:03:11.000
+the time that it takes to get those chores done -
+
+83
+00:03:11.000 --> 00:03:14.000
+along with the the features is kind of …
+
+84
+00:03:14.000 --> 00:03:16.000
+ends up - you know - helping with the … the uh …
+
+85
+00:03:16.000 --> 00:03:18.000
+velocity calculation … but
+
+86
+00:03:18.000 --> 00:03:23.000
+more on that when we come to it next next week.
+
+87
+00:03:23.000 --> 00:03:26.000
+Uh, yeah - they can also represent
+
+88
+00:03:26.000 --> 00:03:29.000
+you know - code debt, sort of refactoring needs to be done,
+
+89
+00:03:29.000 --> 00:03:30.000
+you know - points of dependency on other teams.
+
+90
+00:03:32.000 --> 00:03:34.000
+You don't necessarily know in advance what your chores are going to be -
+
+91
+00:03:34.000 --> 00:03:36.000
+they sort of you know just come up each week
+
+92
+00:03:36.000 --> 00:03:38.000
+and … uh - sort keeping it …
+
+93
+00:03:38.000 --> 00:03:40.000
+it's very important to keep a track of
+
+94
+00:03:40.000 --> 00:03:42.000
+all these things that need to be done as well as the things
+
+95
+00:03:42.000 --> 00:03:43.000
+that uh … you know -
+
+96
+00:03:43.000 --> 00:03:45.000
+the user stories that have real business value
+
+97
+00:03:45.000 --> 00:03:46.000
+and …
+
+98
+00:03:46.000 --> 00:03:48.000
+get - to a certain extent
+
+99
+00:03:48.000 --> 00:03:50.000
+the automatic velocity of calculation can -
+
+100
+00:03:50.000 --> 00:03:52.000
+can free you up from having to worry about -
+
+101
+00:03:52.000 --> 00:03:54.000
+about you know exactly how much …
+
+102
+00:03:54.000 --> 00:03:58.000
+they - they take up in terms of resources, time spent …
+
+103
+00:03:58.000 --> 00:04:02.000
+um, so - they can you know they can be high priority
+
+104
+00:04:02.000 --> 00:04:03.000
+um - it can be that a critical chore
+
+105
+00:04:03.000 --> 00:04:04.000
+you know, with a bit of infrastructure
+
+106
+00:04:04.000 --> 00:04:06.000
+has to be done in order
+
+107
+00:04:06.000 --> 00:04:08.000
+to support some of the some of the story
+
+108
+00:04:08.000 --> 00:04:11.000
+maybe multiple stories - multiple teams even …
+
+109
+00:04:11.000 --> 00:04:12.000
+and so,
+
+110
+00:04:12.000 --> 00:04:16.000
+you know - coordinating, getting these done, is - is important …
+
+111
+00:04:16.000 --> 00:04:18.000
+um… and it's … you know - that's where
+
+112
+00:04:18.000 --> 00:04:21.000
+in systems like Tracker
+
+113
+00:04:21.000 --> 00:04:22.000
+where you can reorder things
+
+114
+00:04:22.000 --> 00:04:24.000
+and put things into one sprint or another
+
+115
+00:04:24.000 --> 00:04:28.000
+um … is - is very useful … but the key thing here
+
+116
+00:04:28.000 --> 00:04:31.000
+really, for - you know -
+
+117
+00:04:31.000 --> 00:04:34.000
+individuals, centralized teams, distributed teams,
+
+118
+00:04:34.000 --> 00:04:37.000
+is, you know - remembering these things need to be done
+
+119
+00:04:37.000 --> 00:04:39.000
+… kind of, distinguishing, in your mind
+
+120
+00:04:39.000 --> 00:04:40.000
+from the -
+
+121
+00:04:40.000 --> 00:04:42.000
+the high-level user stories that then are
+
+122
+00:04:43.000 --> 00:04:45.000
+really driving business value and,
+
+123
+00:04:45.000 --> 00:04:48.000
+you know - choosing out those things that need to be chores
+
+124
+00:04:48.000 --> 00:04:51.000
+but that's something - again, I think - you know - continually using
+
+125
+00:04:51.000 --> 00:04:54.000
+systems like Pivotal where all of the work you're doing
+
+126
+00:04:54.000 --> 00:04:55.000
+is being broken into
+
+127
+00:04:55.000 --> 00:04:58.000
+uh … you know - high-level user stories,
+
+128
+00:04:58.000 --> 00:05:01.000
+chores, bugs … and so forth
+
+129
+00:05:01.000 --> 00:05:02.000
+is definitely the way to go.
+
+130
+00:05:02.000 --> 00:05:05.000
+We don't make as much use, I think, as we should do
+
+131
+00:05:05.000 --> 00:05:08.000
+of releases … it's partly, you know - it's just,
+
+132
+00:05:08.000 --> 00:05:11.000
+these open source projects for non-profit organizations
+
+133
+00:05:11.000 --> 00:05:12.000
+are slightly slower -
+
+134
+00:05:12.000 --> 00:05:15.000
+slower paced … but yes -
+
+135
+00:05:15.000 --> 00:05:19.000
+understanding chores … uh - very important!

@@ -1,0 +1,490 @@
+WEBVTT
+
+0
+00:00:00.000 --> 00:00:05.160
+so I'd say that some the concept of the user story there is one of the key
+
+1
+00:00:05.160 --> 00:00:10.019
+things that comes out of the engineers offers service cause i think is a key a
+
+2
+00:00:10.019 --> 00:00:14.610
+software engineering concept and i think it's you know imported i bleep up next
+
+3
+00:00:14.610 --> 00:00:19.859
+to here in his first so what is a user story the idea and you'll be familiar
+
+4
+00:00:19.859 --> 00:00:26.070
+with these as they occurred in the in the main MOOC but the idea you know for
+
+5
+00:00:26.070 --> 00:00:30.330
+it to recap is that they should be short simple people focused our stakeholders
+
+6
+00:00:30.330 --> 00:00:34.260
+we also call them and business focus so for example as a manager of a consulting
+
+7
+00:00:34.260 --> 00:00:38.879
+company in order to build my clients accurately I want to track employee time
+
+8
+00:00:38.879 --> 00:00:43.440
+it's broken up into these this is a very standard sort of thing and why do we
+
+9
+00:00:43.440 --> 00:00:48.750
+need the user stories partly because you know we need to encourage participation
+
+10
+00:00:48.750 --> 00:00:54.500
+among stakeholders I see and there's some people who feel the value of these
+
+11
+00:00:54.500 --> 00:01:00.449
+well I guess it's not so much that I think some people argue with within
+
+12
+00:01:00.449 --> 00:01:04.739
+things like cucumber which then takes the user stories and breaks them into
+
+13
+00:01:04.739 --> 00:01:08.909
+these scenarios and there's an argument to say that they're you know the clients
+
+14
+00:01:08.909 --> 00:01:12.180
+never going to read those but i think the clients are often quite interested
+
+15
+00:01:12.180 --> 00:01:18.540
+in getting involved at this level at the user story having this you know having
+
+16
+00:01:18.540 --> 00:01:21.630
+the different kinds of stakeholders involved in writing out these user
+
+17
+00:01:21.630 --> 00:01:25.950
+stories really i think that the the key thing prep for any project before you
+
+18
+00:01:25.950 --> 00:01:29.340
+write any to a coat or you even choose your framework or what have you is you
+
+19
+00:01:29.340 --> 00:01:33.840
+work out what are the needs for the system that you're building and if you
+
+20
+00:01:33.840 --> 00:01:38.630
+haven't worked that out you haven't got that straight then you know there's just
+
+21
+00:01:38.630 --> 00:01:43.740
+you know you got your sort of wandering around in the dark really so you know
+
+22
+00:01:43.740 --> 00:01:46.619
+closely tying the you know the requirements the business needs
+
+23
+00:01:46.619 --> 00:01:50.790
+absolutely essential and they end up performing the basis for the for the
+
+24
+00:01:50.790 --> 00:01:56.430
+exception testing as we'll see shortly we talked about some cucumber and our
+
+25
+00:01:56.430 --> 00:02:02.790
+spec and so on the again i mean i think the particular value that we see for
+
+26
+00:02:02.790 --> 00:02:06.990
+these i think i think for both centralized or decentralized distributed
+
+27
+00:02:06.990 --> 00:02:13.920
+teams is having a language description of the hi Louise story
+
+28
+00:02:13.920 --> 00:02:18.480
+as something so you know what when we work on understanding who it is what
+
+29
+00:02:18.480 --> 00:02:21.930
+wants what and why it has business values is just absolutely critical for
+
+30
+00:02:21.930 --> 00:02:28.290
+getting a run on the same page and I think particularly in a you know many
+
+31
+00:02:28.290 --> 00:02:31.560
+different developers from all the world different backgrounds coming in having
+
+32
+00:02:31.560 --> 00:02:35.250
+those acceptance tests as well written out based on the user stories and so
+
+33
+00:02:35.250 --> 00:02:41.340
+that you then have ideally declarative cucumber stories describing you know
+
+34
+00:02:41.340 --> 00:02:46.410
+what's going on even if you never show those to the customer the you know
+
+35
+00:02:46.410 --> 00:02:50.250
+between the developers you know who have different levels of experience with you
+
+36
+00:02:50.250 --> 00:02:53.459
+know whatever low-level coding it's just nice for them to have an English
+
+37
+00:02:53.459 --> 00:02:57.569
+narrative description so they can all be clear that they're on DM the same page
+
+38
+00:02:57.569 --> 00:03:03.930
+so you know the risk on extra format as David amala mondo presented in the main
+
+39
+00:03:03.930 --> 00:03:08.970
+course you know as some stakeholder so that I can you know achieve numbers need
+
+40
+00:03:08.970 --> 00:03:11.970
+I want to be able to you know do this particular kind of thing on that to
+
+41
+00:03:11.970 --> 00:03:15.840
+ended up being your kind of feature request that you have there you know
+
+42
+00:03:15.840 --> 00:03:23.790
+ideal it the the surahs are smart little coverage of that in the textbook with us
+
+43
+00:03:23.790 --> 00:03:31.200
+you know be them being specific achievable relevant who's got something
+
+44
+00:03:31.200 --> 00:03:37.260
+we gotta jet they took them in different SMA irrelevant and time boxed so you
+
+45
+00:03:37.260 --> 00:03:40.739
+know this is I mean this is another sort of neck that comes over time is sort of
+
+46
+00:03:40.739 --> 00:03:45.600
+working out these these user stories I think we have a particular trouble in
+
+47
+00:03:45.600 --> 00:03:49.650
+our products with them with time boxing them things often tend to get a bit a
+
+48
+00:03:49.650 --> 00:03:55.680
+bit open ended but yes definitely do read chapter seven again onto I think I
+
+49
+00:03:55.680 --> 00:03:59.130
+mean some ways I would almost argue that this is this is sort of the entry point
+
+50
+00:03:59.130 --> 00:04:04.739
+I mean there's you know in some ways to understand cucumber perhaps you need you
+
+51
+00:04:04.739 --> 00:04:08.880
+know the grass on the standing of different on the testing and Ruby and so
+
+52
+00:04:08.880 --> 00:04:12.299
+on but whenever you're sort of starting a new project this is this is the place
+
+53
+00:04:12.299 --> 00:04:15.690
+where you come in come in with the user stories your own coming with you know
+
+54
+00:04:15.690 --> 00:04:19.410
+various Ruby code you write come in with some smot some user stories and so
+
+55
+00:04:19.410 --> 00:04:23.960
+that's you know at the top level that's why we're starting this was going here
+
+56
+00:04:23.960 --> 00:04:28.060
+so you know what's not at user story you've
+
+57
+00:04:28.060 --> 00:04:32.710
+got a little technical issues and chores I've attempt to rappers you get a bugs
+
+58
+00:04:32.710 --> 00:04:37.030
+getting documentation done although you know so plugging kids documented code
+
+59
+00:04:37.030 --> 00:04:41.169
+that's important and you know features about business needs I mean that this is
+
+60
+00:04:41.169 --> 00:04:44.650
+you know the key thing you know there's many things that have to be done in
+
+61
+00:04:44.650 --> 00:04:48.090
+order the project forward and get something else the key thing is that you
+
+62
+00:04:48.090 --> 00:04:53.139
+you know have to work out which are those small set of things that are going
+
+63
+00:04:53.139 --> 00:04:56.980
+to really meet business needs and then work out from those the even smaller
+
+64
+00:04:56.980 --> 00:05:03.389
+stuff that's going to be your MVP or your minimum viable product but so the
+
+65
+00:05:03.389 --> 00:05:07.570
+the five wise are a technique that I think they've already presented is a
+
+66
+00:05:07.570 --> 00:05:12.580
+little bit refresher for everyone you know the user story should be able to
+
+67
+00:05:12.580 --> 00:05:15.970
+reach you know solid business value in five wise so for example about different
+
+68
+00:05:15.970 --> 00:05:19.810
+user story in order display my products as an online retailer I want to have a
+
+69
+00:05:19.810 --> 00:05:24.790
+catalog on my website and so we might ask why do you want to include the
+
+70
+00:05:24.790 --> 00:05:28.960
+catalog on your website and the answer is so we think this customer can see all
+
+71
+00:05:28.960 --> 00:05:31.960
+the varieties but the products and why should the customer see all the
+
+72
+00:05:31.960 --> 00:05:36.490
+varieties of the products and if we move down there it's a bit of choice and why
+
+73
+00:05:36.490 --> 00:05:40.000
+do you want happen to be the choice they're more likely to buy if they they
+
+74
+00:05:40.000 --> 00:05:43.479
+find what they want and what you want but why you wanted to buy any things I
+
+75
+00:05:43.479 --> 00:05:46.510
+can make money why do you wanna make money they don't you feel does this
+
+76
+00:05:46.510 --> 00:05:49.660
+although of course you know that you shouldn't exclude the idea that that is
+
+77
+00:05:49.660 --> 00:05:53.620
+is money the root of all evil I'm not sure it may be that's you know the tour
+
+78
+00:05:53.620 --> 00:05:57.220
+the Oerlikon is not specifically you know about commercial goal but being
+
+79
+00:05:57.220 --> 00:06:00.430
+clear about all the different levels here and also interested assumptions
+
+80
+00:06:00.430 --> 00:06:05.229
+that are going in here is it the case that necessarily an extraordinarily wide
+
+81
+00:06:05.229 --> 00:06:09.190
+choice you know it makes people more like to buy in some cases actually
+
+82
+00:06:09.190 --> 00:06:13.960
+narrowing the choice you know there's something that Sam Evans show that you
+
+83
+00:06:13.960 --> 00:06:16.180
+know depending upon how you know if you've it's about some people with the
+
+84
+00:06:16.180 --> 00:06:20.620
+three options they're more likely to choose one than if you put in them 25
+
+85
+00:06:20.620 --> 00:06:25.389
+options they made us run away in fear like whoa anyhow but the important thing
+
+86
+00:06:25.389 --> 00:06:29.410
+with any of this whole process of generating user stories and using three
+
+87
+00:06:29.410 --> 00:06:32.139
+were five cards that are mentioned in the court and so on to uncover the
+
+88
+00:06:32.139 --> 00:06:37.690
+assumptions about what's needed and why do we think things are the case and you
+
+89
+00:06:37.690 --> 00:06:41.050
+know whether you I don't know I guess at you know with the team in a single
+
+90
+00:06:41.050 --> 00:06:45.460
+office or you know in relative good physical proximity
+
+91
+00:06:45.460 --> 00:06:50.690
+there are more chances meeting of the water cooler to you know or in Maine
+
+92
+00:06:50.690 --> 00:06:55.400
+meetings to work out what's what's going on it becomes even more important in a
+
+93
+00:06:55.400 --> 00:07:00.319
+distribute team to understand cover the different assumptions about why you're
+
+94
+00:07:00.319 --> 00:07:04.490
+developing anything that you think is going to you know have some value to the
+
+95
+00:07:04.490 --> 00:07:11.210
+end users of your system so simplicity is just I mean is so important up and
+
+96
+00:07:11.210 --> 00:07:15.020
+down every level from there from the user story to the unit test you know
+
+97
+00:07:15.020 --> 00:07:19.580
+everywhere you can inject simplicity and complexity that's the way to go so if
+
+98
+00:07:19.580 --> 00:07:23.360
+you've got sort of a higher more complex feature break that into individual
+
+99
+00:07:23.360 --> 00:07:28.130
+stories and it'd be very specific and avoid play business needs we've got some
+
+100
+00:07:28.130 --> 00:07:33.800
+good examples thereof you know example levels been specific you know from from
+
+101
+00:07:33.800 --> 00:07:36.979
+from David amando that you know the feature you user can search for movies
+
+102
+00:07:36.979 --> 00:07:40.759
+with a vague but the user can search remove my title is more specific it's a
+
+103
+00:07:40.759 --> 00:07:46.370
+simple example there so you know there are going to be sometimes just difficult
+
+104
+00:07:46.370 --> 00:07:50.750
+things that you don't know how to turn into a user story you know every
+
+105
+00:07:50.750 --> 00:07:56.180
+situation is different just you know break it down into components and keep
+
+106
+00:07:56.180 --> 00:08:00.740
+asking yourself is this addressing some some key level business need and you
+
+107
+00:08:00.740 --> 00:08:03.740
+know what are the assumptions that we're making here and I did it should be a
+
+108
+00:08:03.740 --> 00:08:06.949
+dialogue between you and everybody involved in the product all the
+
+109
+00:08:06.949 --> 00:08:12.349
+different stakeholders and you know we'll talk more next next week about the
+
+110
+00:08:12.349 --> 00:08:15.860
+different kinds of you know online framework so you can use to help manage
+
+111
+00:08:15.860 --> 00:08:20.630
+the development of user stories in the disability team but this yakhni
+
+112
+00:08:20.630 --> 00:08:23.570
+principle which I of natural I mean you ain't gonna need it I mean this is this
+
+113
+00:08:23.570 --> 00:08:26.300
+is the key thing that can often happen you get a group of developers together
+
+114
+00:08:26.300 --> 00:08:30.099
+wouldn't it be cool this really cool and you know lots of things get creative and
+
+115
+00:08:30.099 --> 00:08:35.240
+the problem is really that complexity is the killer for every additional feature
+
+116
+00:08:35.240 --> 00:08:39.800
+there's an additional kind of n plus 1 interactions with all of the other
+
+117
+00:08:39.799 --> 00:08:44.180
+existing features and you know sowed like simplicity simplicity modularity
+
+118
+00:08:44.179 --> 00:08:48.020
+only building the very very very very smallest subset of the things that you
+
+119
+00:08:48.020 --> 00:08:52.520
+need really is the way forward so let's use the stories and we'll see them
+
+120
+00:08:52.520 --> 00:08:58.490
+connecting up with acceptance tests very shortly after
+
+121
+00:08:58.490 --> 00:09:02.590
+we've had a quick detour into chores alright bye for now
+
