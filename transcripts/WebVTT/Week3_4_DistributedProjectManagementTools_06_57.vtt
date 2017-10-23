@@ -1,0 +1,501 @@
+WEBVTT
+
+0
+00:00:00.020 --> 00:00:03.270
+So let's talk about Distributed Management tools and
+
+1
+00:00:03.270 --> 00:00:07.410
+these are I think - are not so dissimilar from
+
+2
+00:00:07.410 --> 00:00:10.809
+normal management tools or at least these days, with everything presenting a
+
+3
+00:00:10.809 --> 00:00:11.559
+web interface,
+
+4
+00:00:11.559 --> 00:00:15.610
+in order to make them easy to use, then the things that you would use to manage
+
+5
+00:00:15.610 --> 00:00:18.480
+a distributed team given the tools that are available online
+
+6
+00:00:18.480 --> 00:00:23.029
+are very similar to the ones that you would use for a centralized or co-located team.
+
+7
+00:00:23.029 --> 00:00:27.160
+The particular ones that are bouncing around in the front of my cortex
+
+8
+00:00:27.160 --> 00:00:30.170
+at the moment are many things that you will already be familiar with
+
+9
+00:00:30.170 --> 00:00:33.480
+such as a Wikis, Google Docs;
+
+10
+00:00:33.480 --> 00:00:36.750
+here I am in Google Docs; Pivotal Tracker we're big fans of
+
+11
+00:00:36.750 --> 00:00:40.500
+Pivotal Tracker; and there's others that we've ... various
+
+12
+00:00:40.500 --> 00:00:43.860
+people on our team have had different experiences with, there's like Jira, Trello, Asana:
+
+13
+00:00:43.860 --> 00:00:46.860
+all different tools for sort of tracking the
+
+14
+00:00:47.360 --> 00:00:52.030
+tasks that you've got to do ... what gets done, who's doing it and so on
+
+15
+00:00:52.030 --> 00:00:55.690
+and in some ways the ... default thing is
+
+16
+00:00:55.690 --> 00:00:58.960
+... in order to do shared work
+
+17
+00:00:58.960 --> 00:01:02.440
+you just need some kind of something you know
+
+18
+00:01:02.440 --> 00:01:06.030
+a document that you'll be able to pass around and so
+
+19
+00:01:06.030 --> 00:01:09.540
+for example; I keep thinking back, I can remember
+
+20
+00:01:09.540 --> 00:01:12.729
+a setup where the planning document might have been in a Word document
+
+21
+00:01:12.729 --> 00:01:16.360
+and that might have been emailed round to people and
+
+22
+00:01:16.360 --> 00:01:18.290
+you know that maybe it would end up getting stored in a version control
+
+23
+00:01:18.290 --> 00:01:20.390
+system and the problem
+
+24
+00:01:20.390 --> 00:01:23.790
+with those kind of things is you know, again whether you're a single team in a
+
+25
+00:01:23.790 --> 00:01:24.540
+single office,
+
+26
+00:01:24.540 --> 00:01:27.619
+or spread out all over the world, just visibility
+
+27
+00:01:27.619 --> 00:01:31.290
+is a terrible problem so and you know people "Oh it's in the
+
+28
+00:01:31.290 --> 00:01:34.820
+Word document", "Where kind of is that?" If you've got and everybody's got browsers running all the
+
+29
+00:01:34.820 --> 00:01:35.259
+time -
+
+30
+00:01:35.259 --> 00:01:38.790
+if you've got a Wiki ... like we've got an example here GitHub Wiki
+
+31
+00:01:38.790 --> 00:01:42.409
+you know it's a simple as saying "Oh right, yes I need ...
+
+32
+00:01:42.409 --> 00:01:46.420
+some information on let's kind of go, here AgileVentures, LocalSupport"
+
+33
+00:01:46.420 --> 00:01:49.689
+and I go to my LocalSupport Wiki
+
+34
+00:01:49.689 --> 00:01:52.860
+there and I've got some information and ... basically
+
+35
+00:01:52.860 --> 00:01:57.360
+anybody can start updating and trying to fix problems in that and we've got
+
+36
+00:01:57.360 --> 00:02:00.799
+great visibility there.  So that's kind of like a great default
+
+37
+00:02:00.799 --> 00:02:04.360
+thing ... tends to be I mean - you know there are restrictions… You
+
+38
+00:02:04.360 --> 00:02:07.460
+know Wikis usually have various restrictions
+
+39
+00:02:07.460 --> 00:02:11.009
+on formatting ... Atlassian who produced Jira they also do
+
+40
+00:02:11.009 --> 00:02:14.260
+you know an enterprise grade Wiki ... you get more,
+
+41
+00:02:14.260 --> 00:02:17.540
+I guess the more you pay for it more bang you get your buck ... although GitHub
+
+42
+00:02:17.540 --> 00:02:18.430
+Wikis
+
+43
+00:02:18.430 --> 00:02:21.930
+... we have Wikis for all of our AgileVentures products
+
+44
+00:02:21.930 --> 00:02:25.720
+... Google Docs provides more formatting options:
+
+45
+00:02:25.720 --> 00:02:29.239
+for the development of this class we've got a shared
+
+46
+00:02:29.239 --> 00:02:33.800
+google doc folder that's got all the slides in it, everybody on the team can edit any of the slides at anytime
+
+47
+00:02:33.800 --> 00:02:37.620
+... we've got this great thing in Google Docs as you're probably aware
+
+48
+00:02:37.620 --> 00:02:41.349
+there's great features to show; have I got something down here, no one else looking at this slide
+
+49
+00:02:41.349 --> 00:02:44.849
+at the same time as me, but it shows you when someone else is looking at the
+
+50
+00:02:44.849 --> 00:02:45.310
+same
+
+51
+00:02:45.310 --> 00:02:48.410
+... the same slide to try and help you avoid editing
+
+52
+00:02:48.410 --> 00:02:52.700
+two things at the same time ... you know so you can kind of get away
+
+53
+00:02:52.700 --> 00:02:56.060
+to a degree with Wikis and Google docs and so on ...
+
+54
+00:02:56.060 --> 00:02:59.849
+I guess - beyond the Wiki at least - you've got your issue tracker
+
+55
+00:02:59.849 --> 00:03:05.209
+which often shows up in the pull requests; pull requests; where's my issues gone ...
+
+56
+00:03:05.209 --> 00:03:08.310
+graphs, network, bu du du der, LocalSupport go back
+
+57
+00:03:08.310 --> 00:03:11.550
+... do we not have a ... because normally pull requests become
+
+58
+00:03:11.550 --> 00:03:14.980
+I can see that there, mmm, maybe we don't actually ...
+
+59
+00:03:14.980 --> 00:03:18.659
+we don't use I think ... I notice quite a few ... I mean there's a fantastic
+
+60
+00:03:18.659 --> 00:03:22.069
+issues ... I think we have some ... yeah, there we go
+
+61
+00:03:22.069 --> 00:03:26.159
+... there's a ... I think many projects don't
+
+62
+00:03:26.159 --> 00:03:29.810
+don't tend to use GitHub issues as a tracking system.
+
+63
+00:03:29.810 --> 00:03:33.110
+It's certainly there; some do
+
+64
+00:03:33.110 --> 00:03:36.450
+and the issue tracking there is great ...
+
+65
+00:03:36.450 --> 00:03:39.750
+we tend to use Pivotal Tracker across the board and rather than me
+
+66
+00:03:39.750 --> 00:03:41.690
+explaining Pivotal Tracker to you which your
+
+67
+00:03:41.690 --> 00:03:45.680
+at least partly familiar with we've got two videos from Pivotal Labs
+
+68
+00:03:45.680 --> 00:03:49.069
+in the next two sections showing a general introduction to
+
+69
+00:03:49.069 --> 00:03:52.330
+Pivotal Tracker and a more detailed
+
+70
+00:03:52.330 --> 00:03:55.879
+you know how Pivotal Tracker works with the whole sort of Scrum process
+
+71
+00:03:55.879 --> 00:04:01.120
+and so on ... Jira as a paid tool; I don't have so much experience with that
+
+72
+00:04:01.120 --> 00:04:02.519
+... other members of our team
+
+73
+00:04:02.519 --> 00:04:06.590
+you know, like it; other groups I know swear by it; I know people who prefer
+
+74
+00:04:06.590 --> 00:04:09.920
+Trello, I know people who prefer Asana
+
+75
+00:04:09.920 --> 00:04:14.260
+... they've all got their relative pros and cons
+
+76
+00:04:14.260 --> 00:04:17.699
+but one of the things that we notice about all of these things is basically that they're
+
+77
+00:04:17.699 --> 00:04:18.370
+available
+
+78
+00:04:18.370 --> 00:04:22.240
+over the web ... available transparently ...
+
+79
+00:04:22.240 --> 00:04:25.410
+I mean this is the key for managing all of our projects as you can
+
+80
+00:04:25.410 --> 00:04:26.150
+see here
+
+81
+00:04:26.150 --> 00:04:29.669
+I've got all the different AgileVenture projects that are ongoing, here, I can jump to any of them
+
+82
+00:04:29.669 --> 00:04:30.160
+quickly.
+
+83
+00:04:30.160 --> 00:04:33.160
+Anybody, you know, we just pass the link around, anyone can see it anyone can get in
+
+84
+00:04:33.160 --> 00:04:33.550
+there
+
+85
+00:04:33.550 --> 00:04:37.020
+and see what's going on ... also particularly relevant to
+
+86
+00:04:37.020 --> 00:04:40.229
+the 169 class - if I go and look up through the
+
+87
+00:04:40.229 --> 00:04:44.250
+the whole projects here - in terms of managing the content for the MOOC
+
+88
+00:04:44.250 --> 00:04:47.740
+we've always used ... (that's autograders
+
+89
+00:04:47.740 --> 00:04:51.350
+which is also for the MOOC but 169, there we go); so for example
+
+90
+00:04:51.949 --> 00:04:55.340
+we've got here in previous runs
+
+91
+00:04:55.340 --> 00:04:58.930
+of the MOOC we've tracked all of the issues
+
+92
+00:04:58.930 --> 00:05:02.800
+and bug reports and so on about the course
+
+93
+00:05:02.800 --> 00:05:06.270
+through these trackers ... and we did and we were at one point running
+
+94
+00:05:06.270 --> 00:05:09.520
+sort of competitions for who could file the most reports.
+
+95
+00:05:09.520 --> 00:05:12.810
+I believe I've already created one for ... here we go, so this is
+
+96
+00:05:12.810 --> 00:05:16.190
+our next run ...
+
+97
+00:05:16.190 --> 00:05:20.150
+so this - this is something that ... we'll get all of the
+
+98
+00:05:20.150 --> 00:05:20.919
+TA's
+
+99
+00:05:20.919 --> 00:05:24.320
+signed up to as members - and then for you know
+
+100
+00:05:24.320 --> 00:05:28.520
+triage obviously we can discuss issues in the stack exchange forum, which
+
+101
+00:05:28.520 --> 00:05:31.780
+we've now got up and working; I mean sort of I haven't really mentioned
+
+102
+00:05:32.419 --> 00:05:35.880
+forums in particular there because we'll have more on the forums
+
+103
+00:05:35.880 --> 00:05:40.330
+next week but obviously issues can be kind of triaged and discussed
+
+104
+00:05:40.330 --> 00:05:43.580
+and so on in the forum but
+
+105
+00:05:43.580 --> 00:05:47.440
+ultimately in terms of generating like work that has to be done by somebody
+
+106
+00:05:47.440 --> 00:05:51.060
+... so this is like something I know I'm just going to have to do
+
+107
+00:05:51.060 --> 00:05:54.850
+for the new course ... it can be you set there -
+
+108
+00:05:54.850 --> 00:05:58.319
+(and I know that just has to be done so let's just pop that over there)
+
+109
+00:05:58.319 --> 00:06:02.030
+... I think Pivotal Tracker is a great
+
+110
+00:06:02.030 --> 00:06:06.600
+online free resource and we'll be using it
+
+111
+00:06:06.600 --> 00:06:10.210
+for managing the MOOC. I think it's a fantastic
+
+112
+00:06:10.210 --> 00:06:14.000
+tool for supporting Scrum, the whole Agile
+
+113
+00:06:14.000 --> 00:06:17.259
+process generally as you can see we use its extensively
+
+114
+00:06:17.259 --> 00:06:20.530
+for all of our AgileVenture projects and
+
+115
+00:06:20.530 --> 00:06:25.080
+yeah so I'd strongly encourage you to watch the next couple of videos introducing you to Pivotal Tracker
+
+116
+00:06:25.080 --> 00:06:25.569
+if you're not
+
+117
+00:06:25.569 --> 00:06:28.970
+already fantastically familiar with it
+
+118
+00:06:28.970 --> 00:06:32.740
+already. It is of course introduced, in part, in the 169 course
+
+119
+00:06:32.740 --> 00:06:36.400
+and then we'll have an assignment to get started making sure
+
+120
+00:06:36.400 --> 00:06:40.240
+everybody's signed up as a member for this so that's as you go into being a TA
+
+121
+00:06:40.740 --> 00:06:43.819
+in the 169 course that we can coordinate
+
+122
+00:06:44.470 --> 00:06:47.690
+the work that needs to be done to fix various issues
+
+123
+00:06:47.690 --> 00:06:50.690
+in the class to make sure that the students have the best
+
+124
+00:06:50.690 --> 00:06:53.979
+course available to them.  Alright bye for now

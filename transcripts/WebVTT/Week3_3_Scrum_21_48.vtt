@@ -1,0 +1,1650 @@
+WEBVTT
+
+0
+00:00:00.010 --> 00:00:03.889
+Right so let's talk about Scrum and about managing your team, being in a team
+
+1
+00:00:03.889 --> 00:00:07.529
+being in a Scrum team and this material is
+
+2
+00:00:07.529 --> 00:00:10.790
+I think generic across whether you are in a co-located/centralized team or a distributed
+
+3
+00:00:10.790 --> 00:00:11.300
+team
+
+4
+00:00:11.300 --> 00:00:15.179
+and it's probably a refresher for many of you. We've all heard
+
+5
+00:00:15.179 --> 00:00:18.850
+bits and pieces about Scrum ... it's also material
+
+6
+00:00:18.850 --> 00:00:23.510
+that crops up in various places in the 169 course. You can't really hear about
+
+7
+00:00:23.510 --> 00:00:27.070
+about modern software engineering without hearing about Scrum and Agile.
+
+8
+00:00:27.070 --> 00:00:30.179
+Scrum focused on -
+
+9
+00:00:30.179 --> 00:00:33.160
+really - about the management side of things rather than necessarily the
+
+10
+00:00:33.160 --> 00:00:33.870
+software
+
+11
+00:00:33.870 --> 00:00:37.120
+components. Scrum can be applied more broadly than that
+
+12
+00:00:37.120 --> 00:00:40.329
+... the key thing that it's trying to do is help you manage
+
+13
+00:00:40.329 --> 00:00:44.730
+complex problems and effectively deliver quality products
+
+14
+00:00:44.730 --> 00:00:45.690
+whatever they are
+
+15
+00:00:45.690 --> 00:00:48.750
+at the end. I think I haven't yet
+
+16
+00:00:48.750 --> 00:00:52.070
+found anybody who argues that Scrum is
+
+17
+00:00:52.070 --> 00:00:56.120
+complex to understand. I think what can be difficult is actually applying it
+
+18
+00:00:56.120 --> 00:00:57.870
+and getting it to work.
+
+19
+00:00:57.870 --> 00:01:01.460
+We've got three main principles of Scrum:
+
+20
+00:01:01.460 --> 00:01:04.909
+One is the transparency; everybody in the team
+
+21
+00:01:04.909 --> 00:01:08.760
+... not that they are constantly bombarded with everything that's available but that they
+
+22
+00:01:08.760 --> 00:01:10.250
+can at least in principle
+
+23
+00:01:10.250 --> 00:01:14.430
+see the other things ... see what's going on. You can see the results of
+
+24
+00:01:14.430 --> 00:01:18.759
+meeting. I think one of the ... I mean you know in larger organizations there's a
+
+25
+00:01:18.759 --> 00:01:19.939
+tendency to say
+
+26
+00:01:19.939 --> 00:01:22.939
+right you know we should treat other groups as a black box. We
+
+27
+00:01:22.939 --> 00:01:24.659
+shouldn't be able to see
+
+28
+00:01:24.659 --> 00:01:27.659
+what's going on there. The danger with that is that you end up with
+
+29
+00:01:27.659 --> 00:01:29.829
+these bottlenecks on communication and it's difficult to get
+
+30
+00:01:29.829 --> 00:01:33.360
+get things done; but - so one of the Scrum principles is transparency;
+
+31
+00:01:33.360 --> 00:01:37.320
+actually with AgileVentures we go for global transparency ... because we're doing sort of
+
+32
+00:01:37.320 --> 00:01:38.270
+nonprofit projects
+
+33
+00:01:38.270 --> 00:01:41.950
+and so on, we basically ... we hold ... we live stream
+
+34
+00:01:41.950 --> 00:01:46.869
+all of our meetings, all documentation, all the code, all the pair programming, everything
+
+35
+00:01:46.869 --> 00:01:50.119
+is completely live streamed and recorded and we can see it anytime.
+
+36
+00:01:50.119 --> 00:01:53.720
+So yeah I think there's nothing like total transparency
+
+37
+00:01:53.720 --> 00:01:57.259
+to achieve total transparency ... to other things
+
+38
+00:01:57.259 --> 00:02:00.700
+principles of Scrum: Inspection ... you want to be keeping on
+
+39
+00:02:00.700 --> 00:02:04.320
+reviewing the process that you have because
+
+40
+00:02:04.320 --> 00:02:08.030
+it's going to need to adapt ...
+
+41
+00:02:08.030 --> 00:02:11.270
+the ... I think the whole
+
+42
+00:02:11.920 --> 00:02:15.959
+Scrum and Agile approach is less prescriptive it's less saying do precisely this and
+
+43
+00:02:15.959 --> 00:02:17.459
+then you will get precisely this result
+
+44
+00:02:17.459 --> 00:02:20.560
+it's a set of guidelines that say you know
+
+45
+00:02:20.560 --> 00:02:24.530
+... let's go in this direction ... let's try this out
+
+46
+00:02:24.530 --> 00:02:28.810
+see how it works for you and your particular circumstances and keep
+
+47
+00:02:28.810 --> 00:02:29.330
+reviewing
+
+48
+00:02:29.330 --> 00:02:32.670
+and keep coming back and trying to make changes and trying to get - you know - regularly be
+
+49
+00:02:32.670 --> 00:02:33.390
+measuring,
+
+50
+00:02:33.390 --> 00:02:37.390
+inspecting the outcome. Is it working? Are things working as they
+
+51
+00:02:37.390 --> 00:02:37.840
+should?
+
+52
+00:02:37.840 --> 00:02:41.510
+Are we making progress? So you know keep on making changes in order to achieve those
+
+53
+00:02:41.510 --> 00:02:42.220
+goals,
+
+54
+00:02:42.220 --> 00:02:45.849
+so in line with those suggestions when you - when you're doing a Scrum
+
+55
+00:02:45.849 --> 00:02:50.230
+you've got these particular ... I guess the roles in particular
+
+56
+00:02:50.230 --> 00:02:54.360
+so we've got Product Owner and Scrum Master along with the rest of the
+
+57
+00:02:54.360 --> 00:02:57.909
+development team whoever else is involved. So the product owner is
+
+58
+00:02:57.909 --> 00:03:01.110
+is going to be the champion for the
+
+59
+00:03:01.110 --> 00:03:04.930
+customer as it were and try and sort of take their side, try and
+
+60
+00:03:04.930 --> 00:03:08.450
+focus on their needs and the Scrum Master is gonna try and focus
+
+61
+00:03:08.450 --> 00:03:12.920
+on who's ... the actual logistics of running a scrum and these different sorts of meetings
+
+62
+00:03:12.920 --> 00:03:13.550
+in the Scrum
+
+63
+00:03:13.550 --> 00:03:17.519
+cycle and so on ... and then there's everyone else who's involved
+
+64
+00:03:17.519 --> 00:03:22.190
+and these ... the role that you're in whether you are just one of the team members, whether you are the Scrum
+
+65
+00:03:22.190 --> 00:03:23.180
+Master, Product Owner
+
+66
+00:03:23.180 --> 00:03:26.900
+as I think Dave mentioned in the 169 course you know that can rotate
+
+67
+00:03:26.900 --> 00:03:29.459
+and can change.  Different weeks different people take
+
+68
+00:03:29.459 --> 00:03:32.540
+different roles; it can be somewhat fluid
+
+69
+00:03:32.540 --> 00:03:36.569
+... but the key thing is this Scrum cycle we've got here
+
+70
+00:03:36.569 --> 00:03:41.129
+and the idea is that we've generated through some mechanism
+
+71
+00:03:41.129 --> 00:03:45.780
+stories about what it is that the customer the end user would actually like
+
+72
+00:03:45.780 --> 00:03:48.860
+to have available in their
+
+73
+00:03:48.860 --> 00:03:52.120
+product ... of course we're sort of focused on software here
+
+74
+00:03:52.120 --> 00:03:55.180
+but it could be you know ... that it would be
+
+75
+00:03:55.180 --> 00:03:58.409
+let's say for example you're delivering an online class ... that's
+
+76
+00:03:58.409 --> 00:03:58.950
+your output.
+
+77
+00:03:58.950 --> 00:04:02.269
+It could be that, oh I don't know, that you're writing a textbook, it could be
+
+78
+00:04:02.269 --> 00:04:02.900
+that you're
+
+79
+00:04:02.900 --> 00:04:06.959
+designing an advertising campaign ... we're focused on software here but
+
+80
+00:04:06.959 --> 00:04:10.680
+the Scrum is generic over all different types of
+
+81
+00:04:10.680 --> 00:04:14.019
+activities that you might be doing but so you get you know
+
+82
+00:04:14.019 --> 00:04:16.669
+ideally in the beginning sort of brainstorming; right we've got all these things
+
+83
+00:04:16.669 --> 00:04:17.940
+that it would be great to have
+
+84
+00:04:17.940 --> 00:04:22.410
+... you know there's a process of working out; right, what can we fit into
+
+85
+00:04:22.410 --> 00:04:25.919
+a sprint and we've got down here, is it, thirty days and that can vary
+
+86
+00:04:25.919 --> 00:04:29.360
+and its like what could we .. what would be the meaningful set of
+
+87
+00:04:29.360 --> 00:04:32.419
+features for the sprint,
+
+88
+00:04:32.419 --> 00:04:35.780
+for a single sprint that would maybe produce our MVP or minimum viable
+
+89
+00:04:35.780 --> 00:04:38.910
+product for us and you've got this sort of longer
+
+90
+00:04:38.910 --> 00:04:42.540
+cycle which is the bigger sprint cycle and then you've got a daily
+
+91
+00:04:42.540 --> 00:04:46.630
+Scrum cycle within there and we'll go through that in some
+
+92
+00:04:46.630 --> 00:04:50.139
+more detail in the next slides. So ideally the sprint
+
+93
+00:04:50.139 --> 00:04:54.280
+is between 1 and 4 weeks and depending upon your project constraints and this that and the other
+
+94
+00:04:54.810 --> 00:04:58.800
+it's gonna be ... that's going to vary
+
+95
+00:04:59.350 --> 00:05:02.560
+different times are going to make sense.
+
+96
+00:05:02.560 --> 00:05:05.690
+You ideally want to be producing some releasable
+
+97
+00:05:05.690 --> 00:05:09.870
+increment ... its ... if you're not
+
+98
+00:05:09.870 --> 00:05:13.110
+actually pushing something out that can be evaluated by somebody
+
+99
+00:05:13.110 --> 00:05:16.680
+on the outside of your team then it's not really
+
+100
+00:05:16.680 --> 00:05:21.030
+a sprint and you can if someone turns around and says "right, that
+
+101
+00:05:21.030 --> 00:05:22.710
+entire thing that you guys were building
+
+102
+00:05:22.710 --> 00:05:26.270
+you know, right, is no longer needed, right" then let's be willing to cancel it
+
+103
+00:05:26.270 --> 00:05:27.229
+anytime.
+
+104
+00:05:27.229 --> 00:05:30.229
+But so the sprint will consist of
+
+105
+00:05:31.000 --> 00:05:33.990
+planning the sprint; we think it should be one week, 4 week, what
+
+106
+00:05:33.990 --> 00:05:34.520
+have you
+
+107
+00:05:34.520 --> 00:05:38.340
+... then daily Scrums; crucial I think this is the bit ... this is my favorite
+
+108
+00:05:38.340 --> 00:05:42.530
+I think this is my favorite bit really of Scrum ... it's almost where the name comes from
+
+109
+00:05:42.530 --> 00:05:45.530
+is the idea that you have these short meetings daily and you just kind of
+
+110
+00:05:45.530 --> 00:05:46.639
+work out quickly
+
+111
+00:05:46.639 --> 00:05:49.770
+what's going on and where you ... coordinate people and
+
+112
+00:05:49.770 --> 00:05:53.180
+it shouldn't take very long and really what it's trying to avoid is like this period
+
+113
+00:05:53.180 --> 00:05:55.750
+where you might not see somebody for two weeks and then you find out that you've been
+
+114
+00:05:55.750 --> 00:05:56.910
+working at cross-purposes
+
+115
+00:05:56.910 --> 00:06:00.120
+that entire time ... actually obviously doing the work itself
+
+116
+00:06:00.630 --> 00:06:03.650
+and then there are things that happen ... you know where you
+
+117
+00:06:03.650 --> 00:06:07.870
+review and you do retrospectives and so on and so well let's - let's talk through
+
+118
+00:06:07.870 --> 00:06:11.110
+some of these different bits and pieces. So the Sprint Planning event would be
+
+119
+00:06:11.110 --> 00:06:12.199
+where you come together
+
+120
+00:06:12.199 --> 00:06:15.949
+and you decide what to do and how do it and
+
+121
+00:06:15.949 --> 00:06:18.810
+I get this very like ... it shouldn't take more than eight hours. I
+
+122
+00:06:18.810 --> 00:06:20.500
+think often people allocate a day
+
+123
+00:06:20.500 --> 00:06:23.509
+to do this ... depending upon your organization
+
+124
+00:06:23.509 --> 00:06:26.280
+this is going to be ... I think critically it shouldn't be that you
+
+125
+00:06:26.280 --> 00:06:27.020
+spend
+
+126
+00:06:27.020 --> 00:06:30.720
+two months working out ... a six-month a plan
+
+127
+00:06:30.720 --> 00:06:34.270
+it's right let's spend no more than a working day,
+
+128
+00:06:34.270 --> 00:06:38.319
+ideally less, working out what we might do over the next one to four weeks
+
+129
+00:06:38.819 --> 00:06:41.919
+and just sort of allow ourselves to
+
+130
+00:06:42.419 --> 00:06:45.600
+fail or succeed fast and keep learning and iterating ...
+
+131
+00:06:46.100 --> 00:06:49.100
+so yeah and I think I've a
+
+132
+00:06:49.720 --> 00:06:52.970
+little slide malfunction there. So the key thing about the
+
+133
+00:06:52.970 --> 00:06:56.460
+Sprint Planning event is that it should generates a sprint goal
+
+134
+00:06:57.229 --> 00:07:00.250
+and a backlog of tasks so
+
+135
+00:07:00.250 --> 00:07:04.050
+example goals would be things ... a description probably a bit more detailed than this; I just got
+
+136
+00:07:04.050 --> 00:07:05.000
+sort of short ones
+
+137
+00:07:05.000 --> 00:07:08.229
+to fit into the slide here but these goals would be
+
+138
+00:07:08.229 --> 00:07:11.500
+you know some feature or something that we might
+
+139
+00:07:12.120 --> 00:07:15.229
+add to whatever product that we're working on that's realistic
+
+140
+00:07:15.229 --> 00:07:18.750
+to achieve within the next one to four weeks. Can we get it done with the
+
+141
+00:07:18.750 --> 00:07:19.690
+resources that we have
+
+142
+00:07:19.690 --> 00:07:22.690
+available to us and that's kind of a guess and then also right
+
+143
+00:07:22.690 --> 00:07:25.800
+for that higher-level goal, you know a backlog of
+
+144
+00:07:25.800 --> 00:07:29.319
+different stories that would allow us to ... I guess that's ...
+
+145
+00:07:29.319 --> 00:07:33.080
+stories, tasks and so on.  We talked about user stories last week
+
+146
+00:07:33.080 --> 00:07:36.280
+... that would allow us to achieve that high-level goal
+
+147
+00:07:36.789 --> 00:07:40.699
+... so yeah this is you know an important
+
+148
+00:07:40.699 --> 00:07:44.379
+kicking off - kicking off the - the initial sprint in order
+
+149
+00:07:44.379 --> 00:07:48.710
+to work out what one is going to be focused on, and we'll see
+
+150
+00:07:48.710 --> 00:07:52.620
+more examples of this ... just debating with myself here about whether
+
+151
+00:07:52.620 --> 00:07:53.490
+to go
+
+152
+00:07:53.490 --> 00:07:56.490
+Pivotal Tracker which we'll talk more about the next section
+
+153
+00:07:56.490 --> 00:07:59.690
+but we can sort of see ... particularly like a backlog
+
+154
+00:07:59.690 --> 00:08:03.310
+of particular things in ... this is I mean I love
+
+155
+00:08:03.310 --> 00:08:06.610
+the public Pivotal Tracker access you can see
+
+156
+00:08:06.610 --> 00:08:09.660
+the backlog for all of the different AgileVentures'
+
+157
+00:08:09.660 --> 00:08:14.240
+projects there and we ... it's an ...
+
+158
+00:08:14.240 --> 00:08:17.310
+ongoing thing. So that ... when we ... I just wanted to link that there.
+
+159
+00:08:17.310 --> 00:08:20.949
+When we say you're generating a backlog it's ... you're generating a series of
+
+160
+00:08:20.949 --> 00:08:21.539
+tasks,
+
+161
+00:08:21.539 --> 00:08:24.979
+users stories, these chores that we talked about last week ... that's gonna be
+
+162
+00:08:24.979 --> 00:08:28.520
+... help you achieve whatever is your releasable
+
+163
+00:08:28.520 --> 00:08:32.019
+element at the end of your week or two or three or four
+
+164
+00:08:32.019 --> 00:08:35.190
+week sprint. So then the key things we talked about before is the daily Scrum
+
+165
+00:08:35.700 --> 00:08:38.760
+... so this is what you know happens the most
+
+166
+00:08:38.760 --> 00:08:42.070
+... it is only you know part of that process.
+
+167
+00:08:42.070 --> 00:08:45.290
+I think often and what we find in AgileVentures is - it can,
+
+168
+00:08:46.000 --> 00:08:48.860
+things can sort of collapse to end up just being about the Scrum; because that's the regular thing
+
+169
+00:08:48.860 --> 00:08:49.420
+that's where
+
+170
+00:08:49.420 --> 00:08:53.100
+everybody talks. It can be, depending on your organization, difficult to organize the planning
+
+171
+00:08:53.100 --> 00:08:54.279
+events, the review events
+
+172
+00:08:54.279 --> 00:08:57.440
+and so on ... but anyway this is
+
+173
+00:08:58.110 --> 00:09:01.290
+you know kind of ... I still say it's kind of the key
+
+174
+00:09:01.959 --> 00:09:05.470
+independently of anything else that you do ... I mean the idea is
+
+175
+00:09:05.470 --> 00:09:09.200
+you wanna be repeatedly reviewing what's going on,
+
+176
+00:09:09.200 --> 00:09:12.680
+changing approaches ... ideally it will only last 15 minutes;
+
+177
+00:09:12.680 --> 00:09:16.570
+that can be really hard ... there's these three questions
+
+178
+00:09:16.570 --> 00:09:19.709
+that you have, it's like, what have you done; what are you planning
+
+179
+00:09:19.709 --> 00:09:23.220
+to do and what, if anything, is blocking you. I think we might just add this in
+
+180
+00:09:23.220 --> 00:09:24.050
+so it's
+
+181
+00:09:24.050 --> 00:09:27.050
+what have you done ...
+
+182
+00:09:28.370 --> 00:09:31.370
+question mark log ... what are you doing
+
+183
+00:09:33.060 --> 00:09:37.620
+and we can say "any blocks?"
+
+184
+00:09:38.550 --> 00:09:41.769
+and this ...
+
+185
+00:09:42.570 --> 00:09:46.050
+done face-to-face ... there's this idea of a stand-up meeting to try and
+
+186
+00:09:46.050 --> 00:09:48.130
+particularly to keep it short and stop people getting relaxed
+
+187
+00:09:48.130 --> 00:09:51.149
+everybody stands up and you know they go around the room
+
+188
+00:09:51.149 --> 00:09:54.589
+and you do that, and - of course then depending on the number of -
+
+189
+00:09:54.589 --> 00:09:58.399
+people, does it end up taking more than fifteen minutes? And there's lots of like breakout
+
+190
+00:09:58.399 --> 00:09:59.420
+discussions that
+
+191
+00:09:59.420 --> 00:10:02.890
+might happen. In the distributed Scrum
+
+192
+00:10:02.890 --> 00:10:05.910
+... as we do in AgileVentures ... that's all being done
+
+193
+00:10:05.910 --> 00:10:09.630
+over Google Hangouts or Skype or what have you
+
+194
+00:10:09.630 --> 00:10:13.240
+... we've found there's an interesting
+
+195
+00:10:13.240 --> 00:10:16.430
+variations you can, depending on the number of people involved and the number of
+
+196
+00:10:16.430 --> 00:10:17.709
+projects; we tend to have
+
+197
+00:10:17.709 --> 00:10:20.769
+multiple projects on the go; is you can do a people-focused
+
+198
+00:10:20.769 --> 00:10:24.010
+Scrum or a project-focused Scrum ... I mean our
+
+199
+00:10:24.010 --> 00:10:27.459
+whole non-profit volunteer framework with AgileVentures
+
+200
+00:10:27.459 --> 00:10:30.829
+allows people to sort of ... there's no requirement
+
+201
+00:10:30.829 --> 00:10:34.839
+to be at every single meeting. People make time and they're
+
+202
+00:10:34.839 --> 00:10:37.870
+available as and when and so
+
+203
+00:10:37.870 --> 00:10:39.870
+depending on the number of people in the meeting and what's going on with the
+
+204
+00:10:39.870 --> 00:10:41.230
+projects; we might
+
+205
+00:10:41.230 --> 00:10:45.070
+go around each person and say what have you done? what are you doing? are there any blocks?
+
+206
+00:10:45.070 --> 00:10:49.180
+... we might say oh we've got quite a lot of, a large number of people, ten people in the Scrum today
+
+207
+00:10:49.180 --> 00:10:52.180
+... let's do a project focused thing and we've got about you know generally
+
+208
+00:10:53.180 --> 00:10:57.190
+4, 5 or 6 active projects in AgileVentures at any given time and we would go through
+
+209
+00:10:57.190 --> 00:11:00.680
+and the question would then become, to kind of the project leader for each
+
+210
+00:11:00.680 --> 00:11:01.640
+of those, would be
+
+211
+00:11:01.640 --> 00:11:05.140
+what's ... happened on your project? What's
+
+212
+00:11:05.140 --> 00:11:08.529
+... the next step and you know is there anything
+
+213
+00:11:08.529 --> 00:11:11.579
+blocking you? ... and then it moves towards this
+
+214
+00:11:11.579 --> 00:11:16.089
+idea of Scrum of Scrums, which I think as we're increasing in size at
+
+215
+00:11:16.089 --> 00:11:20.240
+AgileVentures we're kind of moving towards that but we're still at kind of this
+
+216
+00:11:20.240 --> 00:11:23.360
+intermediate stage where we're jumping backwards and forwards between people-focused Scrums
+
+217
+00:11:23.360 --> 00:11:25.070
+and project-focused Scrums.
+
+218
+00:11:25.070 --> 00:11:28.519
+Of course it's different in and organization where you know everyone is being paid
+
+219
+00:11:28.519 --> 00:11:32.269
+to be there and everybody has to attend the meeting at the beginning of the day
+
+220
+00:11:32.269 --> 00:11:35.910
+and you can decide on which ... the number ...
+
+221
+00:11:35.910 --> 00:11:39.220
+there is a much more executive control of this sort of thing
+
+222
+00:11:39.220 --> 00:11:43.880
+you know it's gonna be I think likely to be more people focused unless it's ...
+
+223
+00:11:43.880 --> 00:11:47.510
+you've got this sort of Scrum of Scrums where you've got daily Scrums are
+
+224
+00:11:47.510 --> 00:11:50.000
+happening for the individual developers on their own
+
+225
+00:11:50.000 --> 00:11:53.440
+projects and then one person like the - who would be the Scrum Master - would
+
+226
+00:11:53.440 --> 00:11:54.519
+be reporting back
+
+227
+00:11:54.519 --> 00:11:58.060
+in this sort of Scrum of Scrums format on the larger-scale
+
+228
+00:11:58.060 --> 00:12:01.670
+... so the challenge generally is keeping it to fifteen minutes ...
+
+229
+00:12:01.670 --> 00:12:05.079
+it does, I mention in the previous section, you want to kind of allow
+
+230
+00:12:05.930 --> 00:12:09.940
+well you know ... I wanted to say you want to allow about a tiny bit - a smattering(?) of
+
+231
+00:12:09.940 --> 00:12:12.980
+small talk. I mean I think that depends
+
+232
+00:12:12.980 --> 00:12:17.870
+partly on ... how the team feels about it. It depends are you
+
+233
+00:12:17.870 --> 00:12:18.630
+actually
+
+234
+00:12:18.630 --> 00:12:21.810
+all going to bump into each other on the water cooler,
+
+235
+00:12:21.810 --> 00:12:25.269
+in IM chat or what have you ... yeah it's a
+
+236
+00:12:26.320 --> 00:12:31.110
+... you don't want to be so rigorous with this 15-minute limit that
+
+237
+00:12:31.110 --> 00:12:32.850
+you fail to
+
+238
+00:12:32.850 --> 00:12:36.930
+work out ...resolve some little issue about the person having a
+
+239
+00:12:36.930 --> 00:12:37.470
+block.
+
+240
+00:12:37.470 --> 00:12:40.870
+I mean the key thing really is that ... for the -
+
+241
+00:12:40.870 --> 00:12:44.120
+for the Scrum with the five, six, seven or eight people or
+
+242
+00:12:44.120 --> 00:12:47.820
+what have you is that in principle if they're paying attention
+
+243
+00:12:47.820 --> 00:12:51.110
+everybody should at least hear approximately what everybody else
+
+244
+00:12:51.110 --> 00:12:54.320
+is kind of on at the moment and
+
+245
+00:12:54.320 --> 00:12:57.610
+you know if people have got any blocks. This is the key thing really is about asking
+
+246
+00:12:57.610 --> 00:12:58.779
+about if there any blocks?
+
+247
+00:12:58.779 --> 00:13:01.990
+Because you know if one person's stuck on using a particular kind at tool
+
+248
+00:13:01.990 --> 00:13:05.860
+and someone else and say: "oh yes, no no, I used that yesterday and I saw that sorted it out and
+
+249
+00:13:05.860 --> 00:13:06.660
+I can help you".
+
+250
+00:13:06.660 --> 00:13:09.660
+What you wanna particularly avoid is
+
+251
+00:13:10.180 --> 00:13:13.360
+then deep: "like, right, let's get the computers out, let's
+
+252
+00:13:13.360 --> 00:13:14.680
+solve that problem in that meeting"
+
+253
+00:13:14.680 --> 00:13:18.440
+No! it's like: "okay, yes, John and Bert you'll be talking after the meeting and
+
+254
+00:13:18.440 --> 00:13:21.790
+you know take that off separately". So that's this you know you want
+
+255
+00:13:21.790 --> 00:13:24.490
+the high-level; you want to get into enough detail so people understand
+
+256
+00:13:24.490 --> 00:13:26.600
+what each others' blocks are
+
+257
+00:13:26.600 --> 00:13:30.200
+but if it's going too far then that's the particular job of the Scrum Master
+
+258
+00:13:30.200 --> 00:13:33.339
+to make it happen; say like "look alright
+
+259
+00:13:33.339 --> 00:13:37.019
+yes that's fantastic we have connected you two. Lets take this offline and
+
+260
+00:13:37.019 --> 00:13:40.360
+... arrange another meeting for that" and try and move on so
+
+261
+00:13:40.360 --> 00:13:44.449
+whoever's in the meeting can (move on) ... because the problem is
+
+262
+00:13:44.449 --> 00:13:44.709
+that
+
+263
+00:13:44.709 --> 00:13:47.940
+you don't want to spend all your time in meetings, you want to be getting work done as well.
+
+264
+00:13:47.940 --> 00:13:51.240
+Another thing which is of course is making things happen on time
+
+265
+00:13:51.240 --> 00:13:55.050
+and this is ... the Scrum Master really
+
+266
+00:13:55.050 --> 00:13:58.630
+needs to work hard to make sure they happen on time and that
+
+267
+00:13:58.630 --> 00:14:01.760
+they are limited and ... yeah that
+
+268
+00:14:01.760 --> 00:14:04.829
+allows work to get done but
+
+269
+00:14:04.829 --> 00:14:08.220
+members the team to sort of communicate with each other and help each other
+
+270
+00:14:08.220 --> 00:14:11.500
+because what you ... when  you think about the alternative where you're
+
+271
+00:14:11.500 --> 00:14:12.079
+working
+
+272
+00:14:12.079 --> 00:14:15.110
+largely independently from somebody for two weeks and you spent
+
+273
+00:14:15.110 --> 00:14:18.779
+forty-eight hours being blocked on something that the person two desks down had
+
+274
+00:14:18.779 --> 00:14:22.730
+fixed the other week ... particularly in the distributed environment
+
+275
+00:14:22.730 --> 00:14:26.480
+... you haven't got quite the same bumping into people at the water cooler
+
+276
+00:14:26.480 --> 00:14:31.370
+... and so on. So doing the Scrum effectively online;
+
+277
+00:14:31.370 --> 00:14:35.100
+extraordinarily important. So then other events that you might have are the
+
+278
+00:14:35.100 --> 00:14:36.630
+Sprint Review event.
+
+279
+00:14:36.630 --> 00:14:40.290
+So once the sprint has been done and you've released stuff,
+
+280
+00:14:40.290 --> 00:14:43.810
+the idea is this shouldn't take more than four hours, maybe two meetings
+
+281
+00:14:43.810 --> 00:14:47.000
+... this would have the product owner
+
+282
+00:14:47.000 --> 00:14:50.320
+and also the stakeholders involved
+
+283
+00:14:50.320 --> 00:14:53.839
+and you'd kind of be reporting back to say you know what is being done;
+
+284
+00:14:53.839 --> 00:14:57.019
+what should be done next ... and
+
+285
+00:14:57.019 --> 00:15:01.079
+yeah you need to sort of demonstrate the product - what you're ... what you've
+
+286
+00:15:01.079 --> 00:15:01.829
+produced
+
+287
+00:15:01.829 --> 00:15:04.829
+and so you need to be able to do that within the time constraints, usually
+
+288
+00:15:04.829 --> 00:15:08.440
+four hours, unless it is a very complex product then that should be enough ... and then also how to
+
+289
+00:15:08.440 --> 00:15:08.870
+demonstrate it
+
+290
+00:15:08.870 --> 00:15:11.889
+without being boring. I mean that's just, I think you know ...
+
+291
+00:15:11.889 --> 00:15:15.010
+can people be trained not to be boring? I'm not sure ... its
+
+292
+00:15:15.010 --> 00:15:18.550
+you just ... need to make sure that when you're, for example, explaining
+
+293
+00:15:18.550 --> 00:15:20.959
+something to the stakeholder who's the interested
+
+294
+00:15:20.959 --> 00:15:21.699
+customer
+
+295
+00:15:21.699 --> 00:15:25.199
+you're not telling them all about the the details of the new continuous integration
+
+296
+00:15:25.199 --> 00:15:26.370
+system that you've got working
+
+297
+00:15:26.370 --> 00:15:29.990
+its about showing them the things that are important
+
+298
+00:15:29.990 --> 00:15:32.990
+to them and
+
+299
+00:15:32.990 --> 00:15:36.959
+yes so I mean as an example on ... what we have
+
+300
+00:15:36.959 --> 00:15:40.600
+... in LocalSupport, which is one the biggest AgileVentures projects -
+
+301
+00:15:40.600 --> 00:15:43.709
+we kind of have the customer meeting, I guess as our Sprint Review
+
+302
+00:15:44.230 --> 00:15:48.089
+events every week and so we have our
+
+303
+00:15:48.089 --> 00:15:51.490
+... we actually do that in always less than an hour.
+
+304
+00:15:51.490 --> 00:15:56.240
+It never takes more than an hour I think and I guess we're on a seven-day
+
+305
+00:15:56.240 --> 00:16:00.540
+cycle there to make that work so then there's also
+
+306
+00:16:00.540 --> 00:16:03.540
+the retrospective events which is
+
+307
+00:16:04.070 --> 00:16:07.130
+you know ... the Review event is sort of you're presenting to the
+
+308
+00:16:07.130 --> 00:16:07.779
+customer
+
+309
+00:16:07.779 --> 00:16:11.130
+the Retrospective event is more where you're saying right okay the methodology
+
+310
+00:16:11.130 --> 00:16:12.329
+that we use -
+
+311
+00:16:12.329 --> 00:16:16.699
+you know our Scrum seem to be going you know bleeding over to like 20 minutes 30
+
+312
+00:16:16.699 --> 00:16:18.329
+minutes on a regular basis
+
+313
+00:16:18.329 --> 00:16:21.839
+... you know I couldn't access the
+
+314
+00:16:21.839 --> 00:16:25.139
+backlog frequently enough, the management tool for
+
+315
+00:16:25.139 --> 00:16:26.620
+tracking about backlog
+
+316
+00:16:26.620 --> 00:16:30.420
+was going offline ... all these sorts of things I mean
+
+317
+00:16:30.420 --> 00:16:33.720
+that to try and ... you don't want to be you know
+
+318
+00:16:33.720 --> 00:16:36.730
+given that you've worked out some process to go through the sprint you don't
+
+319
+00:16:36.730 --> 00:16:38.540
+want to be blindly repeating that sprint
+
+320
+00:16:38.540 --> 00:16:41.639
+and hitting the same issues and issues again and again. of course
+
+321
+00:16:41.639 --> 00:16:45.149
+those things can come up in the daily scrum. You've got like
+
+322
+00:16:45.149 --> 00:16:48.990
+an individual block here might be related not just to the technology
+
+323
+00:16:48.990 --> 00:16:51.459
+that you're working with or some particular product;
+
+324
+00:16:51.459 --> 00:16:56.000
+they're to do with blocks "I keep on spending all my time in meetings and I can't bear it" or
+
+325
+00:16:56.000 --> 00:16:57.920
+what-have-you so there's an extent to which
+
+326
+00:16:57.920 --> 00:17:01.370
+some of these issues might be highlighted in the daily Scrums and might even be resolved
+
+327
+00:17:01.370 --> 00:17:04.780
+in follow-up meetings after those. It's
+
+328
+00:17:04.780 --> 00:17:08.490
+yeah a sensible thing to sit down
+
+329
+00:17:08.490 --> 00:17:11.669
+and review the methodology. And this is something that we have
+
+330
+00:17:11.669 --> 00:17:14.789
+had trouble regularly doing our respective events in
+
+331
+00:17:14.789 --> 00:17:18.169
+AgileVentures where it's a volunteer staff and we've got everybody
+
+332
+00:17:18.169 --> 00:17:21.480
+involved being volunteers, having their time constrained and so
+
+333
+00:17:22.160 --> 00:17:25.530
+its you know they can attend the daily scrums and - you know - and
+
+334
+00:17:25.530 --> 00:17:29.500
+an interested subset will be involved in the Sprint Review event but the
+
+335
+00:17:29.500 --> 00:17:30.030
+...
+
+336
+00:17:30.030 --> 00:17:33.419
+the Sprint Retrospective event is much harder to
+
+337
+00:17:34.630 --> 00:17:38.820
+... make time for, although very important ... we have with AgileVentures kind of a
+
+338
+00:17:38.820 --> 00:17:40.179
+weekly meeting which is longer
+
+339
+00:17:40.179 --> 00:17:43.840
+in one of the usual Scrum times which serves as a
+
+340
+00:17:44.370 --> 00:17:47.910
+planning slash retrospective event;
+
+341
+00:17:47.910 --> 00:17:51.650
+but yeah, so another thing that's important is a Backlog Refinement event
+
+342
+00:17:51.650 --> 00:17:54.780
+and at that's not necessarily a separate event but
+
+343
+00:17:55.400 --> 00:17:59.190
+you know you'll find over time, as we have done, that you end up with
+
+344
+00:17:59.190 --> 00:18:02.240
+things in the back log, a huge icebox a process of
+
+345
+00:18:02.240 --> 00:18:05.640
+adjusting all of these things and working out you know
+
+346
+00:18:05.640 --> 00:18:09.309
+sometimes I find we do this actually with the customer to a certain extent, because of course we're looking
+
+347
+00:18:09.309 --> 00:18:09.870
+at
+
+348
+00:18:09.870 --> 00:18:12.960
+the backlog; are these features still relevant
+
+349
+00:18:13.539 --> 00:18:17.900
+... checked ... have the priorities changed
+
+350
+00:18:17.900 --> 00:18:21.890
+and so on and ... fitting
+
+351
+00:18:22.460 --> 00:18:26.400
+in a separate meeting for this is challenging
+
+352
+00:18:26.400 --> 00:18:29.850
+... yeah but ...
+
+353
+00:18:29.850 --> 00:18:33.669
+I think the way we do it, at least with the LocalSupport project, that's just one project in
+
+354
+00:18:33.669 --> 00:18:34.520
+AgileVentures,
+
+355
+00:18:34.520 --> 00:18:38.830
+is that we try and have Backlog Refinement as a regular aspect
+
+356
+00:18:38.830 --> 00:18:42.590
+of effectively what's our Sprint Review meeting with the customer ...
+
+357
+00:18:43.280 --> 00:18:46.750
+... so I've kind of been mentioning
+
+358
+00:18:47.309 --> 00:18:51.539
+various aspects of the distributed Scrum. This is probably like you've all
+
+359
+00:18:51.539 --> 00:18:55.030
+heard about Scrum before many times, I think it's mentioned in some detail in the 169
+
+360
+00:18:55.030 --> 00:18:55.799
+course,
+
+361
+00:18:55.799 --> 00:19:00.090
+there's lots of materials online ... there's a fan(tastic) ... Distributed Scrum
+
+362
+00:19:00.090 --> 00:19:03.360
+there's a fantastic book from IBM with all proceeds going to charity;
+
+363
+00:19:03.360 --> 00:19:06.940
+a practical guide to Distributed Scrum. I mean this just goes to show that
+
+364
+00:19:07.539 --> 00:19:10.740
+Scrum ... it's not just
+
+365
+00:19:10.740 --> 00:19:14.169
+crazy start-up hotheads who are trying Distributed Scrum;
+
+366
+00:19:14.169 --> 00:19:17.530
+this is IBM with thousands of employees and
+
+367
+00:19:18.030 --> 00:19:22.429
+locations all over the world ... distributed scrum really it's taking the
+
+368
+00:19:22.429 --> 00:19:24.230
+whole Scrum and just doing it online!
+
+369
+00:19:24.230 --> 00:19:27.320
+It's as simple as that! I mean there are all sorts all those issues that come up
+
+370
+00:19:27.320 --> 00:19:31.070
+... to do with particularly ... time zones. I think time zones is one of the
+
+371
+00:19:31.070 --> 00:19:32.090
+most challenging things
+
+372
+00:19:32.090 --> 00:19:35.840
+but as I mentioned I think in previous sections and I'll keep mentioning it again because
+
+373
+00:19:35.840 --> 00:19:41.030
+I ... to be honest I am starting to find being a Hangout where everybody can
+
+374
+00:19:41.030 --> 00:19:42.419
+share their screen instantly
+
+375
+00:19:42.419 --> 00:19:46.160
+is actually ... I would almost rather have my scrums
+
+376
+00:19:46.160 --> 00:19:49.160
+online ... as long as everybody's got a good internet connection
+
+377
+00:19:49.160 --> 00:19:52.650
+... and you can see all of the Scrum activity that we're doing
+
+378
+00:19:52.650 --> 00:19:56.260
+online at AgileVentures ... all the time. If I just go ... I mean I've got a little
+
+379
+00:19:56.760 --> 00:19:59.840
+clip from the website ... basically we have
+
+380
+00:19:59.840 --> 00:20:03.020
+this series ... we have scrums and then pair hookups going on
+
+381
+00:20:03.640 --> 00:20:06.770
+just constantly really its every 4 or 5 hours
+
+382
+00:20:06.770 --> 00:20:10.299
+around ... twenty-four/seven at different times
+
+383
+00:20:10.299 --> 00:20:13.710
+and you can jump in and see a Scrum taking place and
+
+384
+00:20:14.409 --> 00:20:18.669
+this sort of pseudo scrum of scrums as we review, as we
+
+385
+00:20:18.669 --> 00:20:19.280
+work through
+
+386
+00:20:19.280 --> 00:20:23.460
+using Pivotal Tracker to manage all of our activities. So in fact one of your assignments
+
+387
+00:20:23.460 --> 00:20:24.720
+this week
+
+388
+00:20:24.720 --> 00:20:27.760
+will be to come and join in the scrum and join in if
+
+389
+00:20:27.760 --> 00:20:32.070
+you can with voting on some features for one of the
+
+390
+00:20:32.070 --> 00:20:35.370
+AgileVentures projects to see: "Scrum in action!!"
+
+391
+00:20:35.370 --> 00:20:39.409
+... yes indeed and personally I think
+
+392
+00:20:39.409 --> 00:20:43.280
+the combination of the Scrum approach the constant review
+
+393
+00:20:43.280 --> 00:20:47.650
+and the new technologies that allow all this stuff to take place online
+
+394
+00:20:47.650 --> 00:20:51.190
+is just extraordinary and ... its ...
+
+395
+00:20:51.190 --> 00:20:55.490
+there's a big cross over with the with the MOOC and the
+
+396
+00:20:55.490 --> 00:20:58.490
+169 course which I think has elements of this ...
+
+397
+00:20:59.039 --> 00:21:02.919
+there's an extent to which, yeah we may ... we're toying with
+
+398
+00:21:02.919 --> 00:21:03.419
+having
+
+399
+00:21:03.419 --> 00:21:07.169
+specific TA MOOC Scrums
+
+400
+00:21:07.169 --> 00:21:10.320
+... more on that next week
+
+401
+00:21:10.320 --> 00:21:13.590
+but so do also check out some other resources. There is a a free online book
+
+402
+00:21:13.590 --> 00:21:17.350
+about Scrum and XP there. This is the link there to the
+
+403
+00:21:17.350 --> 00:21:21.630
+IBM book there. There's also a technical paper from a few years back showing how
+
+404
+00:21:21.630 --> 00:21:24.900
+distributed Scrum could be extremely cost-effective and lots of other
+
+405
+00:21:24.900 --> 00:21:25.799
+resources
+
+406
+00:21:25.799 --> 00:21:28.909
+out there on the net ... so
+
+407
+00:21:28.909 --> 00:21:33.039
+what can I say, I think, scrum seems to work very well for us we're enjoying
+
+408
+00:21:33.039 --> 00:21:36.970
+developing lots and lots of features for our customers
+
+409
+00:21:36.970 --> 00:21:41.309
+very fast through AgileVentures and I know many other bigger organizations than we
+
+410
+00:21:41.309 --> 00:21:44.710
+are doing so ... come and jump in
+
+411
+00:21:44.710 --> 00:21:45.409
+Alright, bye for now
+

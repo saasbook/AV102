@@ -1,0 +1,2452 @@
+0
+00:00:00,000 --> 00:00:03,470
+Yes, so let's talk about pair programming ... we have a
+
+1
+00:00:03,470 --> 00:00:06,839
+wonderful little image which seems to be all over the internet
+
+2
+00:00:06,839 --> 00:00:11,349
+... I think that the worst view of programming is that it's wasting
+
+3
+00:00:11,349 --> 00:00:15,009
+one person's time ... that other person here might be a cat
+
+4
+00:00:15,009 --> 00:00:19,039
+they're saying things like look look look you forgot a semicolon and it's like no we don't even need
+
+5
+00:00:19,039 --> 00:00:20,640
+semi colons or it's like yes I was just about to do that
+
+6
+00:00:20,640 --> 00:00:25,849
+it's you know the kind of ... in its - I guess what's the what's the word it
+
+7
+00:00:25,849 --> 00:00:26,439
+...
+
+8
+00:00:26,439 --> 00:00:29,640
+its monstrous form it's argued to be
+
+9
+00:00:29,640 --> 00:00:32,980
+you know kind of a waste of time. I think that view is becoming
+
+10
+00:00:32,980 --> 00:00:36,530
+less and less prevalent. I'm a bit of a pair programming evangelist. I think it is the
+
+11
+00:00:36,530 --> 00:00:37,030
+way
+
+12
+00:00:37,030 --> 00:00:40,070
+... and but you know why should you listen to me?
+
+13
+00:00:40,070 --> 00:00:43,460
+We've built all or our AgileVentures
+
+14
+00:00:43,460 --> 00:00:46,770
+sites and web app through through religious
+
+15
+00:00:46,770 --> 00:00:50,110
+pair programming ... other companies like ThoughtWorks and PivotalLabs and so on
+
+16
+00:00:50,110 --> 00:00:53,399
+are just basically getting things done and having a lot more fun
+
+17
+00:00:53,399 --> 00:00:57,760
+doing pair programming. What do we mean by pair programming?
+
+18
+00:00:57,760 --> 00:01:02,510
+It's this style of programming, you
+
+19
+00:01:02,510 --> 00:01:06,010
+sit side by side at one computer; it's the remote ... well
+
+20
+00:01:06,010 --> 00:01:09,780
+not remote; it's pair programming; we're all about remote but anyway; pair programming just
+
+21
+00:01:09,780 --> 00:01:10,549
+by itself
+
+22
+00:01:10,549 --> 00:01:14,400
+and the idea is that rather than like one person staring off into space and the other
+
+23
+00:01:14,400 --> 00:01:15,439
+person doing all the work ...
+
+24
+00:01:15,439 --> 00:01:19,540
+and the other person occasionally getting coffee, it's that your continuously collaborating on
+
+25
+00:01:19,540 --> 00:01:20,540
+the same design,
+
+26
+00:01:20,540 --> 00:01:24,340
+algorithm, code or test ... and in particular that
+
+27
+00:01:24,340 --> 00:01:28,450
+it should be ... there should be a process of really tight
+
+28
+00:01:28,450 --> 00:01:31,640
+tight focus ... on the code
+
+29
+00:01:31,640 --> 00:01:36,820
+... and so why is pair programming useful?
+
+30
+00:01:36,820 --> 00:01:40,270
+One of the key things that it does is it really increases your focus level
+
+31
+00:01:40,270 --> 00:01:43,930
+... I think I find this all the time; I find myself when I'm soloing
+
+32
+00:01:43,930 --> 00:01:47,130
+which is when I'm coding by myself, which I hate,
+
+33
+00:01:47,130 --> 00:01:52,180
+... these days ... the tendency is to kinda like wander off and think about other
+
+34
+00:01:52,180 --> 00:01:52,840
+things
+
+35
+00:01:52,840 --> 00:01:57,159
+... with ... you start cutting corners on the tests or
+
+36
+00:01:57,159 --> 00:02:00,479
+... what have you; but by having another person there
+
+37
+00:02:00,479 --> 00:02:03,790
+... that can really keep you focused on the
+
+38
+00:02:03,790 --> 00:02:07,280
+on the problem. It can allow you to brainstorm
+
+39
+00:02:07,280 --> 00:02:10,289
+more effectively ... these things
+
+40
+00:02:10,289 --> 00:02:13,790
+kind of ... they will ...
+
+41
+00:02:13,790 --> 00:02:17,209
+if your pair is somebody who basically is a Facebook addict and can't stop looking at
+
+42
+00:02:17,209 --> 00:02:18,599
+Facebook and talking to you about Facebook
+
+43
+00:02:18,599 --> 00:02:21,680
+then that is going to be a problem ... if you're
+
+44
+00:02:21,680 --> 00:02:24,910
+pair is somebody who ... never says anything
+
+45
+00:02:25,420 --> 00:02:29,420
+then the brainstorming is not gonna leap up.
+
+46
+00:02:29,420 --> 00:02:30,330
+It's not going to suddenly be
+
+47
+00:02:30,330 --> 00:02:34,300
+better than it was with just yourself. So to a certain extent it depends on
+
+48
+00:02:34,300 --> 00:02:34,769
+the -
+
+49
+00:02:34,769 --> 00:02:37,970
+on the pair; all of this does ... but
+
+50
+00:02:37,970 --> 00:02:41,180
+that's partly why I think it's important for people to understand
+
+51
+00:02:41,690 --> 00:02:45,819
+how to do pair programming well, which we will be talking about in this section; particularly
+
+52
+00:02:45,819 --> 00:02:47,140
+remote programming which
+
+53
+00:02:47,140 --> 00:02:50,780
+gets round all those pesky: "Oh he's in a different country and in a different time zone"
+
+54
+00:02:50,780 --> 00:02:55,800
+issues ... but so the other thing ... and for me as a project manager,
+
+55
+00:02:55,800 --> 00:02:59,349
+the thing that I *love* about pair programming is it's increasing our truck number.
+
+56
+00:02:59,349 --> 00:03:02,159
+Rather than having one huge feature that we're developing for
+
+57
+00:03:02,159 --> 00:03:02,959
+a customer
+
+58
+00:03:02,959 --> 00:03:06,900
+being done by one person and then that person accidentally goes under a truck and we have no
+
+59
+00:03:06,900 --> 00:03:08,030
+idea how the code works
+
+60
+00:03:08,030 --> 00:03:11,030
+... we have two people
+
+61
+00:03:11,030 --> 00:03:14,400
+working on ... at least two people you know and ideally
+
+62
+00:03:14,400 --> 00:03:17,569
+because we'll practice promiscuous pairing, like *continuously*
+
+63
+00:03:17,569 --> 00:03:21,050
+... three or four or five different people will have paired in different parts
+
+64
+00:03:21,050 --> 00:03:24,250
+of that code base on all of the
+
+65
+00:03:24,250 --> 00:03:27,879
+little technical tricks and skills that one person is discovering,
+
+66
+00:03:27,879 --> 00:03:31,540
+they are getting shared through the team and the knowledge about how to deal with
+
+67
+00:03:31,540 --> 00:03:32,069
+certain
+
+68
+00:03:32,069 --> 00:03:35,590
+libraries and gems and javascript things and what have you
+
+69
+00:03:35,590 --> 00:03:39,200
+is all being shared around;
+
+70
+00:03:39,200 --> 00:03:43,580
+that's extraordinarily valuable really from the point of view
+
+71
+00:03:43,580 --> 00:03:46,760
+of a project manager ... and the other thing, I mean, this is ...
+
+72
+00:03:46,760 --> 00:03:51,019
+I think, pretty much everybody wants to pair with somebody who is -
+
+73
+00:03:51,019 --> 00:03:54,890
+you know - at the same level as them, or maybe slightly above in terms of what they are thinking about
+
+74
+00:03:54,890 --> 00:03:56,760
+levels; whether it's level on JavaScript or level on
+
+75
+00:03:56,760 --> 00:04:00,370
+this that and the other. Personally I enjoy pairing with people of all different
+
+76
+00:04:00,370 --> 00:04:00,900
+levels
+
+77
+00:04:00,900 --> 00:04:04,920
+... sometimes it's a novice; someone who comes with fresh eyes
+
+78
+00:04:04,920 --> 00:04:08,290
+and sees what you're doing and asks
+
+79
+00:04:08,290 --> 00:04:12,159
+an important question, and you can say: "Oh right! Actually we don't need any
+
+80
+00:04:12,159 --> 00:04:15,599
+of all of that stuff, actually you've saved me three days work because you know you asked
+
+81
+00:04:15,599 --> 00:04:16,280
+that question
+
+82
+00:04:16,280 --> 00:04:19,720
+at the right time and personally I mean I'm a bit of an extrovert. I mean I guess if you just don't
+
+83
+00:04:19,720 --> 00:04:20,609
+like people,
+
+84
+00:04:20,609 --> 00:04:24,009
+then pairing is not for you;
+
+85
+00:04:24,009 --> 00:04:27,650
+but if like many other people you do quite like interacting with people and you also like
+
+86
+00:04:27,650 --> 00:04:29,070
+coding, then you can mix it together
+
+87
+00:04:29,070 --> 00:04:32,389
+and it can mean that coding can be a lot more fun than it can be - I think
+
+88
+00:04:32,389 --> 00:04:33,180
+particularly
+
+89
+00:04:33,180 --> 00:04:36,320
+because there's this thing that as programs I'm sure that we've all encountered
+
+90
+00:04:36,320 --> 00:04:39,770
+where something just doesn't work and it just ... you're just stuck
+
+91
+00:04:39,770 --> 00:04:43,360
+and being able to talk to somebody else about that at that moment when
+
+92
+00:04:43,360 --> 00:04:44,030
+you're stuck
+
+93
+00:04:44,030 --> 00:04:47,810
+rather than just you're searching StackOverflow and you're posting to the mailing lists and
+
+94
+00:04:47,810 --> 00:04:48,270
+so on
+
+95
+00:04:48,270 --> 00:04:51,910
+and you're like er er bang bang head on keyboard ...
+
+96
+00:04:51,910 --> 00:04:55,750
+actually going through that process with other people together is ...
+
+97
+00:04:55,750 --> 00:04:58,759
+makes it all the more manageable, yes
+
+98
+00:04:58,759 --> 00:05:02,180
+indeed. So what about the actual software that's coming out?
+
+99
+00:05:02,699 --> 00:05:06,860
+I think ultimately there's a number of statistics ... there has been a lot of
+
+100
+00:05:06,860 --> 00:05:09,940
+research done on the costs and benefits of pair programming
+
+101
+00:05:09,940 --> 00:05:13,509
+... it is obviously you're having two people do what conceivably is one
+
+102
+00:05:13,509 --> 00:05:14,320
+person's job ...
+
+103
+00:05:14,320 --> 00:05:18,720
+there is an increase in getting things working
+
+104
+00:05:18,720 --> 00:05:22,340
+but that's made up for because you just get ...
+
+105
+00:05:22,340 --> 00:05:25,539
+higher quality code ... that down the line there's less
+
+106
+00:05:26,060 --> 00:05:29,120
+... bugs to fix; there's less issues to address; actually it
+
+107
+00:05:29,120 --> 00:05:33,270
+reminds me something I was going to mention ... I mean you could say, "Right, about this
+
+108
+00:05:33,270 --> 00:05:34,180
+truck number,
+
+109
+00:05:34,180 --> 00:05:37,600
+ah yes, well if the person had written
+
+110
+00:05:37,600 --> 00:05:41,940
+fantastic documentation that explained exactly what they were doing
+
+111
+00:05:41,940 --> 00:05:43,169
+all the time that they were doing it
+
+112
+00:05:43,169 --> 00:05:46,330
+and they kept that documentation completely up to date then
+
+113
+00:05:46,330 --> 00:05:49,800
+we wouldn't need all this annoying pairing activity would we?"
+
+114
+00:05:49,800 --> 00:05:53,729
+... it just, it seems to me the danger even if
+
+115
+00:05:54,570 --> 00:05:57,759
+you're sort of religiously fevoured about documentation
+
+116
+00:05:57,759 --> 00:06:01,110
+... there's sometimes no substitute for
+
+117
+00:06:01,110 --> 00:06:04,120
+actually having experienced using something. This is why
+
+118
+00:06:04,800 --> 00:06:09,160
+fundamentally screen share is so ... I mean I can write a huge
+
+119
+00:06:09,160 --> 00:06:12,280
+long post in a forum to say look I'm having all of this issue and I'm
+
+120
+00:06:12,280 --> 00:06:13,440
+stuck here and this and the other
+
+121
+00:06:13,440 --> 00:06:16,479
+... a screenshot of
+
+122
+00:06:16,479 --> 00:06:20,069
+exactly what's going on, or indeed a live session where I'm talking and going backwards and
+
+123
+00:06:20,069 --> 00:06:20,949
+forwards for somebody
+
+124
+00:06:20,949 --> 00:06:24,500
+really cuts through; I mean extraordinarily so ...
+
+125
+00:06:24,500 --> 00:06:28,289
+such that ... I dunno I think in trying
+
+126
+00:06:28,289 --> 00:06:32,009
+... maybe in the ideal world people would work well independently and they
+
+127
+00:06:32,009 --> 00:06:32,460
+would like
+
+128
+00:06:32,460 --> 00:06:35,509
+document everything perfectly and thats I guess if you've got ...
+
+129
+00:06:35,509 --> 00:06:38,590
+if you're in the army and there's some
+
+130
+00:06:39,100 --> 00:06:43,110
+huge amount of money or a gun or something or whatever it says: "Right!
+
+131
+00:06:43,110 --> 00:06:46,509
+You must behave in this way!" But I think it's fighting against
+
+132
+00:06:46,509 --> 00:06:50,580
+people's tendency to just see if they can get something to work
+
+133
+00:06:51,220 --> 00:06:54,580
+right? ... I love documentation in the form of
+
+134
+00:06:55,090 --> 00:06:58,419
+executable documentation,  that's what I want.  I want my documentation to be
+
+135
+00:06:58,419 --> 00:06:59,300
+executable. As we
+
+136
+00:06:59,300 --> 00:07:03,190
+can then run it, and then it can go blue or green or blue, red. No; green or red
+
+137
+00:07:03,190 --> 00:07:06,270
+depending upon whether it's actually a reflection of what the system is doing!
+
+138
+00:07:06,270 --> 00:07:09,349
+Anyway but so I mean ...
+
+139
+00:07:09,349 --> 00:07:12,750
+the code you get out ... I think you just basically get better quality software
+
+140
+00:07:12,750 --> 00:07:15,569
+as a result of doing pair programming. The code is continuously reviewed by more
+
+141
+00:07:15,569 --> 00:07:16,610
+than one set of eyes
+
+142
+00:07:16,610 --> 00:07:20,210
+... mistakes get caught earlier and ultimately your
+
+143
+00:07:20,210 --> 00:07:23,400
+confidence in the code is higher ... I think
+
+144
+00:07:23,400 --> 00:07:27,069
+there's ... I mean I have this argument that goes backwards and forwards
+
+145
+00:07:27,069 --> 00:07:30,419
+... with people ... learn ... there's
+
+146
+00:07:30,419 --> 00:07:33,690
+... people dispute the ...
+
+147
+00:07:34,699 --> 00:07:37,699
+increases in the benefits that you get in ...
+
+148
+00:07:38,259 --> 00:07:41,300
+let's say the working world ... I think ...
+
+149
+00:07:41,300 --> 00:07:45,220
+in terms of learning coding ... Laurie Williams
+
+150
+00:07:45,220 --> 00:07:48,220
+led this research at the ...
+
+151
+00:07:48,770 --> 00:07:53,650
+University of North Carolina State demonstrating how much faster
+
+152
+00:07:53,650 --> 00:07:57,580
+people could learn when they're pairing. So even if you were like:
+
+153
+00:07:57,580 --> 00:08:00,069
+"So well, no, no it's just not going to be efficient for us!"
+
+154
+00:08:00,069 --> 00:08:03,840
+if you're learning something I really really recommend as there's a lot of evidence to suggest
+
+155
+00:08:03,840 --> 00:08:05,669
+just that you'll learn much faster
+
+156
+00:08:05,669 --> 00:08:09,780
+if you're doing it pairing.  I also personally, I would really not
+
+157
+00:08:09,780 --> 00:08:10,819
+want to be a project manager
+
+158
+00:08:10,819 --> 00:08:13,819
+on a project where pairing was not sort of rigorously
+
+159
+00:08:13,819 --> 00:08:16,849
+enforced.  Although ... this continuous review -
+
+160
+00:08:18,190 --> 00:08:21,440
+you can be, as I think we'll talk about in the next section ... there is pull
+
+161
+00:08:21,440 --> 00:08:23,379
+requests and there's reviewing code after the fact which I think
+
+162
+00:08:23,379 --> 00:08:27,240
+also needs to happen; but I would much rather, as a project manager
+
+163
+00:08:27,240 --> 00:08:29,479
+reviewing code coming/being submitted to the projects,
+
+164
+00:08:29,479 --> 00:08:32,899
+I would much rather have two people having worked
+
+165
+00:08:32,899 --> 00:08:35,909
+on that. Two sets of eyeballs going back and forwards, before I then
+
+166
+00:08:35,909 --> 00:08:39,979
+lend my set of eyeballs ... to the finally submitted pull request but more on that
+
+167
+00:08:40,560 --> 00:08:43,560
+... in the next section ... so
+
+168
+00:08:44,080 --> 00:08:47,810
+again I mean the pair programming it's not this side-by-side you know one person
+
+169
+00:08:47,810 --> 00:08:50,820
+just half falling asleep ... there's this idea the driver and navigator
+
+170
+00:08:51,540 --> 00:08:54,680
+... and the driver will do - the typing and the navigator
+
+171
+00:08:54,680 --> 00:08:58,209
+... will be constantly reviewing the code and
+
+172
+00:08:58,209 --> 00:09:01,700
+thinking about the longer-term strategy and so on and talking
+
+173
+00:09:01,700 --> 00:09:05,149
+all the time. It's also important to switch roles ...
+
+174
+00:09:05,149 --> 00:09:09,800
+I think we talk about 15 minutes being a good switching time, but you need to work
+
+175
+00:09:09,800 --> 00:09:11,019
+out your own
+
+176
+00:09:11,019 --> 00:09:14,080
+... pace ... it's ...
+
+177
+00:09:14,730 --> 00:09:18,250
+pair programming is a skill ... we need
+
+178
+00:09:18,250 --> 00:09:21,250
+piloted pair programming among students in
+
+179
+00:09:21,769 --> 00:09:25,190
+the MOOC the last time around. In 169 in fall 2013
+
+180
+00:09:25,740 --> 00:09:30,390
+and ... we had some very very positive reports and we have some negative
+
+181
+00:09:30,390 --> 00:09:30,920
+reports and there's
+
+182
+00:09:30,920 --> 00:09:34,779
+a big thing about your personality and
+
+183
+00:09:34,779 --> 00:09:38,080
+getting used to doing pair programming and so on ... so
+
+184
+00:09:38,080 --> 00:09:41,360
+we're working hard this time to talk more about
+
+185
+00:09:41,360 --> 00:09:44,519
+*how* you do effective pair programming. I think that's a whole skill
+
+186
+00:09:44,519 --> 00:09:48,000
+... what I often say to learners is
+
+187
+00:09:48,000 --> 00:09:51,370
+master the pair programming skill first because then every other skill that you
+
+188
+00:09:51,370 --> 00:09:53,410
+want to master like TDD or BDD
+
+189
+00:09:53,410 --> 00:09:56,750
+or writing a gem or whatever ...
+
+190
+00:09:56,750 --> 00:10:00,970
+if you've mastered the pair programming bit, everything else will be much much
+
+191
+00:10:00,970 --> 00:10:01,529
+easier
+
+192
+00:10:01,529 --> 00:10:05,110
+at least that's my opinion anyway ... but so there's this idea that ...
+
+193
+00:10:05,110 --> 00:10:09,769
+I mean in some ways this soft
+
+194
+00:10:09,769 --> 00:10:12,880
+fluffy friendly skills that are not part of programming.  Programming is all about
+
+195
+00:10:12,880 --> 00:10:13,910
+understanding
+
+196
+00:10:13,910 --> 00:10:16,980
+you know algorithms and logic and so on
+
+197
+00:10:16,980 --> 00:10:21,029
+and we're not talking about emotions a lot are we? with software. Actually in my
+
+198
+00:10:21,029 --> 00:10:21,890
+Software Engineering classes
+
+199
+00:10:21,890 --> 00:10:25,230
+I say that - really - programming is an emotional experience, even if you're doing it by
+
+200
+00:10:25,230 --> 00:10:25,990
+yourself
+
+201
+00:10:25,990 --> 00:10:29,250
+how you cope emotionally when you get stuck is
+
+202
+00:10:29,250 --> 00:10:33,250
+... I think that's ... how you deal with that; because it's a
+
+203
+00:10:33,250 --> 00:10:34,589
+very frustrating experience;
+
+204
+00:10:34,589 --> 00:10:37,640
+how you deal with that is a lot about who you're going to become as a coder and
+
+205
+00:10:37,640 --> 00:10:38,360
+whether you're gonna
+
+206
+00:10:38,360 --> 00:10:42,560
+succeed or fail in the programming market shall we say
+
+207
+00:10:42,560 --> 00:10:46,769
+... there's this phrase ego-less programming which is about trying to take the egos (out)
+
+208
+00:10:46,769 --> 00:10:50,920
+... rather than whenever anybody suggests something, you defend
+
+209
+00:10:50,920 --> 00:10:54,829
+yourself and you're "Well, ah no!" and then you make up reasons for why
+
+210
+00:10:54,829 --> 00:10:59,180
+I have to do this or have to that ... it's sort of trying to learn how to ...
+
+211
+00:10:59,180 --> 00:11:00,040
+accept
+
+212
+00:11:00,040 --> 00:11:03,430
+constructive criticism about ... saying right this is a a collaborative
+
+213
+00:11:03,430 --> 00:11:04,519
+activity that we're doing
+
+214
+00:11:04,519 --> 00:11:07,870
+... we've got I guess I won't labour the point here we've got
+
+215
+00:11:07,870 --> 00:11:12,070
+... there's a variety of excellent videos by different
+
+216
+00:11:12,070 --> 00:11:16,570
+... shall we say, leaders in the field; far better programmers that I
+
+217
+00:11:16,570 --> 00:11:21,589
+... in the accordion navigation which of course is difficult to find.  I'll highlight
+
+218
+00:11:21,589 --> 00:11:22,110
+thats
+
+219
+00:11:22,110 --> 00:11:25,360
+...in the intro to this section but ... yeah, so we've got various
+
+220
+00:11:25,360 --> 00:11:28,459
+videos ... targeted at different
+
+221
+00:11:28,459 --> 00:11:31,540
+levels ... you can hear from them about
+
+222
+00:11:31,540 --> 00:11:35,120
+you know the best ways to sort of approach things emotionally
+
+223
+00:11:35,120 --> 00:11:38,920
+... what I wanted to highlight, moving on from the emotional side of things,
+
+224
+00:11:38,920 --> 00:11:42,120
+is I think that pair programming is just
+
+225
+00:11:42,120 --> 00:11:45,860
+one type of collaboration with one kind of target
+
+226
+00:11:45,860 --> 00:11:49,209
+task. So this process of
+
+227
+00:11:49,209 --> 00:11:52,620
+switching driver/navigator roles is also, is
+
+228
+00:11:52,620 --> 00:11:56,870
+often called "ping pong" as in: tush, tush, tush you know the game like tennis but you
+
+229
+00:11:56,870 --> 00:12:00,589
+stand on a table, no no no anyway, you don't stand on the table you stand next to the table ...
+
+230
+00:12:00,589 --> 00:12:04,430
+I don't know ping pong very well, but this is ... I'm talking about pairing ping pong
+
+231
+00:12:04,430 --> 00:12:07,620
+and, oh I've jumped a slide ... let's go back.
+
+232
+00:12:08,990 --> 00:12:12,010
+This is one type of collaboration of
+
+233
+00:12:12,010 --> 00:12:15,519
+a number and partly as a result of you know the last year of
+
+234
+00:12:15,519 --> 00:12:18,290
+promiscuously programming with an extremely large number of people. I think the
+
+235
+00:12:18,290 --> 00:12:20,389
+number of people I've paired with is up to about 500
+
+236
+00:12:20,389 --> 00:12:23,649
+and climbing and also with working with you know
+
+237
+00:12:23,649 --> 00:12:28,410
+all the MOOC students and working a with Hawaii Pacific University and also with
+
+238
+00:12:28,410 --> 00:12:29,230
+Makers Academy
+
+239
+00:12:29,230 --> 00:12:32,230
+in London, which is a coding bootcamp here;
+
+240
+00:12:32,230 --> 00:12:35,450
+I've started to develop this list of
+
+241
+00:12:35,450 --> 00:12:37,899
+different types of collaboration; particularly in terms of programming
+
+242
+00:12:37,899 --> 00:12:39,120
+but we're also doing it
+
+243
+00:12:39,120 --> 00:12:41,930
+in terms of other sort of activities like you know developing course
+
+244
+00:12:41,930 --> 00:12:42,550
+materials
+
+245
+00:12:42,550 --> 00:12:45,940
+and so on ... developing advertising copy or what have you
+
+246
+00:12:45,940 --> 00:12:49,970
+... but so ping pong this process where it is very very tightly focused
+
+247
+00:12:49,970 --> 00:12:50,850
+backwards and forwards
+
+248
+00:12:50,850 --> 00:12:54,120
+you've got this master/robot thing where one person is just telling the other person what to do;
+
+249
+00:12:54,120 --> 00:12:57,610
+you've got scaffolding where you've got an expert who's working with ...
+
+250
+00:12:57,610 --> 00:13:01,500
+where there's sort of an extreme difference in expert and novice
+
+251
+00:13:01,500 --> 00:13:04,959
+and there's just sort of side by side programming where you are like ... are you
+
+252
+00:13:04,959 --> 00:13:09,370
+even working on the same task ... there's just having a chat, and then all of the different
+
+253
+00:13:09,370 --> 00:13:12,370
+set above with observers. So you could take any of these
+
+254
+00:13:12,370 --> 00:13:16,130
+and you could talk about them as a collaborative mode for programming.
+
+255
+00:13:16,130 --> 00:13:19,370
+And you could insert any other task; so if you take ping pong
+
+256
+00:13:20,209 --> 00:13:23,060
+and we say we're doing it with programming then I would say arguably that's sort of
+
+257
+00:13:23,060 --> 00:13:23,860
+true
+
+258
+00:13:23,860 --> 00:13:27,339
+pair programming in the Extreme Programming vision of what it
+
+259
+00:13:27,339 --> 00:13:28,170
+should be like
+
+260
+00:13:28,170 --> 00:13:32,500
+... let's consider that there ... so the ping pong versus
+
+261
+00:13:32,500 --> 00:13:36,889
+side by side ... I would describe the ping pong thing is your ping ponging
+
+262
+00:13:36,889 --> 00:13:38,250
+backwards and forwards and we'll
+
+263
+00:13:38,250 --> 00:13:42,360
+look at more details of how that might work in a minute; on a problem
+
+264
+00:13:42,360 --> 00:13:46,019
+where both parties haven't seen it previously, or at least not recently.
+
+265
+00:13:46,690 --> 00:13:50,570
+So - and I actually I put that in to distinguish is from the situation where
+
+266
+00:13:51,079 --> 00:13:54,880
+you know you might have ... you already know the solution and you're working with
+
+267
+00:13:54,880 --> 00:13:57,329
+somebody who doesn't know the solution to the problem
+
+268
+00:13:57,329 --> 00:14:01,230
+... I think ... true pairing really is ...
+
+269
+00:14:01,230 --> 00:14:05,600
+... well ... do we even really the term "true pairing" ... I'm not
+
+270
+00:14:05,600 --> 00:14:06,070
+sure
+
+271
+00:14:06,070 --> 00:14:09,110
+but I think that the
+
+272
+00:14:09,110 --> 00:14:12,120
+almost the kind of ... it's kind of like free climbing ...
+
+273
+00:14:12,120 --> 00:14:15,420
+the ping pong where ... you're both working on
+
+274
+00:14:15,420 --> 00:14:18,570
+... something and you ... it's a new feature
+
+275
+00:14:18,570 --> 00:14:21,820
+... and you might have worked on things that are similar to it before, but this is the
+
+276
+00:14:21,820 --> 00:14:22,339
+new one
+
+277
+00:14:22,339 --> 00:14:25,440
+and we're doing this and its ... you're both
+
+278
+00:14:25,440 --> 00:14:29,680
+... you're not so enormously different in the terms of your skill
+
+279
+00:14:29,680 --> 00:14:30,779
+level or experience with
+
+280
+00:14:30,779 --> 00:14:34,260
+the technology, which let's say it's Rails or JavaScript or Jasmine or whatever it happens to be ...
+
+281
+00:14:34,260 --> 00:14:38,060
+and you're working on it together and you're basically taking turns to write code
+
+282
+00:14:38,060 --> 00:14:41,120
+backwards and forwards or taking turns on whatever the activity is. That's
+
+283
+00:14:41,670 --> 00:14:44,930
+really ping pong.  It's really tight collaboration ...
+
+284
+00:14:44,930 --> 00:14:48,430
+you might have ... we can contrast that with side by side so
+
+285
+00:14:48,430 --> 00:14:52,070
+you may be in the same space, where that might be the same office, or it might be the same
+
+286
+00:14:52,070 --> 00:14:52,579
+Hangout
+
+287
+00:14:52,579 --> 00:14:55,839
+... and you could be working on the same problem but you're both ...
+
+288
+00:14:55,839 --> 00:14:59,570
+you've both got access to it, but you're not actually kind of swapping backwards and forwards in a
+
+289
+00:14:59,570 --> 00:15:01,839
+ping pong when you're in a driver and navigator roles.
+
+290
+00:15:01,839 --> 00:15:04,850
+And so that's this sort of side by side activity and
+
+291
+00:15:04,850 --> 00:15:08,350
+that's something that you can do. I don't think it gives you all of the benefits that we're ...
+
+292
+00:15:08,350 --> 00:15:10,190
+I mean these benefits that we're talking about
+
+293
+00:15:10,190 --> 00:15:13,190
+... for pair programming here; and they come from
+
+294
+00:15:13,190 --> 00:15:16,850
+when you're doing this ping pong backwards and forwards in
+
+295
+00:15:16,850 --> 00:15:17,940
+tight succession
+
+296
+00:15:17,940 --> 00:15:21,149
+... I mean you can even have - it could just happen to be - it's like you know
+
+297
+00:15:21,149 --> 00:15:22,019
+open office -
+
+298
+00:15:22,019 --> 00:15:24,899
+we're side by side and we're working on a different problem but occasionally we
+
+299
+00:15:24,899 --> 00:15:26,889
+say things to each other like: "Oh I'm sort of stuck on this thing" or
+
+300
+00:15:26,889 --> 00:15:30,310
+what have you ... and that's kind of handy to have other people around when you're working
+
+301
+00:15:30,860 --> 00:15:34,329
+maybe on the same problem or a different problem; but if you're kind of really ...
+
+302
+00:15:34,329 --> 00:15:38,519
+not ... if you're not in that sort of tight collaborative zone I don't think you're going to get
+
+303
+00:15:38,519 --> 00:15:41,990
+many the benefits of pairing. Not the these things ... I mean
+
+304
+00:15:41,990 --> 00:15:45,070
+... it's actually quite nice to have somebody next to you
+
+305
+00:15:45,070 --> 00:15:49,079
+working on a different problem that you can occasionally say: "Ooh, you know, this thing, that thing"
+
+306
+00:15:49,079 --> 00:15:52,639
+and so on. That's a valuable thing and
+
+307
+00:15:52,639 --> 00:15:56,240
+in terms of thinking about managing distributed teams, enabling people ... like having a
+
+308
+00:15:56,240 --> 00:15:57,070
+Hangout
+
+309
+00:15:57,070 --> 00:16:01,079
+set up so that people can just sort of hang out there and work on independent problems and
+
+310
+00:16:01,079 --> 00:16:02,389
+occasionally chat to each other:
+
+311
+00:16:02,389 --> 00:16:05,980
+really useful ... I think you know we'll be doing that with the
+
+312
+00:16:05,980 --> 00:16:09,579
+Help Desk Hangouts for the 169 course but if you're thinking about managing your
+
+313
+00:16:09,579 --> 00:16:10,600
+distributed team,
+
+314
+00:16:10,600 --> 00:16:13,970
+just having a sort of continually running Hangout that allows them to kind of have
+
+315
+00:16:13,970 --> 00:16:17,750
+a sort of an open office space shall we say ...
+
+316
+00:16:17,750 --> 00:16:21,290
+but virtually setup, that's really really useful
+
+317
+00:16:21,290 --> 00:16:25,699
+... and going on to two other of these collaborative patterns like what I call
+
+318
+00:16:25,699 --> 00:16:28,810
+master/robot and scaffolding and these are particularly important
+
+319
+00:16:28,810 --> 00:16:31,810
+for ... I would say
+
+320
+00:16:31,810 --> 00:16:35,430
+anything in an educational situation because master/robot and scaffolding
+
+321
+00:16:35,430 --> 00:16:38,790
+are where we're sort of assuming that one person knows
+
+322
+00:16:39,680 --> 00:16:42,949
+the solution to the problem or they know the domain area
+
+323
+00:16:42,949 --> 00:16:46,279
+really rather a lot better than the other one. Now of course
+
+324
+00:16:46,279 --> 00:16:49,899
+that doesn't mean that person is somehow better across the board at
+
+325
+00:16:50,470 --> 00:16:53,470
+absolutely everything ... for example ...
+
+326
+00:16:53,970 --> 00:16:57,130
+we might be working in a Rails project and I might let's say
+
+327
+00:16:57,130 --> 00:17:00,990
+I have a relatively advanced Rails knowledge ... I don't compared to
+
+328
+00:17:00,990 --> 00:17:01,589
+many people but compared
+
+329
+00:17:01,589 --> 00:17:05,140
+to some people I've got a pretty good Rails knowledge, but let's say that I've got a dip and
+
+330
+00:17:05,140 --> 00:17:06,280
+I don't know Jasmine
+
+331
+00:17:06,280 --> 00:17:09,919
+testing quite so well and there might be somebody who's done a lot of Jasmine testing, but they don't necessarily
+
+332
+00:17:09,919 --> 00:17:10,360
+have
+
+333
+00:17:10,360 --> 00:17:13,640
+... Rails; so it's like
+
+334
+00:17:13,640 --> 00:17:16,799
+... this idea that people are kinda on this continuous scale
+
+335
+00:17:16,799 --> 00:17:20,329
+from super ninja programmer down to like programming novice
+
+336
+00:17:20,329 --> 00:17:23,990
+and that they're stacked up and it's like oh yes.  The thing is that there's so many different
+
+337
+00:17:23,990 --> 00:17:28,230
+things that you can be expert in, in terms of the technology field ... in the
+
+338
+00:17:28,230 --> 00:17:29,260
+world, in life;
+
+339
+00:17:29,260 --> 00:17:33,510
+so everybody's got different levels in all of those ... they've got a different sort of profile in
+
+340
+00:17:33,510 --> 00:17:34,610
+all those different
+
+341
+00:17:34,610 --> 00:17:37,760
+domains; but anyway for the master and robot distinction
+
+342
+00:17:38,330 --> 00:17:41,789
+there's a thing that you can do, if you know
+
+343
+00:17:41,789 --> 00:17:44,870
+pretty much the prescribed recipe to get through a problem
+
+344
+00:17:45,460 --> 00:17:49,740
+you can just tell the other person what to do, you can say: "Right, type this line of code in here
+
+345
+00:17:49,740 --> 00:17:53,370
+and save that file and do that thing and do that thing on that website"
+
+346
+00:17:53,370 --> 00:17:58,200
+and that's sort of done; and that may have some benefits to the person who's being
+
+347
+00:17:58,200 --> 00:18:00,140
+the relative novice
+
+348
+00:18:00,140 --> 00:18:03,570
+who's being the robot in that situation but I think it's not as helpful
+
+349
+00:18:03,570 --> 00:18:07,100
+as if you're set up with a sort of a scaffolding approach, and we've talked about educational
+
+350
+00:18:07,100 --> 00:18:07,700
+scaffolding
+
+351
+00:18:07,700 --> 00:18:11,049
+previously and that's as you know where one person knows the problem
+
+352
+00:18:11,049 --> 00:18:12,360
+solution; but rather than
+
+353
+00:18:12,360 --> 00:18:16,020
+just saying "do this and then do this and then do this" maybe with a little bit of explanation
+
+354
+00:18:16,710 --> 00:18:20,340
+that they actually scaffold the novice
+
+355
+00:18:20,340 --> 00:18:24,260
+in their attempts to "master the problem" hmm that's confusing;
+
+356
+00:18:24,789 --> 00:18:28,030
+let's have it "solve" - in their attempts to solve the problem this ... so
+
+357
+00:18:28,030 --> 00:18:31,740
+rather than giving them answers you say: "What do you think you might do in
+
+358
+00:18:31,740 --> 00:18:32,700
+this situation?"
+
+359
+00:18:32,700 --> 00:18:36,400
+and "Well, you know there's a couple of options here; there's this one and this one.
+
+360
+00:18:36,400 --> 00:18:37,460
+Which one sounds
+
+361
+00:18:37,460 --> 00:18:41,049
+good to you?" and this is I think the sort of true skill
+
+362
+00:18:41,049 --> 00:18:45,450
+of the ... is it the teaching assistant? Shall we call it the coach? The guide? The
+
+363
+00:18:45,450 --> 00:18:46,750
+instructor? What have you;
+
+364
+00:18:46,750 --> 00:18:50,580
+is kinda trying to manage the ...
+
+365
+00:18:50,580 --> 00:18:54,390
+stress load of the person that they're working
+
+366
+00:18:54,390 --> 00:18:58,070
+with - to say "you know okay I'm gonna give you this piece of information
+
+367
+00:18:58,070 --> 00:18:58,730
+here because
+
+368
+00:18:58,730 --> 00:19:01,740
+... I think that's you know just
+
+369
+00:19:01,740 --> 00:19:05,049
+you can just remember that later" but if there's some sort of key concept with
+
+370
+00:19:05,049 --> 00:19:08,970
+TDD or BDD or with Rails or MVC or whatever it happens to be
+
+371
+00:19:09,539 --> 00:19:13,380
+if you can rather than just giving the information; if you can scaffold
+
+372
+00:19:13,380 --> 00:19:16,919
+that person so that by giving you know little bits of help
+
+373
+00:19:16,919 --> 00:19:20,440
+you can help them find the solution; I think that's
+
+374
+00:19:20,440 --> 00:19:23,799
+hugely beneficial for ... the learner
+
+375
+00:19:23,799 --> 00:19:26,799
+in this case ... so and
+
+376
+00:19:27,460 --> 00:19:30,950
+... we're in this brave new world now where
+
+377
+00:19:30,950 --> 00:19:34,260
+you can jump in to a Google Hangout with anybody anywhere in the world and start helping
+
+378
+00:19:34,260 --> 00:19:34,830
+them
+
+379
+00:19:34,830 --> 00:19:38,820
+with another issue. I mean we had a remote pair programming session on Wednesday evening this
+
+380
+00:19:38,820 --> 00:19:39,299
+week
+
+381
+00:19:39,299 --> 00:19:42,539
+and there was a guy in Columbia showing me how do you use MeteorJS which I don't know very
+
+382
+00:19:42,539 --> 00:19:43,360
+much and I was ...
+
+383
+00:19:43,360 --> 00:19:46,270
+I think he was less familiar with git and GitHub than I was and I was ...
+
+384
+00:19:46,270 --> 00:19:47,480
+we were kind of like ...
+
+385
+00:19:47,480 --> 00:19:51,350
+we were doing scaffolding almost doing master/robot because
+
+386
+00:19:51,350 --> 00:19:55,370
+we were both so relatively inexperienced in each other's domain
+
+387
+00:19:55,370 --> 00:19:58,809
+... but we were still getting something out of it ... I mean I think the important thing is
+
+388
+00:19:58,809 --> 00:20:02,299
+is that ... I'm not trying to say
+
+389
+00:20:02,299 --> 00:20:06,220
+oh you must always do you know one particular version of these different
+
+390
+00:20:06,220 --> 00:20:08,780
+types of collaboration but is to be aware that there are all these different types
+
+391
+00:20:08,780 --> 00:20:09,490
+and they're
+
+392
+00:20:09,490 --> 00:20:13,330
+made appropriate by what you're trying to achieve, what's going on
+
+393
+00:20:13,330 --> 00:20:17,830
+and so on and so forth; and then just to sort of round it out I wanted to mention task
+
+394
+00:20:17,830 --> 00:20:19,220
+focus chat and observers
+
+395
+00:20:19,220 --> 00:20:23,169
+so sometimes ... we're setting up a remote pair programming session. We want
+
+396
+00:20:23,169 --> 00:20:23,850
+to do ping pong
+
+397
+00:20:23,850 --> 00:20:27,510
+but then actually we end up spending all the time that was available
+
+398
+00:20:27,510 --> 00:20:30,630
+just chatting about the problem domain and that's
+
+399
+00:20:30,630 --> 00:20:35,169
+not the end of the world. That can be very useful ... but again it's good to
+
+400
+00:20:35,169 --> 00:20:38,730
+distinguish that from pair programming ... you might have like
+
+401
+00:20:38,730 --> 00:20:41,900
+chatting about the problem domain and you do a little bit of stuff on the
+
+402
+00:20:41,900 --> 00:20:45,730
+interactive terminal and you're exploring and it's not really this sort of focused
+
+403
+00:20:45,730 --> 00:20:48,760
+ping pong, but I would tend to call that task focused chat
+
+404
+00:20:48,760 --> 00:20:52,080
+and it can be very useful and I think to the extent that we have
+
+405
+00:20:52,080 --> 00:20:55,490
+words to describe all these different sorts of behaviours
+
+406
+00:20:55,490 --> 00:20:58,970
+that's handy; like going forwards for the - the MOOC course
+
+407
+00:20:58,970 --> 00:21:02,110
+then potentially you'll be sort of pairing or scaffolding pairing
+
+408
+00:21:02,110 --> 00:21:06,120
+... which is actually another topic I guess ... rather than scaffolding the individual, actually scaffolding
+
+409
+00:21:06,120 --> 00:21:09,830
+... a pair to help them do the pairing ...
+
+410
+00:21:09,830 --> 00:21:13,740
+... I'm hoping that we'll be able to talk about these sort of terms and we'll say "Oh
+
+411
+00:21:13,740 --> 00:21:14,350
+you know
+
+412
+00:21:14,350 --> 00:21:18,539
+I got a couple of students set up with pairing but they seem to go into just doing a sort
+
+413
+00:21:18,539 --> 00:21:19,860
+of master/robot thing" or
+
+414
+00:21:19,860 --> 00:21:23,340
+"Oh actually - you know - there's this guy - you know - from wherever
+
+415
+00:21:23,340 --> 00:21:26,059
+was doing some really great scaffolding perhaps we should promote him to being a
+
+416
+00:21:26,059 --> 00:21:26,590
+TA
+
+417
+00:21:26,590 --> 00:21:29,880
+on the course?" and so on and or "There's this other group
+
+418
+00:21:29,880 --> 00:21:32,909
+they just ... there was five of them and they just seemed to be doing side by side programming with
+
+419
+00:21:32,909 --> 00:21:33,780
+not much communication"
+
+420
+00:21:33,780 --> 00:21:37,030
+So having a terminology to explain
+
+421
+00:21:37,030 --> 00:21:40,190
+... to refer to these different types of behaviors and the different things that
+
+422
+00:21:40,190 --> 00:21:41,330
+people might do
+
+423
+00:21:41,330 --> 00:21:45,380
+... in the context of the MOOC is going to be online; I think it's going to be very
+
+424
+00:21:45,380 --> 00:21:48,490
+important and useful and then so finally
+
+425
+00:21:48,490 --> 00:21:51,780
+... all of those different things, we've got five different things there, any of those can happen with
+
+426
+00:21:51,780 --> 00:21:53,659
+some number of ... one or more observers
+
+427
+00:21:53,659 --> 00:21:57,049
+... who may occasionally ask questions ...
+
+428
+00:21:57,049 --> 00:22:00,210
+or may not, they may just be visible and I think
+
+429
+00:22:00,210 --> 00:22:03,659
+I mean the thing that we always do and talk about in AgileVentures is say that yes
+
+430
+00:22:03,659 --> 00:22:04,929
+just everybody observe!
+
+431
+00:22:04,929 --> 00:22:08,000
+Please observe! Don't feel that you have to get involved I think you know
+
+432
+00:22:08,000 --> 00:22:11,380
+people have all sorts of trepidation about getting involved in pair programming
+
+433
+00:22:11,380 --> 00:22:14,740
+about getting involved in online scrums or what have you ...
+
+434
+00:22:14,740 --> 00:22:18,299
+it's always fine to just start observing; that's our policy; and ...
+
+435
+00:22:18,299 --> 00:22:21,710
+you know we certainly encourage people to ask questions when they're ready ...
+
+436
+00:22:21,710 --> 00:22:25,390
+and that can be of value. Sometimes the questions can be valuable; it sort of promotes this
+
+437
+00:22:25,390 --> 00:22:29,370
+expert in earshot learning; if you can kind of sit and watch some other people
+
+438
+00:22:29,370 --> 00:22:33,179
+who relatively speaking are experts on doing something ... then
+
+439
+00:22:33,179 --> 00:22:36,500
+you can get a lot of benefit from that ... so
+
+440
+00:22:36,500 --> 00:22:39,799
+there we go. So I think that's - that's - all I wanted to say about the different types
+
+441
+00:22:39,799 --> 00:22:42,450
+of collaboration there.  I just want to go now I think finally here
+
+442
+00:22:42,450 --> 00:22:46,179
+into some ping pong specifics and there's actually ... so we talked about ping pong and
+
+443
+00:22:46,179 --> 00:22:47,860
+pairing where we sort of swap the
+
+444
+00:22:47,860 --> 00:22:51,610
+driver navigator roles in relatively quick succession.
+
+445
+00:22:51,610 --> 00:22:55,809
+There's actually these sort of micro pairing things that are prescriptive
+
+446
+00:22:55,809 --> 00:22:57,070
+in terms of doing your
+
+447
+00:22:57,070 --> 00:23:00,070
+TDD or BDD ... I guess I
+
+448
+00:23:00,580 --> 00:23:04,159
+have mixed feelings about the TDD/BDD terms but Red, Green, Refactor is I
+
+449
+00:23:04,159 --> 00:23:05,640
+think something we can all
+
+450
+00:23:05,640 --> 00:23:09,000
+we can all relate to; and there's this idea ... I love this
+
+451
+00:23:09,000 --> 00:23:12,090
+... this is attributed to John Wilger who's I think one of the
+
+452
+00:23:12,090 --> 00:23:16,360
+coaches in the XP domain of how you can sort of mix in your
+
+453
+00:23:16,360 --> 00:23:19,620
+Red, Green and Refactor, which of course we're all doing, with the ping pong.
+
+454
+00:23:19,620 --> 00:23:23,020
+So the idea here is that we've got person A and person B.
+
+455
+00:23:24,090 --> 00:23:27,820
+So person A would write a failing test
+
+456
+00:23:27,820 --> 00:23:31,590
+watching it (fail) we always want our tests to fail of course because otherwise we don't know if they're working or not
+
+457
+00:23:31,590 --> 00:23:35,980
+... then person B would come in and say right I'm gonna fix your tests
+
+458
+00:23:35,980 --> 00:23:39,830
+I'm gonna do some refactoring. This is the driver navigator roles
+
+459
+00:23:39,830 --> 00:23:43,070
+swapping here from A to B. So A has initially been typing there to write that
+
+460
+00:23:43,070 --> 00:23:46,090
+first failing test. B has then
+
+461
+00:23:46,090 --> 00:23:50,210
+written some code that's made that go green ... B's then refactored it
+
+462
+00:23:50,210 --> 00:23:51,299
+... discussing that with A
+
+463
+00:23:51,299 --> 00:23:54,460
+quite likely and then B has written a test
+
+464
+00:23:54,460 --> 00:23:58,169
+of the next step as it were. Right, the next test to watch something fail
+
+465
+00:23:58,169 --> 00:24:01,789
+... and then it swaps back and depending upon the complexity of what you
+
+466
+00:24:01,789 --> 00:24:02,570
+working on
+
+467
+00:24:02,570 --> 00:24:06,279
+... this might be two minutes or five minutes of twenty-five minutes and
+
+468
+00:24:06,279 --> 00:24:09,289
+and so on ... thats something else you've got to
+
+469
+00:24:09,289 --> 00:24:12,289
+take into the mix, but then you go back to A. The person then
+
+470
+00:24:12,289 --> 00:24:15,760
+makes it work they refactor it; write a test, watch it fail
+
+471
+00:24:15,760 --> 00:24:18,799
+and it goes backwards and forwards like that; so that basically rather than ... I mean
+
+472
+00:24:18,799 --> 00:24:20,090
+you could have a situation where
+
+473
+00:24:20,090 --> 00:24:23,740
+one person wrote all the tests and the other person made them pass which is kind of
+
+474
+00:24:23,740 --> 00:24:27,289
+... in order to get kind of a nice balance between
+
+475
+00:24:27,840 --> 00:24:31,470
+the kinds of demands that the two pairs ... the the two people in the pair
+
+476
+00:24:31,470 --> 00:24:35,539
+are making on each other; you've got this framework for pushing it backwards and
+
+477
+00:24:35,539 --> 00:24:35,990
+forwards
+
+478
+00:24:35,990 --> 00:24:39,600
+and we've got some videos of myself and other AgileVentures
+
+479
+00:24:39,600 --> 00:24:43,659
+people doing ping pong on some on some Kata
+
+480
+00:24:43,659 --> 00:24:48,169
+as a specific example of how that works ... and thats ... I think thats really useful
+
+481
+00:24:48,169 --> 00:24:48,980
+to kind of have
+
+482
+00:24:48,980 --> 00:24:52,330
+... partly to kind of avoid arguments about
+
+483
+00:24:52,330 --> 00:24:57,210
+... when it's time to swap the driver/observer role ... the driver/
+
+484
+00:24:57,210 --> 00:24:58,260
+navigator role, I should say.
+
+485
+00:24:58,260 --> 00:25:01,960
+I mean the danger is that you start off doing ping pong
+
+486
+00:25:01,960 --> 00:25:05,370
+and it descends into a kind of side by side where
+
+487
+00:25:05,370 --> 00:25:08,370
+the driver won't give up the keyboard and so the
+
+488
+00:25:08,990 --> 00:25:12,159
+navigator drifts off; stops thinking about the same problem, moves on to a different
+
+489
+00:25:12,159 --> 00:25:12,600
+problem
+
+490
+00:25:12,600 --> 00:25:15,669
+and they're just working side by side and that's not really
+
+491
+00:25:15,669 --> 00:25:19,549
+... I think there's some benefit from that but nothing like what you get from
+
+492
+00:25:19,549 --> 00:25:22,010
+a really tight ping pong on a problem
+
+493
+00:25:22,010 --> 00:25:25,659
+... and if that were not enough as I mentioned there's other ones
+
+494
+00:25:25,659 --> 00:25:29,539
+and there's a fantastic talk by Sam Livingston Gray which goes through these,
+
+495
+00:25:29,539 --> 00:25:33,400
+we've got linked in, but they're so good I've pulled out the diagrams ... I think they're fantastic
+
+496
+00:25:33,400 --> 00:25:33,789
+is
+
+497
+00:25:33,789 --> 00:25:36,789
+... there's this "change the message" so this is
+
+498
+00:25:37,520 --> 00:25:41,590
+... particularly if you're working in unfamiliar code territory
+
+499
+00:25:41,590 --> 00:25:42,260
+where
+
+500
+00:25:42,260 --> 00:25:45,770
+this kind of loop would take quite a long time, like maybe half an hour to get ... work
+
+501
+00:25:45,770 --> 00:25:46,799
+through all the different error messages;
+
+502
+00:25:46,799 --> 00:25:50,549
+another way to do is to write a test and watch it fail and then
+
+503
+00:25:50,549 --> 00:25:53,919
+... the next person rather than taking it all the way through going
+
+504
+00:25:53,919 --> 00:25:57,409
+green as you swi(tch), as the next person ... there's a person B becoming the driver
+
+505
+00:25:57,409 --> 00:26:00,409
+they would just change the message ...
+
+506
+00:26:00,409 --> 00:26:02,820
+maybe it's a different kind of error message ... the test is
+
+507
+00:26:02,820 --> 00:26:04,549
+still not failing for the right reason
+
+508
+00:26:04,549 --> 00:26:08,429
+and so you might go backwards and forwards ... adding a few bits and pieces
+
+509
+00:26:08,429 --> 00:26:11,400
+... changing the message each time and that's particularly useful I think when
+
+510
+00:26:11,400 --> 00:26:11,950
+you're
+
+511
+00:26:11,950 --> 00:26:15,860
+both exploring a relatively new library or new technology
+
+512
+00:26:15,860 --> 00:26:19,570
+or what have you and ... it can then ...
+
+513
+00:26:19,570 --> 00:26:23,870
+the interesting thing is once you've ... as a fairer, once you've got this idea of
+
+514
+00:26:23,870 --> 00:26:24,900
+right, make it work
+
+515
+00:26:24,900 --> 00:26:27,960
+change the message and then we've got this other one called "One Undermanship"
+
+516
+00:26:27,960 --> 00:26:31,460
+Once you've got that down you're kind of saying to each other "Ooh you know
+
+517
+00:26:31,460 --> 00:26:33,909
+this seems to be taking rather a long time" ... you might be working on this
+
+518
+00:26:33,909 --> 00:26:34,630
+and you've
+
+519
+00:26:34,630 --> 00:26:38,000
+planned to - to make it work and so you say: "This is taking rather a long time you know shall we
+
+520
+00:26:38,000 --> 00:26:38,950
+switch to
+
+521
+00:26:38,950 --> 00:26:41,919
+you know I've got an interesting error message here; do you want to try and change the
+
+522
+00:26:41,919 --> 00:26:42,950
+message?" And person
+
+523
+00:26:42,950 --> 00:26:46,270
+B will say: "Oh yeah no okay that's good lets so that" and so
+
+524
+00:26:46,270 --> 00:26:49,650
+depending upon how long things are taking you can switch backwards and forwards between
+
+525
+00:26:49,650 --> 00:26:52,400
+"change the message" and "make it work" and so on and then there's also "One Under
+
+526
+00:26:52,400 --> 00:26:53,400
+manship" which is kind of
+
+527
+00:26:53,400 --> 00:26:56,679
+where you purposely kind of ...
+
+528
+00:26:56,679 --> 00:27:00,630
+expose ... well it's interesting ... you sort of purposefully expose flaws
+
+529
+00:27:00,630 --> 00:27:04,100
+in the person's test suite. So for example here this is just with
+
+530
+00:27:04,100 --> 00:27:04,980
+a trivial
+
+531
+00:27:04,980 --> 00:27:09,039
+code example here but so you ... somebody does one sort
+
+532
+00:27:09,039 --> 00:27:12,270
+of test case and you basically rather than actually
+
+533
+00:27:12,270 --> 00:27:15,559
+... you sort of pretend almost like you're a computer ... a
+
+534
+00:27:15,559 --> 00:27:16,110
+robot
+
+535
+00:27:16,110 --> 00:27:20,230
+and you do the absolute minimum effort in order to get the thing to pass
+
+536
+00:27:20,230 --> 00:27:24,029
+ignoring the intention that might be ... in there, in the
+
+537
+00:27:24,029 --> 00:27:28,039
+the method definition or in the name of the method. So here
+
+538
+00:27:28,039 --> 00:27:30,789
+with this test this person who's swapped over, they're doing kind of "make it
+
+539
+00:27:30,789 --> 00:27:31,279
+work"
+
+540
+00:27:31,279 --> 00:27:35,250
+but instead of kind of saying this should be generic add
+
+541
+00:27:35,250 --> 00:27:39,029
+you sort of hard code the solution ... and then you don't do any refactoring and you say
+
+542
+00:27:39,029 --> 00:27:42,520
+"ahaha" and you add another test and then so here we've got the ...
+
+543
+00:27:42,520 --> 00:27:45,570
+goes back to the driver becomes ... person A becomes the
+
+544
+00:27:45,570 --> 00:27:46,399
+driver again
+
+545
+00:27:46,399 --> 00:27:49,929
+and so now ... again rather than completely solving it, you only partially
+
+546
+00:27:49,929 --> 00:27:51,470
+solve ... with a bit of hard coding
+
+547
+00:27:51,470 --> 00:27:54,760
+or just enough to ... what the absolute minimum amount that would make
+
+548
+00:27:54,760 --> 00:27:55,750
+the existing tests
+
+549
+00:27:55,750 --> 00:27:59,610
+pass and then ... add in your next test and this is
+
+550
+00:27:59,610 --> 00:28:02,539
+... it's sort of ... you can see this is a trivial sort of game with this
+
+551
+00:28:02,539 --> 00:28:03,610
+particular code
+
+552
+00:28:03,610 --> 00:28:07,380
+but this is a great way of making sure that the tests are really testing
+
+553
+00:28:07,380 --> 00:28:10,710
+for what's going on. And then there's sort of a judgement call there, about where
+
+554
+00:28:10,710 --> 00:28:11,309
+do you
+
+555
+00:28:11,309 --> 00:28:14,510
+draw the line ... because you could keep on
+
+556
+00:28:14,510 --> 00:28:17,860
+writing, hard coding, you could add like a dictionary with lookups that says
+
+557
+00:28:17,860 --> 00:28:21,470
+right I'm gonna look up only exactly the test cases that you have
+
+558
+00:28:21,470 --> 00:28:26,179
+but I find this is sometimes a useful strategy
+
+559
+00:28:26,179 --> 00:28:30,330
+to try and force yourselves into getting more rigor in your tests
+
+560
+00:28:30,330 --> 00:28:34,179
+but again the ... I think the critical thing is to kind of understands
+
+561
+00:28:34,179 --> 00:28:38,770
+these terms and be able to use them as referring to your
+
+562
+00:28:38,770 --> 00:28:42,880
+pairing activity ... and so we've got video ... I think we've got videos
+
+563
+00:28:42,880 --> 00:28:46,640
+that include elements of all of these available in the selection; we've got more people
+
+564
+00:28:46,640 --> 00:28:47,679
+talking about
+
+565
+00:28:47,679 --> 00:28:50,690
+pair programming ... just to link this back up to distributed teams;
+
+566
+00:28:50,690 --> 00:28:53,929
+I think this is the other thing, it is for team coherence ...
+
+567
+00:28:53,929 --> 00:28:56,990
+at the bigger level if people are pairing with each other ...
+
+568
+00:28:56,990 --> 00:29:00,460
+whether they are in a team that's working on software for the space
+
+569
+00:29:00,460 --> 00:29:01,590
+shuttle or whether they're
+
+570
+00:29:01,590 --> 00:29:05,909
+students collaborating in order to try and learn; whether they're doing that in a bricks
+
+571
+00:29:05,909 --> 00:29:06,970
+and mortar university,
+
+572
+00:29:06,970 --> 00:29:10,080
+they're doing an online course for a bricks and mortar university; they're doing it in a
+
+573
+00:29:10,080 --> 00:29:11,320
+MOOC or what have you
+
+574
+00:29:11,320 --> 00:29:14,820
+that process of having people connect and communicate ...
+
+575
+00:29:14,820 --> 00:29:18,539
+with each other is extraordinarily valuable for the outcomes for everybody
+
+576
+00:29:18,539 --> 00:29:21,750
+and it's just ... I can't emphasize it enough ...
+
+577
+00:29:21,750 --> 00:29:25,600
+... whether you're sprint retrospective
+
+578
+00:29:25,600 --> 00:29:28,940
+meetings are two hours or three hours I think is far less important than
+
+579
+00:29:28,940 --> 00:29:31,950
+the fact that you've got your team
+
+580
+00:29:31,950 --> 00:29:35,100
+really communicating with each other and pair programming ...
+
+581
+00:29:35,600 --> 00:29:38,830
+of the ping pong style I feel ...
+
+582
+00:29:38,830 --> 00:29:43,090
+fundamentally engages people and forces communication in a way that's really really
+
+583
+00:29:43,090 --> 00:29:43,590
+good for
+
+584
+00:29:43,590 --> 00:29:47,549
+the team, it's really good for learning, and I just I'm a bit of an evangelist
+
+585
+00:29:47,549 --> 00:29:51,470
+... that's not to say that pairing doesn't go wrong sometimes
+
+586
+00:29:51,470 --> 00:29:55,299
+its ... like communications with with any
+
+587
+00:29:55,299 --> 00:29:58,779
+people can do and I think thats where it comes back to this sort of
+
+588
+00:29:58,779 --> 00:30:02,970
+emotional situational of how to cope with
+
+589
+00:30:02,970 --> 00:30:06,760
+your partner ... how to deal with egos
+
+590
+00:30:06,760 --> 00:30:10,669
+and I would say that the key thing there is rather than saying "Oh, pair programming
+
+591
+00:30:10,669 --> 00:30:11,990
+works or it doesn't work"
+
+592
+00:30:11,990 --> 00:30:15,940
+I think the key thing to say is a that if any individual becomes
+
+593
+00:30:15,940 --> 00:30:20,649
+skilled at pairing they can, like me, go and meet people around the world and have a
+
+594
+00:30:20,649 --> 00:30:21,620
+lot of fun doing it
+
+595
+00:30:21,620 --> 00:30:25,440
+and it's about learning that skill of pairing; and I can't emphasize this enough:
+
+596
+00:30:25,440 --> 00:30:29,049
+you learn that skill of pairing remote or otherwise, you get that down and
+
+597
+00:30:29,049 --> 00:30:33,179
+suddenly you've got a huge acceleration on how fast you can learn absolutely anything else.
+
+598
+00:30:33,179 --> 00:30:36,610
+So if you get this one down first ... again another analogy
+
+599
+00:30:36,610 --> 00:30:40,159
+I compare it to TDD, Test Driven Development
+
+600
+00:30:40,159 --> 00:30:43,370
+is yes, it's painful overhead at the beginning
+
+601
+00:30:43,370 --> 00:30:46,539
+to get it right - to get TDD - and it seems like it doesn't make sense and so on
+
+602
+00:30:46,539 --> 00:30:51,159
+but that short-term pain leads to huge long-term gain and I think that
+
+603
+00:30:51,700 --> 00:30:55,289
+the software world is coming around saying yes we really need it.
+
+604
+00:30:55,289 --> 00:30:58,649
+I would say the same of pair programming; there is potentially
+
+605
+00:30:58,649 --> 00:31:02,130
+short-term pain; for me not very much but ... there is potentially
+
+606
+00:31:02,130 --> 00:31:05,200
+short-term pain, occasionally there's pain that comes up; but that short-term pain on pair programming
+
+607
+00:31:05,840 --> 00:31:09,000
+can lead to huge huge long-term gain as I think
+
+608
+00:31:09,000 --> 00:31:12,549
+nicely evidenced by what we've manage to achieve so far with AgileVentures.
+
+609
+00:31:12,549 --> 00:31:16,260
+So I'm looking forward to lots of pair programming going on
+
+610
+00:31:16,260 --> 00:31:19,529
+in the MOOC ... having lots of fun
+
+611
+00:31:19,529 --> 00:31:23,649
+with the different ping pong mechanisms and maybe I'll get to pair program with you
+
+612
+00:31:23,649 --> 00:31:25,169
+before too long? Alright, bye for now.
+

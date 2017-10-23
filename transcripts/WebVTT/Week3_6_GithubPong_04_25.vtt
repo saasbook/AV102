@@ -1,0 +1,318 @@
+WEBVTT
+
+0
+00:00:00.179 --> 00:00:03.010
+So let's talk about GitHub pong.  It's my favourite kind of
+
+1
+00:00:03.010 --> 00:00:06.710
+remote paring strategy.  There're actually, there are lots of fantastic tools
+
+2
+00:00:06.710 --> 00:00:09.740
+for remote pairing such as, what was it, ScreenHero
+
+3
+00:00:09.740 --> 00:00:14.620
+... Cloud9, nitrous ... Floobits. There's just ... there's lots and lots of
+
+4
+00:00:14.620 --> 00:00:14.990
+them
+
+5
+00:00:14.990 --> 00:00:18.720
+... but one of the things like this GitHub pong procedure
+
+6
+00:00:18.720 --> 00:00:21.990
+I really like: One because it leaves a trace
+
+7
+00:00:21.990 --> 00:00:26.369
+in the GitHub commits that shows ... how people have actually done the
+
+8
+00:00:26.369 --> 00:00:31.460
+ponging ... and also it just you know it constantly polishes your Git skills
+
+9
+00:00:31.460 --> 00:00:32.890
+and your understanding of branches
+
+10
+00:00:32.890 --> 00:00:36.320
+and so on ... and it's pretty fast and
+
+11
+00:00:36.320 --> 00:00:41.190
+I love it personally ... but so basically what it is ... I mean you can
+
+12
+00:00:41.190 --> 00:00:44.329
+with GitHub you could give ... everybody
+
+13
+00:00:44.329 --> 00:00:47.350
+access to your repository and they can they can push and pull.
+
+14
+00:00:47.350 --> 00:00:50.719
+The nice thing about GitHub pong is you can ...
+
+15
+00:00:50.719 --> 00:00:54.600
+have a situation where someone's ... you're working on a repository; someone else forks that repository
+
+16
+00:00:54.600 --> 00:00:57.719
+and so they've got a copy of the code but then you can ...
+
+17
+00:00:57.719 --> 00:01:01.489
+there's this sort of crossover thing which eventually we'll have a good diagram for;
+
+18
+00:01:01.489 --> 00:01:05.650
+but where you ... can both push to your own repositories, pull from each
+
+19
+00:01:05.650 --> 00:01:06.640
+other's repositories
+
+20
+00:01:06.640 --> 00:01:10.479
+and do this kind of GitHub pong. I've got a video of us
+
+21
+00:01:10.479 --> 00:01:13.700
+doing its ... which will follow this up; but ... yeah
+
+22
+00:01:13.700 --> 00:01:17.049
+its ... I love it for
+
+23
+00:01:17.049 --> 00:01:20.310
+remote pairing and combine this with
+
+24
+00:01:20.310 --> 00:01:24.020
+some sort of screen share; whatever you fancy: Google Hangouts, Skype
+
+25
+00:01:24.020 --> 00:01:28.280
+doesn't matter, WebEX ... any screen share system
+
+26
+00:01:28.280 --> 00:01:31.560
+plus GitHub pong,  you've got I think a good remote pairing
+
+27
+00:01:31.560 --> 00:01:34.900
+solution ... for screen share I'm assuming you've got
+
+28
+00:01:34.900 --> 00:01:38.390
+reasonable bandwidth there.  So ... the way to do it is that you'll
+
+29
+00:01:38.390 --> 00:01:39.619
+fork and clone
+
+30
+00:01:39.619 --> 00:01:43.329
+... the GitHub repo that you want to work on
+
+31
+00:01:43.329 --> 00:01:46.460
+... then you go through and add your partner as a remote
+
+32
+00:01:46.460 --> 00:01:49.700
+... so here this partner name that can be
+
+33
+00:01:49.700 --> 00:01:52.860
+.. their first time or whatever ... and then
+
+34
+00:01:52.860 --> 00:01:56.290
+the URL to their remote GitHub repository ...
+
+35
+00:01:56.290 --> 00:01:59.640
+just check that it's in there properly and then
+
+36
+00:01:59.640 --> 00:02:03.399
+you can fetch a working branch from the latest code ... usually
+
+37
+00:02:03.399 --> 00:02:08.170
+depending on how it goes ... you might ... I guess that you'd often call
+
+38
+00:02:08.170 --> 00:02:12.110
+if that was the ... you'll often have forked ...
+
+39
+00:02:12.110 --> 00:02:15.170
+like an AgileVentures ...
+
+40
+00:02:15.170 --> 00:02:18.750
+open source project that would then be ... you'd often call that the
+
+41
+00:02:18.750 --> 00:02:22.349
+upstream ... it maybe that ...
+
+42
+00:02:22.349 --> 00:02:25.349
+if you're just working ... if there's sort of like
+
+43
+00:02:25.349 --> 00:02:28.890
+two of you both working on a - on an existing codebase you - you might have
+
+44
+00:02:28.890 --> 00:02:33.019
+forked each other; so whether you call this upstream or you gave it your partner's name
+
+45
+00:02:33.019 --> 00:02:36.290
+... may vary slightly but so ...
+
+46
+00:02:36.290 --> 00:02:39.780
+you can then check out a copy at that and this is getting setup and then
+
+47
+00:02:39.780 --> 00:02:44.150
+... do "checkout -b" to create a branch based on that
+
+48
+00:02:44.150 --> 00:02:47.310
+and I think actually if you're
+
+49
+00:02:47.310 --> 00:02:51.519
+... say for example that I was working with Jon, I'd do "git fetch jon"
+
+50
+00:02:51.519 --> 00:02:55.890
+I might check out Jon; this would be like his feature branch
+
+51
+00:02:55.890 --> 00:03:00.030
+... like so and then I would do checkout
+
+52
+00:03:00.030 --> 00:03:03.530
+minus B feature-branch and then I would have a
+
+53
+00:03:03.530 --> 00:03:06.769
+precise copy of Jon's
+
+54
+00:03:06.769 --> 00:03:10.319
+feature locally ... I could then
+
+55
+00:03:10.319 --> 00:03:13.550
+start off driving; I could do some work; I could
+
+56
+00:03:13.550 --> 00:03:17.010
+do our commit message and then ...
+
+57
+00:03:17.010 --> 00:03:20.200
+I would do like so, I would do one side done,
+
+58
+00:03:20.200 --> 00:03:24.459
+my part so let's say "make it work" ... we've got a feature branch there
+
+59
+00:03:24.459 --> 00:03:27.459
+I would say "right I've done my bit" maybe
+
+60
+00:03:28.150 --> 00:03:32.720
+I've written a test the code that we wish we had; verified the test fails and
+
+61
+00:03:32.720 --> 00:03:33.140
+I would
+
+62
+00:03:33.140 --> 00:03:36.140
+commit and push that up to feature branch and now
+
+63
+00:03:36.140 --> 00:03:39.930
+for the second half of the pong, what the partner B would do, they would
+
+64
+00:03:39.930 --> 00:03:43.060
+... and probably the first time around they might do this "git fetch a"
+
+65
+00:03:43.060 --> 00:03:46.420
+but in future once they're all set up
+
+66
+00:03:46.420 --> 00:03:49.489
+then you can just do "git pull
+
+67
+00:03:49.489 --> 00:03:54.030
+feature branch" there and at A insert the name of your
+
+68
+00:03:54.030 --> 00:03:54.620
+partner
+
+69
+00:03:54.620 --> 00:03:58.060
+and you then get an exact copy of their code
+
+70
+00:03:58.060 --> 00:04:02.390
+and ideally you immediately you run the test just to double-check that
+
+71
+00:04:02.390 --> 00:04:03.189
+there isn't anything
+
+72
+00:04:03.189 --> 00:04:06.379
+hanging around but then you write the simplest code that will make the test pass;
+
+73
+00:04:06.379 --> 00:04:09.400
+refactor the code; next failing test; commit some pushes
+
+74
+00:04:09.400 --> 00:04:12.560
+and round around and round
+
+75
+00:04:12.560 --> 00:04:15.790
+... and if that didn't make so much sense we've got a nice video coming
+
+76
+00:04:15.790 --> 00:04:16.180
+up
+
+77
+00:04:16.180 --> 00:04:19.560
+of that in action and I think you'll agree
+
+78
+00:04:19.560 --> 00:04:21.250
+it's pretty pongy. Alright.
+

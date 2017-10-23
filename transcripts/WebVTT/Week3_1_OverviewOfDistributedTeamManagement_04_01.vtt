@@ -1,0 +1,302 @@
+WEBVTT
+
+0
+00:00:00.399 --> 00:00:02.590
+Hello! And welcome to week three!
+
+1
+00:00:02.590 --> 00:00:05.870
+It's time to talk about distributed team management.
+
+2
+00:00:05.870 --> 00:00:09.320
+So before we get into all that good stuff; let's just talk about what's going on this
+
+3
+00:00:09.320 --> 00:00:12.369
+week.
+
+4
+00:00:12.369 --> 00:00:14.719
+So we're going to talk about various things this week;
+
+5
+00:00:14.719 --> 00:00:19.090
+many of the techniques we talk about are just as valuable for centralized team management
+
+6
+00:00:19.090 --> 00:00:21.039
+or co-located team management.
+
+7
+00:00:21.039 --> 00:00:24.679
+Although many of them are *particularly* valuable in distributed settings.
+
+8
+00:00:24.679 --> 00:00:28.349
+I'm going to tell you as much as I can to connect them to work we've been doing in a
+
+9
+00:00:28.349 --> 00:00:32.329
+distributed framework, such as the MOOC, and all the stuff with AgileVentures.
+
+10
+00:00:32.329 --> 00:00:37.970
+Some of what we'll talk about this week is still reviewing some topics that you'll know
+
+11
+00:00:37.970 --> 00:00:40.640
+already from having taken the ESaaS MOOC.
+
+12
+00:00:40.640 --> 00:00:43.220
+It might have been a while since you went through the MOOC so a little refresher shouldn't
+
+13
+00:00:43.220 --> 00:00:44.420
+hurt.
+
+14
+00:00:44.420 --> 00:00:47.670
+Also you'll be explaining many of these things to the students.
+
+15
+00:00:47.670 --> 00:00:51.980
+The students will have questions about these, so it's good to go over them again.
+
+16
+00:00:51.980 --> 00:00:56.380
+However we do have new material that's not in the 169 MOOC and the undercurrent here
+
+17
+00:00:56.380 --> 00:00:59.870
+is really all about managing Distributed teams.
+
+18
+00:00:59.870 --> 00:01:03.840
+In particular it's about how we're managing the volunteer nonprofit distributed teams
+
+19
+00:01:03.840 --> 00:01:05.210
+through AgileVentures.
+
+20
+00:01:05.210 --> 00:01:08.110
+Other people have been running distributed teams in one form or another for a lot longer
+
+21
+00:01:08.110 --> 00:01:09.030
+than we have;
+
+22
+00:01:09.030 --> 00:01:12.080
+so we don't claim to be the world's foremost experts on this.
+
+23
+00:01:12.080 --> 00:01:16.360
+Nonetheless we're got several years of experience with making distributed teams work.
+
+24
+00:01:16.360 --> 00:01:19.500
+The MOOC's coverage of software engineering in the cloud and working with teams does stress
+
+25
+00:01:19.500 --> 00:01:21.220
+the importance of teamwork.
+
+26
+00:01:21.220 --> 00:01:24.480
+But unfortunately the online MOOC doesn't have the equivalent of the team projects they
+
+27
+00:01:24.480 --> 00:01:26.280
+do at UC Berkeley.
+
+28
+00:01:26.280 --> 00:01:31.950
+However that's going to change with the introduction of 169 part 3 MOOC projects class; exciting
+
+29
+00:01:31.950 --> 00:01:37.020
+stuff!
+
+30
+00:01:37.020 --> 00:01:40.500
+In the meantime let me give you a bit more of an overview about what we've got coming
+
+31
+00:01:40.500 --> 00:01:42.580
+up in the next few videos.
+
+32
+00:01:42.580 --> 00:01:45.200
+So we're going to talk about Agile, particularly distributed Agile.
+
+33
+00:01:45.200 --> 00:01:49.630
+We're going to talk about Scrum, with a bit of a reference to distributed Scrum; where
+
+34
+00:01:49.630 --> 00:01:52.159
+I think Scrum works particularly well.
+
+35
+00:01:52.159 --> 00:01:54.990
+We're also going to talk about distributed management tools like Pivotal Tracker and
+
+36
+00:01:54.990 --> 00:01:56.670
+friends.
+
+37
+00:01:56.670 --> 00:01:59.970
+We'll talk about pair programming, remote pair programming, and other collaborative
+
+38
+00:01:59.970 --> 00:02:00.380
+patterns.
+
+39
+00:02:00.380 --> 00:02:04.640
+We've got a lot of materials this week; even more so than last week.
+
+40
+00:02:04.640 --> 00:02:08.310
+We've got extra videos from other sources; for example for Pivotal Tracker we've got
+
+41
+00:02:08.310 --> 00:02:10.849
+introductory videos provided by Pivotal Labs.
+
+42
+00:02:10.849 --> 00:02:14.700
+For the pair programming as well as me evangelizing and waxing lyrical;
+
+43
+00:02:14.700 --> 00:02:19.319
+we've also got various links to other resources and embedded videos from other speakers on
+
+44
+00:02:19.319 --> 00:02:20.989
+pair programming.
+
+45
+00:02:20.989 --> 00:02:24.200
+I think there is probably more material there, than you could reasonably cover in one week.
+
+46
+00:02:24.200 --> 00:02:26.870
+Don't feel that you have to cover all of it.
+
+47
+00:02:26.870 --> 00:02:29.959
+I think if at a minimum you just watch the main lectures from me, and then you can dip
+
+48
+00:02:29.959 --> 00:02:32.480
+in to the other ones as appropriate.
+
+49
+00:02:32.480 --> 00:02:36.230
+Next we'll move on to GitHub pong and the mechanics of how to do that.
+
+50
+00:02:36.230 --> 00:02:40.799
+Then finally we'll talk about GitHub for teams and this is super useful stuff, that is pull
+
+51
+00:02:40.799 --> 00:02:43.269
+requests, merging, cherry-picking and so on.
+
+52
+00:02:43.269 --> 00:02:48.849
+I apologize in advance if our coverage doesn't do justice to just how powerful and how useful
+
+53
+00:02:48.849 --> 00:02:49.999
+these techniques are,
+
+54
+00:02:49.999 --> 00:02:54.109
+but we have got me doing a live pull-request and associated merge in the actual video,
+
+55
+00:02:54.109 --> 00:02:56.340
+which I hope gives you a flavour for it all.
+
+56
+00:02:56.340 --> 00:03:00.989
+Again I wish I had had time to re-record all the videos.
+
+57
+00:03:00.989 --> 00:03:04.809
+I've settled for adding transcripts to all of them that I hope will suffice for the time
+
+58
+00:03:04.809 --> 00:03:05.549
+being.
+
+59
+00:03:05.549 --> 00:03:09.739
+I must say that any deficiency in the materials and recordings is down to me personally.
+
+60
+00:03:09.739 --> 00:03:13.849
+I'm hugely indebted to the full AgileVentures team who've worked behind the scenes to get
+
+61
+00:03:13.849 --> 00:03:16.450
+all these slides and quizzes and everything sorted.
+
+62
+00:03:16.450 --> 00:03:20.669
+Like open source software I think this course is incrementally moving in the right direction.
+
+63
+00:03:20.669 --> 00:03:25.489
+I'm hoping that what comes through is the wonderful time we're having in AgileVentures
+
+64
+00:03:25.489 --> 00:03:29.609
+collaborating online; managing our distributed team.
+
+65
+00:03:29.609 --> 00:03:33.059
+We very much hope that our experiences can help you in your journey.
+
+66
+00:03:33.059 --> 00:03:37.529
+So please, if you find anything that you'd like different in this course do let us know;
+
+67
+00:03:37.529 --> 00:03:40.049
+and feel free to get involved to help us improve it.
+
+68
+00:03:40.049 --> 00:03:44.120
+All the people, the entire AgileVentures team, are all people who've graduated from the 169
+
+69
+00:03:44.120 --> 00:03:45.319
+MOOC, just like yourselves.
+
+70
+00:03:45.319 --> 00:03:49.090
+They're just folks interested in the topic material and all working to keep learning
+
+71
+00:03:49.090 --> 00:03:51.370
+more about how to succeed as software engineers and as a distributed team.
+
+72
+00:03:51.370 --> 00:03:56.180
+I look forward to continue seeing you in the chat, where we've got some great discussions
+
+73
+00:03:56.180 --> 00:03:58.099
+going on relating to last week's assignment.
+
+74
+00:03:58.099 --> 00:03:59.260
+Alright, bye for now.
+
