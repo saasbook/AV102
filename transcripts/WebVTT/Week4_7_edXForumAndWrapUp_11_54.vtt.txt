@@ -1,0 +1,509 @@
+WEBVTT
+
+0
+00:00:00.890 --> 00:00:06.899
+Hey there. Yeah so time to wrap this course up with a final word on the edX
+
+1
+00:00:06.899 --> 00:00:15.500
+forum. Let's go into screen share and have a little look at what's going on with that ... boom boom boom boom boom!
+
+2
+00:00:15.500 --> 00:00:20.960
+... yeah so as I mentioned before in the past we've used ... well, back in the day it was
+
+3
+00:00:20.960 --> 00:00:25.269
+edX forum, we .. there was actually ... gosh there's been all sorts of experimental forums, over the
+
+4
+00:00:25.269 --> 00:00:34.359
+years but I think we're coming back to using the edX forum now and that's one of the main ways that
+
+5
+00:00:34.359 --> 00:00:42.600
+students are going to use to communicate with us about the MOOC. If we go to ... this is the ... of course our AV102
+
+6
+00:00:42.600 --> 00:00:49.219
+course - we can see the discussion link ... we've also got the live chat. Both of these things
+
+7
+00:00:49.219 --> 00:00:54.670
+we'll have pretty much set up identically on the MOOC which I will give access to you soon so you can see all
+
+8
+00:00:54.670 --> 00:00:59.249
+of that. We've got there, that's a discussion for us and then we got Gitter embedded there
+
+9
+00:00:59.249 --> 00:01:04.379
+as the live chat so for the students if they want to do live chat it's going to be
+
+10
+00:01:04.379 --> 00:01:11.470
+Gitter rather than Slack but we will use the Slack IM to coordinate our activities as
+
+11
+00:01:11.470 --> 00:01:13.450
+TA's on the course
+
+12
+00:01:13.450 --> 00:01:18.430
+... pretty much the key thing for the MOOC going forward is that the forum
+
+13
+00:01:18.430 --> 00:01:24.299
+needs ongoing monitoring ... so students will come in with questions
+
+14
+00:01:24.299 --> 00:01:28.990
+and so on and so one of the key things that the teaching assistants, the TAs, the
+
+15
+00:01:28.990 --> 00:01:36.119
+world TA's, do is respond to those and help basically make sure that the whole
+
+16
+00:01:36.119 --> 00:01:41.000
+process goes off smoothly and of course it's a worldwide course; there are people posting
+
+17
+00:01:41.000 --> 00:01:45.680
+questions at all times of day or night and we want to have all of the
+
+18
+00:01:45.680 --> 00:01:50.829
+students get ... not necessarily immediate answers to the questions because
+
+19
+00:01:50.829 --> 00:01:54.680
+sometimes you need to ask the question and think it over and so on; but if people are really
+
+20
+00:01:54.680 --> 00:02:02.500
+stuck we want to support them in whichever way we can. Now in the past we've been trying to schedule
+
+21
+00:02:02.500 --> 00:02:05.969
+people around the world.  We've had all different kind of spreadsheets for people to say
+
+22
+00:02:05.969 --> 00:02:08.380
+this is what I'm going to do, this is when I'm going to do it.
+
+23
+00:02:08.380 --> 00:02:14.120
+I think it's ... just it's all been a bit higgledy-piggledy ... what I'm going to recommend and I think
+
+24
+00:02:14.120 --> 00:02:21.250
+is the best is letting people know that in the Slack that you're in the
+
+25
+00:02:21.250 --> 00:02:27.930
+process of checking. We'll also have a Wiki, in the course, you'll see there'll be weekly assignments coming up
+
+26
+00:02:28.710 --> 00:02:34.950
+well not assignments, there'll be weekly, in this same AV102 you'll be able to post the activities that you've
+
+27
+00:02:34.950 --> 00:02:43.970
+done ... more on that in a minute ... but yeah what I would really say and I'll turn Slack on again ... what I would say is the key
+
+28
+00:02:43.970 --> 00:02:48.670
+thing to do, is if you are going to come on the sites and you're gonna have a look through and
+
+29
+00:02:48.670 --> 00:02:53.130
+see if there are any questions that need answering then what I'd recommend that you do is
+
+30
+00:02:53.130 --> 00:02:58.690
+you come into our AV102 chat room and you do a little message a bit like this, it's taking
+
+31
+00:02:58.690 --> 00:02:59.660
+a little while
+
+32
+00:02:59.660 --> 00:03:05.360
+for AV102 to load up because AgileVentures is the third of the seven Slacks that I have
+
+33
+00:03:05.360 --> 00:03:10.510
+available.  Here we go and it's telling me to keep hydrated and not forget to stretch, but anyways so ... I'll just put like
+
+34
+00:03:10.510 --> 00:03:18.410
+testing in but ... what I would say is that when you're coming ... logging on to do a bit of TA
+
+35
+00:03:18.410 --> 00:03:23.840
+activity is basically come in here and say ... you can actually do
+
+36
+00:03:23.840 --> 00:03:32.570
+this me thing here and say: "is currently checking the MOOC forums" like
+
+37
+00:03:32.570 --> 00:03:38.320
+this ... and then you go and do you stuff and maybe you're checking that for
+
+38
+00:03:38.320 --> 00:03:43.450
+half an hour and answering some questions or whatever and you could then do ... once you've
+
+39
+00:03:43.450 --> 00:03:47.459
+done that and maybe ... as a result of the thing ... you've answered
+
+40
+00:03:47.459 --> 00:03:51.850
+a few questions and then you've found oh, okay right actually there's this one
+
+41
+00:03:51.850 --> 00:03:56.090
+question maybe you need to escalate it, maybe there's a problem that you can't resolve; you'd like
+
+42
+00:03:56.090 --> 00:04:01.240
+to get other input in and you'd say: "hey channel!" I won't do channel here, or
+
+43
+00:04:01.240 --> 00:04:05.830
+... you can be notifying to my attention or what have you; you can say: "hey guys"
+
+44
+00:04:05.830 --> 00:04:14.580
+(I'm going to put TEST in the front there, you don't have to do that obviously) ... "hey guys any thoughts
+
+45
+00:04:14.580 --> 00:04:22.930
+on this?" and that way potentially rather than you DMing me
+
+46
+00:04:22.930 --> 00:04:28.520
+individually ... everybody can sort of pile in on that and offer
+
+47
+00:04:28.520 --> 00:04:33.220
+their help and support and advice and come in and ask questions and then when you -
+
+48
+00:04:33.220 --> 00:04:34.260
+when you - when you're done, it's like
+
+49
+00:04:34.260 --> 00:04:43.730
+ok spent half an hour to an hour doing this and the other is now signing off from checking
+
+50
+00:04:43.730 --> 00:04:49.820
+the MOOC forums and I think the advantage is that ... what
+
+51
+00:04:49.820 --> 00:04:55.230
+frustrates some people is that there'll be this big wall of questions going
+
+52
+00:04:55.230 --> 00:04:59.890
+on but then sometimes there'll be somebody there who is working really hard answering them all and then
+
+53
+00:04:59.890 --> 00:05:05.280
+you'll come on and you'll say right I'm going to do an hour now and you'll look through and you'll see everything's answered and there's nothing for you to do and if you
+
+54
+00:05:05.280 --> 00:05:09.450
+are monitoring the Slack here and you can check here what's happening with
+
+55
+00:05:09.450 --> 00:05:15.190
+"Ah, ok" you can see that ... "Ah, oh at the moment actually there's already
+
+56
+00:05:15.190 --> 00:05:21.870
+three guys checking the forum, we don't need to." ... this is a nice way to
+
+57
+00:05:21.870 --> 00:05:27.810
+coordinate. We'll also have ... there's a Wiki as well and we'll set it up for people to
+
+58
+00:05:27.810 --> 00:05:38.690
+like ... gosh, that's looking a bit ugly isn't it ... but we'll set ... I guess this is yeah ... anyway.
+
+59
+00:05:39.320 --> 00:05:44.330
+We'll add some space in there for people to say this is my preferred time and so on and we'll just
+
+60
+00:05:44.330 --> 00:05:47.980
+see how to coordinate. It's still experimental, is there a better
+
+61
+00:05:47.980 --> 00:05:53.960
+solution for this?  For a big crowd of distributed volunteers to support the
+
+62
+00:05:53.960 --> 00:06:00.460
+students? Do let me know; you have my attention through this slack channel and ...
+
+63
+00:06:00.460 --> 00:06:06.729
+we'll keep refining. I mean it's ... the key thing here is that ...
+
+64
+00:06:06.729 --> 00:06:12.870
+we're all volunteers here. We're trying to make the world a better place; bring education to
+
+65
+00:06:12.870 --> 00:06:13.960
+the masses
+
+66
+00:06:13.960 --> 00:06:19.740
+... the process of the MOOC from Armando and Dave at Berkeley has been a
+
+67
+00:06:19.740 --> 00:06:23.070
+succession of refinements.
+
+68
+00:06:23.070 --> 00:06:31.850
+Let's use the team process here and we've got this Pivotal Tracker here. I
+
+69
+00:06:31.850 --> 00:06:36.940
+will start filling this with things related to the movie MOOC ... probably
+
+70
+00:06:36.940 --> 00:06:39.320
+this time next week.
+
+71
+00:06:39.320 --> 00:06:49.350
+Yes, I think we have got ... at least the MOOC goes live in about two weeks and so I'll try and get you all early access to that and we can hopefully
+
+72
+00:06:49.350 --> 00:06:53.590
+use this board to coordinate work we're doing on the MOOC, but
+
+73
+00:06:54.430 --> 00:07:00.100
+yeah I mean in some ways I think that kind of the first line for coordination for all of us is the
+
+74
+00:07:00.100 --> 00:07:05.870
+AV102 distributed teams Slack there. So in principle once you finish the
+
+75
+00:07:05.870 --> 00:07:12.970
+assignments for this week, you will have earned the TA level 1, woohoo! And we will get those out to you.
+
+76
+00:07:12.970 --> 00:07:18.210
+Apologies again if that gets delayed. We'll fire up the ... there's a series of squirrels that stamp things
+
+77
+00:07:18.210 --> 00:07:24.590
+on each other and we'll get you that level one certificate ... but you may then be interested in getting the level 2 certificate, and
+
+78
+00:07:24.590 --> 00:07:31.920
+so in order to do that we'll give you beta access to the MOOC and we'd like you
+
+79
+00:07:31.920 --> 00:07:37.650
+to basically be in a position to review the week's material for the MOOC before it goes out to
+
+80
+00:07:37.650 --> 00:07:43.820
+the main MOOC, which I think it serves two purposes, one: is it's great for you to be reviewing in advance of helping
+
+81
+00:07:43.820 --> 00:07:48.200
+other students because if you've got it all fresh in your mind that's really really valuable and then the other thing is
+
+82
+00:07:48.200 --> 00:07:53.950
+rather than us putting out material to 10s of thousands of students and there being some sort
+
+83
+00:07:53.950 --> 00:08:02.540
+of - issues ... if you can catch those first then we can get them all fixed up then that will save a lot of confusion on the part of the students and so in
+
+84
+00:08:02.540 --> 00:08:08.460
+order to get the TA level two certificate you need to do each week one of the following
+
+85
+00:08:08.460 --> 00:08:16.970
+that's either respond to a student in a forum and that could either be ... and that should be edX chat or forum there so either
+
+86
+00:08:16.970 --> 00:08:24.470
+you could be responding to a student in the saasbook MOOC Gitter or in the ...
+
+87
+00:08:25.569 --> 00:08:35.639
+it's late here, excuse me, in the discussion for the MOOC.  One of the assignments this week is to practice using the
+
+88
+00:08:35.639 --> 00:08:37.159
+functionality here in the discussion
+
+89
+00:08:37.159 --> 00:08:42.490
+... you can read through the different features there to follow the posts
+
+90
+00:08:42.490 --> 00:08:47.459
+and get email updates and so on and so forth. So do have a look through information on
+
+91
+00:08:47.459 --> 00:08:53.360
+how to use the forum or potentially maybe ...
+
+92
+00:08:53.360 --> 00:08:57.949
+you're not so big on typing things out. You'd like to actually help some students do some
+
+93
+00:08:57.949 --> 00:09:02.970
+pairing, so that would be an equally valuable thing to do and basically ...
+
+94
+00:09:02.970 --> 00:09:09.300
+whichever of these you choose to do ... and yes and actually there's also reporting an issue in the tracker;
+
+95
+00:09:09.300 --> 00:09:13.029
+basically each of these things will generate a link. So they'll be a link to your
+
+96
+00:09:13.029 --> 00:09:18.870
+chat message or your forum post; there'll be a link to the issue you've recorded in the tracker or there'll be a link
+
+97
+00:09:18.870 --> 00:09:23.819
+to the video session where you helped some other students pair on
+
+98
+00:09:23.819 --> 00:09:29.360
+some aspect of the course and basically so week by week in the AV102
+
+99
+00:09:29.360 --> 00:09:38.720
+course that's going forward you'll see ... going into the courseware ... basically, if have my view here, basically
+
+100
+00:09:38.720 --> 00:09:45.339
+there is a series of level 2 certificate TA and project tracks going forward and so each week
+
+101
+00:09:45.339 --> 00:09:49.230
+these'll get released and you'll be able to demonstrate what you've done and post that
+
+102
+00:09:49.230 --> 00:09:55.360
+into there and it goes on to level two. There, thats the end of the first part of the MOOC and you can get your level two certificate and then
+
+103
+00:09:55.360 --> 00:10:01.089
+similarly with the level 3 certificate there, doing it with the second part of the MOOC. Now you may say
+
+104
+00:10:01.089 --> 00:10:07.009
+well I'm all very interested in distributed teams, I'm not so interested in helping the students in the
+
+105
+00:10:07.009 --> 00:10:11.100
+MOOC and you can still get these level 2 and level 3 certificates. We have a
+
+106
+00:10:11.100 --> 00:10:17.480
+project track as an alternative if you are interested in continuing to developing your distributed team
+
+107
+00:10:17.480 --> 00:10:22.480
+skills and working with us at AgileVentures then there is a kind of
+
+108
+00:10:22.480 --> 00:10:27.709
+parallel track going on here where basically you can submit a bit of work that you've done
+
+109
+00:10:27.709 --> 00:10:33.680
+in a distributed project each week and still get these certificates. There we go yeah
+
+110
+00:10:33.680 --> 00:10:39.020
+these will be ... that's basically the key thing; its the TA training course, the AV102
+
+111
+00:10:39.020 --> 00:10:43.150
+... you'll keep submitting those things and be able to get those
+
+112
+00:10:43.150 --> 00:10:49.180
+certificates and I just want to say thanks so much for taking part in the
+
+113
+00:10:49.180 --> 00:10:50.540
+course with us
+
+114
+00:10:50.540 --> 00:10:56.770
+my apologies that we don't have huge resources to throw into it ...
+
+115
+00:10:56.770 --> 00:11:01.450
+we're sort of running things ... group of volunteers, bit of a shoestring ... I hope
+
+116
+00:11:01.450 --> 00:11:07.800
+there was great stuff of value in there. My apologies for any speed bumps
+
+117
+00:11:07.800 --> 00:11:11.670
+as it were, like we've got some of the old videos may be referring to
+
+118
+00:11:11.670 --> 00:11:16.000
+to Skype and to the Stack Exchange. Hopefully on the next run we'll
+
+119
+00:11:16.000 --> 00:11:20.660
+have the time and resources to completely update those. I do hope you enjoy
+
+120
+00:11:20.660 --> 00:11:24.070
+the assignments. I very much enjoyed meeting many of you in the
+
+121
+00:11:24.070 --> 00:11:28.910
+forums and in the Google Hangouts during the past week and look forward to meeting
+
+122
+00:11:28.910 --> 00:11:31.790
+you again and either way
+
+123
+00:11:31.790 --> 00:11:37.390
+best of luck in your future endeavours I hope whether we meet again or not
+
+124
+00:11:37.390 --> 00:11:44.840
+you get something of value from here and you find that useful in your ongoing connection with other people in
+
+125
+00:11:44.840 --> 00:11:45.420
+the world
+
+126
+00:11:45.420 --> 00:11:48.800
+and trying to make the world a better place, because that's what it's all about. Alright bye for now.

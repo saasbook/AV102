@@ -1,0 +1,413 @@
+WEBVTT
+
+0
+00:00:02.720 --> 00:00:08.130
+Hey so I want to tell you about creating Hangouts and events on the AgileVentures site and I'm
+
+1
+00:00:08.130 --> 00:00:12.950
+recording all this with the QuickTime Player so that I can show you how the Hangouts work.
+
+2
+00:00:12.950 --> 00:00:16.860
+So I think you're all familiar with Hangouts, Google Hangouts. Although Google is now re-branding
+
+3
+00:00:16.860 --> 00:00:21.029
+them to be called YouTube Live, and they're starting something called Meet, but anyway
+
+4
+00:00:21.029 --> 00:00:24.169
+... many of you will have been in Hangouts this week ... but you might ask:
+
+5
+00:00:24.169 --> 00:00:28.249
+"Why? If I'm doing some programming why do I want to be in a Hangout?"
+
+6
+00:00:28.249 --> 00:00:33.250
+I think an interactive video is sometimes worth a billion words ... it's just ... in
+
+7
+00:00:33.250 --> 00:00:36.970
+a picture sometimes it illuminates things, sometimes that process of just being able
+
+8
+00:00:36.970 --> 00:00:38.100
+to say to somebody:
+
+9
+00:00:38.100 --> 00:00:41.850
+"Look just this thing here or just well, it's this bit there!"
+
+10
+00:00:41.850 --> 00:00:46.140
+and have that coordinated discussion around something can really sort things out.
+
+11
+00:00:46.140 --> 00:00:49.080
+So I think it's great for problem solving and I really love Hangouts for pair programming.
+
+12
+00:00:49.080 --> 00:00:50.150
+I know some people say:
+
+13
+00:00:50.150 --> 00:00:53.350
+"Oh well you know if you don't have control of each others computers like with
+
+14
+00:00:53.350 --> 00:00:55.710
+Screen Hero or something it's not real pair programming!"
+
+15
+00:00:55.710 --> 00:00:59.280
+but actually I think if you're using GitHub Pong, which is actually my preferred mode
+
+16
+00:00:59.280 --> 00:01:03.470
+for pair programming remotely using a Hangout, then you get to practice your Git skills and
+
+17
+00:01:03.470 --> 00:01:05.350
+you get a Git record of what you've done.
+
+18
+00:01:05.350 --> 00:01:08.810
+I've now done hundreds of hours of pair programming with people all round the world through hangouts
+
+19
+00:01:08.810 --> 00:01:15.030
+and just ... I love it. Hangouts lets you see switch back and forth quickly between multiple
+
+20
+00:01:15.030 --> 00:01:17.160
+people's screens, which is really great for collaboration.
+
+21
+00:01:17.160 --> 00:01:21.320
+Also since it's just screen share you can use all kinds of other tools in combination
+
+22
+00:01:21.320 --> 00:01:25.970
+with the Hangout like C9, GitHub Pong and so on in order to share the code back and
+
+23
+00:01:25.970 --> 00:01:26.970
+forth.
+
+24
+00:01:26.970 --> 00:01:30.170
+The key thing I would say is that you really don't need a webcam. If you do and want to
+
+25
+00:01:30.170 --> 00:01:34.171
+share a video of your face that's great, but its the screenshare functionality of the Hangout
+
+26
+00:01:34.171 --> 00:01:38.440
+that's really really valuable and so you can both be working on C9, or you could be working
+
+27
+00:01:38.440 --> 00:01:41.940
+in your own editor and doing GitHub Pong backwards and forwards and have a group of you.
+
+28
+00:01:41.940 --> 00:01:45.890
+I've done five-way GitHub Pong in different sessions before in Hangouts. The point is
+
+29
+00:01:45.890 --> 00:01:49.920
+that the hangouts themselves are so flexible and they allow you to stream and record video
+
+30
+00:01:49.920 --> 00:01:52.840
+of the sessions to YouTube and it's just, I don't know it's great! Thank you Google
+
+31
+00:01:52.840 --> 00:01:53.850
+:-)
+
+32
+00:01:53.850 --> 00:01:57.220
+So there are various options to use Hangouts, but I'm just going to show you about
+
+33
+00:01:57.220 --> 00:02:00.420
+how we can create Google Hangouts through the AgileVentures site.
+
+34
+00:02:00.420 --> 00:02:04.049
+We have an events feed and this is what we're going to be using to coordinate the pair programming
+
+35
+00:02:04.049 --> 00:02:11.520
+for the MOOC.
+
+36
+00:02:11.520 --> 00:02:21.260
+So we've got AgileVentures there and we've got events there.
+
+37
+00:02:21.260 --> 00:02:26.099
+So you can see upcoming events and there's a button for create new event there that you
+
+38
+00:02:26.099 --> 00:02:30.140
+can use if you want to create a pair programming event,
+
+39
+00:02:30.140 --> 00:02:50.030
+you can do that [BUTTON CLICK] - and pop it in there [BUTTON CLICK] - and that will create an event like these many events that
+
+40
+00:02:50.030 --> 00:02:55.260
+we have in the system and then these events have the ability to start a Hangout on Air
+
+41
+00:02:55.260 --> 00:02:57.720
+and you may ask what's a Hangout on Air?
+
+42
+00:02:57.720 --> 00:03:03.020
+That means it's recordable and it's also streamable so all of the Hangouts that we do for our
+
+43
+00:03:03.020 --> 00:03:06.260
+AgileVenture Scrums or stand-ups and so on, they are all run through the AgileVentures
+
+44
+00:03:06.260 --> 00:03:12.620
+site.
+
+45
+00:03:12.620 --> 00:03:17.580
+What I would do here for example is there's the next Scrum coming up in a couple of hours.
+
+46
+00:03:17.580 --> 00:03:40.260
+The way I was creating all of those Hangouts for the stand-ups and so on was by
+
+47
+00:03:40.260 --> 00:03:43.120
+using this button here "Start a Hangout on Air"
+
+48
+00:03:43.120 --> 00:03:48.140
+and by using these AgileVentures events and Hangout integration we can work out when to
+
+49
+00:03:48.140 --> 00:03:52.200
+meet and notify people of the Scrum hangout link in Slack.
+
+50
+00:03:52.200 --> 00:03:56.319
+If we create an event as a pair programming session as I was just doing here then it appears
+
+51
+00:03:56.319 --> 00:04:04.920
+in the events list but it doesn't appear with the timer and the counter on our home page
+
+52
+00:04:04.920 --> 00:04:05.920
+and in the popup.
+
+53
+00:04:05.920 --> 00:04:08.830
+Those are specifically for scrums or stand-ups.
+
+54
+00:04:08.830 --> 00:04:13.570
+So the big change we've had is that Google has retired the Hangout API, which means that
+
+55
+00:04:13.570 --> 00:04:17.220
+our events no longer ping Slack or Gitter automatically, so if you want that to happen
+
+56
+00:04:17.220 --> 00:04:20.760
+so that others can enter your Hangout, you'll have to take the Hangout URL from the address
+
+57
+00:04:20.760 --> 00:04:23.220
+bar and update the event manually.
+
+58
+00:04:23.220 --> 00:04:26.320
+It's a real pain and I'm sure lots of people will forget or find it hard, but at the moment
+
+59
+00:04:26.320 --> 00:04:29.260
+we don't have a replacement for Google Hangout plugins. Hopefully soon, but if we create
+
+60
+00:04:29.260 --> 00:04:33.900
+a pair programming event that starts in a minute or two and start the hangout like so:
+
+61
+00:04:33.900 --> 00:04:43.380
+So if we start that we'll see the URL.
+
+62
+00:04:43.380 --> 00:04:47.610
+Of course we have to click through the disclaimer about being recorded which some people get
+
+63
+00:04:47.610 --> 00:04:48.610
+kind of freaked out about.
+
+64
+00:04:48.610 --> 00:04:50.490
+Personally I've been recording my life and posting it online
+
+65
+00:04:50.490 --> 00:04:53.560
+for much of the last three or four years and I don't seem to have had any problems yet,
+
+66
+00:04:53.560 --> 00:04:58.410
+but it's not for everybody.
+
+67
+00:04:58.410 --> 00:05:19.400
+And then grab the URL from the address bar and go back into the event
+
+68
+00:05:19.400 --> 00:05:32.380
+and open "Event Actions" like so and click "Edit Hangout link" and paste the URL in like
+
+69
+00:05:32.380 --> 00:05:40.270
+so, and then "Save" it, then we should see the event go live on the site, and now other
+
+70
+00:05:40.270 --> 00:05:44.230
+people can click here to access the Hangout and we should see a notification in Slack
+
+71
+00:05:44.230 --> 00:06:12.139
+where we've got a pairing notifications channel so you can see here that we've got pair programming
+
+72
+00:06:12.139 --> 00:06:15.590
+going on different projects and so on and so on.
+
+73
+00:06:15.590 --> 00:06:19.332
+So in principle you can just get access to the Hangouts there, but, and this is the other
+
+74
+00:06:19.332 --> 00:06:22.270
+reason I absolutely love Google Hangouts is that you start to hang out and you get the
+
+75
+00:06:22.270 --> 00:06:36.522
+link and then you can paste it in into an email or into another chat room and you have
+
+76
+00:06:36.522 --> 00:06:40.050
+a simple mechanism for getting people into the same room that doesn't involve inviting
+
+77
+00:06:40.050 --> 00:06:42.509
+them and waiting for other automated systems to kick in.
+
+78
+00:06:42.509 --> 00:06:47.020
+I'm also a huge fan of Hangouts on Air.
+
+79
+00:06:47.020 --> 00:06:50.410
+I really insisted on that in the AgileVentures site, that all of the Hangouts created should
+
+80
+00:06:50.410 --> 00:06:51.410
+be recordable.
+
+81
+00:06:51.410 --> 00:06:55.470
+Not automatically recorded! Just that they are at least recordable, as I think it's so
+
+82
+00:06:55.470 --> 00:06:57.950
+useful to be able to keep a record of what you did in the Hangout.
+
+83
+00:06:57.950 --> 00:07:02.759
+You have to press the record button to actually record.
+
+84
+00:07:02.759 --> 00:07:07.960
+Note that one of the things we have here is that the event host, which in principle can
+
+85
+00:07:07.960 --> 00:07:11.180
+be anybody with a YouTube linked account can start this hangout on air ...
+
+86
+00:07:11.180 --> 00:07:16.460
+so if you're doing a stand-up or a Scrum, it's sensible that the event host would do it but
+
+87
+00:07:16.460 --> 00:07:18.180
+in principle for pairing sessions ...
+
+88
+00:07:18.180 --> 00:07:22.620
+maybe one person who gets there first - or it's a group of you or what have you whoever gets there
+
+89
+00:07:22.620 --> 00:07:26.259
+first - can make the room - or Hangout - and then you all kind of get in there.
+
+90
+00:07:26.259 --> 00:07:31.660
+Now over here you can see we've got the green start broadcast button at the bottom and that
+
+91
+00:07:31.660 --> 00:07:35.630
+that will actually start recording and also start live streaming ...
+
+92
+00:07:35.630 --> 00:07:41.910
+if you look at the links thing down here you get a YouTube page and so if you do click
+
+93
+00:07:41.910 --> 00:07:45.540
+the start broadcast button which of course is entirely up to you. I pretty much record
+
+94
+00:07:45.540 --> 00:07:46.650
+and broadcast everything I do ...
+
+95
+00:07:46.650 --> 00:07:51.960
+like to be there for the future alien archeologists but also just to be available generally for
+
+96
+00:07:51.960 --> 00:07:53.410
+others to review ...
+
+97
+00:07:53.410 --> 00:07:58.440
+then this YouTube page which is initially the stream then becomes the recording of the
+
+98
+00:07:58.440 --> 00:07:59.800
+session which I think is very very useful.
+
+99
+00:07:59.800 --> 00:08:01.700
+I totally love that feature.
+
+100
+00:08:01.700 --> 00:08:04.711
+So there you go, I hope that will help you all start and run your own Hangouts for pair
+
+101
+00:08:04.711 --> 00:08:05.711
+programming.
+
+102
+00:08:05.711 --> 00:08:05.919
+Bye for now :-)

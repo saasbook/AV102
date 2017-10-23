@@ -1,0 +1,894 @@
+WEBVTT
+
+0
+00:00:00.399 --> 00:00:05.620
+Right, so let's talk about communicating effectively in online forums, of which there are many
+
+1
+00:00:05.620 --> 00:00:06.970
+kinds.
+
+2
+00:00:06.970 --> 00:00:11.929
+The term "Online Forum" tends to make us think of "bulletin boards" and similar systems with
+
+3
+00:00:11.929 --> 00:00:15.459
+threaded conversations, although the term can be used to refer to pretty much anything
+
+4
+00:00:15.459 --> 00:00:18.699
+that is not video conferencing.
+
+5
+00:00:18.699 --> 00:00:23.050
+If we think of things in terms of that scale we were looking at last week, an online forum
+
+6
+00:00:23.050 --> 00:00:27.480
+is anything that doesn't involve real time audio or video and instead relies on text
+
+7
+00:00:27.480 --> 00:00:29.560
+and possibly embedded images and video.
+
+8
+00:00:29.560 --> 00:00:34.360
+So that's what we mean by online forums and they are, I think, extraordinarily valuable
+
+9
+00:00:34.360 --> 00:00:37.440
+for online students and for distributed teams ...
+
+10
+00:00:37.440 --> 00:00:42.760
+because very often you can't get together at the same time, or just bandwidth limitations
+
+11
+00:00:42.760 --> 00:00:46.570
+prevent you from doing realtime audio or visual interaction.
+
+12
+00:00:46.570 --> 00:00:50.660
+So basically, whether you're studying online or you're taking part in a distributed team,
+
+13
+00:00:50.660 --> 00:00:52.140
+the problems are often similar.
+
+14
+00:00:52.140 --> 00:00:56.640
+You're faced with some challenge, some technology problem, or maybe it's a team organization
+
+15
+00:00:56.640 --> 00:01:02.830
+problem, that you need advice on, and so these forums can help you solve your problem.
+
+16
+00:01:02.830 --> 00:01:07.300
+The forum itself might have been created specifically for your group by your team, or have been
+
+17
+00:01:07.300 --> 00:01:11.190
+created as a resource for students, or just been created by other people related to a
+
+18
+00:01:11.190 --> 00:01:12.650
+particular technology.
+
+19
+00:01:12.650 --> 00:01:17.830
+Either way, online forums are a great resource to help you solve all sorts of problems, as
+
+20
+00:01:17.830 --> 00:01:20.090
+I'm sure you well know.
+
+21
+00:01:20.090 --> 00:01:24.010
+They also allow a bit of human contact which is a good thing.
+
+22
+00:01:24.010 --> 00:01:27.350
+Maybe there are some people who really don't want to interact with other people and just
+
+23
+00:01:27.350 --> 00:01:28.350
+work in isolation.
+
+24
+00:01:28.350 --> 00:01:31.900
+We did have at least one person who responded to the pair programming questionnaire a couple
+
+25
+00:01:31.900 --> 00:01:34.330
+of years ago saying "I just don't like people!"
+
+26
+00:01:34.330 --> 00:01:38.979
+So yes, right, if you really don't like interacting with people in real time, then scrums and
+
+27
+00:01:38.979 --> 00:01:41.030
+pair-programming are definitely out for you.
+
+28
+00:01:41.030 --> 00:01:45.799
+But perhaps the interaction of an online text forum is more manageable for some.
+
+29
+00:01:45.799 --> 00:01:50.200
+Although perhaps in extreme cases even just forum interaction might make some uncomfortable?
+
+30
+00:01:50.200 --> 00:01:55.090
+However I would argue that almost all problem-solving, particularly that related to technology, critically
+
+31
+00:01:55.090 --> 00:01:58.000
+requires contact with other members of your team.
+
+32
+00:01:58.000 --> 00:02:02.710
+Also, if you're a learner I think contact with other learners is hugely hugely valuable.
+
+33
+00:02:02.710 --> 00:02:06.260
+I think learners can often feel that they are suffering alone, stuck at the bottom of
+
+34
+00:02:06.260 --> 00:02:10.129
+a well, feeling that they are the only person who doesn't understand a particular problem
+
+35
+00:02:10.129 --> 00:02:12.109
+and that everybody else is finding it very easy.
+
+36
+00:02:12.109 --> 00:02:16.450
+I believe that if you make the right sort of contact with other learners you can very
+
+37
+00:02:16.450 --> 00:02:19.540
+often discover that you're having the same problem that a lot of other people are having
+
+38
+00:02:19.540 --> 00:02:25.260
+and you can share your frustration about that and perhaps work out a solution together.
+
+39
+00:02:25.260 --> 00:02:29.599
+Forums are also a great avenue to getting help from course staff such as a TA.
+
+40
+00:02:29.599 --> 00:02:32.989
+Recent developments in online forums have moved towards more question and answer based
+
+41
+00:02:32.989 --> 00:02:39.340
+approaches, like Quora or StackOverflow, so you get these big repositories of common questions
+
+42
+00:02:39.340 --> 00:02:40.799
+collected together.
+
+43
+00:02:40.799 --> 00:02:44.139
+The answers to common questions can then be collected and voted upon and through a process
+
+44
+00:02:44.139 --> 00:02:48.919
+of community action the most valuable answers can rise to the top.
+
+45
+00:02:48.919 --> 00:02:52.299
+There's also whole communities related to particular technologies such as Linux or Ruby
+
+46
+00:02:52.299 --> 00:02:56.319
+on Rails or whatever, that can be very very powerful engines for generating solutions.
+
+47
+00:02:56.319 --> 00:02:57.139
+[NEXT SLIDE]
+
+48
+00:02:57.139 --> 00:03:03.790
+Now we're going to make a distinction, which you may have heard of before, between asynchronous
+
+49
+00:03:03.790 --> 00:03:05.329
+and synchronous forums.
+
+50
+00:03:05.329 --> 00:03:10.829
+Asynchronous forums are these "message boards" where content is organised around posts, often
+
+51
+00:03:10.829 --> 00:03:15.980
+in a question/answer format, e.g. Google Groups, Quora and StackOveflow
+
+52
+00:03:15.980 --> 00:03:21.309
+Synchronous forums are also called chat, Instant Messengers, or IM for short, and they offer
+
+53
+00:03:21.309 --> 00:03:25.260
+what I would call real-time text communication.
+
+54
+00:03:25.260 --> 00:03:28.209
+You can't usually see the actual act of someone else typing letter by letter ...
+
+55
+00:03:28.209 --> 00:03:32.760
+but most recent chat systems have an indication that another person is in the process of typing,
+
+56
+00:03:32.760 --> 00:03:34.120
+before you see their chat message.
+
+57
+00:03:34.120 --> 00:03:38.290
+This appears to be designed to help prevent people "chatting over each other" and keep
+
+58
+00:03:38.290 --> 00:03:40.040
+the conversation going.
+
+59
+00:03:40.040 --> 00:03:44.409
+The key thing however is that the text update, when it comes, is pushed up in a compact format,
+
+60
+00:03:44.409 --> 00:03:48.409
+and you don't have to refresh a web browser, or make an active request in order to see
+
+61
+00:03:48.409 --> 00:03:52.769
+the new message.
+
+62
+00:03:52.769 --> 00:03:56.549
+Of course the border line between these synchronous and asynchronous forums blurs with things
+
+63
+00:03:56.549 --> 00:04:01.559
+like GitHub issues and pull requests, where GitHub uses Websockets to push live updates
+
+64
+00:04:01.559 --> 00:04:02.230
+to the conversation.
+
+65
+00:04:02.230 --> 00:04:08.469
+That can be really handy, but the GitHub commenting format still looks like an asynchronous forum,
+
+66
+00:04:08.469 --> 00:04:12.909
+and "chat" clients tend to be much more compact, to allow for a faster back and forth.
+
+67
+00:04:12.909 --> 00:04:18.079
+Some people are not so keen on text chat interactions, but it's becoming more and more prevalent
+
+68
+00:04:18.079 --> 00:04:22.590
+as more and more people are using text chat on cellphones, in websites, through apps like
+
+69
+00:04:22.590 --> 00:04:29.430
+WhatsApp, and software like Slack, which is replacing email internally in some organizations.
+
+70
+00:04:29.430 --> 00:04:35.310
+But so let's compare the edX forum with the Slack or Gitter chats that we also use in
+
+71
+00:04:35.310 --> 00:04:36.909
+the course.
+
+72
+00:04:36.909 --> 00:04:40.610
+Here's the edX Forum with its list of topics and a single question picked out.
+
+73
+00:04:40.610 --> 00:04:44.789
+In principle, if you are refreshing the page fast enough in an asynchronous forum like
+
+74
+00:04:44.789 --> 00:04:52.210
+edX or StackOverflow, then you can get an experience almost like a real-time chat, but that's rare.
+
+75
+00:04:52.210 --> 00:04:59.389
+Real-time "synchronous" chats like Gitter or Slack
+
+76
+00:04:59.389 --> 00:05:03.530
+increase the chances that a real-time chat conversation will take place.
+
+77
+00:05:03.530 --> 00:05:07.030
+I'm sure some people are thinking: "But, why do we have all these different alternatives?
+
+78
+00:05:07.030 --> 00:05:09.360
+Why are we having both the embedded Gitter chat and the
+
+79
+00:05:09.360 --> 00:05:10.770
+edX forum?""
+
+80
+00:05:10.770 --> 00:05:13.930
+My answer is that they are different tools that have different values at different times.
+
+81
+00:05:13.930 --> 00:05:17.569
+Sometimes when you're trying to quickly solve a problem with somebody and they tell you
+
+82
+00:05:17.569 --> 00:05:20.370
+something and you want to ask them a little question ...
+
+83
+00:05:20.370 --> 00:05:24.169
+if they can respond quickly you can get a productive back and forth.
+
+84
+00:05:24.169 --> 00:05:27.610
+Sometimes you can cut through a lot of red tape if you're just both typing into a
+
+85
+00:05:27.610 --> 00:05:29.259
+real-time chat.
+
+86
+00:05:29.259 --> 00:05:32.919
+It's a double-edged sword of course, because things can also get a lot more intense, and
+
+87
+00:05:32.919 --> 00:05:36.129
+you have to be careful you're not overwhelming the other person.
+
+88
+00:05:36.129 --> 00:05:40.099
+There's also visibility, so a shared chat room can allow a lot of people to quickly
+
+89
+00:05:40.099 --> 00:05:45.599
+contribute to a discussion, but again that be good or bad depending on the circumstances.
+
+90
+00:05:45.599 --> 00:05:49.400
+Another factor is that real-time chat systems don't tend to support discussion threads in
+
+91
+00:05:49.400 --> 00:05:52.280
+the same way that asynchronous forums do rather well.
+
+92
+00:05:52.280 --> 00:05:57.330
+I'm getting ahead of myself here though ... let's list the different pros and cons to the different
+
+93
+00:05:57.330 --> 00:05:59.400
+systems.
+
+94
+00:05:59.400 --> 00:06:08.919
+So returning to this asynchronous/synchronous distinction;
+
+95
+00:06:08.919 --> 00:06:13.490
+"Asynchronous" implies that people are going to be looking at the forum at different times;
+
+96
+00:06:13.490 --> 00:06:17.259
+the forum is not designed specifically for users being online together, which means posts
+
+97
+00:06:17.259 --> 00:06:20.990
+to the forum are coming in one after another with short breaks, in a "serial" fashion.
+
+98
+00:06:20.990 --> 00:06:25.509
+"Synchronous" implies "real time", that the various parties are at the computer interacting
+
+99
+00:06:25.509 --> 00:06:28.750
+in real-time, contributing in "parallel".
+
+100
+00:06:28.750 --> 00:06:32.879
+Although, what I would point out for things like Slack and Gitter is that one can slide
+
+101
+00:06:32.879 --> 00:06:36.370
+backwards and forwards between a synchronous and an asynchronous conversation.
+
+102
+00:06:36.370 --> 00:06:40.520
+Particularly if you've got a relatively inactive chat channel, you can leave a post in there
+
+103
+00:06:40.520 --> 00:06:44.319
+and someone might not see it for an hour and then they would respond and then you might
+
+104
+00:06:44.319 --> 00:06:49.939
+have an asynchronous discussion in the "real-time" chat over the course of a day or two.
+
+105
+00:06:49.939 --> 00:06:52.879
+Then suddenly you're online together and it becomes synchronous.
+
+106
+00:06:52.879 --> 00:06:57.639
+Anyway I think the ability to slide backwards and forwards between those two states is potentially
+
+107
+00:06:57.639 --> 00:07:00.740
+a very valuable aspect of a text chat.
+
+108
+00:07:00.740 --> 00:07:06.419
+Asynchronous systems tend to have better persistence, with many chat systems having a limited history
+
+109
+00:07:06.419 --> 00:07:10.629
+or visibility as regards previous chat messages.
+
+110
+00:07:10.629 --> 00:07:14.759
+Asynchronous forums likely encourage a broader participation, with it being easier to branch
+
+111
+00:07:14.759 --> 00:07:16.930
+off into a different thread.
+
+112
+00:07:16.930 --> 00:07:20.999
+Whereas it's more complicated to refer back to older chats in synchronous forums, in some
+
+113
+00:07:20.999 --> 00:07:24.639
+cases limiting the interaction to the currently active participants.
+
+114
+00:07:24.639 --> 00:07:30.370
+Probably one of the key things to consider is the length of your post to different forums.
+
+115
+00:07:30.370 --> 00:07:34.159
+In general the greater the length of the thing you post the fewer people who are going to
+
+116
+00:07:34.159 --> 00:07:36.009
+have time to read it.
+
+117
+00:07:36.009 --> 00:07:40.169
+Now you might have a lot to say, and if you need to rant and brain-dump, then that's fine.
+
+118
+00:07:40.169 --> 00:07:43.919
+However in general I would say longer posts should go into asynchronous forums where people
+
+119
+00:07:43.919 --> 00:07:46.169
+will have more time to review them.
+
+120
+00:07:46.169 --> 00:07:50.289
+Even then you will do yourself a huge favour in terms of getting your message across if
+
+121
+00:07:50.289 --> 00:07:53.270
+you edit your post to be as short as possible.
+
+122
+00:07:53.270 --> 00:07:56.830
+In real-time chat you should prefer to make your posts as short as you can, almost as
+
+123
+00:07:56.830 --> 00:07:59.080
+if you were speaking to somebody.
+
+124
+00:07:59.080 --> 00:08:02.919
+You know that glazed look that people can get if you speak for too long? People will
+
+125
+00:08:02.919 --> 00:08:07.110
+just switch off, and potentially get irritated, so its important to keep your real-time chat
+
+126
+00:08:07.110 --> 00:08:09.499
+posts short and to the point.
+
+127
+00:08:09.499 --> 00:08:13.249
+If you have eight questions, that's great, write them all down somewhere safe, and then
+
+128
+00:08:13.249 --> 00:08:15.289
+post just the most important one.
+
+129
+00:08:15.289 --> 00:08:19.849
+Then ask the other questions as the opportunities arise, rather than posting a whole wall of
+
+130
+00:08:19.849 --> 00:08:21.379
+text into the chat.
+
+131
+00:08:21.379 --> 00:08:25.710
+Some people might say: "Well you know, I've got a lot to say. I need to be able to say
+
+132
+00:08:25.710 --> 00:08:26.169
+it all."
+
+133
+00:08:26.169 --> 00:08:30.449
+Well ultimately it's your choice, but my recommendation is that you think carefully about the impact
+
+134
+00:08:30.449 --> 00:08:31.770
+your posts have on other people.
+
+135
+00:08:31.770 --> 00:08:34.010
+Lots of people are very busy ...
+
+136
+00:08:34.010 --> 00:08:37.840
+Many of us have got a lot of commitments, such as work, family (kids or elderly relatives)
+
+137
+00:08:37.840 --> 00:08:39.419
+making ends meet and so on.
+
+138
+00:08:39.419 --> 00:08:43.400
+You might say, "I don't have time to edit down all my thoughts", which may be true,
+
+139
+00:08:43.400 --> 00:08:46.520
+but if so you're pushing the editing work onto others.
+
+140
+00:08:46.520 --> 00:08:50.700
+Others might not have time to both edit your thoughts and then also respond to them.
+
+141
+00:08:50.700 --> 00:08:54.160
+If the complex thought you are having really requires saying a lot of things then that's
+
+142
+00:08:54.160 --> 00:08:57.230
+also a good time to consider posting to an asynchronous forum where you're putting less
+
+143
+00:08:57.230 --> 00:09:00.130
+pressure on others to read what you say.
+
+144
+00:09:00.130 --> 00:09:03.640
+If you're worried that you haven't received a reply on your asynchronous forum submission,
+
+145
+00:09:03.640 --> 00:09:06.450
+then post a link to it into the real-time chat.
+
+146
+00:09:06.450 --> 00:09:11.390
+I think that's a very powerful combination. Bringing up an issue in text chat, but adding
+
+147
+00:09:11.390 --> 00:09:14.480
+a link to more details for those who are interested.
+
+148
+00:09:14.480 --> 00:09:18.950
+If it's really really long, even for a forum post, then how about writing a blog post?
+
+149
+00:09:18.950 --> 00:09:23.570
+Then you can post the link to the blog to any of the forums, chat, bulletin boards or
+
+150
+00:09:23.570 --> 00:09:25.070
+what have you.
+
+151
+00:09:25.070 --> 00:09:27.450
+There's also the question of back and forth.
+
+152
+00:09:27.450 --> 00:09:31.120
+Text chat is set up to allow a quick back and forth, but even with short posts you can
+
+153
+00:09:31.120 --> 00:09:34.640
+end up overwhelming someone if you persist in a line of questioning or debate past a
+
+154
+00:09:34.640 --> 00:09:35.270
+certain point.
+
+155
+00:09:35.270 --> 00:09:39.200
+I've got more to say about this, but perhaps I'll follow my own advice and direct you to
+
+156
+00:09:39.200 --> 00:09:40.640
+a blog post I wrote on the subject :-)
+
+157
+00:09:40.640 --> 00:09:51.060
+Coming back to the slide; it will depend on who's around but you can get a much faster
+
+158
+00:09:51.060 --> 00:09:53.520
+response in a chat environment.
+
+159
+00:09:53.520 --> 00:09:57.060
+What I would really strongly recommend is asking questions in group channels rather
+
+160
+00:09:57.060 --> 00:09:58.150
+than to individuals.
+
+161
+00:09:58.150 --> 00:10:02.430
+I get a lot of people contacting me individually with questions like "Oh what do you think
+
+162
+00:10:02.430 --> 00:10:06.410
+of this new technology, or this new course", which I'd really much rather respond to in
+
+163
+00:10:06.410 --> 00:10:10.360
+a group chat, rather than a direct message or DM.
+
+164
+00:10:10.360 --> 00:10:13.330
+It's partly that with hundreds of TAs and thousands of students it's hard for me to
+
+165
+00:10:13.330 --> 00:10:14.770
+respond individually.
+
+166
+00:10:14.770 --> 00:10:19.440
+Also, if you're DMing me then you have to wait until I am free to answer your question.
+
+167
+00:10:19.440 --> 00:10:23.860
+If you ask in a group chat or forum, then potentially you get an answer faster, because
+
+168
+00:10:23.860 --> 00:10:25.640
+someone else can respond before me.
+
+169
+00:10:25.640 --> 00:10:28.810
+Please don't ever ask "Can I ask you a question?"
+
+170
+00:10:28.810 --> 00:10:32.000
+That just guarantees that it will take longer to get your answer.
+
+171
+00:10:32.000 --> 00:10:35.420
+I will always say, "Yes, you can ask me a question."
+
+172
+00:10:35.420 --> 00:10:39.240
+However I do really prefer that if it's not a life and death personal matter that you
+
+173
+00:10:39.240 --> 00:10:44.450
+ask in a group channel or forum because 1. you'll get an answer faster, and 2. others
+
+174
+00:10:44.450 --> 00:10:46.080
+may benefit from seeing the conversation.
+
+175
+00:10:46.080 --> 00:10:50.290
+I get the sense that many people are embarrassed to ask questions in group channels.
+
+176
+00:10:50.290 --> 00:10:53.870
+They don't want to bother other people, or they don't want to look like they don't know
+
+177
+00:10:53.870 --> 00:10:54.180
+something.
+
+178
+00:10:54.180 --> 00:10:57.560
+I strongly believe that one of the most important things in learning is to be able to admit
+
+179
+00:10:57.560 --> 00:11:00.460
+in front of others that you don't know something.
+
+180
+00:11:00.460 --> 00:11:04.680
+It is okay not to know things, or to be unsure; and it's by having a conversation in a group
+
+181
+00:11:04.680 --> 00:11:08.830
+where we all admit to not knowing things that we can become a powerful learning team.
+
+182
+00:11:08.830 --> 00:11:13.970
+When answers then get shared with multiple people, this is part of succeeding as a distributed
+
+183
+00:11:13.970 --> 00:11:15.560
+team.
+
+184
+00:11:15.560 --> 00:11:19.550
+Another distinguishing feature is that historically it's generally been the case that asynchronous
+
+185
+00:11:19.550 --> 00:11:21.440
+forums are not so easily searchable.
+
+186
+00:11:21.440 --> 00:11:24.910
+However Slack has gone a long way to change this by providing good search functionality
+
+187
+00:11:24.910 --> 00:11:26.660
+in their chat client.
+
+188
+00:11:26.660 --> 00:11:30.230
+So maybe asynchronous forums are better when you need to describe a longer more complex
+
+189
+00:11:30.230 --> 00:11:35.190
+problem and synchronous forums are better for clarification and simple guidance?
+
+190
+00:11:35.190 --> 00:11:38.500
+Both kinds of forums can be very powerful support for problem solving, but both should
+
+191
+00:11:38.500 --> 00:11:40.020
+be used carefully.
+
+192
+00:11:40.020 --> 00:11:44.200
+Clumsy use of either can sometimes draw out an issue which might be more quickly resolved
+
+193
+00:11:44.200 --> 00:11:47.940
+in a real-time Hangout with screen share; or perhaps just have been better left alone
+
+194
+00:11:47.940 --> 00:11:50.410
+or solved individually.
+
+195
+00:11:50.410 --> 00:11:53.820
+My rule of thumb is struggle by yourself for 20 minutes - and then if you're making no
+
+196
+00:11:53.820 --> 00:11:56.440
+progress at all it's time to look for help.
+
+197
+00:11:56.440 --> 00:12:02.180
+So then are you looking for support in chat? In a Q&A forum or in a real-time Hangout?
+
+198
+00:12:02.180 --> 00:12:08.470
+One disadvantage to the community of real-time A/V interaction is that the history of
+
+199
+00:12:08.470 --> 00:12:12.670
+it is not text searchable in the same way as chats and posts.
+
+200
+00:12:12.670 --> 00:12:16.330
+But sometimes an interactive video where a person is saying: "Oh I'm clicking here and
+
+201
+00:12:16.330 --> 00:12:17.480
+I'm doing this" ...
+
+202
+00:12:17.480 --> 00:12:20.590
+And then we're like "Oh of course, the thing we've been talking about for the last few
+
+203
+00:12:20.590 --> 00:12:25.850
+hours" in a real-time chat or asynchronous forum suddenly becomes transparent.
+
+204
+00:12:25.850 --> 00:12:29.550
+So in summary all of these different tools have a valuable role to play, and the trick
+
+205
+00:12:29.550 --> 00:12:31.160
+is to learn when to use which.
+
+206
+00:12:31.160 --> 00:12:36.350
+Where we want to be is a place in which we are choosing the best tool for the job, i.e.
+
+207
+00:12:36.350 --> 00:12:41.230
+is this a problem for an asynchronous forum, or a real time chat, or for a live audio/visual
+
+208
+00:12:41.230 --> 00:12:44.800
+stream like a Google Hangout.
+
+209
+00:12:44.800 --> 00:12:52.450
+So there's lots of free chat options if you're setting up your own distributed team.
+
+210
+00:12:52.450 --> 00:12:55.320
+In the past we went with a combination of Skype and IRC.
+
+211
+00:12:55.320 --> 00:12:59.700
+However in AgileVentures we've now switched completely to Slack, and in edX we've switched
+
+212
+00:12:59.700 --> 00:13:01.010
+to Gitter;
+
+213
+00:13:01.010 --> 00:13:04.890
+We're using the free tiers of these systems, which require payment to unlock more resources,
+
+214
+00:13:04.890 --> 00:13:08.040
+such as history, or number of team members.
+
+215
+00:13:08.040 --> 00:13:11.740
+The key thing here is the way in which the user interfaces of systems like Slack and
+
+216
+00:13:11.740 --> 00:13:16.830
+Gitter are starting to outpace what's on offer from other free and open source solutions.
+
+217
+00:13:16.830 --> 00:13:20.570
+We use Gitter in the MOOC specifically because it is embeddable and thus easily discoverable
+
+218
+00:13:20.570 --> 00:13:24.010
+by students without having to go through an invite process.
+
+219
+00:13:24.010 --> 00:13:27.640
+So in summary I'd strongly recommend you experiment with the free tiers of systems like Slack
+
+220
+00:13:27.640 --> 00:13:31.850
+and Gitter, which also provide lots of great integrations with code versioning and continuous
+
+221
+00:13:31.850 --> 00:13:36.570
+integration systems so your team can keep up to date with your code and its deployment.
+
+222
+00:13:36.570 --> 00:13:41.890
+If you ask me in the AgileVentures slack chat I'll be happy to show you some examples.
+

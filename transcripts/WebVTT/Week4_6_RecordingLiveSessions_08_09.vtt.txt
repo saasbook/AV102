@@ -1,0 +1,606 @@
+WEBVTT
+
+0
+00:00:00.110 --> 00:00:04.000
+So, recording live sessions. We've already talked about recording
+
+1
+00:00:04.000 --> 00:00:08.179
+in hangouts and I've already waxed lyrical about why we should
+
+2
+00:00:08.179 --> 00:00:11.570
+record as I say I think it's fantastic evidence
+
+3
+00:00:11.570 --> 00:00:15.299
+that's work being done ... both if you're trying to demonstrate to your ...
+
+4
+00:00:15.299 --> 00:00:19.680
+whatever, your community, to your seniors, to your supervisor, to your professor or
+
+5
+00:00:19.680 --> 00:00:22.710
+whatever it is ... a video of you actually doing the work
+
+6
+00:00:22.710 --> 00:00:26.269
+really shows that you did the work ... it also
+
+7
+00:00:26.269 --> 00:00:29.340
+allows others potentially to benefit from what you worked out ...
+
+8
+00:00:29.340 --> 00:00:32.700
+it's ... recording of a live session
+
+9
+00:00:32.700 --> 00:00:36.850
+I think it's not necessarily as good as ...
+
+10
+00:00:36.850 --> 00:00:40.399
+for example a RailsCast where ... or a really highly polished
+
+11
+00:00:40.399 --> 00:00:43.070
+thing where someone is showing you step by step how to work through on something.
+
+12
+00:00:43.070 --> 00:00:44.210
+What it does ...
+
+13
+00:00:44.210 --> 00:00:48.640
+I think it's really useful to see just other people's environments; how they work
+
+14
+00:00:48.640 --> 00:00:49.000
+out
+
+15
+00:00:49.000 --> 00:00:52.809
+the approach that they take; their thought process ... I think it's fascinating ... I just
+
+16
+00:00:52.809 --> 00:00:54.129
+continue to love to see
+
+17
+00:00:54.129 --> 00:00:57.570
+so many other people's processes ... and
+
+18
+00:00:57.570 --> 00:01:02.440
+it's also you know ... you may say: "Well you know the videos not much
+
+19
+00:01:02.440 --> 00:01:03.440
+benefit for me,
+
+20
+00:01:03.440 --> 00:01:07.140
+you know I'm not going to look at it" ... if you are working with some piece of software
+
+21
+00:01:07.680 --> 00:01:11.110
+you're working with some online course that's being delivered. If you're
+
+22
+00:01:11.110 --> 00:01:12.189
+recording yourself
+
+23
+00:01:12.189 --> 00:01:15.570
+encountering the issue that you encounter.  I mean it's just fantastic for
+
+24
+00:01:15.570 --> 00:01:17.299
+submitting bug reports. I mean rather than saying:
+
+25
+00:01:17.299 --> 00:01:20.479
+"You know I had this issue" and then spending fifteen-minute typing out and adding
+
+26
+00:01:20.479 --> 00:01:22.770
+screenshots for exactly what happened and your whole
+
+27
+00:01:22.770 --> 00:01:27.040
+flow ... a short five-minute video of "I encountered this issue
+
+28
+00:01:27.040 --> 00:01:30.369
+and here's the link to the unlisted YouTube of it ...
+
+29
+00:01:30.369 --> 00:01:33.490
+or even public YouTube if it's a public service and you're saying "Like, look
+
+30
+00:01:33.490 --> 00:01:36.920
+you know this main thing is broken with G+" or what have you ...
+
+31
+00:01:36.920 --> 00:01:40.530
+really goes a long way. So ... you may be in the situation
+
+32
+00:01:40.530 --> 00:01:41.590
+that you can't
+
+33
+00:01:41.590 --> 00:01:44.939
+Hangout, stream, for whatever reason may be you can't get a YouTube verified account
+
+34
+00:01:45.920 --> 00:01:50.119
+maybe YouTube is banned in your country ... there are a lot of alternatives. I mean we ...
+
+35
+00:01:50.119 --> 00:01:53.189
+I mean I'm a big fan of Hangouts mainly because
+
+36
+00:01:53.189 --> 00:01:56.409
+its ... I don't have to then do the upload
+
+37
+00:01:56.409 --> 00:01:59.600
+of the software. I use as I am now
+
+38
+00:01:59.600 --> 00:02:03.130
+for recording this session I'm using Screencast-O-Matic
+
+39
+00:02:03.130 --> 00:02:07.020
+... there's a free version. I'm using the pro version here which is like
+
+40
+00:02:07.020 --> 00:02:07.790
+15 dollars
+
+41
+00:02:07.790 --> 00:02:11.200
+and I've been using that ...  pretty much ...
+
+42
+00:02:11.200 --> 00:02:14.650
+I think I used to use ScreenFlow on
+
+43
+00:02:14.650 --> 00:02:17.739
+on Mac and ... yeah
+
+44
+00:02:18.239 --> 00:02:21.290
+why did I switch to Screencast-O-Matic ...
+
+45
+00:02:21.290 --> 00:02:25.200
+I mean the ScreenFlow was Mac only ... I think the particular thing at the time
+
+46
+00:02:25.200 --> 00:02:26.250
+ScreenFlow
+
+47
+00:02:26.250 --> 00:02:30.220
+which is a Mac system just seemed to take a lot longer to do certain sorts of
+
+48
+00:02:30.220 --> 00:02:30.709
+things
+
+49
+00:02:30.709 --> 00:02:34.230
+... but still I mean compared to Hangouts I mean, once I had finished recording
+
+50
+00:02:34.230 --> 00:02:37.950
+this video for you guys ... I'm gonna have to ...
+
+51
+00:02:37.950 --> 00:02:41.180
+ I've got an integrated upload to YouTube thing in here you can see the
+
+52
+00:02:41.180 --> 00:02:42.340
+last one that I just uploaded.
+
+53
+00:02:42.340 --> 00:02:45.670
+The encoding process of turning whatever format
+
+54
+00:02:45.670 --> 00:02:48.950
+Screencast-O-Matic is saving the video in to
+
+55
+00:02:48.950 --> 00:02:52.230
+what it needs to be to be displayed on YouTube can sometimes take a long time
+
+56
+00:02:52.230 --> 00:02:57.000
+that's sometimes a big issue for me in terms of managing my day
+
+57
+00:02:57.000 --> 00:03:01.360
+so doing a hangout stream is fantastic in that like I've done the stream
+
+58
+00:03:01.360 --> 00:03:04.540
+that's it. I don't have to ... I can just "Fire-and-forget" and
+
+59
+00:03:04.540 --> 00:03:09.000
+it's up there ... but there's other issues we'll go into a minute.  So Screencast-O-Matic
+
+60
+00:03:09.000 --> 00:03:10.650
+I happen to use that ...
+
+61
+00:03:10.650 --> 00:03:13.700
+there are lots of other ones, there are lots of other platform-specifics that work
+
+62
+00:03:13.700 --> 00:03:18.260
+only on OSX, or Linux or Windows and then there's other online meeting tools which I've had
+
+63
+00:03:18.260 --> 00:03:21.940
+some experience with and I just ... I think
+
+64
+00:03:21.940 --> 00:03:25.180
+the Google hangouts is so ...
+
+65
+00:03:25.180 --> 00:03:28.810
+the fact that it's free and it's by Google and it works pretty
+
+66
+00:03:28.810 --> 00:03:29.599
+well ...
+
+67
+00:03:29.599 --> 00:03:32.690
+I guess one key thing, if we go on to Screencast-O-Matic
+
+68
+00:03:32.690 --> 00:03:35.780
+which is as I say there's a
+
+69
+00:03:35.780 --> 00:03:39.340
+a 15-minute limit. I actually hadn't noticed the watermark but
+
+70
+00:03:39.340 --> 00:03:42.409
+that was certainly ScreeFlow's (business) model ...
+
+71
+00:03:42.409 --> 00:03:45.540
+there are actually editing tool built into the pro version
+
+72
+00:03:46.049 --> 00:03:50.200
+... you can upload directly ...
+
+73
+00:03:50.200 --> 00:03:53.659
+to YouTube. I think the particular thing that I like
+
+74
+00:03:53.659 --> 00:03:57.640
+about ... for recording these ... I mean I could be recording these little lecture segments
+
+75
+00:03:57.640 --> 00:04:00.939
+on the Hangouts but
+
+76
+00:04:00.939 --> 00:04:04.540
+you kind of have to go either showing the entire screen or showing the person's
+
+77
+00:04:04.540 --> 00:04:05.030
+face
+
+78
+00:04:05.030 --> 00:04:08.250
+and backwards and forwards and I would much rather have ... and
+
+79
+00:04:08.819 --> 00:04:11.849
+I think my students suggest they prefer ... I don't know
+
+80
+00:04:11.849 --> 00:04:15.390
+the little picture in picture talking head
+
+81
+00:04:15.390 --> 00:04:18.410
+which is ... we've got to be careful with the placement of that because of ...
+
+82
+00:04:18.410 --> 00:04:21.790
+it might obscure a different part of the screen which might be important
+
+83
+00:04:21.790 --> 00:04:26.229
+but you can move that around afterwards ... yeah and it's multi-platform, so
+
+84
+00:04:26.229 --> 00:04:29.610
+for my students ... I mean I think now I'm recommending
+
+85
+00:04:29.610 --> 00:04:33.690
+all my HPU students, and I'll be recommending all the MOOC students for ...
+
+86
+00:04:33.690 --> 00:04:37.620
+documenting their ... or your, shall we say, documenting
+
+87
+00:04:37.620 --> 00:04:41.050
+their work ... to be using the hangouts because it's just
+
+88
+00:04:41.050 --> 00:04:44.470
+so much less time but if you're not connected to the network; if
+
+89
+00:04:44.470 --> 00:04:48.210
+you've got a very spotty network connection ... for some reason you can't use a Hangout
+
+90
+00:04:48.210 --> 00:04:51.820
+and you need to record a little simple video
+
+91
+00:04:51.820 --> 00:04:55.340
+the free version of Screencast-O-Matic is absolutely fine ...
+
+92
+00:04:55.340 --> 00:05:00.550
+yeah so ... Mac options there's a series of things. Actually this is getting easier and
+
+93
+00:05:00.550 --> 00:05:01.180
+easier;
+
+94
+00:05:01.180 --> 00:05:05.699
+and the QuickTime screencasts; FaceTime ... there's a number a free
+
+95
+00:05:05.699 --> 00:05:08.910
+options ... I think you can also, you can
+
+96
+00:05:08.910 --> 00:05:12.699
+pay for the version of iMovie. I've used iMovie to edit
+
+97
+00:05:12.699 --> 00:05:15.930
+some things in the past ... there are converters ... I think the file format
+
+98
+00:05:16.930 --> 00:05:20.030
+is becoming less of an issue.  It still seems to take a long ... I mean
+
+99
+00:05:20.030 --> 00:05:23.039
+just the nature of the beast is that it takes a long time to convert from one file
+
+100
+00:05:23.039 --> 00:05:23.750
+format
+
+101
+00:05:23.750 --> 00:05:27.509
+to another.  From my point of view, anything that instantly gets it onto YouTube and I don't
+
+102
+00:05:27.509 --> 00:05:28.860
+have to think about the conversion
+
+103
+00:05:28.860 --> 00:05:32.110
+has got to be good ... there are a number of open source clients
+
+104
+00:05:32.110 --> 00:05:35.660
+for Windows, I think there are a number of paid clients as well.  I may have used
+
+105
+00:05:35.660 --> 00:05:39.410
+CamStudio in the past ... generally I have had
+
+106
+00:05:39.410 --> 00:05:42.710
+a fair amount of problem ...
+
+107
+00:05:42.710 --> 00:05:46.320
+with Windows ... particularly for a game programming course where I was
+
+108
+00:05:46.320 --> 00:05:49.710
+... desperate to try and record both the audio from the games
+
+109
+00:05:49.710 --> 00:05:54.259
+and me talking about the games as I played them and gave feedback for my
+
+110
+00:05:54.259 --> 00:05:54.919
+students
+
+111
+00:05:54.919 --> 00:05:58.960
+on the games that they'd designed. I think that might of actually been the reason that I switched to
+
+112
+00:05:58.960 --> 00:06:02.020
+Screencast-O-Matic because Screenflow was specific to
+
+113
+00:06:03.110 --> 00:06:06.410
+the Mac and I needed to get it working on Windows
+
+114
+00:06:06.410 --> 00:06:09.500
+for the ... many of the games were Windows only ...
+
+115
+00:06:09.500 --> 00:06:13.190
+yeah ... that said I have had trouble
+
+116
+00:06:13.710 --> 00:06:16.789
+in the past, this is another thing, on Mac with recording this
+
+117
+00:06:16.789 --> 00:06:20.110
+the audio stream for both Screencast-O-Matic, sorry from both the
+
+118
+00:06:20.110 --> 00:06:23.250
+... my audio, my spoken audio and the
+
+119
+00:06:23.250 --> 00:06:26.580
+audio that's coming out of the computer. That seems to be becoming less
+
+120
+00:06:26.580 --> 00:06:29.960
+of a problem. I guess I'm using ... Hangouts now so frequently
+
+121
+00:06:29.960 --> 00:06:33.930
+.... I did have a sort of a big set up anyway, that's sort of Mac specific and probably
+
+122
+00:06:33.930 --> 00:06:37.569
+won't worry many of you but if anybody wants to chat
+
+123
+00:06:37.569 --> 00:06:41.289
+about ... I mean I've been teaching exclusively online for about four years now;
+
+124
+00:06:41.289 --> 00:06:45.569
+is it coming up to five? And so anybody who wants to wax lyrical with me about different
+
+125
+00:06:45.569 --> 00:06:46.449
+recording options
+
+126
+00:06:46.449 --> 00:06:49.660
+I'd be happy to chat. I have much less experience with Linux.
+
+127
+00:06:49.660 --> 00:06:53.530
+I tend to record on Windows and OSX. I tend not to record
+
+128
+00:06:53.530 --> 00:06:56.780
+... in Linux ...
+
+129
+00:06:56.780 --> 00:07:00.039
+my good friends tell me that there are ...
+
+130
+00:07:00.039 --> 00:07:03.419
+yeah ... ffmpeg, which I think I also had a Windows version for but that ...
+
+131
+00:07:03.419 --> 00:07:06.740
+ffmpeg is recommended. There are also some other ones
+
+132
+00:07:06.740 --> 00:07:09.870
+... as I say, I don't try and do ... I don't have so much
+
+133
+00:07:09.870 --> 00:07:13.449
+experience recording in that environment and then there's a lot of these
+
+134
+00:07:13.449 --> 00:07:13.770
+different
+
+135
+00:07:13.770 --> 00:07:17.520
+online meeting systems like WebEx and GoToMeeting and TeamViewer
+
+136
+00:07:17.520 --> 00:07:20.720
+and so on that I think some people swear by. I guess
+
+137
+00:07:21.289 --> 00:07:24.690
+I'm always worried with ... I guess with any software
+
+138
+00:07:24.690 --> 00:07:27.729
+framework you're sort of worried about
+
+139
+00:07:27.729 --> 00:07:31.599
+... you're going to end up paying monthly fees and is the company going to go out of business
+
+140
+00:07:31.599 --> 00:07:32.940
+and so on; and one feels
+
+141
+00:07:32.940 --> 00:07:36.229
+if Google have got a free offering, I tend to go there
+
+142
+00:07:36.229 --> 00:07:39.949
+... but yeah if people are having particularly good experiences
+
+143
+00:07:39.949 --> 00:07:43.720
+with these do let me know ... well I've had some
+
+144
+00:07:43.720 --> 00:07:45.830
+bad experiences in the past although of course
+
+145
+00:07:45.830 --> 00:07:48.879
+... it's very impressive how so many companies
+
+146
+00:07:48.879 --> 00:07:52.169
+up their game over time and the software improves over time
+
+147
+00:07:52.169 --> 00:07:55.610
+so ... yeah I just ... we'll finish up there with saying
+
+148
+00:07:56.160 --> 00:08:00.669
+record your live sessions ... I think it's really valuable
+
+149
+00:08:00.669 --> 00:08:04.030
+... and there's lots of different ways to do it and
+
+150
+00:08:04.030 --> 00:08:05.900
+and give it a try, okay, bye for now!
+
