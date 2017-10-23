@@ -1,0 +1,790 @@
+WEBVTT
+
+0
+00:00:00.240 --> 00:00:03.820
+So what are the TA's responsibilities?
+
+1
+00:00:03.820 --> 00:00:08.969
+We've developed a TA's Creed, which you should know if you're going to be a TA.
+
+2
+00:00:08.969 --> 00:00:10.530
+First, you need to be responsible.
+
+3
+00:00:10.530 --> 00:00:14.809
+If there's a problem you need to pass it up through the chain of command so that it can
+
+4
+00:00:14.809 --> 00:00:17.180
+be addressed rather than forgotten.
+
+5
+00:00:17.180 --> 00:00:20.150
+Also you need to be respectful to the students who are struggling away with the sometimes
+
+6
+00:00:20.150 --> 00:00:21.939
+difficult and challenging material.
+
+7
+00:00:21.939 --> 00:00:26.070
+A student might be struggling with something you find easy, but its unhelpful to imply
+
+8
+00:00:26.070 --> 00:00:30.669
+that things "should be easy" or that a student "should know" something.
+
+9
+00:00:30.669 --> 00:00:35.270
+You need to have empathy for the different learning journey that every student is on.
+
+10
+00:00:35.270 --> 00:00:39.090
+Further, you'll need to be relevant, informative and resourceful.
+
+11
+00:00:39.090 --> 00:00:40.880
+This means staying "on topic".
+
+12
+00:00:40.880 --> 00:00:45.110
+Students will get stuck in this real-world software; and they'll get stuck down all different
+
+13
+00:00:45.110 --> 00:00:49.510
+sorts of alleyways to do with version issues and libraries and so on.
+
+14
+00:00:49.510 --> 00:00:52.980
+You'll need to be resourceful think on your feet, and get the right sorts of information
+
+15
+00:00:52.980 --> 00:00:56.260
+to the right people at the right time.
+
+16
+00:00:56.260 --> 00:01:00.060
+One of the key things really is to be actively engaged with the courseware.
+
+17
+00:01:00.060 --> 00:01:03.500
+Particularly if you took the 169 course some time ago then you may not have the assignments
+
+18
+00:01:03.500 --> 00:01:06.810
+and the aspects of it in the forefront of your mind.
+
+19
+00:01:06.810 --> 00:01:11.119
+Ideally you need to be working through the courseware with the students so that you've
+
+20
+00:01:11.119 --> 00:01:15.469
+looked at the assignment and just completed it, i.e. the one they've been working on that
+
+21
+00:01:15.469 --> 00:01:15.929
+week.
+
+22
+00:01:15.929 --> 00:01:18.549
+You also need to be a facilitator.
+
+23
+00:01:18.549 --> 00:01:21.969
+Which means that rather than just solving problems, you need to help other people solve
+
+24
+00:01:21.969 --> 00:01:29.219
+their own problems - and we'll talk more about this as we go on in this next section.
+
+25
+00:01:29.219 --> 00:01:33.460
+In terms of supporting students what we really want is the students to become more and more
+
+26
+00:01:33.460 --> 00:01:36.270
+independent of the TA's and the instructors and so on.
+
+27
+00:01:36.270 --> 00:01:39.340
+We want the students to become independent learners.
+
+28
+00:01:39.340 --> 00:01:43.649
+As much as possible we would like to help them discover the answers by themselves.
+
+29
+00:01:43.649 --> 00:01:46.429
+Rather than just saying: "this is how you do it, and then you do this, and then you
+
+30
+00:01:46.429 --> 00:01:48.850
+do this", we need to provide a scaffolding.
+
+31
+00:01:48.850 --> 00:01:52.649
+A scaffolding that is about helping them learn to discover the answers by themselves.
+
+32
+00:01:52.649 --> 00:01:56.939
+We'll get into that in more detail in a minute.
+
+33
+00:01:56.939 --> 00:02:01.060
+Another key thing is helping them get past needless roadblocks to learning.
+
+34
+00:02:01.060 --> 00:02:03.929
+For example say the student is stuck because of a version issue.
+
+35
+00:02:03.929 --> 00:02:08.580
+There is a judgement call here about whether we just give the answer to that particular
+
+36
+00:02:08.580 --> 00:02:12.530
+fix that so that we can focus on a higher-level software engineering issue ...
+
+37
+00:02:12.530 --> 00:02:16.860
+Or is it actually that this versioning or library issue is something that they could
+
+38
+00:02:16.860 --> 00:02:20.220
+solve by themselves through a process of exploration?
+
+39
+00:02:20.220 --> 00:02:23.920
+And making the right decision is tricky, and requires intuition that you will need to develop
+
+40
+00:02:23.920 --> 00:02:25.810
+over time.
+
+41
+00:02:25.810 --> 00:02:30.140
+It's good to be aware that there are two sides to every problem. Some may just need to be fixed
+
+42
+00:02:30.140 --> 00:02:33.920
+if the learner is too stressed, and if the problem is not related to the current learning
+
+43
+00:02:33.920 --> 00:02:34.940
+objective.
+
+44
+00:02:34.940 --> 00:02:39.110
+However other problems can be used as a springboard for learning, and helping a student become
+
+45
+00:02:39.110 --> 00:02:41.110
+an independent learner.
+
+46
+00:02:41.110 --> 00:02:46.340
+Naturally providing correct, relevant, and clear information is absolutely essential.
+
+47
+00:02:46.340 --> 00:02:50.680
+Furthermore we also want to maintain a culture of collaboration, because a positive process
+
+48
+00:02:50.680 --> 00:02:53.690
+of collaboration is fun and helps people learn.
+
+49
+00:02:53.690 --> 00:02:57.470
+So it's essential that we support the students in helping each other, by encouraging students
+
+50
+00:02:57.470 --> 00:03:01.200
+talking to each other about challenges and so on.
+
+51
+00:03:01.200 --> 00:03:05.670
+We definitely want to get as much of that as we possibly can.
+
+52
+00:03:05.670 --> 00:03:09.080
+So there's a number of different forums where students will be communicating with each other.
+
+53
+00:03:09.080 --> 00:03:13.190
+We've got an asynchronous bulletin board in the form ofthe edX forum.
+
+54
+00:03:13.190 --> 00:03:18.160
+We've also got live realtime chat, that is embedded into the HTML of the site - that's
+
+55
+00:03:18.160 --> 00:03:21.000
+using Gitter: a GitHub-based chat client.
+
+56
+00:03:21.000 --> 00:03:25.150
+The key thing in any of these forums is to maintain civility, we're all professionals,
+
+57
+00:03:25.150 --> 00:03:26.280
+we're all adults.
+
+58
+00:03:26.280 --> 00:03:29.350
+There's no reason not be polite to each other.
+
+59
+00:03:29.350 --> 00:03:32.650
+We're all trying to work together to try and improve our knowledge and understanding of
+
+60
+00:03:32.650 --> 00:03:33.710
+all the materials.
+
+61
+00:03:33.710 --> 00:03:35.460
+So let's be civil.
+
+62
+00:03:35.460 --> 00:03:38.680
+We also suggest cutting off unproductive discussions.
+
+63
+00:03:38.680 --> 00:03:43.110
+That's again a judgement call about what is a productive or unproductive discussion.
+
+64
+00:03:43.110 --> 00:03:46.680
+I think a light touch is generally the way to go but if things really are descending
+
+65
+00:03:46.680 --> 00:03:51.000
+into less than civil tones or getting widely off topic them that's a good time to try to
+
+66
+00:03:51.000 --> 00:03:52.260
+wrap that discussion up.
+
+67
+00:03:52.260 --> 00:03:56.460
+A warning sign is when two parties are just repeatedly saying the same thing over and
+
+68
+00:03:56.460 --> 00:04:01.850
+over, or the debate is going far beyond the sensible "agree to disagree" end point.
+
+69
+00:04:01.850 --> 00:04:05.260
+Also important is being helpful without just giving the complete solution.
+
+70
+00:04:05.260 --> 00:04:10.470
+For example someone could say "I'm stuck on homework two" and you say could right "Ah
+
+71
+00:04:10.470 --> 00:04:14.650
+here is the entire solution for homework two" which is arguably "helpful" from one point
+
+72
+00:04:14.650 --> 00:04:18.499
+of view but it's not necessarily helping the student master the material.
+
+73
+00:04:18.499 --> 00:04:21.219
+So try and and be helpful without giving away the solution.
+
+74
+00:04:21.219 --> 00:04:25.990
+It's also valuable to keep the different threads and the discussions on-topic.
+
+75
+00:04:25.990 --> 00:04:29.770
+Really try and make all the forums and the chats a place that students can enjoy going
+
+76
+00:04:29.770 --> 00:04:31.930
+to for discussing the class topics.
+
+77
+00:04:31.930 --> 00:04:35.659
+We all want to have fun, so that's key :-)
+
+78
+00:04:35.659 --> 00:04:41.900
+Now let's talk about this scaffolding concept which you may or may not be familiar with.
+
+79
+00:04:41.900 --> 00:04:46.259
+There's this idea of instructional scaffolding which as I've alluded to already, is about
+
+80
+00:04:46.259 --> 00:04:51.080
+giving them more "temporary" support, and not just giving a complete solution.
+
+81
+00:04:51.080 --> 00:04:52.800
+Just sort of helping them a little bit.
+
+82
+00:04:52.800 --> 00:04:57.110
+A trivial example might be that, say you were learning a new language and you're trying
+
+83
+00:04:57.110 --> 00:05:01.349
+to remember the translation of a word and somebody gives you the first letter of the
+
+84
+00:05:01.349 --> 00:05:03.499
+word, instead of the whole word.
+
+85
+00:05:03.499 --> 00:05:07.449
+There's evidence to show that if you can then correctly recall the answer, that this partial
+
+86
+00:05:07.449 --> 00:05:12.639
+"scaffolding" will help you recall the same word yourself more easily next time around.
+
+87
+00:05:12.639 --> 00:05:15.289
+So that intervention is a "scaffold".
+
+88
+00:05:15.289 --> 00:05:18.740
+You're not telling the learner the complete answer or walking them step-by-step through
+
+89
+00:05:18.740 --> 00:05:19.789
+the task.
+
+90
+00:05:19.789 --> 00:05:23.779
+You're helping them figure out how to do the task on their own.
+
+91
+00:05:23.779 --> 00:05:27.909
+It's about rather than just "give an answer" to what the students ask for; it's about helping
+
+92
+00:05:27.909 --> 00:05:31.909
+them think for themselves by asking questions.
+
+93
+00:05:31.909 --> 00:05:35.550
+The other implication of it being scaffolding is also that it can be gradually removed over
+
+94
+00:05:35.550 --> 00:05:36.229
+time.
+
+95
+00:05:36.229 --> 00:05:39.849
+So as time goes by so you can gradually give less support.
+
+96
+00:05:39.849 --> 00:05:44.210
+You don't necessarily have to be involved personally in removing that support.
+
+97
+00:05:44.210 --> 00:05:47.539
+Your ongoing involvement with an individual learner will depend on the extent to which
+
+98
+00:05:47.539 --> 00:05:51.879
+you re-interact with different students as the course goes on and in a course as large
+
+99
+00:05:51.879 --> 00:05:56.969
+as this maybe you won't interact with the same student again, but then again ...
+
+100
+00:05:56.969 --> 00:06:01.770
+However, the idea of the scaffolding is at least it's there for support at the beginning
+
+101
+00:06:01.770 --> 00:06:05.759
+and then ultimately by the time the students graduate the course they don't need that scaffolding
+
+102
+00:06:05.759 --> 00:06:07.599
+anymore and they can get on by themselves.
+
+103
+00:06:07.599 --> 00:06:12.460
+I want to give a quick example with Ruby.
+
+104
+00:06:12.460 --> 00:06:17.159
+Over here I've got the command line and this is sort of a trivial example here but let's
+
+105
+00:06:17.159 --> 00:06:35.909
+say that we've defined some method in Ruby like so
+
+106
+00:06:35.909 --> 00:06:48.620
+And a student has unwittingly made a call to that method like this
+
+107
+00:06:48.620 --> 00:06:52.029
+and they're saying "hey look, I'm getting an error, I don't know what's going on"
+
+108
+00:06:52.029 --> 00:06:56.360
+Now if you know Ruby reasonably well this will seem pretty simple and you might be tempted
+
+109
+00:06:56.360 --> 00:06:59.289
+to say: "oh yes I know exactly what the problem is"
+
+110
+00:06:59.289 --> 00:07:26.550
+And you might be tempted to just to tell the student the fix. You could just say "oh right you
+
+111
+00:07:26.550 --> 00:07:31.800
+need to redefine the method with some arguments" and you could just give them the solution.
+
+112
+00:07:31.800 --> 00:07:36.550
+A more scaffold-based approach would be to start asking some questions like: "okay so
+
+113
+00:07:36.550 --> 00:07:40.710
+... what are you actually trying to achieve here, what's the high-level goal?" which might
+
+114
+00:07:40.710 --> 00:07:44.789
+seem odd in this simple example, but becomes more important as things get complex.
+
+115
+00:07:44.789 --> 00:07:49.990
+And then you say "so does any part of the error message make sense to you?"
+
+116
+00:07:49.990 --> 00:07:52.889
+And depending on what they say you direct them to the part of the error message that
+
+117
+00:07:52.889 --> 00:07:59.499
+says "ArgumentError: wrong number of arguments" and ask "does that mean anything to you?"
+
+118
+00:07:59.499 --> 00:08:03.550
+So rather than saying explicitly "you need to add arguments to your method definition",
+
+119
+00:08:03.550 --> 00:08:06.400
+you can be asking if the student knows what an argument is.
+
+120
+00:08:06.400 --> 00:08:10.990
+Or better yet, waiting for them to ask you what an argument is.
+
+121
+00:08:10.990 --> 00:08:14.020
+Maybe the student has already carefully read the error message and they've just no idea
+
+122
+00:08:14.020 --> 00:08:15.889
+what arguments are.
+
+123
+00:08:15.889 --> 00:08:19.900
+So then you can say "well arguments are things that you pass to a method" and maybe show
+
+124
+00:08:19.900 --> 00:08:24.300
+some examples and then say "there's the wrong number of them in this case".
+
+125
+00:08:24.300 --> 00:08:28.759
+As before this is a judgment call about at what point to intervene with what question
+
+126
+00:08:28.759 --> 00:08:30.289
+or information.
+
+127
+00:08:30.289 --> 00:08:31.949
+How much scaffolding should we give?
+
+128
+00:08:31.949 --> 00:08:37.240
+I mean it can be frustrating for the student if it seems like you're asking too many questions.
+
+129
+00:08:37.240 --> 00:08:40.839
+It is something that you have to build up an intuition for over time.
+
+130
+00:08:40.839 --> 00:08:44.370
+Note that this is also the same sort of support that a senior developer might give to a junior
+
+131
+00:08:44.370 --> 00:08:46.860
+developer in order to help them grow as a developer.
+
+132
+00:08:46.860 --> 00:08:51.250
+Although in a project with a paying client you've got to balance what's best for learning
+
+133
+00:08:51.250 --> 00:08:54.670
+against what's best for delivering the product on time.
+
+134
+00:08:54.670 --> 00:08:57.970
+Anyhow, you can also read lots of materials online.
+
+135
+00:08:57.970 --> 00:09:03.190
+We'll post some links for other reading on this topic on instructional scaffolding.
+
+136
+00:09:03.190 --> 00:09:07.860
+In summary, rather than just providing answers you want to help pose questions to the learner
+
+137
+00:09:07.860 --> 00:09:11.410
+that allows them to discover the solution in their own way.
+
+138
+00:09:11.410 --> 00:09:14.980
+Error messages in a new language can seem very intimidating and we want to help students
+
+139
+00:09:14.980 --> 00:09:17.420
+gain confidence in navigating them.
+
+140
+00:09:17.420 --> 00:09:20.699
+So that next time they have a better chance of solving a similar, or even a more difficult,
+
+141
+00:09:20.699 --> 00:09:26.980
+problem without any support.
+
+142
+00:09:26.980 --> 00:09:30.820
+Also you'll need to know how to connect with the team and there's certain critical things
+
+143
+00:09:30.820 --> 00:09:31.220
+to do.
+
+144
+00:09:31.220 --> 00:09:35.370
+Such as checking into and out-of the AV102 Slack chat.
+
+145
+00:09:35.370 --> 00:09:39.779
+We have a chat room in Slack so as you come online (and you should post and let us know
+
+146
+00:09:39.779 --> 00:09:44.769
+"I'm going to be checking the forums" or "I'm going to be hanging out in the Gitter chat")
+
+147
+00:09:44.769 --> 00:09:48.560
+So that you check in and when you've finished answering student questions or what have you, then you
+
+148
+00:09:48.560 --> 00:09:51.730
+check out in the Slack chat saying "I'm finishing up for now"
+
+149
+00:09:51.730 --> 00:09:56.570
+This is really all about announcing that you're on-duty because we'll have 200+ TAs and if
+
+150
+00:09:56.570 --> 00:10:00.649
+all them are on duty in the same two hour period then that's not a very effective way
+
+151
+00:10:00.649 --> 00:10:03.000
+of serving the many thousands of students.
+
+152
+00:10:03.000 --> 00:10:06.800
+So we want to have a mechanism whereby we let each other know when we're working so
+
+153
+00:10:06.800 --> 00:10:10.540
+that as we're checking in we can tell if lots of other people are already active in the
+
+154
+00:10:10.540 --> 00:10:11.389
+forums and chat.
+
+155
+00:10:11.389 --> 00:10:15.360
+And if they are you can say to yourself "Oh I'll come back in a couple hours instead and
+
+156
+00:10:15.360 --> 00:10:17.620
+try and contribute then"
+
+157
+00:10:17.620 --> 00:10:21.449
+You'll also want to mention in the AV102 Slack chat when you're addressing a students' question,
+
+158
+00:10:21.449 --> 00:10:23.730
+by posting a link to that question.
+
+159
+00:10:23.730 --> 00:10:27.829
+That will help avoid many TAs trying to answer the same question at the same time independently;
+
+160
+00:10:27.829 --> 00:10:40.490
+and draw them together in slack to collaborate on an answer if necessary.
+
+161
+00:10:40.490 --> 00:10:43.630
+Another thing that we're keen for you to do is to encourage the students to pair program
+
+162
+00:10:43.630 --> 00:10:44.779
+with each other.
+
+163
+00:10:44.779 --> 00:10:48.220
+As in previous versions of the course we have a framework for students to do pair programming
+
+164
+00:10:48.220 --> 00:10:48.819
+together.
+
+165
+00:10:48.819 --> 00:10:51.819
+One of the key bits of feedback that we've received is that it's sometimes difficult
+
+166
+00:10:51.819 --> 00:10:53.880
+for students to get themselves started.
+
+167
+00:10:53.880 --> 00:10:57.420
+So we're really keen to have TA's help students get started with pair programming:
+
+168
+00:10:57.420 --> 00:11:00.440
+Starting a session, for example, if you've got too many students in the same session
+
+169
+00:11:00.440 --> 00:11:03.519
+you might encourage them to split off into pairs who are working on the same parts of
+
+170
+00:11:03.519 --> 00:11:05.920
+the same homeworks and so on.
+
+171
+00:11:05.920 --> 00:11:09.630
+Also you should ensure that they aren't just posting complete solutions, or taking copies
+
+172
+00:11:09.630 --> 00:11:13.350
+of solutions if they've just joined the end of a pairing session.
+
+173
+00:11:13.350 --> 00:11:16.339
+One of the best ways you can help here is ensuring that you've done as much pair programming
+
+174
+00:11:16.339 --> 00:11:20.139
+yourself as possible, and sharing tips on what you find helps remote pairing work well
+
+175
+00:11:20.139 --> 00:11:24.670
+for you.
+
+176
+00:11:24.670 --> 00:11:27.430
+Of course one of the most critical things is to be engaged.
+
+177
+00:11:27.430 --> 00:11:31.720
+I think if you really want to help students you probably want to actually re-do the assignments
+
+178
+00:11:31.720 --> 00:11:35.339
+the week before the students do them; ideally pairing on them if at all possible :-)
+
+179
+00:11:35.339 --> 00:11:40.329
+I will give everyone, i.e. all the TA's, beta access to the course.
+
+180
+00:11:40.329 --> 00:11:43.639
+That will mean you'll be able to see the course materials a week in advance.
+
+181
+00:11:43.639 --> 00:11:47.029
+I think one of the best ways to give the most effective help to the students is if you do
+
+182
+00:11:47.029 --> 00:11:51.569
+the homeworks early in the week and then they will be in the forefront of your mind.
+
+183
+00:11:51.569 --> 00:11:54.790
+Also if you're doing the homeworks in advance you can submit them early to help us check
+
+184
+00:11:54.790 --> 00:11:56.120
+the auto grader operation.
+
+185
+00:11:56.120 --> 00:12:01.720
+We'll give you access to pivotal tracker to report and bugs or issues that arise.
+
+186
+00:12:01.720 --> 00:12:05.399
+Also if we've got critical errors such as the student Gitter chat is not working or
+
+187
+00:12:05.399 --> 00:12:09.329
+the auto graders are not working or anything then please escalate it by posting links to
+
+188
+00:12:09.329 --> 00:12:14.660
+the tracker ticket into the AV102 slack chat by typing @tansaku.
+
+189
+00:12:14.660 --> 00:12:18.540
+Which will alert me, Sam Joseph, which is where the buck stops here with making all
+
+190
+00:12:18.540 --> 00:12:20.290
+these things work :-)
+
+191
+00:12:20.290 --> 00:12:24.009
+Note that this is also an important part of working in a distributed team which is reporting
+
+192
+00:12:24.009 --> 00:12:28.139
+errors through an issues tracking system such as Pivotal Tracker and then including the
+
+193
+00:12:28.139 --> 00:12:33.069
+URL to that issue in digital communication like chat and email etc.
+
+194
+00:12:33.069 --> 00:12:36.860
+This is essential to ensure that everybody working on a given problem has access to all
+
+195
+00:12:36.860 --> 00:12:40.519
+the relevant information, and that we don't waste time or overwhelm people by giving the
+
+196
+00:12:40.519 --> 00:12:42.139
+same information over and over :-)
+
