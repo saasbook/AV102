@@ -8,7 +8,7 @@
 
 ![](https://dl.dropboxusercontent.com/s/3yd3a1f4i2hdf20/Screenshot%202017-09-21%2011.33.01.png?dl=0)
 
-3. Open that CSV file in some spreadsheet app, and go to the "Create list" functionality in mailchimp:
+3. Open that CSV file in some spreadsheet app, and go to the "Create list" functionality in mailchimp (or alternatively "replicate" one of the existing lists):
 
 ![](https://dl.dropboxusercontent.com/s/kthfjoxiwc1h434/Screenshot%202017-09-21%2011.34.54.png?dl=0)
 
